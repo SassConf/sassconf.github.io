@@ -1,0 +1,11 @@
+// Blog
+// ====
+
+.p-name {
+  margin-bottom: size(half-shim);
+}
+
+.dt-published {
+  @include font-size(small);
+  color: $tertiary;
+}

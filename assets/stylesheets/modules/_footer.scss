@@ -1,0 +1,26 @@
+footer {
+  @include font-size(x-small);
+  -webkit-font-smoothing: antialiased;
+  font-size: 0.8rem;
+  background-color: $quadrary;
+  background-image: url('/lib/img/header.svg');
+  background-size: cover;
+  background-position: center;
+  border-top: 2px solid $secondary;
+  padding: size(shim);
+  color: #ffcce1;
+
+  &:before {
+    @extend %logo-icon-dark;
+    content: "Sass Conf";
+    display: block;
+    margin: 0 auto;
+    background: $background-color;
+  }
+
+  p {
+    padding: 0 size(gutter);
+    color: tint($secondary, 80%);
+    clear: left;
+  }
+}

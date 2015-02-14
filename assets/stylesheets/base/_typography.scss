@@ -1,0 +1,40 @@
+$display: "skolar", Georgia, serif;
+$text: "Alright Sans", Verdana, sans-serif;
+$monospace: "source-code-pro", monospace;
+
+// for modular-scale
+$base-size: 1em;
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $display;
+  font-weight: 400;
+  line-height: 1;
+  margin: ms(-1) 0 ms(-1) 0;
+  color: $tertiary;
+}
+
+h1 {
+  @include font-size(medium);
+}
+
+h2 {
+  @include font-size(normal);
+}
+
+h3 {
+  @include font-size(small);
+}
+
+section {
+  clear: both;
+}
+
+a, a:link, a:visited, a:active {
+  text-decoration: none;
+  color: $secondary;
+}
+
+a:hover {
+  text-decoration: underline;
+}

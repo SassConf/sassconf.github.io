@@ -1,0 +1,29 @@
+$items-in-menu: 4;
+
+.nav--main {
+  background-color: $tertiary;
+  display: flex;
+  align-items: stretch;
+
+
+  a {
+    align-self: stretch;
+    transition: all .5s;
+    flex: 1;
+    display: block;
+    color: white;
+    padding: 1em;
+
+    @for $i from 0 through $items-in-menu {
+      &:nth-child(#{$i + 1}) {
+        background-color: mix($secondary, $tertiary, 100% / ($items-in-menu + 1) * $i)
+      }
+    }
+
+    &:hover {
+      text-decoration: none;
+      background: $secondary;
+    }
+  }
+
+}

@@ -1,0 +1,32 @@
+extends _base
+
+block main
+
+
+
+  header
+    h1 SassConf
+    h2 Austin 2015
+
+  != partial('_nav')
+
+  main.content
+
+    if current.path[1] === "posts"
+      != partial("/blog/_blog")
+
+    else
+        != yield
+
+    != partial('/blocks/_cfp')
+
+    if current.path[0] == "index"
+      != partial('/blocks/_blog')
+
+    != partial('/blocks/_newsletter')
+
+
+
+  != partial('_footer')
+
+

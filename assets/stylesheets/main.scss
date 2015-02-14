@@ -1,0 +1,66 @@
+// @@@ tmp import. setup bower task to copy files to stylesheets/vendor
+
+// Settings and base configuration
+@import '../../bower_components/accoutrement-scale/sass/scale';
+@import 'base/colors.config';
+@import 'base/scale.config';
+
+@import 'base/typography';
+@import 'modules/buttons';
+@import 'modules/logo';
+@import 'modules/newsletter';
+@import 'modules/nav';
+@import 'modules/header';
+@import 'modules/footer';
+@import 'modules/blog';
+
+* {
+  min-height: 0;
+  min-width: 0;
+
+  &,
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+}
+
+
+html {
+  font-size: 100%;
+  line-height: 1.4;
+  font-family: $text;
+  background-image: url('/assets/img/bg.svg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+html, body {
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  text-align: center;
+}
+
+.content {
+  padding: size(gutter) size(gutter) size(shim) size(gutter);
+  max-width: 64em;
+  margin: 0 auto;
+}
+
+.section {
+  margin-top: size(gutter);
+}
+
+.section--bordered {
+  border-top: 2px solid $secondary;
+  text-align: center;
+
+  .section-title {
+
+  }
+}

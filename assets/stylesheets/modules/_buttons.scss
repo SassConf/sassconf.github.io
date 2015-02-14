@@ -1,0 +1,36 @@
+// Buttons
+// =======
+
+@mixin button-base {
+  @include font-size(small);
+  border-radius: size(corners);
+  padding: size(shim) size(shim);
+  transition: all 100ms;
+  display: inline-block;
+}
+
+@mixin button-reset {
+  background: none;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: none;
+  text-shadow: none;
+
+  &:disabled { cursor: default; }
+}
+
+.btn {
+  @include button-reset;
+  @include button-base;
+  background: $tertiary;
+  color: #fff !important;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+}
+
+

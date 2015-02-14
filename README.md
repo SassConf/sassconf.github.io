@@ -1,2 +1,2 @@
-# sassconf.github.io
-Celebrating the sassiest community
+# template
+A Sassy conference in [insert city name] [year]

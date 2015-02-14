@@ -1,0 +1,15 @@
+h1 Blog
+
+//- show blog teaser roll
+for post, slug in public.blog.posts._data
+  if post.layout !== false
+    article.h-entry
+      h2.p-name
+        a.u-url(href= "/blog/posts/#{ slug }")= post.title
+
+      time.dt-published= post.date
+
+      p.p-summary= post.summary
+
+
+
