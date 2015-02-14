@@ -1,1 +1,8 @@
 build/* 
+.DS_Store
+
+### Master Branch Only
+
+assets/stylesheets/*/**.scss
+*/**.jade
+
