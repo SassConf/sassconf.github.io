@@ -8,10 +8,7 @@ block main
 
   != partial('_nav')
 
-  != partial('_intro')
-
-
-  main.content
+  main
 
     if current.path[1] === "posts"
       != partial("/blog/_blog")
