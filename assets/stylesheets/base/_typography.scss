@@ -1,17 +1,17 @@
-$display: "skolar", Georgia, serif;
-$text: "Alright Sans", Verdana, sans-serif;
-$monospace: "source-code-pro", monospace;
+$font-family-text: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-display:  'Source Serif Pro', Georgia, 'Times New Roman', Times, serif;
+
 
 // for modular-scale
 $base-size: 1em;
 
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $display;
+  font-family: $font-family-display;
   font-weight: 400;
   line-height: 1;
   margin: ms(-1) 0 ms(-1) 0;
-  color: $tertiary;
+  color: $color-text-heading;
 }
 
 h1 {
@@ -32,7 +32,7 @@ section {
 
 a, a:link, a:visited, a:active {
   text-decoration: none;
-  color: $secondary;
+  color: $color-text-link;
 }
 
 a:hover {

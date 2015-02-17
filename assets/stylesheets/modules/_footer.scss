@@ -2,25 +2,25 @@ footer {
   @include font-size(x-small);
   -webkit-font-smoothing: antialiased;
   font-size: 0.8rem;
-  background-color: $quadrary;
+  background-color: $midnight-blue;
   background-image: url('/lib/img/header.svg');
   background-size: cover;
   background-position: center;
-  border-top: 2px solid $secondary;
+  border-top: 2px solid $bouquet;
   padding: size(shim);
-  color: #ffcce1;
+  color: $dawn-pink;
 
   &:before {
     @extend %logo-icon-dark;
     content: "Sass Conf";
     display: block;
     margin: 0 auto;
-    background: $background-color;
+    background: $color-background;
   }
 
   p {
     padding: 0 size(gutter);
-    color: tint($secondary, 80%);
+    color: tint($bouquet, 80%);
     clear: left;
   }
 }

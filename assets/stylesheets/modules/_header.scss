@@ -4,15 +4,15 @@ header {
 
   h1 {
     @include font-size(medium);
-    color: $secondary;
+    color: $white;
     font-weight: bold;
     margin: 0;
   }
 
   h2 {
     @include font-size(large);
-    color: $secondary;
-    font-family: $text;
+    color: $bouquet;
+    font-family: $font-family-text;
     margin: size(shim) 0 0;
   }
 }

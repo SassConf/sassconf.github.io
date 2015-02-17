@@ -1,7 +1,7 @@
 $items-in-menu: 4;
 
 .nav--main {
-  background-color: $tertiary;
+  background-color: $hopbush;
   display: flex;
   align-items: stretch;
 
@@ -16,13 +16,13 @@ $items-in-menu: 4;
 
     @for $i from 0 through $items-in-menu {
       &:nth-child(#{$i + 1}) {
-        background-color: mix($secondary, $tertiary, 100% / ($items-in-menu + 1) * $i)
+        background-color: mix($bouquet, $hopbush, 100% / ($items-in-menu + 1) * $i)
       }
     }
 
     &:hover {
       text-decoration: none;
-      background: $secondary;
+      background: $bouquet;
     }
   }
 

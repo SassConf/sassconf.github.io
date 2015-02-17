@@ -1,5 +1,5 @@
-$email-background: set-lightness($secondary, 98%);
-$email-color: $tertiary;
+$email-background: set-lightness($bouquet, 98%);
+$email-color: $hopbush;
 
 #mc_embed_signup {
   text-align: center;
@@ -8,9 +8,9 @@ $email-color: $tertiary;
   color: $email-color;
   padding: size(shim);
   border-radius: size(corners);
-  background-color: rgba(255, 245, 249, 0.5);
+  background-color: rgba($regent-grey, 0.5);
   max-width: 40em;
-  border: 1px solid $secondary;
+  border: 1px solid $bouquet;
 
   label {
     margin-bottom: size(shim);
@@ -26,7 +26,7 @@ $email-color: $tertiary;
     &[type="email"] {
       border: 1px solid rgba($email-color, .6);
       margin: size(half-shim) 0 size(shim);
-      background-color: $background-color;
+      background-color: $color-background;
 
 
 

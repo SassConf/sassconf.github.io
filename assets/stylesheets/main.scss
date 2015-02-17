@@ -29,11 +29,8 @@
 html {
   font-size: 100%;
   line-height: 1.4;
-  font-family: $text;
-  background-image: url('/assets/img/bg.svg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  font-family: $font-family-text;
+  background-image: url('/assets/img/prism.svg');
 }
 
 html, body {
@@ -57,7 +54,7 @@ header {
 }
 
 .section--bordered {
-  border-top: 2px solid $secondary;
+  border-top: 2px solid $bouquet;
   text-align: center;
 
   .section-title {

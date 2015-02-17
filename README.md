@@ -2,7 +2,7 @@
 
 ## Local Dev
 
-1. Install [Harp](http://harpjs.com/) web server `sudo npm install -g harp`
+1. Install [Harp](http://harpjs.com/) web server `sudo npm install -g harp` (You must use `sudo` or Harp will not run correctly.)
 1. Checkout `source` branch `git checkout source`
 1. Once inside the project root, run `npm install` to grab all the development dependencies and `bower install`
 1. Run `harp server`

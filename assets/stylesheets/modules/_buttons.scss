@@ -24,8 +24,8 @@
 .btn {
   @include button-reset;
   @include button-base;
-  background: $tertiary;
-  color: #fff !important;
+  background: $color-primary;
+  color: $color-text-strong-invert !important;
 
   &:hover {
     text-decoration: none;
