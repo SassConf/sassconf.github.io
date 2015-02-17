@@ -53,6 +53,6 @@
   @extend %logo-icon;
   // @include dark-background;
   -webkit-font-smoothing: antialiased;
-  box-shadow: 0 0 0 .05em rgba($color-text-strong-invert, .5);
+  // box-shadow: 0 0 0 .05em rgba($color-text-strong-invert, .5);
   color: $color-text-strong-invert;
 }

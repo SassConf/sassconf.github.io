@@ -1,26 +1,17 @@
 footer {
-  @include font-size(x-small);
-  -webkit-font-smoothing: antialiased;
-  font-size: 0.8rem;
   background-color: $midnight-blue;
-  background-image: url('/lib/img/header.svg');
-  background-size: cover;
-  background-position: center;
-  border-top: 2px solid $bouquet;
-  padding: size(shim);
-  color: $dawn-pink;
 
-  &:before {
+  &:after {
     @extend %logo-icon-dark;
     content: "Sass Conf";
     display: block;
     margin: 0 auto;
-    background: $color-background;
+    padding-bottom: 1em;
   }
 
-  p {
-    padding: 0 size(gutter);
-    color: tint($bouquet, 80%);
-    clear: left;
+  h5 {color: $white;}
+
+  a:hover {
+    color: $venus;
   }
 }
