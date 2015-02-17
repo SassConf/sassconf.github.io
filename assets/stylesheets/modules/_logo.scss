@@ -31,10 +31,7 @@
 %logo-lockup-dark {
   -webkit-font-smoothing: antialiased;
   @extend %logo-lockup;
-  // @include dark-background;
-  background-size: cover;
-  background-image: url('/assets/img/header.svg');
-  background-position: center;
+  background: $purple;
   color: $color-text-strong-invert;
 }
 

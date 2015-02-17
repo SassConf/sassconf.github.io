@@ -9,21 +9,33 @@ $base-size: 1em;
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-display;
   font-weight: 400;
-  line-height: 1;
+  line-height: 1.25;
   margin: ms(-1) 0 ms(-1) 0;
   color: $color-text-heading;
 }
 
 h1 {
-  @include font-size(medium);
+  font-size: 4em;
+  font-weight: 300;
+  color: $regent-grey;
+  font-family: $font-family-text;
 }
 
 h2 {
-  @include font-size(normal);
+  font-family: $font-family-text;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 100;
 }
 
 h3 {
-  @include font-size(small);
+
+}
+
+h4 {
+  font-size: 1.125em;
+  font-weight: 600;
+  font-family: $font-family-text;
 }
 
 section {
