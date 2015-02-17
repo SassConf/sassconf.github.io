@@ -52,7 +52,7 @@ html, body {
 }
 
 .content {
-  padding: size(gutter) size(gutter) size(shim) size(gutter);
+  padding: size(gutter) size(gutter) size(gutter) size(gutter);
   // max-width: 64em;
   max-width: 1125px;
   margin: 0 auto;
@@ -64,6 +64,7 @@ html, body {
 
 .section {
   margin-top: size(gutter);
+  margin-bottom: 1em;
 }
 
 .section--bordered {

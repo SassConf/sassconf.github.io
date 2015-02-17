@@ -4,13 +4,11 @@
 @mixin button-base {
   @include font-size(small);
   border-radius: 0.25em;
-  padding: .5em 1em;
   transition: background 300ms;
   box-shadow: 0 2px 1px rgba(0, 0, 0, 0.125);
   text-align: center;
   display: inline-block;
   font-family: $font-family-text;
-  font-size: 1.5em;
   font-weight: 600;
 }
 
@@ -31,10 +29,28 @@
   @include button-base;
   background: $patina;
   color: $color-text-strong-invert !important;
-
+  padding: .5em 1em;
+  font-size: 1.5em;
   &:hover {
     text-decoration: none;
     background: $midnight-blue;
+  }
+
+}
+
+.mail-btn {
+  @include button-reset;
+  @include button-base;
+  background: $venus;
+  color: $color-text-strong-invert !important;
+  font-size: 1em;
+  font-weight: 400;
+  padding: 4px 16px;
+  margin-left: 1em;
+  text-transform: uppercase;
+  &:hover {
+    text-decoration: none;
+    background: $bouquet;
   }
 
 }
