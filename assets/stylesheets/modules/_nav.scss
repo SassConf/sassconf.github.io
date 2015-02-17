@@ -8,14 +8,13 @@ $items-in-menu: 4;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    max-width: 1024px;
+    max-width: 1125px;
     margin: 0 auto;
   }
 
   .nav-item {
     transition: all .5s;
     flex: 1;
-    width: 200px;
     display: block;
     padding: 1em;
     text-transform: uppercase;

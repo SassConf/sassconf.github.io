@@ -5,6 +5,24 @@ $font-family-display:  'Source Serif Pro', Georgia, 'Times New Roman', Times, se
 // for modular-scale
 $base-size: 1em;
 
+p {
+  font-family: $font-family-display;
+  color: $color-text;
+  line-height: 1.5;
+
+}
+
+
+a, a:link, a:visited, a:active {
+  text-decoration: none;
+  color: $color-text-link;
+}
+
+a:hover {
+  text-decoration: none;
+  color: $midnight-blue;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-display;
@@ -17,8 +35,23 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 4em;
   font-weight: 300;
-  color: $regent-grey;
+  color: $pale-sky;
   font-family: $font-family-text;
+  margin-bottom: 0;
+  a, a:link, a:visited, a:active {
+    color: $pale-sky;
+  }
+  a:hover {
+    color: $midnight-blue;
+  }
+}
+
+.icon-link {
+  font-family: uikitregular;
+  font-size: .45em;
+  opacity: .5;
+  padding-left: .25em;
+  display: inline-block;
 }
 
 h2 {
@@ -29,7 +62,9 @@ h2 {
 }
 
 h3 {
-
+  font-size: 1.75em;
+  color: $venus;
+  font-family: $font-family-text;
 }
 
 h4 {
@@ -40,13 +75,4 @@ h4 {
 
 section {
   clear: both;
-}
-
-a, a:link, a:visited, a:active {
-  text-decoration: none;
-  color: $color-text-link;
-}
-
-a:hover {
-  text-decoration: underline;
 }
