@@ -16,14 +16,12 @@ block main
     else
         != yield
 
-    != partial('/blocks/_cfp')
 
     if current.path[0] == "index"
+      != partial('/blocks/_cfp')
       != partial('/blocks/_blog')
 
     != partial('/blocks/_newsletter')
-
-
 
   != partial('_footer')
 

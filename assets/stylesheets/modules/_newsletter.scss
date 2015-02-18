@@ -1,8 +1,6 @@
 .newsletter {
-  border-top: 8px solid $iron;
-  background: $white;
-  margin-top: -10px;
-  padding-bottom: 2em;
+  background: $iron;
+  h3 {color: $patina; margin-bottom: 0;}
 }
 
 #mc_embed_signup {
@@ -18,12 +16,12 @@
     &[type="email"] {
       padding: 9px 16px;
       border-radius: 3px;
-      border: 1px solid rgba($bouquet, .6);
+      border: 1px solid rgba($patina, .6);
       margin: size(half-shim) 0 size(shim);
-      background-color: $color-background;
+      background-color: $white;
 
       &:focus {
-        box-shadow: 0 0 6px rgba($bouquet, 1);
+        box-shadow: 0 0 6px rgba($patina, 1);
         outline: none;
       }
     }
@@ -33,3 +31,23 @@
     color: $iron;
   }
 }
+
+
+.mail-btn {
+  @include button-reset;
+  @include button-base;
+  background: $patina;
+  color: $color-text-strong-invert !important;
+  font-size: 1em;
+  font-weight: 400;
+  padding: 4px 16px;
+  margin-left: 1em;
+  text-transform: uppercase;
+  &:hover {
+    text-decoration: none;
+    background: darken($patina,10%);
+  }
+
+}
+
+

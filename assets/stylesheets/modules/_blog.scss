@@ -1,11 +1,25 @@
-// Blog
+// Blog - on Homepage
 // ====
 
-.p-name {
-  margin-bottom: size(half-shim);
+.section.blog {
+    background: $off-black;
+
+    .blog-newest {
+        .p-name {
+            margin: 0 0 1em 0;
+            a, a:active, a:visited {color: $white;}
+            a:hover {color: $nebula;}
+        }
+        .dt-published {
+            color: $regent-grey;
+            text-transform: uppercase;
+            font-size: .8em;
+        }
+    }
 }
 
-.dt-published {
-  @include font-size(small);
-  color: $hopbush;
-}
+
+
+// Blog Pages
+// ====
+

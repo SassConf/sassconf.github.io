@@ -1,15 +1,14 @@
 footer {
-  background-color: $midnight-blue;
 
-  &:after {
-    @extend %logo-icon-dark;
-    content: "Sass Conf";
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 1em;
-  }
+  // &:before {
+  //   @extend %logo-icon;
+  //   content: "Sass Conf";
+  //   display: block;
+  //   margin: 0 auto;
+  //   padding-bottom: 1em;
+  // }
 
-  h5 {color: $white;}
+  h5 {color: $regent-grey; margin: 0;}
 
   a:hover {
     color: $venus;

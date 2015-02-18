@@ -27,27 +27,10 @@
 .btn {
   @include button-reset;
   @include button-base;
-  background: $patina;
+  background: $hopbush;
   color: $color-text-strong-invert !important;
   padding: .5em 1em;
-  font-size: 1.5em;
-  &:hover {
-    text-decoration: none;
-    background: $midnight-blue;
-  }
-
-}
-
-.mail-btn {
-  @include button-reset;
-  @include button-base;
-  background: $venus;
-  color: $color-text-strong-invert !important;
   font-size: 1em;
-  font-weight: 400;
-  padding: 4px 16px;
-  margin-left: 1em;
-  text-transform: uppercase;
   &:hover {
     text-decoration: none;
     background: $bouquet;
@@ -55,4 +38,18 @@
 
 }
 
+
+.cfp-btn {
+  @include button-reset;
+  @include button-base;
+  background: $midnight-blue;
+  color: $color-text-strong-invert !important;
+  padding: .5em 1em;
+  font-size: 1.5em;
+  &:hover {
+    text-decoration: none;
+    background: $purple;
+  }
+
+}
 
