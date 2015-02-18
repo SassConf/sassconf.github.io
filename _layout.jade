@@ -13,13 +13,18 @@ block main
     if current.path[1] === "posts"
       != partial("/blog/_blog")
 
-    else
-        != yield
-
-
-    if current.path[0] == "index"
+    else if current.path[0] == "index"
+      != partial('/blocks/_intro')
       != partial('/blocks/_cfp')
       != partial('/blocks/_blog')
+
+    else if current.path[0] == "blog"
+      != yield
+
+    else
+      div.page
+        div.content
+          != yield
 
     != partial('/blocks/_newsletter')
 
