@@ -1,10 +1,10 @@
--var post = public.blog.posts._data
+// this is the actual blog post page
+div.blog-header-post
+    div.content
+        h3
+            a(href='/blog') Blog
 
-article.h-entry
-
-  h2.p-name
-    a.u-url(href= "/posts/#{ slug }")= post.title
-  time.dt-published= post.datae
-
-  .e-content
-    != yield
+section.section.blog-post
+    div.content
+      -var post = public.blog.posts._data
+          != yield

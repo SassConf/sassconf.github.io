@@ -29,11 +29,8 @@
 html {
   font-size: 100%;
   line-height: 1.4;
-  font-family: $text;
-  background-image: url('/assets/img/bg.svg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  font-family: $font-family-text;
+  background-image: url('/assets/img/prism.svg');
 }
 
 html, body {
@@ -42,25 +39,50 @@ html, body {
   overflow-x: hidden;
 }
 
-header {
-  text-align: center;
+.intro {
+  background: $hopbush;
+  box-shadow: inset 0 1px 10px rgba(darken($hopbush,25%),.5);
+  h1 {
+    color: $white;
+    margin-bottom: 0;
+    font-size: 6em;
+  }
+  p.date {
+    margin-top: 0;
+    color: darken($hopbush,25%);
+    text-transform: uppercase;
+    font-family: $font-family-text;
+    font-size: 1.125em;
+    font-weight: 600;
+  }
+  p.introduction {
+    margin-top: 1.5em;
+    max-width: 80%;
+  }
 }
 
 .content {
-  padding: size(gutter) size(gutter) size(shim) size(gutter);
-  max-width: 64em;
+  max-width: 1125px;
   margin: 0 auto;
 }
 
+.page {
+  background: $white;
+  padding: 2em 0 5em;
+}
+
+.p-wrap {
+  width: 57%;
+}
+
 .section {
-  margin-top: size(gutter);
+  padding-top: 1em;
+  padding-bottom: 4.5em;
+  clear: both;
 }
 
-.section--bordered {
-  border-top: 2px solid $secondary;
-  text-align: center;
 
-  .section-title {
-
-  }
+.cfp {
+  h3 {max-width: 88%;}
 }
+

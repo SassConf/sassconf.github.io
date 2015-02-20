@@ -3,10 +3,13 @@
 
 @mixin button-base {
   @include font-size(small);
-  border-radius: size(corners);
-  padding: size(shim) size(shim);
-  transition: all 100ms;
+  border-radius: 0.25em;
+  transition: background 300ms;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.125);
+  text-align: center;
   display: inline-block;
+  font-family: $font-family-text;
+  font-weight: 600;
 }
 
 @mixin button-reset {
@@ -24,13 +27,29 @@
 .btn {
   @include button-reset;
   @include button-base;
-  background: $tertiary;
-  color: #fff !important;
-
+  background: $hopbush;
+  color: $color-text-strong-invert !important;
+  padding: .5em 1em;
+  font-size: 1em;
   &:hover {
     text-decoration: none;
+    background: $bouquet;
   }
 
 }
 
+
+.cfp-btn {
+  @include button-reset;
+  @include button-base;
+  background: $midnight-blue;
+  color: $color-text-strong-invert !important;
+  padding: .5em 1em;
+  font-size: 1.5em;
+  &:hover {
+    text-decoration: none;
+    background: $purple;
+  }
+
+}
 

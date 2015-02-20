@@ -1,3 +1,11 @@
-section.section.section--bordered
-  h1.section-title We've Changed Our Submission Process. <a href="http://localhost:9000/blog/posts/revamped-speaker-selection">Everything's Open.</a>
-  p We’re aiming for even more unique content from each speaker, consistently high presentation quality, and diverse types of sessions. We want to keep our attendees engaged, inspired, and in the conversation.
+// blog bit on the homepage
+section.section.blog
+  div.content
+    h2 On the Blog
+    div.blog-newest
+        // i want to limit this to the most recent two
+        for post, slug in public.blog.posts._data
+            article.h-entry
+                span.dt-published= post.date
+                h4.p-name
+                    a.u-url(href= "/blog/posts/#{ slug }")= post.title

@@ -1,26 +1,16 @@
 footer {
-  @include font-size(x-small);
-  -webkit-font-smoothing: antialiased;
-  font-size: 0.8rem;
-  background-color: $quadrary;
-  background-image: url('/lib/img/header.svg');
-  background-size: cover;
-  background-position: center;
-  border-top: 2px solid $secondary;
-  padding: size(shim);
-  color: #ffcce1;
 
-  &:before {
-    @extend %logo-icon-dark;
-    content: "Sass Conf";
-    display: block;
-    margin: 0 auto;
-    background: $background-color;
-  }
+  // &:before {
+  //   @extend %logo-icon;
+  //   content: "Sass Conf";
+  //   display: block;
+  //   margin: 0 auto;
+  //   padding-bottom: 1em;
+  // }
 
-  p {
-    padding: 0 size(gutter);
-    color: tint($secondary, 80%);
-    clear: left;
+  h5 {color: $regent-grey; margin: 0;}
+
+  a:hover {
+    color: $venus;
   }
 }

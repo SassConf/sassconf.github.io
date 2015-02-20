@@ -1,1 +1,9 @@
 We've done some great things here at SassConf, but, like most, we're always growing and improving. 
+
+Elyse Holladay, Front-End Architect at Retail Me Not, has been part of SassConf since our innagural year in 2013 when she took a risk on a first time conference and came to participate as panelist—forever immortilizing the SassConf panel as one our must-have conference events. 
+
+Elyse is incredibly active in her local Austin community. What caught our attention, however, were a series of tweets and conversations over delicious food and wine—because Elyse gets how we roll at SassConf—about wanting to start a conference to better some of the not-so-great things she was experiencing. 
+
+Instead of starting something new, we reached out to Elyse and offered her the oppotunity to come to SassConf to help us get better. We couldn't believe she said "Yes!". 
+
+We are excited and honored to work with Elyse Holladay. Already her contributions are paramount. We're excited to see how our CFP process plays out this year. While blind reviews and/or anonymous CFP processes may have worked for other conferences, it didn't work for us. Having someone on our team that is 100% dedicated to ensuring our on stage 

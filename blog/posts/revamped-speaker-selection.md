@@ -12,7 +12,7 @@ This year we're honored and excited to have Elyse Holladay run speaker selection
 
 ### Invites, Outreach, and an Open CFP
 
-We were inspired by [CascadiaJS](http://2015.cascadiajs.com/) and [JSFest/CSSConfOak](https://github.com/jsfest/oakland-cfp) open call for proposals and outreach efforts, along with Karolina Sczuaar's work on [CSSConfOakland](cssconfoak.land)’s. 
+We were inspired by [CascadiaJS](http://2015.cascadiajs.com/) and [JSFest/CSSConfOak](https://github.com/jsfest/oakland-cfp) open call for proposals and outreach efforts, along with [Karolina Szczur's](https://twitter.com/fox) curatorial work on [CSSConfOakland](cssconfoak.land). 
 
 We moved to GitHub because it:
 
@@ -20,7 +20,7 @@ We moved to GitHub because it:
 * you can see what else has been submitted to get ideas;
 * allows us to comment and discuss submissions with you;
 * allows the community to chime in if they’re excited about a talk,
-* and your submissions reamin editable until CFP closes!
+* and your submissions remain editable until CFP closes!
 
-We believe that by being intentful about our speaker selection we can improve the quality of our event all around. Our efforts this year will be focused on reaching out to as many people as we can, getting the best proposals possible, and curating an interesting, diverse, and high-quality speaker line-up. After speakers are selected, we’ll be mentoring and working closely with speakers to create the best possible talk they can give.
+We believe that by being deliberate about our speaker selection we can improve the quality of our event all around. Our efforts this year will be focused on reaching out to as many people as we can, getting the best proposals possible, and curating an interesting, diverse, and high-quality speaker line-up. After speakers are selected, we’ll be mentoring and working closely with speakers to create the best possible talk they can give.
 

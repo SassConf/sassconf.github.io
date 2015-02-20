@@ -10,8 +10,8 @@
 
 %logo-lockup {
   text-align: center;
-  color: $primary;
-  font-family: $display;
+  color: $color-primary;
+  font-family: $font-family-display;
   font-size: 2em;
   padding: .5em;
 
@@ -31,11 +31,8 @@
 %logo-lockup-dark {
   -webkit-font-smoothing: antialiased;
   @extend %logo-lockup;
-  // @include dark-background;
-  background-size: cover;
-  background-image: url('/assets/img/header.svg');
-  background-position: center;
-  color: $secondary;
+  background: $purple;
+  color: $color-text-strong-invert;
 }
 
 %logo-icon {
@@ -43,7 +40,7 @@
   display: inline-block;
   font-family: uikitregular;
   font-size: 4em;
-  color: $primary;
+  color: $color-primary;
   padding: .25em;
   margin: .25em;
   width: 1em;
@@ -56,6 +53,6 @@
   @extend %logo-icon;
   // @include dark-background;
   -webkit-font-smoothing: antialiased;
-  box-shadow: 0 0 0 .05em rgba($secondary, .5);
-  color: $secondary;
+  // box-shadow: 0 0 0 .05em rgba($color-text-strong-invert, .5);
+  color: $color-text-strong-invert;
 }

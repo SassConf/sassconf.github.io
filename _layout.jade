@@ -5,27 +5,28 @@ block main
 
 
   header
-    h1 SassConf
-    h2 Austin 2015
 
   != partial('_nav')
 
-  main.content
+  main
 
     if current.path[1] === "posts"
       != partial("/blog/_blog")
 
-    else
-        != yield
-
-    != partial('/blocks/_cfp')
-
-    if current.path[0] == "index"
+    else if current.path[0] == "index"
+      != partial('/blocks/_intro')
+      != partial('/blocks/_cfp')
       != partial('/blocks/_blog')
 
+    else if current.path[0] == "blog"
+      != yield
+
+    else
+      div.page
+        div.content
+          != yield
+
     != partial('/blocks/_newsletter')
-
-
 
   != partial('_footer')
 

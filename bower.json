@@ -23,7 +23,6 @@
     "normalize.css": "~3.0.2"
   },
   "devDependencies": {
-    "modular-scale": "~2.0.5",
-    "color-schemer": "~0.2.8"
+    "accoutrement-scale": "~1.0.4"
   }
 }

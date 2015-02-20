@@ -1,29 +1,44 @@
+
 $items-in-menu: 4;
 
 .nav--main {
-  background-color: $tertiary;
-  display: flex;
-  align-items: stretch;
+  background-color: $iron;
 
+  .nav-wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1125px;
+    margin: 0 auto;
+  }
 
-  a {
-    align-self: stretch;
+  .nav-item {
     transition: all .5s;
     flex: 1;
     display: block;
-    color: white;
     padding: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
 
-    @for $i from 0 through $items-in-menu {
-      &:nth-child(#{$i + 1}) {
-        background-color: mix($secondary, $tertiary, 100% / ($items-in-menu + 1) * $i)
-      }
+  div.nav-item {
+    color: $regent-grey;
+    span {
+      font-weight: 100;
     }
+  }
 
+  a.nav-item {
+    text-decoration: none;
+    color: $purple;
     &:hover {
       text-decoration: none;
-      background: $secondary;
-    }
+      color: $bouquet;
+      }
+  }
+
+  .submit {
+    &.nav-item {color: $hopbush;}
   }
 
 }
