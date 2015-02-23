@@ -9,12 +9,6 @@
 }
 
 %logo-lockup {
-  text-align: center;
-  color: $color-primary;
-  font-family: $font-family-display;
-  font-size: 2em;
-  padding: .5em;
-
   &:before {
     content: "S";
     position: relative;
@@ -23,16 +17,16 @@
     font-weight: 400;
     font-family: uikitregular;
     display: block;
-    font-size: 2em;
-    margin: 0 0 0 0;
+    font-size: ms(3);
+    text-align: center;
+    background: $purple;
+    color: $color-text-strong-invert;
   }
 }
 
 %logo-lockup-dark {
   -webkit-font-smoothing: antialiased;
   @extend %logo-lockup;
-  background: $purple;
-  color: $color-text-strong-invert;
 }
 
 %logo-icon {
