@@ -1,25 +1,7 @@
 // Config
 // ------
 
-$base-size: 16px;
+// @see plugins/bower/modular-scale
 
-$rhythm-unit: rem;
-
-$ratio: fifth;
-
-$sizes: (
-  x-large: 4,
-  large: 2,
-  medium: 2,
-  normal: 1,
-  small: 0,
-  x-small: -1,
-
-  rhythm: 1,
-  gutter: 2,
-  column: 3,
-  shim: -1,
-  half-shim: -2,
-
-  corners: 1px,
-);
+$ms-base: 1em;
+$ms-ratio: 1.125;
