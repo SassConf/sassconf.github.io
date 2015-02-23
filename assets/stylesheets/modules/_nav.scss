@@ -1,6 +1,3 @@
-
-$items-in-menu: 4;
-
 .nav--main {
   background-color: $iron;
 
@@ -19,26 +16,16 @@ $items-in-menu: 4;
     padding: 1em;
     text-transform: uppercase;
     font-weight: 600;
-  }
-
-  div.nav-item {
-    color: $regent-grey;
-    span {
-      font-weight: 100;
-    }
-  }
-
-  a.nav-item {
     text-decoration: none;
     color: $purple;
+
     &:hover {
       text-decoration: none;
       color: $bouquet;
-      }
-  }
+    }
 
-  .submit {
-    &.nav-item {color: $hopbush;}
+    &.submit {
+      color: $hopbush;
+    }
   }
-
 }
