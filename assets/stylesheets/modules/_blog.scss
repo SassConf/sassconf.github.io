@@ -65,4 +65,9 @@
 
 .blog-post {
     background: $white;
+    p {width: 60%;}
+}
+
+.blog-img {
+    max-width: 60%;
 }

@@ -5,13 +5,18 @@ $font-family-display:  'Source Serif Pro', Georgia, 'Times New Roman', Times, se
 // for modular-scale
 $base-size: 1em;
 
-p {
+p, ol, ul {
   font-family: $font-family-display;
   color: $color-text;
-  line-height: 1.5;
-
+  line-height: 1.65;
+  font-size: 1.125em;
 }
 
+blockquote {
+  border-left: 4px solid $iron;
+  padding-left: 25px;
+  p {font-family: $font-family-text;}
+}
 
 a, a:link, a:visited, a:active {
   text-decoration: none;

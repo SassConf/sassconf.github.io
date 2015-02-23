@@ -1,7 +1,17 @@
 {
- "revamped-speaker-selection": {
-    "title": "Revamping our Speaker Selection Process",
-    "date": "February 18, 2015",
+   "changing-the-cfp": {
+    "title": "Why we're changing our CFP process",
+    "date": "February 23, 2015",
+    "summary": "We’re aiming for even more unique content from each speaker, consistently high presentation quality, and diverse types of sessions. We want to keep our attendees engaged, inspired, and in the conversation."
+  },
+ "welcome-elyse-holladay": {
+    "title": "Elyse Holladay curating 2015 Speaker Selection!",
+    "date": "February 23, 2015",
+    "summary": "We’re aiming for even more unique content from each speaker, consistently high presentation quality, and diverse types of sessions. We want to keep our attendees engaged, inspired, and in the conversation."
+  },
+ "cfp-2015-open": {
+    "title": "The 2015 CFP is open... and all new!",
+    "date": "February 23, 2015",
     "summary": "We’re aiming for even more unique content from each speaker, consistently high presentation quality, and diverse types of sessions. We want to keep our attendees engaged, inspired, and in the conversation."
   }
 }

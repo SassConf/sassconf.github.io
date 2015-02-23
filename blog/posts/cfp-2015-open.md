@@ -1,4 +1,4 @@
-# Revamping our Speaker Selection Process
+# The 2015 CFP is open... and all new!
 
 We’re so excited to announce that the [Call for Proposals for SassConf 2015](https://github.com/SassConf/2015-austin-speaker-cfp) is now open!
 
@@ -8,7 +8,7 @@ While the past two years of SassConf have been amazing, we think we can do _even
 
 The Sass community is also one of the most inclusive, open-minded, and diverse communities in tech, and we intend to honor that by being inclusive and diverse—both in our speakers and our attendees.
 
-This year we're honored and excited to have Elyse Holladay run speaker selection and scheduling. She’ll be inviting speakers to SassConf, as well as curating the open [Call for Proposals](https://github.com/SassConf/2015-austin-speaker-cfp).
+This year we're honored and excited to have Elyse Holladay run speaker selection and scheduling. She’ll be inviting speakers to SassConf, as well as curating the open [Call for Proposals](https://github.com/SassConf/2015-austin-speaker-cfp). You can read a little bit more about that in her welcome blog post!
 
 ### Invites, Outreach, and an Open CFP
 
@@ -24,3 +24,6 @@ We moved to GitHub because it:
 
 We believe that by being deliberate about our speaker selection we can improve the quality of our event all around. Our efforts this year will be focused on reaching out to as many people as we can, getting the best proposals possible, and curating an interesting, diverse, and high-quality speaker line-up. After speakers are selected, we’ll be mentoring and working closely with speakers to create the best possible talk they can give.
 
+### But why?
+
+We know it's a big change. We posted more detail on why we feel it's necessary to improve on last year's process in the next blog post, "Why we're changing our CFP process." Please reach out if you have any questions!
