@@ -1,15 +1,12 @@
 $font-family-text: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $font-family-display:  'Source Serif Pro', Georgia, 'Times New Roman', Times, serif;
 
-
 // for modular-scale
 $base-size: 1em;
 
 p, ol, ul {
   font-family: $font-family-display;
   color: $color-text;
-  line-height: 1.65;
-  font-size: 1.125em;
 }
 
 blockquote {
@@ -37,8 +34,13 @@ h1, h2, h3, h4, h5, h6 {
   color: $color-text-heading;
 }
 
+$ms-range:
+  1.4 320px,
+  1.5 800px,
+  1.6 1000px;
+
 h1 {
-  font-size: 4em;
+  @include ms-respond(font-size, 4);
   font-weight: 300;
   color: $pale-sky;
   font-family: $font-family-text;
@@ -61,18 +63,18 @@ h1 {
 
 h2 {
   font-family: $font-family-text;
-  font-size: 2em;
+  @include ms-respond(font-size, 3);
   color: $color-text-invert;
 }
 
 h3 {
-  font-size: 1.75em;
+  @include ms-respond(font-size, 1.2);
   color: $venus;
   font-family: $font-family-text;
 }
 
 h4 {
-  font-size: 1.25em;
+  @include ms-respond(font-size, 1);
   font-weight: 600;
   font-family: $font-family-display;
 }
@@ -80,7 +82,7 @@ h4 {
 p.introduction {
   font-family: $font-family-text;
   color: $white;
-  font-size: 2em;
+  @include ms-respond(font-size, 0.75);
   font-style: italic;
   font-weight: 100;
 }
