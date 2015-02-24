@@ -31,7 +31,7 @@ Are you kidding!? That's not even a question! (insert breakfast taco emoji here)
 
 #### What's your favorite SassConf memory?
 
-Can it be the one where Claudina and I decided over a bottle of wine to have SassConf in Austin? Drunk on power! 
+Can it be the one where Claudina and I decided over a bottle of wine to have SassConf in Austin?
 
 Seriously though, I think I'm gonna have to go with the moment before the panel in 2013 when I was alone in the theater and my name was on screen.
 
