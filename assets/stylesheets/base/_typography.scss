@@ -111,7 +111,10 @@ p.introduction {
   font-size: $epsilon;
   font-style: italic;
   font-weight: 100;
-  @include media(grid-xl) {
+  @include media(grid-sm) {
+    width: 95%;
+  }
+  @include media(grid-med) {
     width: 88%;
   }
 }
