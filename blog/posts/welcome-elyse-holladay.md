@@ -6,7 +6,7 @@ She caught our attention with <a href="https://twitter.com/elyseholladay/status/
 
 We reached out to Elyse and asked if she wanted to help us do speaker selection for 2015. We couldn't believe she said "Yes!". 
 
-While blind reviews and/or anonymous CFP processes may have worked for other conferences, [it didn't work for us](/blog/posts/changing-the-cfp. This year, we'll have someone on our team that is 100% dedicated to ensuring our stage reflects the voices of the Sass community. 
+While blind reviews and/or anonymous CFP processes may have worked for other conferences, [it didn't work for us](/blog/posts/changing-our-cfp). This year, we'll have someone on our team that is 100% dedicated to ensuring our stage reflects the voices of the Sass community. 
 
 We are excited and honored to work with Elyse. Already her contributions have been paramount. We spent a few days in Austin nailing down the details of the CFP and we are so excited to see how it goes this year.
 
