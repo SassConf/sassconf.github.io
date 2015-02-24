@@ -40,6 +40,9 @@ html, body {
 body {
   @extend %logo-lockup-dark;
   padding: size(shim) 0;
+  @media screen and (max-width: 600px) {
+    font-size: 75%;
+  }
 }
 
 .intro {
@@ -77,8 +80,20 @@ body {
   padding: 2em 0 5em;
 }
 
+@media screen and (max-width: 600px) {
+  .page {
+    padding: 2em 1.5em 5em;
+  }
+}
+
 .p-wrap {
-  width: 57%;
+  width: 80%;
+}
+
+@media screen and (min-width: 600px) {
+  .p-wrap {
+    width: 57%;
+  }
 }
 
 .section {
@@ -87,6 +102,11 @@ body {
   clear: both;
 }
 
+@media screen and (max-width: 600px) {
+  .section {
+    padding-left: 1.5em;
+  }
+}
 
 .cfp {
   h3 {max-width: 88%;}

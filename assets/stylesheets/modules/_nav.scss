@@ -5,13 +5,13 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    flex-wrap: wrap;
     max-width: 1125px;
     margin: 0 auto;
   }
 
   .nav-item {
     transition: all .5s;
-    flex: 1;
     display: block;
     padding: 1em;
     text-transform: uppercase;
@@ -28,4 +28,10 @@
       color: $hopbush;
     }
   }
+}
+
+@media screen and (min-width: 600px) {
+  .nav-item {
+    flex: 1;
+   }
 }
