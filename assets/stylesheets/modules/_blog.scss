@@ -10,16 +10,16 @@
             a, a:active, a:visited {color: $white;}
             a:hover {color: $nebula;}
         }
-        .dt-published {
-            color: $regent-grey;
-            font-family: $font-family-display;
-            text-transform: uppercase;
-            font-size: .8em;
-        }
     }
 }
 
 
+.dt-published {
+    color: $regent-grey;
+    font-family: $font-family-display;
+    text-transform: uppercase;
+    font-size: .8em;
+}
 
 // Blog List Page
 // ====
@@ -39,13 +39,8 @@
     }
 
     h4.p-name {
-        font-size: 2em;
+        font-size: $epsilon;
         margin-top: .25em;
-    }
-    .dt-published {
-        color: $regent-grey;
-        text-transform: uppercase;
-        font-size: .8em;
     }
     .p-summary {
         max-width: 70%;

@@ -6,17 +6,17 @@ We expect participants to follow these rules at all conference venues and confer
 
 Organizers will enforce this code throughout the event. Conference participants violating these rules will be escorted from the conference without a refund.
 
-### We do not tolerate harassment of conference participants in any form.
+#### We do not tolerate harassment of conference participants in any form.
 
 Harassment includes offensive verbal comments related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention. Participants asked to stop any harassing behavior are expected to comply immediately.
 
-### If there's a problem
+#### If there's a problem
 
 If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified by special red badges.
 
 Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference.
 
-### Contact Information
+#### Contact Information
 
 Contact information for organizers will be provided to ticketed attendees and speakers and available here during the conference.
 

@@ -10,7 +10,7 @@ The Sass community is also one of the most inclusive, open-minded, and diverse c
 
 This year we're honored and excited to have [Elyse Holladay run speaker selection and scheduling](/blog/posts/welcome-elyse-holladay). She’ll be inviting speakers to SassConf, as well as curating the open [Call for Proposals](https://github.com/SassConf/2015-austin-speaker-cfp). You can read a little bit more about that in her welcome blog post!
 
-### Invites, Outreach, and an Open CFP
+#### Invites, Outreach, and an Open CFP
 
 We were inspired by [CascadiaJS](http://2015.cascadiajs.com/) and [JSFest/CSSConfOak](https://github.com/jsfest/oakland-cfp) open call for proposals and outreach efforts, along with [Karolina Szczur's](https://twitter.com/fox) curatorial work on [CSSConfOakland](cssconfoak.land). 
 
