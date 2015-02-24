@@ -22,7 +22,5 @@
   "dependencies": {
     "normalize.css": "~3.0.2"
   },
-  "devDependencies": {
-    "modular-scale": "~2.0.6"
-  }
+  "devDependencies": {}
 }
