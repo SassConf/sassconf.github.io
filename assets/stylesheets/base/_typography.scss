@@ -1,18 +1,27 @@
-$font-family-text: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$font-family-display:  'Source Serif Pro', Georgia, 'Times New Roman', Times, serif;
+$font-family-display: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-text:  'Source Serif Pro', Georgia, 'Times New Roman', Times, serif;
 
 // for modular-scale
 $base-size: 1em;
 
 p, ol, ul {
-  font-family: $font-family-display;
+  font-family: $font-family-text;
   color: $color-text;
+}
+
+// wrap paragraphs so they aren't as wide as the whole page
+p {
+  @include media(grid-sm) {
+    width: 85%
+  }
+  @include media(grid-lg) {
+    width: 68%;
+  }
 }
 
 blockquote {
   border-left: 4px solid $iron;
   padding-left: 25px;
-  p {font-family: $font-family-text;}
 }
 
 a, a:link, a:visited, a:active {
@@ -41,9 +50,13 @@ $ms-range:
 
 h1 {
   @include ms-respond(font-size, 4);
+  // smaller on pages and blog posts
+  .page &,
+  .blog-post & {
+    @include ms-respond(font-size, 3);
+  }
   font-weight: 300;
   color: $pale-sky;
-  font-family: $font-family-text;
   margin-bottom: 0;
   a, a:link, a:visited, a:active {
     color: $midnight-blue;
@@ -62,7 +75,6 @@ h1 {
 }
 
 h2 {
-  font-family: $font-family-text;
   @include ms-respond(font-size, 3);
   color: $color-text-invert;
 }
@@ -70,17 +82,19 @@ h2 {
 h3 {
   @include ms-respond(font-size, 1.2);
   color: $venus;
-  font-family: $font-family-text;
 }
 
 h4 {
   @include ms-respond(font-size, 1);
   font-weight: 600;
-  font-family: $font-family-display;
+  font-family: $font-family-text;
+  .cfp & {
+    max-width: 88%;
+  }
 }
 
 p.introduction {
-  font-family: $font-family-text;
+  font-family: $font-family-display;
   color: $white;
   @include ms-respond(font-size, 0.75);
   font-style: italic;

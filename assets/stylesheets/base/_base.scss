@@ -35,16 +35,10 @@ body {
   max-width: 1125px;
   margin: 0 auto;
   @include media(grid-sm) {
-    background: red;
-  }
-  @include media(grid-med) {
-    background: blue;
-  }
-  @include media(grid-lg) {
-    background: green;
+    padding: 0 1em;
   }
   @include media(grid-xl) {
-    background: purple;
+    padding: 0;
   }
 }
 
@@ -58,32 +52,3 @@ body {
   padding-bottom: 4.5em;
   clear: both;
 }
-
-
-// @media screen and (max-width: 600px) {
-//   .page {
-//     padding: 2em 1.5em 5em;
-//   }
-// }
-
-// .p-wrap {
-//   width: 80%;
-// }
-
-// @media screen and (min-width: 600px) {
-//   .p-wrap {
-//     width: 57%;
-//   }
-// }
-
-
-// @media screen and (max-width: 600px) {
-//   .section {
-//     padding-left: 1.5em;
-//   }
-// }
-
-// .cfp {
-//   h3 {max-width: 88%;}
-// }
-
