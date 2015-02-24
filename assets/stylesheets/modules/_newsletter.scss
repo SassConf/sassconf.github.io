@@ -38,9 +38,8 @@
   @include button-base;
   background: $patina;
   color: $color-text-strong-invert !important;
-  font-size: 1em;
   font-weight: 400;
-  padding: 4px 16px;
+  padding: 9px 20px;
   margin-left: 1em;
   text-transform: uppercase;
   &:hover {
