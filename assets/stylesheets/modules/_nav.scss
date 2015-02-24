@@ -1,37 +1,55 @@
-.nav--main {
-  background-color: $iron;
+
+
+nav {
+  background: $iron;
+}
+
+@include media(grid-sm) {
 
   .nav-wrap {
+    display: block;
+  }
+
+  .nav-item {
+    display: block;
+  }
+
+}
+
+@include media(grid-lg) {
+  .nav-wrap {
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-    flex-wrap: wrap;
     max-width: 1125px;
     margin: 0 auto;
   }
-
-  .nav-item {
-    transition: all .5s;
-    display: block;
-    padding: 1em;
-    text-transform: uppercase;
-    font-weight: 600;
-    text-decoration: none;
-    color: $purple;
-
-    &:hover {
-      text-decoration: none;
-      color: $bouquet;
-    }
-
-    &.submit {
-      color: $hopbush;
-    }
-  }
 }
 
-@media screen and (min-width: 600px) {
-  .nav-item {
-    flex: 1;
-   }
+
+
+a.nav-item {
+  display: block;
+  padding: 1em;
+  flex-grow: 1;
+  transition: all .5s;
+  padding: 1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: $font-family-display;
+  text-decoration: none;
+  color: $purple;
+  @include media(grid-xl) {
+    padding: 1em 0;
+  }
+  &:hover {
+    text-decoration: none;
+    color: $bouquet;
+  }
+
+  &.submit {
+    color: $hopbush;
+  }
+
 }

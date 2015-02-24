@@ -7,17 +7,16 @@
     margin-bottom: 0;
   }
 
-  // p.date {
-  //   margin-top: 0;
-  //   color: darken($hopbush,25%);
-  //   text-transform: uppercase;
-  //   font-family: $font-family-text;
-  //   font-size: 1.125em;
-  //   font-weight: 600;
-  // }
+  p.date {
+    margin-top: 0;
+    color: darken($hopbush,25%);
+    text-transform: uppercase;
+    font-family: $font-family-display;
+    font-size: 1.125em;
+    font-weight: 600;
+  }
 
-  // p.introduction {
-  //   margin-top: 1.5em;
-  //   max-width: 80%;
-  // }
+  p.introduction {
+    margin-top: 1.5em;
+  }
 }
