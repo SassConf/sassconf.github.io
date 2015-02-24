@@ -6,7 +6,7 @@ She caught our attention with <a href="https://twitter.com/elyseholladay/status/
 
 We reached out to Elyse and asked if she wanted to help us do speaker selection for 2015. We couldn't believe she said "Yes!". 
 
-While blind reviews and/or anonymous CFP processes may have worked for other conferences, it didn't work for us. (We'll be posting more on this!) This year, we'll have someone on our team that is 100% dedicated to ensuring our stage reflects the voices of the Sass community. 
+While blind reviews and/or anonymous CFP processes may have worked for other conferences, [it didn't work for us](/blog/posts/changing-the-cfp. This year, we'll have someone on our team that is 100% dedicated to ensuring our stage reflects the voices of the Sass community. 
 
 We are excited and honored to work with Elyse. Already her contributions have been paramount. We spent a few days in Austin nailing down the details of the CFP and we are so excited to see how it goes this year.
 
@@ -42,7 +42,7 @@ Before that, I'd only given talks at small local meetups and taught GDI classes.
 
 #### How do we get in touch if we have CFP questions?
 
-The best way is to email me at my SassConf email: <a href="mailto:elyse@sassconf.com">elyse@sassconf.com</a>. You can also tweet at me (<a href="http://twitter.com/elyseholladay">@elyseholladay</a>) or at <a href="http://twitter.com/sassconf">@SassConf</a>. No question is a dumb question!
+The best way is to email me at my SassConf email: <a href="mailto:elyse@sassconf.com">elyse[at]sassconf[dot]com</a>. You can also tweet at me (<a href="http://twitter.com/elyseholladay">@elyseholladay</a>) or at <a href="http://twitter.com/sassconf">@SassConf</a>. No question is a dumb question!
 
 Also, if you're submitting a proposal, they're editable until the deadline! Go ahead and submit one and you can ask for constructive criticism or come back and edit away. 
 

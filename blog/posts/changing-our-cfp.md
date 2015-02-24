@@ -24,4 +24,4 @@ Instead, for 2015 we're making submissions fully open on GitHub. We hope this wi
 
 Since submissions are open, this also means they'll be editable as long as the CFP is open. No more realizing you made a typo after you submitted. This time you get to update, edit, and refine until you're totally happy with it, and the SassConf speaker team and mentors will be there to answer your questions the whole time.
 
-We know this is a big change, and we want to be open as we go through this year's CFP. If you have any questions or concerns, please don't hesitate to reach out, either on Twitter or by emailing the SassConf speaker team at <a href="mailto:admin@sassconf.com">admin@sassconf.com</a>. Thanks!
+We know this is a big change, and we want to be open as we go through this year's CFP. If you have any questions or concerns, please don't hesitate to reach out, either on Twitter or by emailing the SassConf speaker team at  <a href="mailto:info@sassconf.com">info[at]sassconf[dot]com</a> or <a href="mailto:eylse@sassconf.com">elyse[at]sassconf[dot]com</a>. Thanks!
