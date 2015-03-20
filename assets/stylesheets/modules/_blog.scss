@@ -66,3 +66,30 @@
 .blog-img {
     max-width: 80%;
 }
+
+.cfp-mentor {
+    &:before, &:after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+    margin-bottom: 3em;
+    padding-bottom: 3em;
+    border-bottom: 1px solid $wafer;
+    h4 {
+        margin-left: 1em;
+        float: left;
+        margin-top: 0;
+    }
+    img {float: left;}
+    p {
+        float: left;
+        width: 60%;
+        margin-left: 1em;
+    }
+    p.elyse-note {
+        font-style: italic;
+        font-family: $font-family-display;
+        color: $pale-sky;
+    }
+}
