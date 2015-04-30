@@ -40,6 +40,7 @@ a.nav-item {
   font-family: $font-family-display;
   text-decoration: none;
   color: $purple;
+  text-align: center;
   @include media(grid-xl) {
     padding: 1em 0;
   }
