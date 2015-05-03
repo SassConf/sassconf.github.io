@@ -19,4 +19,14 @@
   p.introduction {
     margin-top: 1.5em;
   }
+  a.tickets {
+    background-color: $color-background;
+    max-width: 12em;
+    display: block;
+    color: $color-text-link-visited !important;
+    &:hover,
+    &:focus {
+      background-color: $color-background-shade;
+    }
+  }
 }
