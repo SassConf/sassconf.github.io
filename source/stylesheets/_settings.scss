@@ -1,12 +1,12 @@
 // Brand colors
 $sassconf-color:       #EA00FF;
-$event-color:          #6DB0BF;
+$event-color:          #4E97BB;
 $sass-color:           #c69;
 
 // Utility colors
 $text-color:           #333;
 $background-color:     #fff;
-$link-color:           #888;
+$link-color:           darken($event-color, 20%);
 $alt-background-color: #eee;
 $alt-text-color:       #111;
 $border-color:         #ddd;
@@ -16,6 +16,8 @@ $nav-height:           ms(2, 1rem) ms(3, 1rem);
 $max-width:            ms(9, 1rem);
 $margin:               4%;
 
+// Transitions
+$ui-speed: .2s;
 
 /////////// Plugin config ///////////
 

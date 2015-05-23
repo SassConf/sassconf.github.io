@@ -5,7 +5,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.35;
   @if length($nav-height) > 1 {
-    @media (min-width: ms(12)) {
+    @media (min-height: ms(11)) {
       margin: nth($nav-height,2) 0 0;
     }
   }

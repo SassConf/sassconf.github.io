@@ -7,13 +7,8 @@
 // Settings
 @import 'settings';
 
-// Base styles
+// Site styles
 @import 'base';
-
-// CSS exporting plugins
-@import 'gliss';
-
-// SMACSS styles
 @import 'patterns';
 @import 'modules';
 @import 'layouts';
