@@ -1,3 +1,23 @@
 .m-nav {
-  height: 3em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: nth($nav-height,1);
+  padding: 0 1em;
+  background-color: #fff;
+  box-shadow: 0 2px 0 0 rgba(#000,.2);
+  z-index: 1;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  @if length($nav-height) > 1 {
+    @media (min-width: ms(12)) {
+      height: nth($nav-height,2);
+    }
+  }
+  a:link {
+    text-decoration: none;
+    margin-right: 1em;
+  }
 }

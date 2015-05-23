@@ -1,11 +1,40 @@
 // Brand colors
-$sassconf-color: #EA00FF;
-$event-color: #6DB0BF;
-$sass-color: #c69;
+$sassconf-color:       #EA00FF;
+$event-color:          #6DB0BF;
+$sass-color:           #c69;
 
-// Text colors
-$text-color: #333;
-$background-color: #fff;
-$link-color: #888;
+// Utility colors
+$text-color:           #333;
+$background-color:     #fff;
+$link-color:           #888;
 $alt-background-color: #eee;
-$alt-text-color: #111;
+$alt-text-color:       #111;
+$border-color:         #ddd;
+
+// Dimentions
+$nav-height:           ms(2, 1rem) ms(3, 1rem);
+$max-width:            ms(9, 1rem);
+$margin:               4%;
+
+
+/////////// Plugin config ///////////
+
+// Modular Scale
+$ms-ratio: $fourth;
+$ms-range:
+  (($fourth - 1)/5*2+1) 20em,
+  (($fourth - 1)/5*3+1) 30em,
+  (($fourth - 1)/5*4+1) 40em,
+  $fourth               60em;
+
+// Color Schemer
+$cs-color-model:       ryb;
+$cs-primary:           $sassconf-color;
+$cs-scheme:            analogic;
+$cs-hue-offset:        30;
+
+// Gliss
+$gliss-modules:        true;
+$gliss-wrapper:        '.gliss';
+$gliss-margin:         $margin;
+$gliss-max-width:      $max-width;

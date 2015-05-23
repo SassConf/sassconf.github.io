@@ -1,7 +1,19 @@
 @charset "utf-8";
 
+// Core feature plugins
+@import 'modular-scale';
+@import 'color-schemer';
+
+// Settings
 @import 'settings';
+
+// Base styles
 @import 'base';
+
+// CSS exporting plugins
+@import 'gliss';
+
+// SMACSS styles
 @import 'patterns';
 @import 'modules';
 @import 'layouts';

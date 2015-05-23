@@ -8,7 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "SassConf" %></title>
+    <title>
+      <% if current_page.data.title %>
+        <%= data.info.name + " | " + current_page.data.title %>
+      <% else %>
+        <%= data.info.name + " " + data.info.year %>
+      <% end %>
+    </title>
 
     <% if environment == :development %>
       <%= stylesheet_link_tag "style" %>
@@ -21,7 +27,3 @@
   <body class="<%= page_classes %>">
     <%= partial "partials/svg" %>
     <%= partial "partials/nav" %>
-    <%= yield %>
-    <%= javascript_include_tag  "script" %>
-  </body>
-</html>

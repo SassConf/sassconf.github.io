@@ -7,11 +7,12 @@ gem "middleman-livereload", "~> 3.1.0"
 
 # Gems for SPEED
 gem 'middleman-minify-html'
-gem 'middleman-imageoptim'
+gem 'middleman-autoprefixer'
 
 # Sass gems
 gem "color-schemer", "0.2.8"
 gem "modular-scale", "2.0.6"
+gem 'gliss-layout', '0.1.0'
 
 # For faster file watcher updates on Windows:
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]

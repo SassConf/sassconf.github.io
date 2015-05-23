@@ -1,0 +1,24 @@
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  line-height: inherit;
+  margin: ms(-1) 0 0;
+}
+
+h6 {
+  @include ms-respond(font-size, 1);
+}
+h5 {
+  @include ms-respond(font-size, 2);
+}
+h4 {
+  @include ms-respond(font-size, 3);
+}
+h3 {
+  @include ms-respond(font-size, 4);
+}
+h2 {
+  @include ms-respond(font-size, 5);
+}
+h1 {
+  @include ms-respond(font-size, 6);
+}

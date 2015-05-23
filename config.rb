@@ -5,6 +5,9 @@
 # Change Compass configuration
 compass_config do |config|
   config.output_style = :compressed
+  require 'modular-scale'
+  require 'color-schemer'
+  require 'gliss'
 end
 
 ###
@@ -34,6 +37,9 @@ end
 
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
+
+# Activate autoprefixer
+activate :autoprefixer
 
 # Reload the browser automatically whenever files change
 configure :development do
