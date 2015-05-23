@@ -7,7 +7,6 @@ compass_config do |config|
   config.output_style = :compressed
   require 'modular-scale'
   require 'color-schemer'
-  require 'gliss'
 end
 
 ###

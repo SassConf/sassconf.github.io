@@ -1,5 +1,5 @@
 // Brand colors
-$sassconf-color:       #EA00FF;
+$sassconf-color:       #F644C2;
 $event-color:          #4E97BB;
 $sass-color:           #c69;
 
@@ -10,6 +10,10 @@ $link-color:           darken($event-color, 20%);
 $alt-background-color: #eee;
 $alt-text-color:       #111;
 $border-color:         #ddd;
+
+// Typography
+$text-font: 'Open Sans', sans-serif;
+$display-font: 'Open Sans', sans-serif;
 
 // Dimentions
 $nav-height:           ms(2, 1rem) ms(3, 1rem);
@@ -34,9 +38,3 @@ $cs-color-model:       ryb;
 $cs-primary:           $sassconf-color;
 $cs-scheme:            analogic;
 $cs-hue-offset:        30;
-
-// Gliss
-$gliss-modules:        true;
-$gliss-wrapper:        '.gliss';
-$gliss-margin:         $margin;
-$gliss-max-width:      $max-width;

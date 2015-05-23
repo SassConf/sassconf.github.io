@@ -2,10 +2,10 @@ body {
   margin: nth($nav-height,1) 0 0;
   background-color: $background-color;
   color: $text-color;
-  font-family: 'Open Sans', sans-serif;
+  font-family: $text-font;
   line-height: 1.35;
   @if length($nav-height) > 1 {
-    @media (min-height: ms(11)) {
+    @media (min-height: 30em) {
       margin: nth($nav-height,2) 0 0;
     }
   }

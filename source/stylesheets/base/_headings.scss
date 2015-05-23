@@ -4,6 +4,10 @@ h1, h2, h3, h4, h5, h6 {
   margin: ms(-1) 0 0;
 }
 
+h1, h2, h3 {
+  font-family: $display-font;
+}
+
 h6 {
   @include ms-respond(font-size, 1);
 }

@@ -12,7 +12,7 @@
   top: 0;
   padding-right: ms(1);
   @if length($nav-height) > 1 {
-    @media (min-height: ms(11)) {
+    @media (min-height: 30em) {
       height: nth($nav-height,2);
     }
   }
