@@ -57,5 +57,4 @@ configure :build do
   activate :minify_javascript
   activate :gzip
   activate :minify_html
-  activate :imageoptim
 end

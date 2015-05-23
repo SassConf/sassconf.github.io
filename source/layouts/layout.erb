@@ -10,8 +10,12 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "SassConf" %></title>
 
-    <% css_path = sitemap.resources.select { |p| p.source_file.match(/style[.]scss$/) }.first %>
-    <style><%= css_path.render %></style>
+    <% if environment == :development %>
+      <%= stylesheet_link_tag "style" %>
+    <% else %>
+      <% css_path = sitemap.resources.select { |p| p.source_file.match(/style[.]scss$/) }.first %>
+      <style><%= css_path.render %></style>
+    <% end %>
   </head>
 
   <body class="<%= page_classes %>">
