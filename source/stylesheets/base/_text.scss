@@ -1,0 +1,8 @@
+p {
+  margin: 0 0 1em;
+}
+
+small {
+  font-size: ms(-1);
+  color: darken($event-color, 20%);
+}
