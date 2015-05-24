@@ -14,14 +14,16 @@ $border-color:         #ddd;
 // Typography
 $text-font: 'Open Sans', sans-serif;
 $display-font: 'Open Sans', sans-serif;
+$line-height: 1.5;
 
 // Dimentions
 $nav-height:           ms(2, 1rem) ms(3, 1rem);
-$max-width:            ms(9, 1rem);
+$max-width:            40rem;
 $margin:               4%;
 
 // Transitions
 $ui-speed: .2s;
+
 
 /////////// Plugin config ///////////
 

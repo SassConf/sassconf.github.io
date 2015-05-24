@@ -3,7 +3,7 @@ body {
   background-color: $background-color;
   color: $text-color;
   font-family: $text-font;
-  line-height: 1.35;
+  line-height: $line-height;
   @if length($nav-height) > 1 {
     @media (min-height: 30em) {
       margin: nth($nav-height,2) 0 0;
