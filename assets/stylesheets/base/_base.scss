@@ -34,6 +34,7 @@ body {
 .content {
   max-width: 1125px;
   margin: 0 auto;
+  width: 95%;
   @include media(grid-sm) {
     padding: 0 1em;
   }
