@@ -3,3 +3,24 @@
   color: white;
   background-color: $event-color;
 }
+
+.m-hero-image {
+	img {width: 100%;}
+	height: 900px;
+	overflow: hidden;
+	position: relative;
+}
+
+.hero-quote {
+	position: absolute;
+	left: 10%;
+	top: 30%;
+	color: white;
+	text-transform: uppercase;
+	//background: rgba($hopbush,.95);
+	background: rgba($midnight-blue,.9);
+	width: 600px;
+	font-size: 62px;
+	line-height: 1;
+	padding: 15px 0 10px 15px;
+}

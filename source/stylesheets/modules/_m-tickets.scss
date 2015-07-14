@@ -1,0 +1,18 @@
+.speaker {
+	float: left;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	text-align: center;
+	img {max-height: 200px;}
+	&.skinny img {max-height: 275px;}
+	&.jackie img {margin-left: -75px;}
+}
+
+.m-speakers {
+	:after {
+		display: block;
+		content: "";
+		clear: both;
+	}
+}
