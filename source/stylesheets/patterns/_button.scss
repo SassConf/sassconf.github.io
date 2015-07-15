@@ -1,0 +1,20 @@
+.button-primary {
+    background: $pink;
+    border-radius: 4px;
+    color: $white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 48px;
+    letter-spacing: 1.2;
+    cursor: pointer;
+    border: none;
+    @include ms-respond(font-size, .65);
+    &:hover {
+        background: darken($pink,8);
+        transition: 1s ease background;
+    }
+}
+
+.button-container {
+    margin: 2em 0 1em;
+}

@@ -1,63 +1,30 @@
-// Colors
-
-$hopbush: #c69;
-$bouquet: #b37399;
-$venus: #998099;
-$patina: #699;
-$nebula: #d2e1dd;
-$white: #fff;
-$dawn-pink: #f2ece4;
-$wafer: #e1d7d2;
-$iron: #dadbdf;
-$regent-grey: #808c99;
-$pale-sky: #6b717f;
-$midnight-blue: #036;
-$black: #000;
-$off-black: #222;
-
-// SassConf purple
+// SassConf 2015 Colors
 $purple: #510059;
-
-
-$color-shadow:   rgba($black, .125);
-$color-primary:  $hopbush;
-$color-accent:   $patina;
-$color-background:   $white;
-$color-background-shade: $iron;
-$color-background-invert:    $hopbush;
-$color-text: darken($pale-sky, 15);
-$color-text-weak:    $regent-grey;
-$color-text-strong:  $midnight-blue;
-$color-text-heading: $regent-grey;
-$color-text-invert:  rgba($color-background, .75);
-$color-text-strong-invert:   $color-background;
-$color-text-link:    $color-primary;
-$color-text-link-visited:    $bouquet;
-$color-text-link-hover:  $midnight-blue;
-$color-border:   $iron;
-
-// Brand colors
-$sassconf-color:       $hopbush;
-$event-color:          $purple;//#4E97BB;
-//$sass-color:           #c69;
+$pink: #de5499;
+$green: #8dc63f;
+$blue: #438ccb;
+$gold: #ffae00;
+$white: #fff;
 
 // Utility colors
-$text-color:           #333;
-$background-color:     #fff;
-$link-color:           darken($event-color, 20%);
+$text-color:           #444;
+$background-color:     $white;
+$link-color:           darken($blue, 20%);
 $alt-background-color: #eee;
-$alt-text-color:       #111;
+$alt-text-color:       #000;
 $border-color:         #ddd;
 
-// Typography
-$text-font:  'Abel', 'Source Serif Pro', Georgia, 'Times New Roman', Times, serif;
-//$display-font: 'Kaushan Script', $text-font;
-$display-font: $text-font;
-$line-height: 1.5;
+$about-bg: #252525;
 
-// Dimentions
+// Typography
+$text-font:  'sofia-pro', 'Brandon Grotesque', 'Futura', 'Franklin Gothic', 'Helvetica', sans-serif;
+$header-font:  $text-font;
+
+$line-height: 1.75;
+
+// Dimensions
 $nav-height:           ms(2, 1rem) ms(3, 1rem);
-$max-width:            40rem;
+$max-width:            65rem;
 $margin:               4%;
 
 // Transitions
@@ -76,6 +43,6 @@ $ms-range:
 
 // Color Schemer
 $cs-color-model:       ryb;
-$cs-primary:           $sassconf-color;
+$cs-primary:           $purple;
 $cs-scheme:            analogic;
 $cs-hue-offset:        30;
