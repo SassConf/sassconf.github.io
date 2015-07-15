@@ -1,8 +1,13 @@
 .m-entry {
 
     article {
-        padding-right: 25em;
-        box-sizing: border-box;
+        @include media(grid-lg) {
+            padding-right: 18em;
+            box-sizing: border-box;
+        }
+        @include media(grid-xl) {
+            padding-right: 25em;
+        }
     }
 
 
@@ -48,13 +53,13 @@
         padding: 8px 12px;
     }
 
-    h4 {
+    .cfp-mentor h4 {
         line-height: 1.5;
         @include ms-respond(font-size, 2);
         margin-left: 10px;
     }
 
-    h4 a {
+    .cfp-mentor h4 a {
         text-decoration: none;
         background: rgba($white,.85);
         padding: 8px 12px;
@@ -72,3 +77,79 @@
     }
 
 } // end m-entry
+
+
+
+// blog post speaker grid
+
+.blog-speaker-grid {
+    margin: 0 auto;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+
+
+    .speaker {
+        text-align: center;
+        border: 1px solid blue;
+        order: 1;
+        min-width: 175px;
+        margin: 0 20px 20px 0;
+    }
+
+    .speaker-circle {
+        border-radius: 100%;
+        overflow: hidden;
+        margin: 0 auto 1em;
+        width: 130px;
+        height: 130px;
+        img {
+            max-height: 100%;
+        }
+    }
+
+    .speaker-name {
+        background: $green;
+        color: $white;
+        display: inline-block;
+        padding: 6px 12px;
+        font-weight: 400;
+        margin-bottom: .5em;
+    }
+
+    .speaker-twitter {
+        a:link, a:active, a:visited {
+            color: $text-color-light;
+        }
+        a:hover, a:focus {
+            color: $blue;
+            text-decoration: none;
+            transition: .5s ease color;
+        }
+    }
+
+    .speaker-twitter,
+    .speaker-location {
+        color: $text-color-light;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 1.5;
+    }
+
+}
+
+
+
+//         .speaker-lastname {
+//             display: none; // hide at smaller than grid-med
+//             @include media(grid-med) {
+//                 display: inline;
+//             }
+//         }
+//     }
+
+// }
