@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem "middleman", "~>3.3.7"
 gem "middleman-livereload", "~> 3.1.0"
 gem "middleman-blog"
+gem "nokogiri"
 
 # Gems for SPEED
 gem 'middleman-minify-html'
