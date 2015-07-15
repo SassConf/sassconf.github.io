@@ -1,10 +1,10 @@
 .m-entry {
-    padding-top: ms(4);
-    padding-bottom: ms(6);
 
-    // make it less wide with padding
-    padding-right: 28em;
-    box-sizing: border-box;
+    article {
+        padding-right: 25em;
+        box-sizing: border-box;
+    }
+
 
     h3 {
         line-height: 1.25;

@@ -5,7 +5,7 @@ date: 2015-02-23
 
 Elyse Holladay has been part of SassConf since our inagural year in 2013 when she took a risk on a first time conference and came to participate as panelist—forever immortilizing the SassConf panel as one our must-have conference events. Now a Front-End Architect at <a href="http://retailmenot.com">RetailMeNot</a>, she's active in her local Austin community, helping Una Kravets & Ian Carrico run the ATXSass meetup.
 
-<img src="/assets/img/elyse.jpg" class="blog-img">
+<img src="/images/mentors/elyse.jpg" class="blog-img">
 
 She caught our attention with <a href="https://twitter.com/elyseholladay/status/522118963783020544">some</a> <a href="https://twitter.com/elyseholladay/status/525342236561928192">interesting</a> <a href="https://twitter.com/elyseholladay/status/525342652104200192">tweets</a> about events and some conversations—over delicious food and wine, because that's how we roll—about speaker benefits, getting attendees in the conversation, the “speaker clique,” and conference culture. That's when we knew we wanted to have her on the SassConf team.
 

@@ -26,7 +26,9 @@ end
 # page "/path/to/file.html", :layout => false
 #
 # With alternative layout
-# page "/path/to/file.html", :layout => :otherlayout
+page "/blog/*", :layout => :post
+page "/blog/index.html", :layout => :layout
+
 #
 # A path which all have the same layout
 # with_layout :admin do

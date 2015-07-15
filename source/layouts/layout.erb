@@ -1,7 +1,10 @@
 <%= partial "partials/head" %>
 <%= partial "partials/modules/subpage-nav" %>
-  <article>
-    <%= partial "partials/modules/news-entry" %>
-    <%= yield %>
-  </article>
+
+<section class="m-news-archive">
+    <article>
+        <%= yield %>
+    </article>
+</section>
+
 <%= partial "partials/foot" %>
