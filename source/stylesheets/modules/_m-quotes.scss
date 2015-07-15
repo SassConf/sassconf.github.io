@@ -78,3 +78,34 @@
 }
 
 .venue-logo {float: right;}
+
+
+// Days Until counter is basically a quote but with a counter and it's centered
+
+
+.m-days {
+    background-image: url("/images/backgrounds/smith-laughing.jpg");
+    background-position: 0 -100px;
+}
+
+.m-days .daysuntil {
+    background: $purple;
+    padding: 1em 0 1.5em;
+    text-align: center;
+    display: block;
+    max-width: 350px;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+    h3 {
+        color: $white;
+        font-weight: 600;
+        margin: 0;
+    }
+    p {
+        color: $white;
+        margin: 0;
+        width: auto;
+        font-weight: 400;
+    }
+}
