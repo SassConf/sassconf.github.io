@@ -12,8 +12,8 @@ end
 # Configure blog
 activate :blog do |blog|
   blog.prefix = "blog"
-  blog.permalink = "blog/posts/{title}/index.html"
-  blog.layout = "post"
+  blog.permalink = "posts/{title}/index.html"
+  # blog.default_extension = ".md"
 end
 
 ###
