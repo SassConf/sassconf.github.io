@@ -34,7 +34,54 @@ a.m-nav__link {
         background: $gold;
         color: $white;
     }
-    &.ticket {
-        // order: 2;
+
+}
+
+
+
+// SUBPAGES nav
+
+.m-subpage-nav {
+    background: $purple;
+    padding: ms(1);
+
+    .dot {
+        padding: 0 4px;
+        color: rgba($white,.5);
     }
+
+    .m-nav__menu {
+        align-content: flex-start;
+        align-items: center;
+        width: 52%;
+    }
+
+    a.m-nav__link {
+        &:hover,
+        &:active {
+            background: $blue;
+        }
+        &.ticket {
+            max-width: 85px;
+        }
+    }
+
+    .svg-logo {
+      width: ms(3);
+      height: ms(3);
+      &__bkg {
+        fill: $purple;
+      }
+      &__fg {
+        fill: $pink;
+      }
+    }
+
+}
+
+.subpage-nav-item {
+    color: $white;
+    padding: 12px 24px;
+    font-weight: 400;
+    flex-grow: 1;
 }

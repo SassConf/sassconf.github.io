@@ -1,12 +1,7 @@
 body {
-  margin: nth($nav-height,1) 0 0;
+  margin: 0;
   min-width: 300px;
   background-color: $background-color;
-  @if length($nav-height) > 1 {
-    @media (min-height: 30em) {
-      margin: nth($nav-height,2) 0 0;
-    }
-  }
 }
 
 
