@@ -7,6 +7,7 @@
 
 .quote-text {
   line-height: 1.65;
+  margin: 0;
 
   .highlight {
     display: inline;
@@ -78,6 +79,7 @@
 }
 
 .venue-logo {float: right;}
+.m-venue-content {padding-bottom: ms(5);}
 
 
 // Days Until counter is basically a quote but with a counter and it's centered
