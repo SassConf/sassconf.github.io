@@ -23,17 +23,17 @@ $breakpoints: (
 }
 
 body {
-  outline: 10px solid yellow;
+  // outline: 10px solid yellow;
   @include media(grid-sm) {
-    outline: 10px solid red;
+    // outline: 10px solid red;
   }
   @include media(grid-med) {
-    outline: 10px solid purple;
+    // outline: 10px solid purple;
   }
   @include media(grid-lg) {
-    outline: 10px solid blue;
+    // outline: 10px solid blue;
   }
   @include media(grid-xl) {
-    outline: 10px solid green;
+    // outline: 10px solid green;
   }
 }
