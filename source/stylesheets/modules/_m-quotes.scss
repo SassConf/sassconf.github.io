@@ -1,8 +1,14 @@
 .m-quote {
-    min-height: 800px;
     background-position: 0 0;
     background-repeat: no-repeat;
-    background-size: cover;
+    min-height: 600px;
+    background-size: 150%;
+    background-position: 0 0;
+    @include media(grid-lg) {
+        min-height: 800px;
+        background-size: cover;
+        background-position: 0 -100px;
+    }
 }
 
 .quote-text {
@@ -10,13 +16,32 @@
   margin: 0;
 
   .highlight {
-    display: inline;
     color: $white;
     padding: .25em;
-    position: relative;
-    left: 150px;
-    top: -50px;
     padding-left: 0;
+
+    &.highlight-wrap {
+        // background:red;
+        display: block;
+        padding-left: .5em;
+        @include media(grid-med) {
+            display: none;
+        }
+    }
+    &.highlight-breaks {
+        // background:blue;
+        display: none;
+        @include media(grid-med) {
+            display: inline;
+            position: relative;
+            top: -50px;
+            left: 50px;
+        }
+        @include media(grid-lg) {
+            left: 150px;
+        }
+    }
+
   }
 }
 
@@ -27,6 +52,7 @@
     left: 150px;
     top: -35px;
     font-size: 10px;
+    display: none;
 }
 
 
@@ -34,7 +60,7 @@
 
 .m-quote-a {
     background-image: url("/images/backgrounds/speaker-panel.jpg");
-    background-position: 0 -100px;
+
 }
 
 .m-quote-a {
