@@ -1,0 +1,28 @@
+.m-quote {
+    min-height: 800px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quote-text {
+  line-height: 1.65;
+
+  .highlight {
+    display: inline;
+    background: $green;
+    color: $white;
+    padding: .25em;
+    position: relative;
+    left: 2.5em;
+    top: -1em;
+    padding-left: 0;
+    box-shadow: .25em 0 0 $green,
+                .25em*-1 0 0 $green;
+  }
+}
+
+.m-quote-a {
+    background-image: url("/images/backgrounds/speaker-panel.jpg");
+    background-position: 0 -100px;
+}
