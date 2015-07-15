@@ -1,3 +1,6 @@
+
+
+
 <section class="m-news">
     <a name="news"></a>
 
@@ -5,29 +8,20 @@
 
         <h3>News</h3>
 
-        <div class="news-item">
-            <div class="news-date">March 20, 2015</div>
+        <% blog.articles[0...3].each do |article| %>
+         <div class="news-item">
+            <div class="news-date"><%= article.date.strftime('%b %e %Y') %></div>
             <div class="news-content">
-                <div class="news-title">Announcing the CFP Mentoring Team!</div>
-                <p class="news-snippet">This year we are putting a lot of focus on Speaker mentoring and preparation. We aim to have a quality event with unique and interesting talks, but we know that doesn’t happen in a vacuum....</p>
+                <a class="news-title" href="<%= article.url %>"><%= article.title %></a>
+                <div class="news-snippet"><%= article.summary %></div>
             </div>
         </div>
 
-        <div class="news-item">
-            <div class="news-date">March 20, 2015</div>
-            <div class="news-content">
-                <div class="news-title">Announcing the CFP Mentoring Team!</div>
-                <p class="news-snippet">This year we are putting a lot of focus on Speaker mentoring and preparation. We aim to have a quality event with unique and interesting talks, but we know that doesn’t happen in a vacuum....</p>
-            </div>
-        </div>
+        <% end %>
 
-        <div class="news-item">
-            <div class="news-date">March 20, 2015</div>
-            <div class="news-content">
-                <div class="news-title">Announcing the CFP Mentoring Team!</div>
-                <p class="news-snippet">This year we are putting a lot of focus on Speaker mentoring and preparation. We aim to have a quality event with unique and interesting talks, but we know that doesn’t happen in a vacuum....</p>
-            </div>
-        </div>
+        <p>
+            <a class="news-archive-link" href="/blog">News Archive</a>
+        </p>
 
     </article>
 </section>

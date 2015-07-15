@@ -12,6 +12,10 @@
     margin-bottom: 4em;
 }
 
+.news-item:last-of-type {
+    margin-bottom: 0;
+}
+
 .news-date {
     order: 1;
     margin: 0 8em 0 0;
@@ -29,13 +33,36 @@
     }
 }
 
-.news-title {
-    color: $green;
+a.news-title {
     font-weight: 600;
     @include ms-respond(font-size, 1);
+    color: $green;
+    &:active, &:visited {
+        color: $green;
+    }
+    &:hover, &:focus {
+        color: $blue;
+        text-decoration: none;
+        transition: .5s ease color;
+    }
 }
 
-.news-snippet {
+.news-snippet p {
     width: auto; // override paragraph width containment
     font-weight: 400;
+}
+
+.news-archive-link {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+
+  &:link, &:active, &:visited {
+    color: $text-color;
+  }
+  &:hover {
+    text-decoration: none;
+    color: $blue;
+  }
 }
