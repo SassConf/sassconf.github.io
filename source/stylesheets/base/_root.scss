@@ -13,7 +13,13 @@ body {
 article {
   max-width: $max-width;
   margin: 0 auto;
-  padding: ms(6) ms(3);
+  padding: ms(1);
+  @include media(grid-lg) {
+    padding: ms(2);
+  }
+  @include media(grid-xl) {
+    padding: ms(6) ms(3);
+  }
 
   .headline {
     text-align: center;

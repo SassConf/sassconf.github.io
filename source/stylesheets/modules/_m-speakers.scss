@@ -15,16 +15,28 @@
 
 .speaker {
     text-align: center;
-    min-width: 300px;
     order: 1;
-    margin-bottom: 2.5em;
+    min-width: 110px;
+    margin: 0 20px 20px 0;
+    @include media(grid-med) {
+        min-width: 250px;
+        margin-bottom: 2.5em;
+    }
 
     .speaker-circle {
         border-radius: 100%;
         overflow: hidden;
-        width: 250px;
-        height: 250px;
         margin: 0 auto 1em;
+        width: 100px;
+        height: 100px;
+        @include media(grid-med) {
+            width: 160px;
+            height: 160px;
+        }
+        @include media(grid-lg) {
+            width: 220px;
+            height: 220px;
+        }
         img {
             max-height: 100%;
         }
@@ -37,6 +49,13 @@
         padding: 6px 12px;
         font-weight: 400;
         margin-bottom: .5em;
+
+        .speaker-lastname {
+            display: none; // hide at smaller than grid-med
+            @include media(grid-med) {
+                display: inline;
+            }
+        }
     }
 
     .speaker-twitter,
