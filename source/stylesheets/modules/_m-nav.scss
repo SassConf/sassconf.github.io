@@ -10,11 +10,16 @@
 
 .m-nav__menu {
     display: flex;
-    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: flex-start;
     align-content: center;
+    @include media(grid-sm) {
+        flex-direction: column;
+    }
+    @include media(grid-med) {
+        flex-direction: row;
+    }
 }
 
 a.m-nav__link {
@@ -23,6 +28,7 @@ a.m-nav__link {
     padding: 12px 24px;
     text-decoration: none;
     font-weight: 400;
+
     &:hover,
     &:active {
         background: $gold;
