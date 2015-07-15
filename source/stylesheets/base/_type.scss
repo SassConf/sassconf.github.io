@@ -26,6 +26,7 @@ h4 {
   @include ms-respond(font-size, 3);
   font-weight: 600;
   color: $text-color;
+  text-transform: uppercase;
 }
 h3 {
   @include ms-respond(font-size, 4);

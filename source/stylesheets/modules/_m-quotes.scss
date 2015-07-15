@@ -10,15 +10,12 @@
 
   .highlight {
     display: inline;
-    background: $green;
     color: $white;
     padding: .25em;
     position: relative;
     left: 150px;
     top: -50px;
     padding-left: 0;
-    box-shadow: .25em 0 0 $green,
-                .25em*-1 0 0 $green;
   }
 }
 
@@ -31,7 +28,53 @@
     font-size: 10px;
 }
 
+
+// First
+
 .m-quote-a {
     background-image: url("/images/backgrounds/speaker-panel.jpg");
     background-position: 0 -100px;
 }
+
+.m-quote-a {
+    .highlight {
+        background: $green;
+        box-shadow: .25em 0 0 $green,
+                .25em*-1 0 0 $green;
+    }
+}
+
+// Second
+
+.m-quote-b {
+    background-image: url("/images/backgrounds/attendees-outside.jpg");
+    background-position: 0 -100px;
+}
+
+.m-quote-b {
+    text-align: right;
+    .highlight {
+        top: 490px;
+        left: -150px;
+        background: $gold;
+        box-shadow: .25em 0 0 $gold,
+                .25em*-1 0 0 $gold;
+    }
+}
+
+// Venue module is basically a quote with some other stuff
+
+.m-venue {
+    background-image: url("/images/backgrounds/brazoshall.jpeg");
+    background-position: 0 -100px;
+}
+
+.m-venue {
+    .highlight {
+        background: $pink;
+        box-shadow: .25em 0 0 $pink,
+                .25em*-1 0 0 $pink;
+    }
+}
+
+.venue-logo {float: right;}
