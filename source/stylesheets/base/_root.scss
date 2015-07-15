@@ -26,3 +26,25 @@ article {
   }
 
 }
+
+a.back-to-top {
+  background: $white;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  text-transform: uppercase;
+  padding: 4px 6px;
+  font-size: 9px;
+  font-weight: 400;
+  opacity: .5;
+  text-decoration: none;
+  transition: 1s ease opacity;
+
+  &:link, &:active, &:visited {
+    color: $text-color;
+  }
+  &:hover {
+    text-decoration: none;
+    opacity: 1;
+  }
+}
