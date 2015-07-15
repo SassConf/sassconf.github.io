@@ -22,7 +22,7 @@ We are excited and honored to work with Elyse. Already her contributions have be
 &nbsp;
 
 
-#### CS: What are you hoping to bring to SassConf this year?
+###### CS: What are you hoping to bring to SassConf this year?
 
 **EH:** I spent an eternity trying to nail down my goals for speaker selection and finally came to this: "more unique content from each speaker, consistently high presentation quality, and diverse types of sessions." _(Shout out to my fiancé—SassConf isn't the only thing I said yes to this year!—for helping me fine-tune that.)_ Some of the complaints from conferences I've been to recently (not just SassConf!) have been repetitive content, not-so-great speakers, and lack of diversity (of speakers but also types of events, e.g. all 40 min talks). I tweeted a <a href="https://twitter.com/elyseholladay/status/525342236561928192">few</a> <a href="https://twitter.com/elyseholladay/status/525342652104200192">things</a> about the kind of event I would want to run, but damn if running a conference isn't a ton of work. I'm super excited to get some insight into what that takes and see if I can help SassConf be even more amazing.
 
@@ -36,14 +36,14 @@ Lastly, I want to bring some love, attention, and yes, transparency to the speak
 
 &nbsp;
 
-#### CS: Are you excited that SassConf is coming to Austin?
+###### CS: Are you excited that SassConf is coming to Austin?
 
 **EH:** Are you kidding!? That's not even a question! (insert breakfast taco emoji here)
 
 
 &nbsp;
 
-#### CS: What's your favorite SassConf memory?
+###### CS: What's your favorite SassConf memory?
 
 **EH:** Can it be the one where Claudina and I decided over a bottle of wine to have SassConf in Austin?
 
@@ -54,11 +54,12 @@ Seriously though, I think I'm gonna have to go with the moment before the panel 
 
 
 &nbsp;
+
 Before that, I'd only given talks at small local meetups and taught GDI classes. This was my first "big" event and it was SO crazy to be standing there knowing that everyone was about to come in and I was going to have to say stuff like I knew what I was doing! And then Hampton and Chris Eppstein were asking _us_ questions.. it was insanely cool. SassConf totally got me hooked on the conference speaking thing.
 
 &nbsp;
 
-#### CS: How can people get in touch if they have CFP questions?
+###### CS: How can people get in touch if they have CFP questions?
 
 **EH:** The best way is to email me at my SassConf email: <a href="mailto:elyse@sassconf.com">elyse[at]sassconf[dot]com</a>. You can also tweet at me (<a href="http://twitter.com/elyseholladay">@elyseholladay</a>) or at <a href="http://twitter.com/sassconf">@SassConf</a>. No question is a dumb question!
 

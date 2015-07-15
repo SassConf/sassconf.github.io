@@ -1,6 +1,7 @@
 <%= partial "partials/head" %>
-  <article class="m-entry">
-    <h1><%= data.page.title %></h1>
+<%= partial "partials/modules/subpage-nav" %>
+  <article>
+    <%= partial "partials/modules/news-entry" %>
     <%= yield %>
   </article>
 <%= partial "partials/foot" %>
