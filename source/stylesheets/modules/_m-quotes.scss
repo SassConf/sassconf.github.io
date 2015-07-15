@@ -21,7 +21,6 @@
     padding-left: 0;
 
     &.highlight-wrap {
-        // background:red;
         text-align: left;
         display: block;
         padding-left: .5em;
@@ -30,7 +29,6 @@
         }
     }
     &.highlight-breaks {
-        // background:blue;
         display: none;
         @include media(grid-med) {
             display: inline;
@@ -48,9 +46,10 @@
 
 .attribution {
     text-transform: uppercase;
-    color: $white;
     font-size: 10px;
     padding: .5em 0 0 1.5em;
+    font-weight: 600;
+
     @include media(grid-med) {
         padding: 0;
         position: relative;
@@ -60,6 +59,16 @@
     @include media(grid-lg) {
         left: 150px;
     }
+    a:link, a:active, a:visited {
+        color: $white;
+        opacity: .5;
+        text-decoration: none;
+        transition: 1s ease opacity;
+
+    }
+    a:hover, a:focus {
+        opacity: 1;
+     }
 }
 
 
