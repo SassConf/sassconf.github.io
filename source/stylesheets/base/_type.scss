@@ -1,0 +1,73 @@
+body {
+  color: $text-color;
+  font-family: $text-font;
+  line-height: $line-height;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  line-height: 1;
+  margin: 0 0 ms(-3);
+  color: $alt-text-color;
+  * + & {
+    margin-top: ms(-1);
+  }
+  font-family: $header-font;
+}
+
+h6 {
+  @include ms-respond(font-size, 1);
+}
+h5 {
+  @include ms-respond(font-size, 2);
+}
+h4 {
+  @include ms-respond(font-size, 3);
+  font-weight: 600;
+  color: $text-color;
+  text-transform: uppercase;
+}
+h3 {
+  @include ms-respond(font-size, 4);
+}
+h2 {
+  @include ms-respond(font-size, 5);
+}
+h1 {
+  @include ms-respond(font-size, 6);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.dot {
+  color: transparentize($text-color,.35);
+}
+
+
+a:link,
+a:visited,
+a:active {
+  color: $link-color;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: lighten($link-color, 10%);
+  text-decoration: underline;
+}
+
+
+// paragraph widths
+
+p {
+  @include media(grid-med) {
+    width: 35%;
+  }
+}
+
+p.wide {
+  @include media(grid-med) {
+    width: 55%;
+  }
+}

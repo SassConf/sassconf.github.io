@@ -1,106 +1,40 @@
 .m-nav {
-  position: fixed;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: nth($nav-height,1);
-  background-color: $background-color;
-  box-shadow: 0 2px 0 0 rgba(#000,.2);
-  z-index: 1;
-  left: 0;
-  right: 0;
-  top: 0;
-  padding-right: ms(1);
-  @if length($nav-height) > 1 {
-    @media (min-height: 30em) {
-      height: nth($nav-height,2);
-    }
-  }
-  a:link {
-    height: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 1em;
-    text-decoration: none;
-  }
-  a.m-nav__home {
-    padding: 0 ms(2) 0 ms(1);
-    position: relative;
-    text-transform: uppercase;
-    letter-spacing: .2em;
-    color: $background-color;;
-    &:before {
-      font-size: 1.8em;
-      content: '';
-      position: absolute;
-      left: 0;
-      right: 0;
-      height: 1em;
-      top: 50%;
-      margin-top: -.5em;
-      background-color: $event-color;
-      z-index: -1;
-    }
-    &:after {
-      font-size: 1.8em;
-      content: '';
-      position: absolute;
-      right: 0;
-      top: 50%;
-      margin-top: -.5em;
-      border: 0 solid transparent;
-      border-width: .5em .25em .5em 0;
-      border-right-color: $background-color;
-    }
-  }
-
-  a.m-nav__menu-toggle {
-    display: none;
-  }
-  &__menu {
-    display: flex;
-  }
-  @media (max-width: 52em) {
-    justify-content: space-between;
-    a.m-nav__menu-toggle {
-      display: flex;
-    }
-    &__menu {
-      display: block;
-      opacity: 0;
-      pointer-events: none;
-      position: absolute;
-      background: $background-color;
-      left: 0;
-      right: 0;
-      top: 100%;
-      border-top: 1px solid $sassconf-color;
-      box-shadow: 0 2px 0 0 rgba(#000,.2);
-      transition: all $ui-speed;
-      transform: rotateX(90deg);
-      transform-origin: 50% 0%;
-      a:hover,
-      a:focus {
-        background: tint($event-color,90%);
-      }
-      &.is-active {
-        pointer-events: all;
-        opacity: 1;
-        transform: rotateX(0deg);
-      }
-    }
-  }
+    background: $blue;
+    padding: ms(2);
 }
 
-.svg-logo {
-  width: ms(3);
-  height: ms(3);
-  margin-right: .5em;
-  &__bkg {
-    fill: $background-color;
-  }
-  &__fg {
-    fill: $sassconf-color;
-  }
+.m-nav__menu--wrapper {
+    max-width: $max-width;
+    margin: 0 auto;
+}
+
+.m-nav__menu {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+    @include media(grid-sm) {
+        flex-direction: column;
+    }
+    @include media(grid-med) {
+        flex-direction: row;
+    }
+}
+
+a.m-nav__link {
+    color: $white;
+    order: 1;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: 400;
+
+    &:hover,
+    &:active {
+        background: $gold;
+        color: $white;
+    }
+    &.ticket {
+        // order: 2;
+    }
 }

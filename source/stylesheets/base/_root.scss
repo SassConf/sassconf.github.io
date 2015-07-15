@@ -1,12 +1,28 @@
 body {
   margin: nth($nav-height,1) 0 0;
+  min-width: 300px;
   background-color: $background-color;
-  color: $text-color;
-  font-family: $text-font;
-  line-height: $line-height;
   @if length($nav-height) > 1 {
     @media (min-height: 30em) {
       margin: nth($nav-height,2) 0 0;
     }
   }
+}
+
+
+article {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: ms(1);
+  @include media(grid-lg) {
+    padding: ms(2);
+  }
+  @include media(grid-xl) {
+    padding: ms(6) ms(3);
+  }
+
+  .headline {
+    text-align: center;
+  }
+
 }

@@ -1,0 +1,37 @@
+.m-tickets {
+	background: $blue;
+    color: $white;
+    padding: ms(4) 0;
+    h3, h5 {color: $white;}
+}
+
+
+.ticket-types {
+    padding: ms(2) 0;
+}
+
+.ticket-type {
+    margin-bottom: 2em;
+    @include media(grid-med) {
+        margin-bottom: 1em;
+    }
+}
+
+.ticket {
+	display: inline-block;
+	width: 300px;
+	margin-bottom: 0;
+}
+
+h5.price {
+	font-weight: 600;
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+.meta {
+	opacity: .7;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}

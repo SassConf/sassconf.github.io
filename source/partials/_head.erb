@@ -9,6 +9,9 @@
 
     <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
 
+    <script src="//use.typekit.net/irm4aaa.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+
     <!-- Use title if it's in the page YAML frontmatter -->
     <title>
       <% if current_page.data.title %>
@@ -27,5 +30,3 @@
   </head>
 
   <body class="<%= page_classes %>">
-    <%= partial "partials/svg" %>
-    <%= partial "partials/modules/nav" %>

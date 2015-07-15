@@ -1,24 +1,31 @@
-// Brand colors
-$sassconf-color:       #F644C2;
-$event-color:          #4E97BB;
-$sass-color:           #c69;
+// SassConf 2015 Colors
+$purple: #510059;
+$pink: #de5499;
+$green: #8dc63f;
+$blue: #438ccb;
+$gold: #ffae00;
+$white: #fff;
 
 // Utility colors
-$text-color:           #333;
-$background-color:     #fff;
-$link-color:           darken($event-color, 20%);
+$text-color:           #444;
+$text-color-light:     #999;
+$background-color:     $white;
+$link-color:           darken($blue, 20%);
 $alt-background-color: #eee;
-$alt-text-color:       #111;
+$alt-text-color:       #000;
 $border-color:         #ddd;
 
-// Typography
-$text-font: 'Open Sans', sans-serif;
-$display-font: 'Kaushan Script', $text-font;
-$line-height: 1.5;
+$about-bg: #252525;
 
-// Dimentions
+// Typography
+$text-font:  'sofia-pro', 'Brandon Grotesque', 'Futura', 'Franklin Gothic', 'Helvetica', sans-serif;
+$header-font:  $text-font;
+
+$line-height: 1.75;
+
+// Dimensions
 $nav-height:           ms(2, 1rem) ms(3, 1rem);
-$max-width:            40rem;
+$max-width:            65rem;
 $margin:               4%;
 
 // Transitions
@@ -37,6 +44,6 @@ $ms-range:
 
 // Color Schemer
 $cs-color-model:       ryb;
-$cs-primary:           $sassconf-color;
+$cs-primary:           $purple;
 $cs-scheme:            analogic;
 $cs-hue-offset:        30;

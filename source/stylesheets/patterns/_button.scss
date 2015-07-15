@@ -1,0 +1,33 @@
+%button {
+    border-radius: 4px;
+    color: $white;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 20px 48px;
+    cursor: pointer;
+    border: none;
+}
+
+.button-primary {
+    @extend %button;
+    background: $pink;
+    @include ms-respond(font-size, .65);
+    &:hover {
+        background: darken($pink,8);
+        transition: 1s ease background;
+    }
+}
+
+.button-cta {
+    @extend %button;
+    background: $gold;
+    @include ms-respond(font-size, 1.5);
+    &:hover {
+        background: darken($gold,8);
+        transition: 1s ease background;
+    }
+}
+
+.button-container {
+    margin: 2em 0 1em;
+}

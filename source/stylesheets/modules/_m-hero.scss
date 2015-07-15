@@ -1,5 +1,32 @@
 .m-hero {
   overflow: hidden;
-  color: white;
-  background-color: $event-color;
+  color: $alt-text-color;
+  background-color: $background-color;
+  text-align: center;
+}
+
+.tagline {
+  margin: 0 auto;
+
+  // always try to break tagline text after "Sass"
+  @include media(grid-med) {
+    max-width: 70%;
+  }
+  @include media(grid-lg) {
+    max-width: 52%;
+  }
+  @include media(grid-xl) {
+    max-width: 46%;
+  }
+}
+
+.svg-logo {
+  width: ms(8);
+  height: ms(8);
+  &__bkg {
+    fill: $background-color;
+  }
+  &__fg {
+    fill: $purple;
+  }
 }
