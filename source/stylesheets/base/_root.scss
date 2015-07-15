@@ -13,4 +13,9 @@ article {
   max-width: $max-width;
   margin: 0 auto;
   padding: ms(6) $margin;
+
+  .headline {
+    text-align: center;
+  }
+
 }

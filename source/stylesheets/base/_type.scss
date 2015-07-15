@@ -2,10 +2,11 @@ body {
   color: $text-color;
   font-family: $text-font;
   line-height: $line-height;
+  font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1;
   margin: 0 0 ms(-3);
   color: $alt-text-color;
@@ -23,7 +24,7 @@ h5 {
 }
 h4 {
   @include ms-respond(font-size, 3);
-  font-weight: bold;
+  font-weight: 600;
   color: $text-color;
 }
 h3 {
@@ -35,7 +36,7 @@ h2 {
 h1 {
   @include ms-respond(font-size, 6);
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .dot {
