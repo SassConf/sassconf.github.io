@@ -13,7 +13,7 @@ body {
 article {
   max-width: $max-width;
   margin: 0 auto;
-  padding: ms(6) $margin;
+  padding: ms(6) ms(3);
 
   .headline {
     text-align: center;

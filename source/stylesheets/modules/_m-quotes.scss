@@ -78,7 +78,11 @@
     }
 }
 
-.venue-logo {float: right;}
+.venue-logo {
+    @include media(grid-med) {
+        float: right;
+    }
+}
 .m-venue-content {padding-bottom: ms(5);}
 
 

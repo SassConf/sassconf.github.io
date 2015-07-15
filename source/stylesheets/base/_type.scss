@@ -57,10 +57,17 @@ a:focus {
   text-decoration: underline;
 }
 
+
+// paragraph widths
+
 p {
-  width: 35%;
+  @include media(grid-med) {
+    width: 35%;
+  }
 }
 
 p.wide {
-  width: 55%;
+  @include media(grid-med) {
+    width: 55%;
+  }
 }

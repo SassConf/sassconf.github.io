@@ -24,7 +24,9 @@
 
 .news-content {
     order: 2;
-    max-width: 48%;
+    @include media(grid-med) {
+        max-width: 48%;
+    }
 }
 
 .news-title {
