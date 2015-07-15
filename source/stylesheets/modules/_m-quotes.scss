@@ -22,6 +22,7 @@
 
     &.highlight-wrap {
         // background:red;
+        text-align: left;
         display: block;
         padding-left: .5em;
         @include media(grid-med) {
@@ -48,11 +49,17 @@
 .attribution {
     text-transform: uppercase;
     color: $white;
-    position: relative;
-    left: 150px;
-    top: -35px;
     font-size: 10px;
-    display: none;
+    padding: .5em 0 0 1.5em;
+    @include media(grid-med) {
+        padding: 0;
+        position: relative;
+        top: -35px;
+        left: 50px;
+    }
+    @include media(grid-lg) {
+        left: 150px;
+    }
 }
 
 
@@ -75,25 +82,53 @@
 
 .m-quote-b {
     background-image: url("/images/backgrounds/attendees-outside.jpg");
-    background-position: 0 -100px;
 }
 
 .m-quote-b {
-    text-align: right;
+    @include media(grid-med) {
+        text-align: right;
+    }
+
     .highlight {
-        top: 490px;
-        left: -150px;
         background: $gold;
         box-shadow: .25em 0 0 $gold,
                 .25em*-1 0 0 $gold;
+
+        &.highlight-breaks {
+            @include media(grid-med) {
+                left: -40px;
+                top: 370px;
+            }
+            @include media(grid-lg) {
+                top: 520px;
+            }
+            @include media(grid-xl) {
+                left: -150px;
+                top: 490px;
+            }
+        }
     }
+
+    .attribution {
+        @include media(grid-med) {
+            left: -40px;
+            top: 140px;
+        }
+        @include media(grid-lg) {
+            top: 290px;
+        }
+        @include media(grid-xl) {
+            top: 210px;
+            left: -150px;
+        }
+    }
+
 }
 
 // Venue module is basically a quote with some other stuff
 
 .m-venue {
     background-image: url("/images/backgrounds/brazoshall.jpeg");
-    background-position: 0 -100px;
 }
 
 .m-venue {
@@ -117,7 +152,6 @@
 
 .m-days {
     background-image: url("/images/backgrounds/smith-laughing.jpg");
-    background-position: 0 -100px;
 }
 
 .m-days .daysuntil {
