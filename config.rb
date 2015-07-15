@@ -9,6 +9,13 @@ compass_config do |config|
   require 'color-schemer'
 end
 
+# Configure blog
+activate :blog do |blog|
+  blog.prefix = "blog"
+  blog.permalink = "blog/posts/{title}/index.html"
+  blog.layout = "post"
+end
+
 ###
 # Page options, layouts, aliases and proxies
 ###
