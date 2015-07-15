@@ -58,6 +58,17 @@
         }
     }
 
+    .speaker-twitter {
+        a:link, a:active, a:visited {
+            color: $text-color-light;
+        }
+        a:hover, a:focus {
+            color: $blue;
+            text-decoration: none;
+            transition: .5s ease color;
+        }
+    }
+
     .speaker-twitter,
     .speaker-location {
         color: $text-color-light;
