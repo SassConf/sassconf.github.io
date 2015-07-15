@@ -14,12 +14,21 @@
     color: $white;
     padding: .25em;
     position: relative;
-    left: 2.5em;
-    top: -1em;
+    left: 150px;
+    top: -50px;
     padding-left: 0;
     box-shadow: .25em 0 0 $green,
                 .25em*-1 0 0 $green;
   }
+}
+
+.attribution {
+    text-transform: uppercase;
+    color: $white;
+    position: relative;
+    left: 150px;
+    top: -35px;
+    font-size: 10px;
 }
 
 .m-quote-a {
