@@ -37,10 +37,8 @@ $ui-speed: .2s;
 // Modular Scale
 $ms-ratio: $fourth;
 $ms-range:
-  (($fourth - 1)/5*2+1) 20em,
-  (($fourth - 1)/5*3+1) 30em,
-  (($fourth - 1)/5*4+1) 40em,
-  $fourth               60em;
+  1.1  20em,
+  1.25 60em;
 
 // Color Schemer
 $cs-color-model:       ryb;

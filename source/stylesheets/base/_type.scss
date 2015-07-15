@@ -1,7 +1,7 @@
 body {
   color: $text-color;
   font-family: $text-font;
-  line-height: $line-height;
+  @include ms-respond(line-height,1);
   font-weight: 300;
 }
 
