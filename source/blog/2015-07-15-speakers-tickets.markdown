@@ -5,52 +5,69 @@ date: 2015-07-15
 
 We know this announcement has been a long time coming, so first, thank you for being patient with us. Over the past month, we’ve done speaker selection, crunched a lot of stats, started looking for sponsors, designed and coded the brand-new sassconf.com you see in front of you now, determined ticket pricing & sales, and now we’re ready to open the floodgates!
 
+#### Tickets
+
+Tickets are on sale! Early Bird ticket prices are good for the first month, through August 15th. After that, Regular ticket prices take effect. Don't miss out while the getting is good; Late ticket price increase happens one month before the conference.
+
+**You can find out more information about SassConf tickets <a href="/#tickets">here</a> or buy one <a href="http://www.eventbee.com/v/sassconf/event?eid=163734763">right now!</a>**
+
+
 #### Speakers for 2015
 
-Your **twenty-four** speakers for SassConf 2015 are here! I'm so excited to hear all their amazing content, and I'm so proud of all of them for submitting. We have a great, diverse group, and some unique and deep technical content!
+Your **twenty-four** speakers for SassConf 2015 are here! 
 
 > In 2015 we have 50/50 men and women presenting at SassConf!
 
+First I'd like to highlight our four invited speakers for 2015.
+
 <div class="blog-speaker-grid">
 
-
-                <div class="speaker speaker-invited">
-                    <div class="speaker-circle">
-                        <img src="/images/speakers/tab-atkins.jpg">
-                    </div>
-                    <div class="speaker-name">Tab <span class="speaker-lastname">Atkins</span></div>
-                    <div class="speaker-twitter"><a href="http://twitter.com/tabatkins">@tabatkins</a></div>
-                    <div class="speaker-location">Sunnyvale, CA</div>
+            <div class="speaker speaker-invited">
+                <div class="speaker-circle">
+                    <img src="/images/speakers/tab-atkins.jpg">
                 </div>
+                <div class="speaker-name">Tab <span class="speaker-lastname">Atkins</span></div>
+                <div class="speaker-twitter"><a href="http://twitter.com/tabatkins">@tabatkins</a></div>
+                <div class="speaker-location">Sunnyvale, CA</div>
+            </div>
 
-                <div class="speaker speaker-invited">
-                    <div class="speaker-circle">
-                        <img src="/images/speakers/jackie-balzer.jpg">
-                    </div>
-                    <div class="speaker-name">Jackie <span class="speaker-lastname">Balzer</span></div>
-                    <div class="speaker-twitter"><a href="http://twitter.com/jackiebackwards">@jackiebackwards</a></div>
-                    <div class="speaker-location">Brooklyn, NY</div>
+            <div class="speaker speaker-invited">
+                <div class="speaker-circle">
+                    <img src="/images/speakers/jackie-balzer.jpg">
                 </div>
+                <div class="speaker-name">Jackie <span class="speaker-lastname">Balzer</span></div>
+                <div class="speaker-twitter"><a href="http://twitter.com/jackiebackwards">@jackiebackwards</a></div>
+                <div class="speaker-location">Brooklyn, NY</div>
+            </div>
 
-                <div class="speaker speaker-invited">
-                    <div class="speaker-circle">
-                        <img src="/images/speakers/julie-cameron.jpg">
-                    </div>
-                    <div class="speaker-name">Julie <span class="speaker-lastname">Cameron</span></div>
-                    <div class="speaker-twitter"><a href="http://twitter.com/jewlofthelotus">@jewlofthelotus</a></div>
-                    <div class="speaker-location">Ypsilanti, MI</div>
+            <div class="speaker speaker-invited">
+                <div class="speaker-circle">
+                    <img src="/images/speakers/julie-cameron.jpg">
                 </div>
+                <div class="speaker-name">Julie <span class="speaker-lastname">Cameron</span></div>
+                <div class="speaker-twitter"><a href="http://twitter.com/jewlofthelotus">@jewlofthelotus</a></div>
+                <div class="speaker-location">Ypsilanti, MI</div>
+            </div>
 
 
-                <div class="speaker speaker-invited">
-                    <div class="speaker-circle">
-                        <img src="/images/speakers/eric-suzanne.jpg">
-                    </div>
-                    <div class="speaker-name">Eric <span class="speaker-lastname">Suzanne</span></div>
-                    <div class="speaker-twitter"><a href="http://twitter.com/ericsuzanne">@ericsuzanne</a></div>
-                    <div class="speaker-location">Denver, CO</div>
+            <div class="speaker speaker-invited">
+                <div class="speaker-circle">
+                    <img src="/images/speakers/eric-suzanne.jpg">
                 </div>
+                <div class="speaker-name">Eric <span class="speaker-lastname">Suzanne</span></div>
+                <div class="speaker-twitter"><a href="http://twitter.com/ericsuzanne">@ericsuzanne</a></div>
+                <div class="speaker-location">Denver, CO</div>
+            </div>
 
+</div>
+
+These four were chosen specifically for their skill in a particular area, be it technical, instructive, or communicative. Please give them an extra special welcome!
+
+Your speakers chosen from submissions are a great, diverse group, and I'm amazed at all the unique and deep technical content they submitted! I'm so excited to hear from all of them in November, and I'm so proud of all of them for submitting. 
+
+&nbsp;
+
+<div class="blog-speaker-grid">
 
         <div class="speaker">
             <div class="speaker-circle">
@@ -241,3 +258,5 @@ Your **twenty-four** speakers for SassConf 2015 are here! I'm so excited to hear
     </div>
 
 You can read more about how we chose in our <a href="/blog/posts/speaker-selection">blog post on Speaker Selection</a>.
+
+Be sure to reach out on Twitter, give them all a big high five, and make them feel welcome!
