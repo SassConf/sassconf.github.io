@@ -13,6 +13,45 @@ Your **twenty-four** speakers for SassConf 2015 are here! I'm so excited to hear
 
 <div class="blog-speaker-grid">
 
+
+                <div class="speaker speaker-invited">
+                    <div class="speaker-circle">
+                        <img src="/images/speakers/tab-atkins.jpg">
+                    </div>
+                    <div class="speaker-name">Tab <span class="speaker-lastname">Atkins</span></div>
+                    <div class="speaker-twitter"><a href="http://twitter.com/tabatkins">@tabatkins</a></div>
+                    <div class="speaker-location">Sunnyvale, CA</div>
+                </div>
+
+                <div class="speaker speaker-invited">
+                    <div class="speaker-circle">
+                        <img src="/images/speakers/jackie-balzer.jpg">
+                    </div>
+                    <div class="speaker-name">Jackie <span class="speaker-lastname">Balzer</span></div>
+                    <div class="speaker-twitter"><a href="http://twitter.com/jackiebackwards">@jackiebackwards</a></div>
+                    <div class="speaker-location">Brooklyn, NY</div>
+                </div>
+
+                <div class="speaker speaker-invited">
+                    <div class="speaker-circle">
+                        <img src="/images/speakers/julie-cameron.jpg">
+                    </div>
+                    <div class="speaker-name">Julie <span class="speaker-lastname">Cameron</span></div>
+                    <div class="speaker-twitter"><a href="http://twitter.com/jewlofthelotus">@jewlofthelotus</a></div>
+                    <div class="speaker-location">Ypsilanti, MI</div>
+                </div>
+
+
+                <div class="speaker speaker-invited">
+                    <div class="speaker-circle">
+                        <img src="/images/speakers/eric-suzanne.jpg">
+                    </div>
+                    <div class="speaker-name">Eric <span class="speaker-lastname">Suzanne</span></div>
+                    <div class="speaker-twitter"><a href="http://twitter.com/ericsuzanne">@ericsuzanne</a></div>
+                    <div class="speaker-location">Denver, CO</div>
+                </div>
+
+
         <div class="speaker">
             <div class="speaker-circle">
                 <img src="/images/speakers/james-steinbach.jpeg">
@@ -34,39 +73,11 @@ Your **twenty-four** speakers for SassConf 2015 are here! I'm so excited to hear
 
         <div class="speaker">
             <div class="speaker-circle">
-                <img src="/images/speakers/tab-atkins.jpg">
-            </div>
-            <div class="speaker-name">Tab <span class="speaker-lastname">Atkins</span></div>
-            <div class="speaker-twitter"><a href="http://twitter.com/tabatkins">@tabatkins</a></div>
-            <div class="speaker-location">Sunnyvale, CA</div>
-        </div>
-
-        <div class="speaker">
-            <div class="speaker-circle">
-                <img src="/images/speakers/jackie-balzer.jpg">
-            </div>
-            <div class="speaker-name">Jackie <span class="speaker-lastname">Balzer</span></div>
-            <div class="speaker-twitter"><a href="http://twitter.com/jackiebackwards">@jackiebackwards</a></div>
-            <div class="speaker-location">Brooklyn, NY</div>
-        </div>
-
-        <div class="speaker">
-            <div class="speaker-circle">
                 <img src="/images/speakers/daniel-na.jpeg">
             </div>
             <div class="speaker-name">Daniel <span class="speaker-lastname">Na</span></div>
             <div class="speaker-twitter"><a href="http://twitter.com/dxna">@dxna</a></div>
             <div class="speaker-location">New York, NY</div>
-        </div>
-
-
-        <div class="speaker">
-            <div class="speaker-circle">
-                <img src="/images/speakers/julie-cameron.jpg">
-            </div>
-            <div class="speaker-name">Julie <span class="speaker-lastname">Cameron</span></div>
-            <div class="speaker-twitter"><a href="http://twitter.com/jewlofthelotus">@jewlofthelotus</a></div>
-            <div class="speaker-location">Ypsilanti, MI</div>
         </div>
 
         <div class="speaker">
@@ -76,15 +87,6 @@ Your **twenty-four** speakers for SassConf 2015 are here! I'm so excited to hear
             <div class="speaker-name">Tim <span class="speaker-lastname">Hettler</span></div>
             <div class="speaker-twitter"><a href="http://twitter.com/timhettler">@timhettler</a></div>
             <div class="speaker-location">Brooklyn, NY</div>
-        </div>
-
-        <div class="speaker">
-            <div class="speaker-circle">
-                <img src="/images/speakers/eric-suzanne.jpg">
-            </div>
-            <div class="speaker-name">Eric <span class="speaker-lastname">Suzanne</span></div>
-            <div class="speaker-twitter"><a href="http://twitter.com/ericsuzanne">@ericsuzanne</a></div>
-            <div class="speaker-location">Denver, CO</div>
         </div>
 
         <div class="speaker">

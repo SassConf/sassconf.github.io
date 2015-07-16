@@ -1,7 +1,6 @@
 .m-speakers {
     padding-bottom: ms(8);
 
-
     .speaker-grid {
         margin: 0 auto;
         width: 86%;
@@ -21,6 +20,11 @@
         @include media(grid-med) {
             min-width: 250px;
             margin-bottom: 2.5em;
+        }
+        &.speaker-invited {
+            .speaker-name {
+                background: $blue;
+            }
         }
 
         .speaker-circle {
