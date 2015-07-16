@@ -5,9 +5,7 @@ date: 2015-07-15
 
 This is an interesting post, I swear! Crunching the numbers for the 2015 submissions was actually very eye-opening and exciting, so please don't close this post before you start!
 
-First, we had an ton of submissions this year! **TODO how many submissions did we have last year?**
-
-> In 2015 we had 81 total submissions, over NN from 2014.
+We had 81 total submissions in 2015!
 
 * Discussions: **5**
 * Lightning Talks: **27**
@@ -17,6 +15,15 @@ First, we had an ton of submissions this year! **TODO how many submissions did w
 <em><small>The above numbers are total submissions; about 14-18 submissions were tagged in 2 categories.</small></em>
 
 If workshops are 3 hours, talks 1, discussions 1, and lightning talks .25, that’s a grand total of **83 hours of content**! And while we seriously debated making SassConf two weeks long, in the end, we couldn’t pick everything. (Sad trombone.)
+
+**2014 vs 2015**
+
+So how did we stack up compared to last year?
+
+* 78 total -> 81 total
+* 57 unique submitters -> 67 unique submitters
+
+In 2014, 21 of the 78 talks were submitted by someone who had more than one in the running. In 2015, we're down to 14! We love when people submit more than one thing, as it gives us more options, but it's also great to see that we had more total submissions and more unique submitters!
 
 
 #### Who submitted?
