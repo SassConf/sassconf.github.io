@@ -5,7 +5,7 @@ date: 2015-02-23
 
 We recognize the open CFP on GitHub is a big change from our submission process of the past two years, and a change from the "norm" of blind reviews and community voting. It’s important for us to be transparent about our reasons for changing, and our process going forward.
 
-It isn’t that blind review processes don’t work at all, but it didn’t work for us. In 2014, we fully anonymized our submissions—any references to gender, online work, employer, etc, were removed from the abstracts. The speaker team reviewed and selected 1/3 of the talks. Those then went were voted on by a community review board comprised of active Sass community members who had not submitted talks or were not attending the conference, as well as past speakers and community members. Results from the community board vote were tallied. The rankings were not the sole determinate factor, but they did play a part in our final selection.
+It isn’t that blind review processes don’t work at all, but it didn’t work for us. In 2014, we fully anonymized our submissions—any references to gender, online work, employer, etc, were removed from the abstracts. The speaker team reviewed and selected 1/3 of the talks. Those then were voted on by a community review board comprised of active Sass community members who had not submitted talks or were not attending the conference, as well as past speakers and community members. Results from the community board vote were tallied. The rankings were not the sole determinate factor, but they did play a part in our final selection.
 
 Then we uncovered the names... and were utterly confused.
 

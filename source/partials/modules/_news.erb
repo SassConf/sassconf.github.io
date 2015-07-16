@@ -13,7 +13,9 @@
             <div class="news-date"><%= article.date.strftime('%b %e %Y') %></div>
             <div class="news-content">
                 <a class="news-title" href="<%= article.url %>"><%= article.title %></a>
-                <div class="news-snippet"><%= article.summary %></div>
+                <div class="news-snippet">
+                    <%= article.summary(160, '...') %>
+                </div>
             </div>
         </div>
 

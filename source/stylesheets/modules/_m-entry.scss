@@ -84,7 +84,7 @@
 
 .blog-speaker-grid {
     margin: 0 auto;
-    border: 1px solid red;
+    // border: 1px solid red;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -95,7 +95,7 @@
 
     .speaker {
         text-align: center;
-        border: 1px solid blue;
+        // border: 1px solid blue;
         order: 1;
         min-width: 175px;
         margin: 0 20px 20px 0;
