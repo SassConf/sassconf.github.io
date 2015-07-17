@@ -13,11 +13,3 @@ To get things running locally, first make sure you have [bundler](http://bundler
 `bundle exec middleman`
 
 If you have any questions or run into snags, tweet @sasconf.com or email us info[at]sassconf.conf.
-
-
-## Todos
-
-- [ ] Directions for forking the repo
-- [ ] Directions for contributing directly from Github UI
-- [ ] Browsersync
-- [ ] Add engine dependencies to `package.json`
