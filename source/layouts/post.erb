@@ -3,8 +3,8 @@
 
 <section class="m-entry">
     <article>
-        <div class="news-date"><%= data.page.date %></div>
-        <h3><%= data.page.title %></h3>
+        <div class="news-date"><%= current_page.data.date %></div>
+        <h3><%= current_page.data.title %></h3>
         <%= yield %>
     </article>
 </section>
