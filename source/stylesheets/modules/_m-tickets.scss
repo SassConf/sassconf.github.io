@@ -5,6 +5,15 @@
     h3, h4, h5 {color: $white;}
     h4 {max-width: 50%;}
     .button-container {margin-bottom: 4em;}
+    @include media(grid-sm) {
+        h5 {
+            margin-top: 0;
+            line-height: 1.2;
+        }
+        p.meta {
+            margin-top: .5em;
+        }
+    }
 }
 
 

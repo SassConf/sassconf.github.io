@@ -1,9 +1,14 @@
 .m-quote {
     background-position: 0 0;
     background-repeat: no-repeat;
-    min-height: 600px;
     background-size: 150%;
     background-position: 0 0;
+    @include media(grid-sm) {
+        min-height: 350px;
+    }
+    @include media(grid-med) {
+        min-height: 600px;
+    }
     @include media(grid-lg) {
         min-height: 800px;
         background-size: cover;
@@ -91,6 +96,15 @@
 
 .m-quote-b {
     background-image: url("/images/backgrounds/attendees-outside.jpg");
+    @include media(grid-sm) {
+        background-position: -120px 70px;
+    }
+    @include media(grid-med) {
+        background-position: -120px 0;
+    }
+    @include media(grid-xl) {
+        background-position: 0 0;
+    }
 }
 
 .m-quote-b {
