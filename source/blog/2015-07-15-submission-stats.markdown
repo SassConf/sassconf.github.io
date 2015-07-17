@@ -32,7 +32,7 @@ In our earlier post, <a href="/blog/posts/changing-our-cfp/">Why we’re changin
 
 Our goal was to end up with a 50/50 submission ratio, and though we didn’t end up meeting it, we definitely improved over the last two years in this regard.
 
-<em><small>Disclaimer: These numbers are surface level; based on photos, names, public social media information, and personal knowledge. We cannot guarantee this data is 100% accurate. We do not and would never explicitly ask for demographic information, particularly LGBTQIA, as we recognize the importance of privacy in this regard.</small></em>
+<em><small>Disclaimer: These numbers are based on publicly available knowledge only. We cannot guarantee this data is 100% accurate. We do not and would never explicitly ask for demographic information, particularly LGBTQIA, as we recognize the importance of privacy in this regard.</small></em>
 
 Of the total 81 submissions in 2015, **67** were from unique submitters. Of those.
 
