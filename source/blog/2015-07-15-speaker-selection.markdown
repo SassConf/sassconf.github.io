@@ -52,7 +52,7 @@ Next, we tagged the remaining submissions for a second round. This left us with 
 
 A few, we had followup questions, ranging from asking to see code excerpts to whether or not the speaker was a first-time speaker or not. We followed up with these people privately.
 
-Some we tagged for the Unconference. This did NOT mean we thought it was second-rate, or not good enough for the real conf. Instead, we felt that these talks were more suited to a smaller group or more organic setting. Some of these were the more tools-specific talks. A regular conference complaint is not getting to try out or implement the new skills you learned. We wanted to direct some of these talks to the more hands-on environment of the Unconference, so attendees could truly soak up the knowledge, rather than just listen.
+Some we tagged for the Unconference. This did NOT mean we thought it was second-rate, or not good enough for the conference days. Instead, we felt that these talks were more suited to a smaller group or more organic setting. Some of these were the more tools-specific talks. A regular conference complaint is not getting to try out or implement the new skills you learned. We wanted to direct some of these talks to the more hands-on environment of the Unconference, so attendees could truly soak up the knowledge, rather than just listen.
 
 At this point we excluded workshops and discussions. We had few enough workshop/discussion submissions that we could choose based on prior critera and the type of content we were aiming for.
 

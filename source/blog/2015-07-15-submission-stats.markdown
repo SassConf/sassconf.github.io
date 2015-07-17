@@ -55,7 +55,7 @@ We gleaned some other demographic data about our submitters, as well.
 
 I had a secret, personal goal to get 50% submissions from diverse speakers. Deep in my heart, I didn't believe it would happen. I didn't do as much outreach as I had intended, so I was sure we didn't make it. BUT, and this should go to show how diverse the Sass community is...
 
-> 41.79% of our submissions were from women, LGBTQIA+, or people of color!
+> 42% of our submissions were from women, LGBTQIA+, or people of color!
 
 <em><small>Disclaimer: This is fairly surface level, based on photos/names, locations, and public social media information. We can’t guarantee this data is 100% accurate. A particular note on the LGBTQ+ stat: we only had info on this based on Twitter, knowing people, etc. There may be more, but we did not and would never explicitly ask for this information.</small></em>
 
