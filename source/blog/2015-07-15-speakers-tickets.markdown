@@ -14,7 +14,7 @@ Tickets are on sale! Early Bird ticket prices are good for the first month, thro
 
 #### Speakers for 2015
 
-Your **twenty-four** speakers for SassConf 2015 are here! 
+Your **twenty-four** speakers for SassConf 2015 are here!
 
 > In 2015 we have 50/50 men and women presenting at SassConf!
 
@@ -63,7 +63,7 @@ First I'd like to highlight our four invited speakers for 2015.
 
 These four were chosen specifically for their skill in a particular area, be it technical, instructive, or communicative. Please give them an extra special welcome!
 
-Your speakers chosen from submissions are a great, diverse group, and I'm amazed at all the unique and deep technical content they submitted! I'm so excited to hear from all of them in November, and I'm so proud of all of them for submitting. 
+Your speakers chosen from submissions are a great, diverse group, and I'm amazed at all the unique and deep technical content they submitted! I'm so excited to hear from all of them in November, and I'm so proud of all of them for submitting.
 
 &nbsp;
 
@@ -196,7 +196,7 @@ Your speakers chosen from submissions are a great, diverse group, and I'm amazed
                 <img src="/images/speakers/chris-sauve.jpg">
             </div>
             <div class="speaker-name">Chris <span class="speaker-lastname">Sauve</span></div>
-            <div class="speaker-twitter"><a href="http://twitter.com/lemonmade">@lemonmade</a></div>
+            <div class="speaker-twitter"><a href="http://twitter.com/_lemonmade">@_lemonmade</a></div>
             <div class="speaker-location">Ottawa, ON, CAN</div>
         </div>
 
