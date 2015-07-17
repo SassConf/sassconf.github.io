@@ -24,7 +24,7 @@ As mentioned <a href="/blog/posts/changing-our-cfp/">here</a>:
 
 So from day one, we knew we had to do something different. At SassConf 2014, much of the content of talks overlapped. I felt that more collaboration with and between speakers, as well as more intent in the choice of talks, would lead to more unique content.
 
-Making the choice to do the CFP open on GitHub was a scary, but I think ultimately effective one. This allowed us to help submitters craft a better proposal; we could (and did!) ask questions about their content, and we saw many positive changes. It also allowed for us, during reviews, to be intentful about the topics we selected.
+Making the choice to do the CFP open on GitHub was a scary, but I think ultimately effective one. This allowed us to help submitters craft a better proposal; we could (and did!) ask questions about their content, and we saw many positive changes. Community members were great about +1ing talks they wanted to see, making positive comments, and asking questions of their own. We were happily surprised by how much positive response there was to submissions. We also didn’t see _one single mean comment_ on any submission! It also allowed for us, during reviews, to be intentful about the topics we selected.
 
 Does that mean we were “biased” in some ways? Yes! We were absolutely biased towards selecting content that did not repeat itself, was relevant to the current industry trends, inspired and strengthened the community, and would be entertaining and enjoyable. We also were “biased” towards representing as many viewpoints, backgrounds, new voices, and styles as we could. 
 
@@ -32,23 +32,20 @@ I expected, as we went into selection, that we would struggle with this scary co
 
 #### Process
 
-After the CFP closed, we made the GitHub repo private. This allowed us to tag and sort the submissions without prematurely notifying anyone! 
+After the CFP closed, we made the GitHub repo private. This allowed us to tag and sort the submissions without prematurely notifying anyone.
 
-Claudina and I both did a first pass; we tagged some number of submissions for a first pass. We chose to not accept almost half of the submissions on our first pass.
-
-We chose not to accept submissions based on the following factors:
+Claudina and I both did a first pass; we tagged some number of submissions for a first pass. We chose to not accept almost half of the submissions on our first pass, based on the following factors:
 
 * a confusing, cryptic, or too terse of a proposal
 * technology/tool specific
 * topics we felt we had seen too often or were not unique
 * topics we felt were not particularly relevant to Sass
 
-I want to pause here and talk about “topics we felt we’d seen too often,” as this is a hairy subject. I firmly believe that (especially as a beginning speaker) you should speak about what you know. Even if it’s something that is at many events and has been done many times, there is a time and place for you to give that talk. Unfortunately, it is not always at big conferences. We absolutely don’t want to discourage anyone from submitting a talk that’s “been done,” but it’s also important, as a conference, to have content that is timely, new, and unique.
+I want to pause here and talk about “topics we felt we’d seen too often,” as this is a hairy subject. I firmly believe that (especially as a beginning speaker) you should speak about what you know. Even if it’s something that is at many events and has been done many times, there is a time and place for you to give that talk. Unfortunately, it is not always at big conferences. We absolutely don’t want to discourage anyone from submitting a talk that’s “been done,” but it’s also important, as a conference, to have content that is timely and unique.
 
-We also struggled for a long time over the “technology or tool specific” talks. We had so many good submissions that fell in this category, from Compass to Susy to email to Rails... But in the end, we felt that we wanted to focus on Sass: how to use it, how Sass is transforming our work and lives, and how we are transforming Sass, not specific “how to”s.
+We also struggled for a long time over the “technology or tool specific” talks. We had so many excellent submissions that fell in this category, from Compass to Susy to email to Rails... But in the end, we felt that we wanted to focus on Sass: how to use it, how Sass is transforming our work and lives, and how we are transforming Sass, not specific “how to”s.
 
 Next, we tagged the remaining submissions for a second round. This left us with 34. Of these, we accepted a handful almost immediately. Some just stood out to us, for a variety of reasons, some <em>je ne sais quoi</em> that left us thinking, “we have to see this talk!”
-
 
 A few, we had followup questions, ranging from asking to see code excerpts to whether or not the speaker was a first-time speaker or not. We followed up with these people privately.
 
@@ -74,6 +71,7 @@ We got 23 responses. It was only a little bit helpful. Dividing negative/neutral
 
 Unfortunately, we still had to choose! The 3 most positive talks were chosen; a handful of the lowest-ranking talks were not chosen. These votes were in line with our initial gut feels about these submissions. The talks in the middle we reviewed again. They were all good, and I am confident that we could have picked at random and had an excellent lineup. We looked in depth at the talks we already had accepted, and made sure our content was as diverse as possible, choosing unique topics over potentially overlapping ones. Hands down this was the most difficult part of selection... except for every time we had to tag something “not-accepted”! Heartbreaking!
 
+<img src="/images/blog/lemur-three-foods-two-hands-noooo.gif">
 
 #### Confirming & Invited Speakers
 
