@@ -2,7 +2,9 @@
 	background: $blue;
     color: $white;
     padding: ms(4) 0;
-    h3, h5 {color: $white;}
+    h3, h4, h5 {color: $white;}
+    h4 {max-width: 50%;}
+    .button-container {margin-bottom: 4em;}
 }
 
 
@@ -19,7 +21,7 @@
 
 .ticket {
 	display: inline-block;
-	width: 300px;
+	width: 400px;
 	margin-bottom: 0;
 }
 
