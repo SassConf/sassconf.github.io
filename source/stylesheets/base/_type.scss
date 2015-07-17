@@ -61,14 +61,28 @@ a:focus {
 // paragraph widths
 
 p {
-  // font-family: $news-font;
   @include media(grid-med) {
     width: 35%;
+  }
+  @include media(grid-xl) {
+    font-size: 110%;
+    width: 55%;
+    line-height: 1.5;
   }
 }
 
 p.wide {
   @include media(grid-med) {
     width: 55%;
+  }
+}
+
+.meta {
+  opacity: .7;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  @include media(grid-xl) {
+    font-size: 14px;
   }
 }

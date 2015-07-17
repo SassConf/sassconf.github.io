@@ -14,6 +14,9 @@
         background-size: cover;
         background-position: 0 -100px;
     }
+    @include media(grid-xl) {
+        background-position: center center;
+    }
 }
 
 .quote-text {
@@ -103,7 +106,7 @@
         background-position: -120px 0;
     }
     @include media(grid-xl) {
-        background-position: 0 0;
+        background-position: center center;
     }
 }
 
@@ -127,7 +130,7 @@
             }
             @include media(grid-xl) {
                 left: -150px;
-                top: 490px;
+                top: 580px;
             }
         }
     }
@@ -152,6 +155,9 @@
 
 .m-venue {
     background-image: url("/images/backgrounds/brazoshall.jpeg");
+    @include media(grid-xl) {
+        background-position: 50% 70%;
+    }
 }
 
 .m-venue {
@@ -175,6 +181,9 @@
 
 .m-days {
     background-image: url("/images/backgrounds/smith-laughing.jpg");
+    @include media(grid-xl) {
+        background-position: 50% 20%;
+    }
 }
 
 .m-days .daysuntil {

@@ -14,9 +14,7 @@
     justify-content: space-between;
     align-items: flex-start;
     align-content: center;
-    @include media(grid-sm) {
-        flex-direction: column;
-    }
+    flex-direction: column;
     @include media(grid-med) {
         flex-direction: row;
     }
@@ -45,15 +43,24 @@ a.m-nav__link {
     background: $purple;
     padding: ms(1);
 
+    .subpage-nav-item {
+        color: $white;
+        padding: 12px 24px;
+        font-weight: 400;
+        flex-grow: 1;
+        order: 1;
+    }
+
     .dot {
         padding: 0 4px;
         color: rgba($white,.5);
     }
 
     .m-nav__menu {
-        align-content: flex-start;
         align-items: center;
-        width: 52%;
+        @include media(grid-med) {
+            width: 60%;
+        }
     }
 
     a.m-nav__link {
@@ -62,7 +69,12 @@ a.m-nav__link {
             background: $blue;
         }
         &.ticket {
-            max-width: 85px;
+            @include media(grid-med) {
+                max-width: 85px;
+            }
+            @include media(grid-xl) {
+                max-width: 95px;
+            }
         }
     }
 
@@ -79,9 +91,3 @@ a.m-nav__link {
 
 }
 
-.subpage-nav-item {
-    color: $white;
-    padding: 12px 24px;
-    font-weight: 400;
-    flex-grow: 1;
-}
