@@ -3,7 +3,7 @@ title: How we did Speaker Selection
 date: 2015-07-15
 ---
 
-Our motto for speaker selection in 2015 was this:
+Our goal for speaker selection in 2015 was this:
 
 > “more unique content from each speaker, consistently high presentation quality, and diverse types of sessions.”
 
@@ -12,9 +12,9 @@ Our motto for speaker selection in 2015 was this:
 To get to this summarized goal, we came up with a list of things we wanted to focus on during the entire process.
 
 * high quality of speaker performance & content
-* diversity not just of speakers, but of types of content (technical, non-tech, interpersonal skills, fun) and formats (length, discussions)
+* diversity of speakers, but also of types of content (technical, non-tech, interpersonal skills, fun) and formats (length, discussions)
 * taking care of and helping our speakers
-* reviewing speakers slides, content, CFPs to make the best proposals and talks possible
+* reviewing speakers’ slides, content, CFPs to make the best proposals and talks possible
 * transparency in publicity of CFP and why we care
 * recognizing personal achievements to eliminate fear of tokenism
 
@@ -28,7 +28,13 @@ Making the choice to do the CFP open on GitHub was a scary, but I think ultimate
 
 Does that mean we were “biased” in some ways? Yes! We were absolutely biased towards selecting content that did not repeat itself, was relevant to the current industry trends, inspired and strengthened the community, and would be entertaining and enjoyable. We also were “biased” towards representing as many viewpoints, backgrounds, new voices, and styles as we could. 
 
-I expected, as we went into selection, that we would struggle with this scary conundrum: choosing between two similar talks, one of which was from a diverse candidate, with no other information to go on. In fact, the only situations where this arose, we did have other, very relevant information to help us decide. Has one of these submitters given their talk elsewhere, or is it videotaped? Is one more technical than the other? What is our technical vs non-technical content ratio? Does this person get paid to speak or teach? In every case, there were many factors that helped us decide the right balance of content versus speaker diversity. No speaker was selected based on their race or gender alone.
+As we went into selection, I expected that we would be faced with the conundrum of choosing between two similar talks, where one was from a marginalized or under-represented candidate and one was not, and no other information to base the decision on. Fortunately, this situation never arose: we always had other, very relevant information to help us decide:
+
+* Has one of these submitters given their talk elsewhere, or is it videotaped?
+* Is one more technical than the other? What is our technical vs non-technical content ratio?
+* Does this person get paid to speak or teach?
+
+In every case, there were many factors that helped us decide the right balance of content versus speaker diversity. No speaker was selected based on their race or gender alone.
 
 #### Process
 
@@ -36,7 +42,7 @@ After the CFP closed, we made the GitHub repo private. This allowed us to tag an
 
 Claudina and I both did a first pass; we tagged some number of submissions for a first pass. We chose to not accept almost half of the submissions on our first pass, based on the following factors:
 
-* a confusing, cryptic, or too terse of a proposal
+* a confusing, cryptic, or overly terse proposal
 * technology/tool specific
 * topics we felt we had seen too often or were not unique
 * topics we felt were not particularly relevant to Sass
@@ -47,11 +53,11 @@ We also struggled for a long time over the “technology or tool specific” tal
 
 Next, we tagged the remaining submissions for a second round. This left us with 34. Of these, we accepted a handful almost immediately. Some just stood out to us, for a variety of reasons, some <em>je ne sais quoi</em> that left us thinking, “we have to see this talk!”
 
-A few, we had followup questions, ranging from asking to see code excerpts to whether or not the speaker was a first-time speaker or not. We followed up with these people privately.
+For a few proposals we had followup questions, ranging from asking to see code excerpts to whether or not the speaker was a first-time speaker or not. We followed up with these people privately.
 
-Some we tagged for the Unconference. This did NOT mean we thought it was second-rate, or not good enough for the conference days. Instead, we felt that these talks were more suited to a smaller group or more organic setting. Some of these were the more tools-specific talks. A regular conference complaint is not getting to try out or implement the new skills you learned. We wanted to direct some of these talks to the more hands-on environment of the Unconference, so attendees could truly soak up the knowledge, rather than just listen.
+We tagged some proposals for the Unconference. This did NOT mean we thought it was second-rate, or not good enough for the conference days. Instead, we felt that these talks were more suited to a smaller group or more organic setting. Some of these were the more tools-specific talks. A regular conference complaint is not getting to try out or implement the new skills you learned. We wanted to direct some of these talks to the more hands-on environment of the Unconference, so attendees could truly soak up the knowledge, rather than just listen.
 
-At this point we excluded workshops and discussions. We had few enough workshop/discussion submissions that we could choose based on prior critera and the type of content we were aiming for.
+At this point we excluded workshops and discussions. We did not have enough workshop/discussion submissions that we could choose based on prior critera and the type of content we were aiming for.
 
 
 #### Scheduling
@@ -67,7 +73,7 @@ Now came the hard part! We had 21 talks left, and <em>they were all excellent.</
 
 Time for community review! We anonymized these 21 talks to remove names, employers, or any other identifying information, put in a Wufoo form and sent them to about 30 people. Some were well-known community members and previous SassConf speakers, and we included CFP mentors, some non-speaker non-well known Sass developers, as well as some people not actively involved in Sass but who have experience running other conferences or with speaker selection. Our goal here was to get a) an idea of what people wanted to hear about, and b) what experienced conference/community members felt would make for a good talk.
 
-We got 23 responses. It was only a little bit helpful. Dividing negative/neutral and positive votes, only 6 of 21 talks made it above a 1. (e.g. 14 negative/neutral votes divided by 3 positive votes, 0.2.) Of those 3, only 3 were above a 2 ratio. Most of the talks were in the 0.3-0.8 range, a solid “this is good; I’m neither jumping for joy nor bored to tears by this.” I think that people didn’t want to shoot down good talks; they were all good, and they got votes accordingly.
+We got 23 responses. Surprisingly, the feedback was less helpful than we’d hoped. Dividing negative/neutral and positive votes, only 6 of 21 talks made it above a 1. (e.g. 14 negative/neutral votes divided by 3 positive votes, 0.2.) Of those 3, only 3 were above a 2 ratio. Most of the talks were in the 0.3-0.8 range, a solid “this is good; I’m neither jumping for joy nor bored to tears by this.” I think that people didn’t want to shoot down good talks; they were all good, and they got votes accordingly.
 
 Unfortunately, we still had to choose! The 3 most positive talks were chosen; a handful of the lowest-ranking talks were not chosen. These votes were in line with our initial gut feels about these submissions. The talks in the middle we reviewed again. They were all good, and I am confident that we could have picked at random and had an excellent lineup. We looked in depth at the talks we already had accepted, and made sure our content was as diverse as possible, choosing unique topics over potentially overlapping ones. Hands down this was the most difficult part of selection... except for every time we had to tag something “not-accepted”! Heartbreaking!
 

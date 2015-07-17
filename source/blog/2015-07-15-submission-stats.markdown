@@ -12,7 +12,7 @@ We crunched the numbers from 2015 and the results were revelatory. For starters,
 
 <em><small>The above numbers are total submissions; about 14-18 submissions were tagged in 2 categories.</small></em>
 
-If workshops are 3 hours, talks 1 hour, discussions 1 hour, and lightning talks 15 minutes, that's a grand total of **83 hours of content**! We  seriously debated making SassConf two weeks long, in the end we couldn’t pick everything.
+If workshops are 3 hours, talks 1 hour, discussions 1 hour, and lightning talks 15 minutes, that's a grand total of **83 hours of content**! We  seriously debated making SassConf two weeks long, but in the end we couldn’t pick everything.
 
 <img src="/images/blog/lemur-three-foods-two-hands-noooo.gif">
 
