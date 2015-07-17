@@ -16,7 +16,7 @@ If workshops are 3 hours, talks 1 hour, discussions 1 hour, and lightning talks 
 
 <img src="/images/blog/lemur-three-foods-two-hands-noooo.gif">
 
-## 2014 vs 2015
+#### 2014 vs 2015
 
 So how did we stack up compared to last year?
 
@@ -26,14 +26,11 @@ So how did we stack up compared to last year?
 In 2014, 21 of the 78 talks were submitted by someone who had more than one in the running. In 2015, we're down to 14. We love when people submit more than one thing, as it gives us more options, but it's also great to see that we not only had more total submissions, but also had more **unique** submissions.
 
 
-### Who submitted?
+#### Who submitted?
 
-In our earlier post, <a href="/blog/posts/changing-our-cfp/">Why we’re changing our CFP process</a>, we told you that last year we had **less than 5% of submissions from women. **<em>“Women aren’t the only measure of diversity, but it’s the only quantitative data we have from 2014. Another goal for 2015 is to have more data on the SassConf community to share.”</em>
+In our earlier post, <a href="/blog/posts/changing-our-cfp/">Why we’re changing our CFP process</a>, we told you that last year we had **less than 5% of submissions from women.** <em>“Women aren’t the only measure of diversity, but it’s the only quantitative data we have from 2014. Another goal for 2015 is to have more data on the SassConf community to share.”</em>
 
 Our goal was to end up with a 50/50 submission ratio, and though we didn’t end up meeting it, we definitely improved over the last two years in this regard.
-
-
-### Here's more on our submission data...
 
 <em><small>Disclaimer: These numbers are surface level; based on photos, names, public social media information, and personal knowledge. We cannot guarantee this data is 100% accurate. We do not and would never explicitly ask for demographic information, particularly LGBTQIA, as we recognize the importance of privacy in this regard.</small></em>
 
@@ -126,7 +123,7 @@ The newly introduced CFP mentoring team was a relatively small, but a very rewar
 
 > CFP mentorship was great, and I’m really psyched we had the program. I had some great moments with Adekunle and it was awesome to see him go on to CSS Conf with the talk we worked out. Nice to see our resources help not just make great talks for SassConf but also empower the Sass community to speak elsewhere. — Scott Kellum
 
-### Reflections on the open CFP process
+#### The open CFP process
 
 Overall, we felt that we had a very successful CFP. The overall quality of submissions was top-notch, and we were pleased with the process being open on GitHub. We made sure submitting privately via email was an option (in the CFP readme as well as on Twitter), and while a few of you expressed concerns with the open format on Twitter, we didn't get any emails or private submissions.
 
@@ -134,7 +131,7 @@ We also didn’t see _one single mean comment_ on any submission. We did see qui
 
 Y’all are such a wonderfully nice community! I am so proud of you and to be among you. Thank you.
 
-## How can we improve?
+#### How can we improve?
 
 Overall, we feel we did well. We certainly did better than the previous years, and we met our general goals. That said, there are definitely areas for improvement next year.
 
@@ -152,6 +149,6 @@ Outreach is crucial, and difficult, and time consuming; we should have done more
 For CFP mentoring, our two most obvious points of improvement are to follow up with everyone who had a session before the CFP closes, and to be better at assigning sessions. We had 4 mentees not submit, and I wonder what would have happened if we had gotten back in touch with them before the CFP was over. We also struggled (as volunteer groups do) with staying on top of incoming requests and scheduling sessions. In the future we can do better by having one person assign sessions, rather than asking the group who is available.
 
 
-## Suggestions?
+#### Suggestions?
 
 More than anything, our goal was to make this year's CFP better for you as submitters, and to reflect the diversity of the Sass community. If there's anything you think we could have done better (or did well, we like compliments too!) please don't hesitate to reach out: <a href="mailto:elyse@sassconf.com">elyse[at]sassconf[dot]com</a> or<a href="mailto:claudina@sassconf.com">claudina[at]sassconf[dot]com</a>. You can also tweet at us at <a href="http://twitter.com/sassconf">@SassConf</a>.

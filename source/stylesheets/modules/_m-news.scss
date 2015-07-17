@@ -51,7 +51,7 @@ a.news-title {
 
 .news-snippet p {
     width: auto; // override paragraph width containment
-    font-weight: 400;
+    font-family: $news-font;
 }
 
 .news-archive-link {

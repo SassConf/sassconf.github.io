@@ -61,6 +61,7 @@ a:focus {
 // paragraph widths
 
 p {
+  // font-family: $news-font;
   @include media(grid-med) {
     width: 35%;
   }
