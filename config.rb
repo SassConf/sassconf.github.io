@@ -47,8 +47,9 @@ page "/blog/index.html", :layout => :layout
 # activate :automatic_image_sizes
 
 # Activate autoprefixer
-activate :autoprefixer
-
+activate :autoprefixer do |config|
+  config.inline   = true
+end
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
