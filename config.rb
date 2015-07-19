@@ -4,7 +4,11 @@
 
 # Change Compass configuration
 compass_config do |config|
-  config.output_style = :compressed
+  if environment == :development 
+    config.output_style = :expanded
+  else
+    config.output_style = :compressed
+  end 
   require 'modular-scale'
   require 'color-schemer'
 end
