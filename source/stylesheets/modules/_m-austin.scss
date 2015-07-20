@@ -1,0 +1,15 @@
+.m-austin {
+    background: $about-bg;
+    color: $white;
+    padding: ms(1);
+    h4 {
+        color: $white;
+    }
+    a, a:active, a:visited {
+        color: $gold;
+        text-decoration: none;
+    }
+    a:focus, a:hover {
+        text-decoration: none;
+    }
+}
