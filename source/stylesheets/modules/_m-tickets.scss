@@ -10,9 +10,10 @@
             margin-top: 0;
             line-height: 1.2;
         }
-        p.meta {
+        p, p.meta {
             margin-top: .5em;
         }
+        p.discount {color: $gold;}
     }
 }
 

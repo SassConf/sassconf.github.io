@@ -3,6 +3,11 @@
   color: $alt-text-color;
   background-color: $background-color;
   text-align: center;
+  p {
+    width: auto;
+    color: $gold;
+    text-align: center;
+  }
 }
 
 .tagline {
