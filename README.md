@@ -1,25 +1,20 @@
 # Contributing to SassConf.com
 
-Howdy, thanks so much for helping make our site better. You don't need to fork the repo to make small corrections. Github snazzily handles forking from the web UI. If you'd like to make a substantial change, we ask that your fork the repo. 
+Howdy, thanks so much for helping make our site better! You don't need to fork the repo to make small corrections. Github snazzily handles forking from the web UI. If you'd like to make a substantial change, we ask that your fork the repo. 
 
-**All pull requests and changes should be against the `source` branch.**
+#### All pull requests and changes should be against the `source` branch.
 
-Our site is powered by [HarpJS](http://harpjs.com/), a simple Node based static webserver with built in preprocessing. You'll need NodeJS and NPM, which now comes with Node. Check out the [Node docs](https://nodejs.org/) for directions getting Node on your machine. 
+Our site is powered by [Middleman](https://middlemanapp.com/), a simple static site generator with built in preprocessing.
 
-If you have Node already, you'll need to get HarpJS modules by running
+## Quickstart
 
-```sudo npm install -g harp```
+To get things running locally, you'll need to have Ruby (preferably with rvm) and [bundler](http://bundler.io/) installed to manage Ruby gems.
 
-`cd` into the repo and run `npm install` to grab all the necessities. Followed by `gulp bower` to install our external style dependencies. 
+1. clone the repo and check out the `source` branch
+2. in Terminal, run `bundle install`
+3. run `bundle exec middleman` to run the server; it will process Sass and livereload on Sass and template changes.
 
-Finally, run `harp server` to start everything up. 
-
-If you have any questions or run into snags, tweet @sasconf.com or email us info[at]sassconf.conf. 
+Submit a PR with your changes & we'll review and merge!
 
 
-## Todos
-
-- [ ] Directions for forking the repo
-- [ ] Directions for contributing directly from Github UI
-- [ ] Browsersync
-- [ ] Add engine dependencies to `package.json`
+If you have any questions or run into snags, tweet @sassconf.com or email us admin at sassconf.com
