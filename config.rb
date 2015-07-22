@@ -4,11 +4,11 @@
 
 # Change Compass configuration
 compass_config do |config|
-  if environment == :development 
+  if environment == :development
     config.output_style = :expanded
   else
     config.output_style = :compressed
-  end 
+  end
   require 'modular-scale'
   require 'color-schemer'
 end
@@ -76,4 +76,9 @@ configure :build do
   activate :minify_javascript
   activate :gzip
   activate :minify_html
+end
+
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.branch   = 'master'
 end
