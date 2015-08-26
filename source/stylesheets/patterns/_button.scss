@@ -23,6 +23,9 @@
     @extend %button;
     background: $pink;
     @include ms-respond(font-size, .65);
+    @include media(grid-sm) {
+        padding: 20px;
+    }
     &:hover {
         background: darken($pink,8);
         transition: 1s ease background;

@@ -61,6 +61,9 @@ a:focus {
 // paragraph widths
 
 p {
+  @include media(grid-sm) {
+    line-height: 1.2;
+  }
   @include media(grid-med) {
     width: 35%;
   }

@@ -4,36 +4,27 @@
     padding: ms(4) 0;
     h3, h4, h5 {color: $white;}
     h4 {max-width: 50%;}
-    .button-container {margin-bottom: 1em;}
+
+
     @include media(grid-sm) {
         h5 {
             margin-top: 0;
             line-height: 1.2;
         }
+
         p, p.meta {
             margin-top: .5em;
         }
-        p.discount {color: $gold;}
+
+        p.discount {
+            color: $gold;
+        }
+    }
+
+    .button-container {
+        margin-bottom: 4em;
     }
 }
-.scholarships-form {
-	background: $about-bg;
-  color: $white;
-	text-align: center;
-	font-size: 1.5em;
-	line-height: 1.3;
-	padding-top: 10px;
-	padding-bottom: 10px;
-
-	a {color:$gold;}
-
-	article {
-		padding-top: 1em;
-		padding-bottom: 1em;
-	}
-
-}
-
 
 .ticket-types {
     padding: ms(2) 0 0 0;
