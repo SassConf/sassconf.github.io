@@ -26,9 +26,9 @@ First I'd like to highlight our four invited speakers for 2015.
                 <div class="speaker-circle">
                     <img src="/images/speakers/tab-atkins.jpg">
                 </div>
-                <div class="speaker-name">Tab <span class="speaker-lastname">Atkins</span></div>
+                <div class="speaker-name">Tab <span class="speaker-lastname">Atkins-Bittner</span></div>
                 <div class="speaker-twitter"><a href="http://twitter.com/tabatkins">@tabatkins</a></div>
-                <div class="speaker-location">Sunnyvale, CA</div>
+                <div class="speaker-location">Mountain View, CA</div>
             </div>
 
             <div class="speaker speaker-invited">
@@ -90,9 +90,9 @@ Your speakers chosen from submissions are a great, diverse group, and I'm amazed
 
         <div class="speaker">
             <div class="speaker-circle">
-                <img src="/images/speakers/daniel-na.jpg">
+                <img src="/images/speakers/dan-na.jpg">
             </div>
-            <div class="speaker-name">Daniel <span class="speaker-lastname">Na</span></div>
+            <div class="speaker-name">Dan <span class="speaker-lastname">Na</span></div>
             <div class="speaker-twitter"><a href="http://twitter.com/dxna">@dxna</a></div>
             <div class="speaker-location">New York, NY</div>
         </div>
