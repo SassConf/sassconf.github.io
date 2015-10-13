@@ -1,14 +1,26 @@
 .m-hero {
   overflow: hidden;
   color: $alt-text-color;
-  background-color: $background-color;
+  // background: url('/images/sassconf-header.png') center center no-repeat;
+  // background-size: 55%;
+  background-color: $purple;
   text-align: center;
+  min-height: 520px;
   p {
     width: auto;
     color: $gold;
-    text-align: center;
+    text-align: right;
+  }
+  .hero-image {
+    width: 85%;
+  }
+  .button-container {
+    // override this container to move button to the right
+    margin: 0;
+    text-align: right;
   }
 }
+
 
 .tagline {
   margin: 0 auto;

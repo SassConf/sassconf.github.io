@@ -13,32 +13,122 @@ h1, h2, h3, h4, h5, h6 {
   * + & {
     margin-top: ms(-1);
   }
-  font-family: $header-font;
 }
 
 h6 {
   @include ms-respond(font-size, 1);
+  font-family: $header-font;
 }
 h5 {
   @include ms-respond(font-size, 2);
+  font-family: $header-font;
 }
 h4 {
   @include ms-respond(font-size, 3);
   font-weight: 600;
   color: $text-color;
   text-transform: uppercase;
+  font-family: $header-font;
 }
 h3 {
   @include ms-respond(font-size, 4);
+  font-family: $header-font;
 }
 h2 {
-  @include ms-respond(font-size, 5);
+  @include ms-respond(font-size, 6);
+  font-family: $sub-header-font;
+  //color: $pink;
 }
 h1 {
   @include ms-respond(font-size, 5);
+  font-family: $header-font;
   text-transform: uppercase;
-  font-weight: 600;
+  //font-weight: 600;
 }
+
+@mixin sub-header($background) {
+  display: inline-block;
+  padding: 0 .2em;
+  margin-left: 0.5em;
+  letter-spacing: 0.02em;
+
+  @if $background == white {
+    background-color: $white;
+    color: $pink;
+
+  } @else if $background == purple {
+    background-color: $purple;
+    color: $white;
+
+  } @else if $background == blue {
+    background-color: $blue;
+    color: $white;
+
+  } @else if $background == black {
+    background-color: $about-bg;
+    color: $white;
+
+  }
+
+}
+
+@mixin sub-header__stripes($background) {
+  height: 10px;
+  margin-top: -5.5em;
+  padding-left: 0.3em;
+
+  @if $background == white {
+    border-top: 4px solid $blue;
+    border-bottom: 4px solid $blue;
+
+  } @else if $background == purple {
+    border-top: 4px solid $blue;
+    border-bottom: 4px solid $blue;
+
+  } @else if $background == blue {
+    border-top: 4px solid $gold;
+    border-bottom: 4px solid $gold;
+
+  } @else if $background == black {
+    border-top: 4px solid $green;
+    border-bottom: 4px solid $green;
+  }
+}
+
+.sub-header.header--white {
+  @include sub-header(white);
+
+  & + .sub-header__stripes {
+    @include sub-header__stripes(white);
+  }
+}
+
+.sub-header.header--purple {
+  @include sub-header(purple);
+
+  & + .sub-header__stripes {
+    @include sub-header__stripes(purple);
+  }
+}
+
+.sub-header.header--blue {
+  @include sub-header(blue);
+
+  & + .sub-header__stripes {
+    @include sub-header__stripes(blue);
+  }
+}
+
+.sub-header.header--black {
+  @include sub-header(black);
+
+  & + .sub-header__stripes {
+    @include sub-header__stripes(black);
+  }
+}
+
+
+.sub-header__container {height: 5em; margin-bottom: 2.5em;}
 
 .dot {
   color: transparentize($text-color,.35);

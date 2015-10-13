@@ -20,3 +20,13 @@ var one_day=1000*60*60*24
 // Find Days Until box and put in the correct number
 document.getElementById('daysuntil-number').innerHTML = (Math.ceil((conference.getTime()-today.getTime())/(one_day)));
 
+$(document).ready(function(){
+  var $subHeader = $('.sub-header');
+  var $subHeaderStripes = $('<div class="sub-header__stripes"></div>');
+  var $subHeaderContainer = $('<div class="sub-header__container"></div>');
+
+  $subHeader.wrap($subHeaderContainer);
+  $subHeader.after($subHeaderStripes);
+
+  //$subHeader.append($subHeaderStripes);
+});
