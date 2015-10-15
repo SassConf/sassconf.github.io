@@ -1,8 +1,6 @@
 .m-hero {
   overflow: hidden;
   color: $alt-text-color;
-  // background: url('/images/sassconf-header.png') center center no-repeat;
-  // background-size: 55%;
   background-color: $purple;
   text-align: center;
   min-height: 520px;
@@ -17,6 +15,7 @@
   .button-container {
     // override this container to move button to the right
     margin: 0;
+    margin-top: -65px; // temporary for discount code
     text-align: right;
   }
 }
