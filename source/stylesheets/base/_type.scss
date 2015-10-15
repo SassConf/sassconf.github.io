@@ -77,11 +77,17 @@ h1 {
 
 @mixin sub-header__stripes($background) {
   height: 10px;
-  margin-top: -4em;
   padding-left: 0.3em;
 
+
+  @include media(grid-sm) {
+    margin-top: -38px;
+  }
   @include media(grid-med) {
-    margin-top: -4.5em;
+    margin-top: -51px;
+  }
+  @include media(grid-lg) {
+    margin-top: -70px;
   }
 
   @if $background == white {

@@ -1,0 +1,56 @@
+.m-workshops {
+    padding: ms(4) 0;
+
+    .workshop {
+        margin: 4em 0;
+        background: #f2f2f2;
+        border: 1px solid #ccc;
+        padding: 40px;
+        border-radius: 4px;
+
+        p, ul {
+            font-family: $news-font;
+            width: 100%;
+            font-size: 100%;
+        }
+        h6 {
+            text-transform: uppercase;
+            margin-top: 2em;
+        }
+    }
+
+
+    .price {
+        font-weight: bold;
+        margin-left: 10px;
+    }
+
+    .workshop-name {
+        text-transform: uppercase;
+        margin-bottom: 2em;
+    }
+
+    .workshop-speaker {
+        float: left;
+        margin-right: 60px;
+    }
+
+    .speaker-circle {
+        border-radius: 100%;
+        overflow: hidden;
+        margin: 0 auto 1em;
+        width: 100px;
+        height: 100px;
+        @include media(grid-med) {
+            width: 160px;
+            height: 160px;
+        }
+        @include media(grid-lg) {
+            width: 220px;
+            height: 220px;
+        }
+        img {
+            max-height: 105%;
+        }
+    }
+}

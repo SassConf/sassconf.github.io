@@ -3,7 +3,10 @@
   color: $alt-text-color;
   background-color: $purple;
   text-align: center;
-  min-height: 520px;
+  @include media(grid-md) {
+    min-height: 520px;
+  }
+
   .highlight {
     width: auto;
     text-align: right;
