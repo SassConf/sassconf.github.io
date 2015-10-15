@@ -16,11 +16,6 @@ article {
     padding: ms(6) ms(3);
   }
 
-  .headline {
-    @include ms-respond(font-size, 5);
-    font-family: $handwritten;
-  }
-
 }
 
 a.back-to-top {

@@ -35,10 +35,10 @@ h3 {
   font-family: $header-font;
 }
 h2 {
-  //@include ms-respond(font-size, 5);
+  @include ms-respond(font-size, 5);
   font-size: 4em;
   font-family: $sub-header-font;
-  //color: $pink;
+  text-transform: uppercase;
 
   @include media(grid-med) {
     @include ms-respond(font-size, 5);
@@ -48,16 +48,12 @@ h1 {
   @include ms-respond(font-size, 5);
   font-family: $header-font;
   text-transform: uppercase;
-  //font-weight: 600;
 }
 
 @mixin sub-header($background) {
   display: inline-block;
   padding: 0 .2em;
   margin-left: 0.5em;
-  letter-spacing: 0.02em;
-
-
 
   @if $background == white {
     background-color: $white;
@@ -85,24 +81,24 @@ h1 {
   padding-left: 0.3em;
 
   @include media(grid-med) {
-    margin-top: -3.5em;
+    margin-top: -4.5em;
   }
 
   @if $background == white {
-    border-top: 4px solid $blue;
-    border-bottom: 4px solid $blue;
+    border-top: 3px solid $blue;
+    border-bottom: 3px solid $blue;
 
   } @else if $background == purple {
-    border-top: 4px solid $blue;
-    border-bottom: 4px solid $blue;
+    border-top: 3px solid $blue;
+    border-bottom: 3px solid $blue;
 
   } @else if $background == blue {
-    border-top: 4px solid $gold;
-    border-bottom: 4px solid $gold;
+    border-top: 3px solid $gold;
+    border-bottom: 3px solid $gold;
 
   } @else if $background == black {
-    border-top: 4px solid $green;
-    border-bottom: 4px solid $green;
+    border-top: 3px solid $green;
+    border-bottom: 3px solid $green;
   }
 }
 
@@ -139,7 +135,10 @@ h1 {
 }
 
 
-.sub-header__container {height: 5em; margin-bottom: 2.5em;}
+.sub-header__container {
+  height: 5em;
+  margin-bottom: 2.5em;
+}
 
 .dot {
   color: transparentize($text-color,.35);

@@ -155,13 +155,14 @@
 // Venue module is basically a quote with some other stuff
 
 .m-venue {
-    background-image: url("/images/backgrounds/brazoshall.jpeg");
+    background-image: url("/images/backgrounds/brewandbrew.jpg");
     @include media(grid-xl) {
         background-position: 50% 70%;
     }
 }
 
 .m-venue {
+
     .highlight {
         background: $pink;
         box-shadow: .25em 0 0 $pink,
@@ -174,7 +175,10 @@
         float: right;
     }
 }
-.m-venue-content {padding-bottom: ms(5);}
+.m-venue-content {
+    padding: ms(4) 0;
+    padding-bottom: ms(5);
+}
 
 
 // Days Until counter is basically a quote but with a counter and it's centered
