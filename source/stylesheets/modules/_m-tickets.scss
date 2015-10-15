@@ -1,4 +1,5 @@
-.m-tickets {
+.m-tickets,
+.m-workshops {
 	background: $blue;
     color: $white;
     padding: ms(4) 0;
@@ -16,9 +17,6 @@
             margin-top: .5em;
         }
 
-        p.discount {
-            color: $gold;
-        }
     }
 
     .button-container {
@@ -37,14 +35,16 @@
     }
 }
 
-.ticket {
-	display: inline-block;
-    margin-bottom: 0;
-    @include media(grid-med) {
-        width: 400px;
-    }
-    @include media(grid-xl) {
-        width: 600px;
+.m-tickets {
+    .ticket {
+    	display: inline-block;
+        margin-bottom: 0;
+        @include media(grid-med) {
+            width: 400px;
+        }
+        @include media(grid-xl) {
+            width: 600px;
+        }
     }
 }
 

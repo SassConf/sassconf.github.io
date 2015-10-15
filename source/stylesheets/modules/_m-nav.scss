@@ -10,19 +10,23 @@
 
 .m-nav__menu {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
-    align-content: center;
+    align-content: left;
     flex-direction: column;
     @include media(grid-med) {
         flex-direction: row;
+        flex: 1 0 100px;
+        flex-wrap: wrap;
+    }
+    @include media(grid-lg) {
+        flex: 1 0 200px;
+        flex-wrap: nowrap;
     }
 }
 
 a.m-nav__link {
     color: $white;
-    order: 1;
     padding: 12px 24px;
     text-decoration: none;
     font-weight: 400;
@@ -35,6 +39,12 @@ a.m-nav__link {
     &:active {
         background: $gold;
         color: $white;
+    }
+
+    &.coc {
+        @include media(grid-lg) {
+            flex: 4 0 120px;
+        }
     }
 
 }
