@@ -29,11 +29,8 @@
     margin: 0 auto 20px;
     cursor: pointer;
 
-    @include media(grid-small) {
-    }
 
     @include media(grid-lg) {
-
         &:not(:last-child) {
           margin-right: 1em;
         }

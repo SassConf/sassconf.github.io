@@ -3,7 +3,7 @@
   color: $alt-text-color;
   background-color: $purple;
   text-align: center;
-  @include media(grid-md) {
+  @include media(grid-med) {
     min-height: 520px;
   }
 
