@@ -11,13 +11,16 @@
     width: auto;
     text-align: right;
   }
+  article {
+    padding-top: 2em;
+  }
   .hero-image {
-    width: 85%;
+    width: 75%;
+    margin-top: -50px;
   }
   .button-container {
     // override this container to move button to the right
     margin: 0;
-    margin-top: -65px; // temporary for discount code
     text-align: right;
   }
 }
