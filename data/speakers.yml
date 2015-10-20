@@ -1,233 +1,245 @@
 -
-	first: 'Tab'
-	last: 'Atkins-Bittner'
-	location: 'Austin'
-	type: 'short'
-	invited: true,
-	description: ''
-	social:
-		github:
-		twitter: 'tabatkins'
-		instagram:
-		web:
+  name: 'Tab Atkins-Bittner'
+  slug: "tab-atkins"
+  location: 'Austin'
+  type: 'short'
+  invited: true
+  description:
+  social:
+    github:
+    twitter: 'tabatkins'
+    instagram:
+    web:
 -
-	first: 'Julie'
-	last: ''
-	location: 'Ypsilanti, MI'
-	type: 'short'
-	description: ''
-	social:
-		github:
-		twitter: 'jewlofthelotus'
-		instagram:
-		web:
+  name: 'Julie Cameron'
+  location: 'Ypsilanti, MI'
+  type: 'short'
+  invited:
+  description:
+  social:
+    github:
+    twitter: 'jewlofthelotus'
+    instagram:
+    web:
 -
-name: 'Mirim Suzuanne'
-location: 'Denver, CO'
-type: 'discussion'
-description: ''
-social:
-	github:
-	twitter: 'ericmsuzanne'
-	instagram:
-	web:
+  name: 'James Steinbach'
+  location: 'Denver, CO'
+  type: 'short'
+  description: ''
+  social:
+    github:
+    twitter: 'jdsteinbach'
+    instagram:
+    web:
 -
-name: 'James Steinbach'
-location: 'Denver, CO'
-type: 'short'
-description: ''
-social:
-	github:
-	twitter: 'jdsteinbach'
-	instagram:
-	web:
+  name: 'Miriam Nadler'
+  location: 'Brooklyn, NY'
+  type: 'short'
+  description: ''
+  social:
+    github:
+    twitter: 'antimytheme'
+    instagram:
+    web:
 -
-name: 'Miriam Nadler'
-location: 'Brooklyn, NY'
-type: 'short'
-description: ''
-social:
-	github:
-	twitter: 'antimytheme'
-	instagram:
-	web:
+  name: 'Dan Na'
+  location: 'New York, NY'
+  type: 'short'
+  description: ''
+  social:
+    github:
+    twitter: 'dxna'
+    instagram:
+    web:
 -
-name: 'Dan Na'
-location: 'New York, NY'
-type: 'short'
-description: ''
-social:
-	github:
-	twitter: 'dxna'
-	instagram:
-	web:
+  name: 'Tim Hettler'
+  location: 'Brooklyn, NY'
+  type: 'short'
+  description: ''
+  social:
+    github:
+    twitter: 'timhettler'
+    instagram:
+    web:
 -
-name: 'Tim Hettler'
-location: 'Brooklyn, NY'
-type: 'short'
-description: ''
-social:
-	github:
-	twitter: 'timhettler'
-	instagram:
-	web:
+  name: 'Bernard Yu'
+  location: 'Washington, DC'
+  type: 'discussion'
+  description: ''
+  social:
+    github:
+    twitter: 'thebestsophist'
+    instagram:
+    web:
 -
-name: 'Bernard Yu'
-location: 'Washington, DC'
-type: 'discussion'
-description: ''
-social:
-	github:
-	twitter: 'thebestsophist'
-	instagram:
-	web:
+  name: 'Ally Palanzi'
+  location: 'Washington, DC'
+  type: 'discussion'
+  description: ''
+  social:
+    github:
+    twitter: 'mylifeasalllly'
+    instagram:
+    web:
 -
-name: 'Ally Palanzi'
-location: 'Washington, DC'
-type: 'discussion'
-description: ''
-social:
-	github:
-	twitter: 'mylifeasalllly'
-	instagram:
-	web:
+  name: 'Jonathan Cutrell'
+  location: 'Chattanooga, TN'
+  type: 'short'
+  description: ''
+  social:
+    github:
+    twitter: 'jcutrell'
+    instagram:
+    web:
 -
-name: 'Jonathan Cutrell'
-location: 'Chattanooga, TN'
-type: 'short'
-description: ''
-social:
-	github:
-	twitter: 'jcutrell'
-	instagram:
-	web:
+  name: 'Natalya Shelburne'
+  location: 'Austin, TX'
+  type: 'short'
+  description: ''
+  social:
+    github:
+    twitter: 'natalyathree'
+    instagram:
+    web:
 -
-name: 'Natalya Shelburne'
-location: 'Austin, TX'
-type: 'short'
-description: ''
-social:
-	github:
-	twitter: 'natalyathree'
-	instagram:
-	web:
+  name: 'Lourdes Montano'
+  location: 'Buenos Aires, ARG'
+  type: 'short'
+  description: ''
+  social:
+    github:
+    twitter: 'loumontano'
+    instagram:
+    web:
 -
-name: 'Lourdes Montano'
-location: 'Buenos Aires, ARG'
-type: 'short'
-description: ''
-social:
-	github:
-	twitter: 'loumontano'
-	instagram:
-	web:
+  name: 'Lee Ann Kinney'
+  location: 'Philadelphia, PA'
+  type: 'short'
+  description: ''
+  social:
+    github:
+    twitter: '_leekinney'
+    instagram:
+    web:
 -
-name: 'Lee Ann Kinney'
-location: 'Philadelphia, PA'
-type: 'short'
-description: ''
-social:
-	github:
-	twitter: '_leekinney'
-	instagram:
-	web:
+  name: 'Roy Tomeij'
+  location: 'Amsterdam, NLD'
+  type: 'talk'
+  description: ''
+  social:
+    github:
+    twitter: 'roy'
+    instagram:
+    web:
 -
-name: 'Roy Tomeij'
-location: 'Amsterdam, NLD'
-type: 'talk'
-description: ''
-social:
-	github:
-	twitter: 'roy'
-	instagram:
-	web:
+  name: 'Glen Maddern'
+  location: 'Melbourne, AUS'
+  type: 'talk'
+  description: ''
+  social:
+    github:
+    twitter: 'glenmaddern'
+    instagram:
+    web:
 -
-name: 'Glen Maddern'
-location: 'Melbourne, AUS'
-type: 'talk'
-description: ''
-social:
-	github:
-	twitter: 'glenmaddern'
-	instagram:
-	web:
+  name: 'Alicia Liu'
+  location: 'San Francisco, CA'
+  type: 'talk'
+  description: ''
+  social:
+    github:
+    twitter: 'aliciatweet'
+    instagram:
+    web:
 -
-name: 'Alicia Liu'
-location: 'San Francisco, CA'
-type: 'talk'
-description: ''
-social:
-	github:
-	twitter: 'aliciatweet'
-	instagram:
-	web:
+  name: 'Chris Sauve'
+  location: 'Ottawa, ON, CAN'
+  type: 'short'
+  description: ''
+  social:
+    github:
+    twitter: '_lemonmade'
+    instagram:
+    web:
 -
-name: 'Chris Sauve'
-location: 'Ottawa, ON, CAN'
-type: 'short'
-description: ''
-social:
-	github:
-	twitter: '_lemonmade'
-	instagram:
-	web:
+  name: 'Stacy Kvernmo'
+  location: 'Aurora, IL'
+  type: 'short'
+  description: ''
+  social:
+    github:
+    twitter: 'funstacy'
+    instagram:
+    web:
 -
-name: 'Stacy Kvernmo'
-location: 'Aurora, IL'
-type: 'short'
-description: ''
-social:
-	github:
-	twitter: 'funstacy'
-	instagram:
-	web:
+  name: 'Eva Ferreira'
+  location: 'Buerno Aires, ARG'
+  type: 'workshop'
+  description: ''
+  social:
+    github:
+    twitter: 'evaferreira92'
+    instagram:
+    web:
 -
-name: 'Eva Ferreira'
-location: 'Buerno Aires, ARG'
-type: 'workshop'
-description: ''
-social:
-	github:
-	twitter: 'evaferreira92'
-	instagram:
-	web:
+  name: 'Rachel Ober'
+  location: 'Brooklyn, NY'
+  type: 'workshop'
+  title: "The Portable Pattern Guide"
+  description: |
+    A pattern guide is more than a set of styles. It's a contract between product and development. Our job is to make something easy to understand and portable for every day use and contribution.
+
+    ## Topics being covered:
+
+    * Extract your pattern guide into a reusable package.
+    * The basics for you Sass Pattern Guide
+    * Setting up a linter
+    * Separating our your folders
+    * Identify repeating elements
+    * Deciding the best way to package your front end for your company/team
+    * A review of gems/npm/grunt
+    * Setting up a new project for your extracted pattern guide
+    * Tips for displaying your pattern guide and why it’s important
+    * Hosting tips
+    * Testing your pattern guide with unit tests
+    * Hooking up a specificity graph
+    * Determining how changes will be merged back into your pattern guide from submissions
+    * Including your pattern guide into old and new projects
+
+
+  bio: |
+    Rachel Ober is a Ruby on Rails developer based in New York City. A true renaissance woman, Rachel has significant experience in and a passion for user experience, user interface and cognitive design. Rachel is a senior developer at Paperless Post where she serves as technical mentor for all front end developers on the development team and leads front end development for the company. She also teaches the ins and outs of Rails at General Assembly for their Back End Ruby on Rails course. Rachel encourages other women developers to hone their skills by contributing to the 3-day conference Write/Speak/Code as a co-organizer. Founded in 2013, Rachel organizes and volunteers her time teaching women Ruby and Ruby on Rails through RailsBridge NYC. Rachel lives in Brooklyn with her husband and fur-child Isabella and loves scrapbooking and card making.
+  social:
+    github: 'rachelober'
+    twitter: 'rachelober'
+    urls: 'rachelober.com'
 -
-name: 'Rachel Ober'
-location: 'Brooklyn, NY'
-type: 'workshop'
-description: ''
-social:
-	github:
-	twitter: 'rachelober'
-	instagram:
-	web:
+  name: 'Lara Schenck'
+  location: 'New York, NY'
+  type: 'discussion'
+  description: ''
+  social:
+    github:
+    twitter: 'lara126'
+    instagram:
+    web:
 -
-name: 'Lara Schenck'
-location: 'New York, NY'
-type: 'discussion'
-description: ''
-social:
-	github:
-	twitter: 'lara126'
-	instagram:
-	web:
+  name: 'Jack Gold'
+  location: 'New York, NY'
+  type: 'short'
+  description: ''
+  social:
+    github:
+    twitter: 'jakemakethings'
+    instagram:
+    web:
 -
-name: 'Jack Gold'
-location: 'New York, NY'
-type: 'short'
-description: ''
-social:
-	github:
-	twitter: 'jakemakethings'
-	instagram:
-	web:
--
-name: 'Jesse Nichols'
-location: 'Augusta, GA'
-type: 'short'
-description: ''
-social:
-	github:
-	twitter: 'jessenicholsweb'
-	instagram:
-	web:
+  name: 'Jesse Nichols'
+  location: 'Augusta, GA'
+  type: 'short'
+  description: ''
+  social:
+    github:
+    twitter: 'jessenicholsweb'
+    instagram:
+    web:

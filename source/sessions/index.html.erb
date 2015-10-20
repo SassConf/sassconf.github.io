@@ -1,0 +1,23 @@
+---
+layout: home
+---
+
+
+<div class="speaker <% if s.invited %>speaker-invited<% end %>" >
+  <div class="speaker-circle">
+    <%= image_tag "speakers/#{s.name.split(' ').join('-').downcase}.jpg" %>
+  </div>
+  <div class="speaker-name"><%= s.name %></div>
+  <div class="speaker-twitter"><a href="http://twitter.com/tabatkins">@<%= s.social.twitter %></a></div>
+  <div class="speaker-location"><%= s.location %></div>
+
+  <h1 class="session-title"><%= s.title %><h1>
+
+
+  <% if s.description %>
+    <div class="session-description">
+      <%= markdown(s.description) %>
+    <div>
+  <% end %>
+
+</div>

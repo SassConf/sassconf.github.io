@@ -43,6 +43,11 @@ page "/blog/index.html", :layout => :layout
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 
+
+data.speakers.each do |s|
+  proxy "/sessions/#{s.name.split(' ').join('-').downcase}.html", "/sessions/index.html", :locals => { :s => s }, :ignore => true
+end
+
 ###
 # Helpers
 ###
@@ -60,11 +65,11 @@ configure :development do
 end
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def markdown(text)
+      Tilt['markdown'].new { text }.render(scope=self)
+  end
+end
 
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
