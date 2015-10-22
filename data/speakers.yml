@@ -14,7 +14,7 @@
   name: 'Julie Cameron'
   location: 'Ypsilanti, MI'
   type: 'short'
-  invited:
+  invited: true
   description:
   social:
     github:
@@ -25,6 +25,8 @@
   name: 'James Steinbach'
   location: 'Denver, CO'
   type: 'short'
+  title: "Using Musical Scales to Build Harmonious Typographic Scale"
+  id: "https://github.com/SassConf/2015-austin-speaker-cfp/issues/2"
   description: ''
   social:
     github:
@@ -34,8 +36,9 @@
 -
   name: 'Miriam Nadler'
   location: 'Brooklyn, NY'
-  type: 'short'
-  description: ''
+  type: 'long'
+  id: 17
+  description: "A Machine to Catch Ghosts: Generative Art and Sass "
   social:
     github:
     twitter: 'antimytheme'
@@ -44,8 +47,9 @@
 -
   name: 'Dan Na'
   location: 'New York, NY'
-  type: 'short'
-  description: ''
+  type: 'long'
+  id: 73
+  description: "Transitioning to SCSS at Scale"
   social:
     github:
     twitter: 'dxna'
@@ -54,7 +58,9 @@
 -
   name: 'Tim Hettler'
   location: 'Brooklyn, NY'
-  type: 'short'
+  type: 'workshop'
+  title: "Friends with benefits: How to be a meaningful contributor to the Sass development community."
+  id: 26
   description: ''
   social:
     github:
@@ -65,7 +71,8 @@
   name: 'Bernard Yu'
   location: 'Washington, DC'
   type: 'discussion'
-  description: ''
+  id: 49
+  description: "The Missing De-orbit Command: How do we decide to end stale projects?"
   social:
     github:
     twitter: 'thebestsophist'
@@ -75,7 +82,8 @@
   name: 'Ally Palanzi'
   location: 'Washington, DC'
   type: 'discussion'
-  description: ''
+  description: "Don't Speak in Code: Clear + Kind Communication Skills"
+  id: 39
   social:
     github:
     twitter: 'mylifeasalllly'
@@ -84,8 +92,9 @@
 -
   name: 'Jonathan Cutrell'
   location: 'Chattanooga, TN'
-  type: 'short'
-  description: ''
+  type: 'long'
+  id: "https://github.com/SassConf/2015-austin-speaker-cfp/issues/2"
+  description: ""
   social:
     github:
     twitter: 'jcutrell'
@@ -94,8 +103,10 @@
 -
   name: 'Natalya Shelburne'
   location: 'Austin, TX'
-  type: 'short'
-  description: ''
+  type: 'long'
+  id: https://github.com/SassConf/2015-austin-speaker-cfp/issues/10
+  title: "Practical Color Theory & Design Tips for People Who Code"
+  description: ""
   social:
     github:
     twitter: 'natalyathree'
@@ -105,7 +116,8 @@
   name: 'Lourdes Montano'
   location: 'Buenos Aires, ARG'
   type: 'short'
-  description: ''
+  id: 36
+  description: "Creating your styleguide with Sass Maps"
   social:
     github:
     twitter: 'loumontano'
@@ -115,7 +127,7 @@
   name: 'Lee Ann Kinney'
   location: 'Philadelphia, PA'
   type: 'short'
-  description: ''
+  description: "Unintentional Exclusion - Web accessibility and how we’re failing our users"
   social:
     github:
     twitter: '_leekinney'
@@ -125,7 +137,8 @@
   name: 'Roy Tomeij'
   location: 'Amsterdam, NLD'
   type: 'talk'
-  description: ''
+  id: 59
+  description: "From 0 to 80 in 40 Minutes"
   social:
     github:
     twitter: 'roy'
@@ -135,7 +148,8 @@
   name: 'Glen Maddern'
   location: 'Melbourne, AUS'
   type: 'talk'
-  description: ''
+  id: 77
+  description: "CSS Modules: turning extension into composition"
   social:
     github:
     twitter: 'glenmaddern'
@@ -144,8 +158,9 @@
 -
   name: 'Alicia Liu'
   location: 'San Francisco, CA'
-  type: 'talk'
-  description: ''
+  type: 'long'
+  id: 30,
+  description: "Slaying the Dragon: Refactoring CSS Using Sass"
   social:
     github:
     twitter: 'aliciatweet'
@@ -155,6 +170,8 @@
   name: 'Chris Sauve'
   location: 'Ottawa, ON, CAN'
   type: 'short'
+  id: 29,
+  title: "Sass Central Nervous Systems"
   description: ''
   social:
     github:
@@ -165,6 +182,8 @@
   name: 'Stacy Kvernmo'
   location: 'Aurora, IL'
   type: 'short'
+  id: "https://github.com/SassConf/2015-austin-speaker-cfp/issues/18"
+  title: "Code Reviews: Turn Humiliation into Greatness"
   description: ''
   social:
     github:
@@ -203,7 +222,7 @@
     * Hosting tips
     * Testing your pattern guide with unit tests
     * Hooking up a specificity graph
-    * Determining how changes will be merged back into your pattern guide from submissions
+    * Determining how changes will be merged back into your pattern guide from contributions
     * Including your pattern guide into old and new projects
 
 
@@ -217,7 +236,8 @@
   name: 'Lara Schenck'
   location: 'New York, NY'
   type: 'discussion'
-  description: ''
+  id: 46
+  description: 'Why the Designer Failed FizzBuzz: On Hiring, Job Titles, and Descriptions'
   social:
     github:
     twitter: 'lara126'
@@ -236,7 +256,9 @@
 -
   name: 'Jesse Nichols'
   location: 'Augusta, GA'
-  type: 'short'
+  type: 'long'
+  id: 27,
+  title: "Websites and Breakdancing"
   description: ''
   social:
     github:
