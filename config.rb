@@ -45,7 +45,7 @@ page "/blog/index.html", :layout => :layout
 
 
 data.speakers.each do |s|
-  proxy "/sessions/#{s.name.split(' ').join('-').downcase}.html", "/sessions/index.html", :locals => { :s => s }, :ignore => true
+  proxy "/speakers/#{s.name.split(' ').join('-').downcase}.html", "/speakers/index.html", :locals => { :s => s }, :ignore => true
 end
 
 ###
