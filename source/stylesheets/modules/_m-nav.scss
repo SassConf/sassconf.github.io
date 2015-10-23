@@ -8,6 +8,18 @@
     margin: 0 auto;
 }
 
+//secondary-header - AO Refactor
+
+.sec-page__header {
+    background: $purple;
+    padding: ms(2);
+    text-align: center;
+}
+
+.sec-page__header__logo {
+  width: 10em;
+}
+
 .m-nav__menu {
     display: flex;
     justify-content: flex-start;
@@ -33,6 +45,8 @@ a.m-nav__link {
     display: block;
     @include media(grid-sm) {
         display: inline;
+        width: 18%;
+        text-align: center;
     }
 
     &:hover,
@@ -42,9 +56,9 @@ a.m-nav__link {
     }
 
     &.coc {
-        @include media(grid-lg) {
-            flex: 4 0 120px;
-        }
+        // @include media(grid-lg) {
+        //     flex: 4 0 120px;
+        // }
     }
 
 }
@@ -104,4 +118,3 @@ a.m-nav__link {
     }
 
 }
-

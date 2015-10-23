@@ -1,10 +1,10 @@
 <%= partial "partials/head" %>
-<%= partial "partials/modules/subpage-nav" %>
+<!-- <%= partial "partials/modules/subpage-nav" %> -->
+<%= partial "partials/modules/sec-page__header" %>
+<%= partial "partials/modules/nav" %>
 
-<section class="m-news-archive">
-    <article>
+<section class="m-sec-page__body">
         <%= yield %>
-    </article>
 </section>
 
 <%= partial "partials/foot" %>
