@@ -12,8 +12,13 @@
 				  <div class="speaker-circle">
 				    <%= image_tag "speakers/#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.jpg" %>
 				  </div>
+
 				  <% if s.title %>
-				  	<h3 class="speaker-talk-title"><%= s.title %></h3>
+				  	<h3 class="speaker-talk-title">
+				  		<% link_to "speakers/#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.html" do %>
+				  			<%= s.title %>
+							<% end %>
+				  	</h3>
 					<% end %>
 
 				  <div class="speaker-name">
