@@ -5,7 +5,9 @@ layout: home
 
 <article class="speaker-page <% if s.invited %>speaker-invited<% end %>" >
 
-  <h1 class="session-title"><%= s.title %><h1>
+  <% if s.title %>
+    <h1 class="session-title"><%= s.title %><h1>
+  <% end %>
 
   <% if s.description %>
     <div class="session-description">
@@ -14,24 +16,34 @@ layout: home
   <% end %>
 
   <footer class="speaker">
+
     <figure class="speaker-circle">
-    <%= image_tag "speakers/#{s.name.split(' ').join('-').downcase}.jpg" %>
+      <%= image_tag "speakers/#{s.name.split(' ').join('-').downcase}.jpg" %>
     </figure>
 
-    <div class="speaker-bio"><%= markdown(s.bio) %></div>
+    <% if s.bio %>
+      <div class="speaker-bio"><%= markdown(s.bio) %></div>
+    <% end %>
 
+  <% if s.social %>
     <ul class="speaker-social">
-      <li class="speaker-twitter">
-        <a href="http://twitter.com/<%= s.social.twitter%>">@<%= s.social.twitter%></a>
-      </li>
-      <li class="speaker-github">
-        <a href="http://github.com/<%= s.social.github%>"><%= s.social.github%></a>
-      </li>
-      <li class="speaker-site">
-        <a href="<%= s.social.web%>"><%= s.social.web%></a>
-      </li>
-
+      <% if s.social.twitter %>
+        <li class="speaker-twitter">
+          <a href="http://twitter.com/<%= s.social.twitter%>">@<%= s.social.twitter%></a>
+        </li>
+      <% end %>
+      <% if s.social.github %>
+        <li class="speaker-github">
+          <a href="http://github.com/<%= s.social.github%>"><%= s.social.github%></a>
+        </li>
+      <% end %>
+      <% if s.social.web %>
+        <li class="speaker-site">
+          <a href="<%= s.social.web%>"><%= s.social.web%></a>
+        </li>
+      <% end %>
     </ul>
+  <% end %>
 
   </footer>
 
