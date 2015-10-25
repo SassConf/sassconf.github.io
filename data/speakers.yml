@@ -7,21 +7,22 @@
   description:
   does: "Google Spec Hacker"
   social:
-    github:
+    github: 'tabatkins'
     twitter: 'tabatkins'
     instagram:
-    web:
+    web: 'http://www.xanthir.com/'
 -
   name: 'Julie Cameron'
   location: 'Ypsilanti, MI'
   type: 'short'
+  title: "Using Musical Scales to Build Harmonious Typographic Scale"
   invited: true
   description:
   social:
-    github:
+    github: 'jewlofthelotus'
     twitter: 'jewlofthelotus'
     instagram:
-    web:
+    web: 'http://www.juliecameron.com/'
 -
   name: 'E. Miriam Suzanne'
   img: 'miriam-suzanne'
