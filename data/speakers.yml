@@ -1,0 +1,374 @@
+-
+  name: 'Tab Atkins-Bittner'
+  slug: "tab-atkins"
+  location: 'Austin'
+  type: 'short'
+  invited: true
+  description:
+  does: "Google Spec Hacker"
+  social:
+    github:
+    twitter: 'tabatkins'
+    instagram:
+    web:
+-
+  name: 'Julie Cameron'
+  location: 'Ypsilanti, MI'
+  type: 'short'
+  invited: true
+  description:
+  social:
+    github:
+    twitter: 'jewlofthelotus'
+    instagram:
+    web:
+-
+  name: 'E. Miriam Suzanne'
+  img: 'miriam-suzanne'
+  location: 'Denver, CO'
+  type: 'discussion'
+  invited: true
+  description:
+  does: "Oddthings, OddBird"
+  social:
+    github:
+    twitter: 'jewlofthelotus'
+    instagram:
+    web:
+-
+  name: 'James Steinbach'
+  location: 'Denver, CO'
+  type: 'short'
+  title: "Using Musical Scales to Build Harmonious Typographic Scale"
+  id: "https://github.com/SassConf/2015-austin-speaker-cfp/issues/2"
+  description: ''
+  social:
+    github:
+    twitter: 'jdsteinbach'
+    instagram:
+    web:
+-
+  name: 'Miriam Nadler'
+  location: 'Brooklyn, NY'
+  type: 'long'
+  id: 17
+  title: "A Machine to Catch Ghosts: Generative Art and Sass "
+  description: |
+    Sass has the potential to be exactly that: a machine to catch ghosts. (That line comes from Jack Spicer, whose poetry I am wholeheartedly taking out of context.)
+
+    Generative art is when you create something indirectly; it is when you create a system or process that does the creating for you. A lot of Sass could be classified as generative art. When you use a grid system instead of manually defining every margin yourself, you are giving that grid system a certain input, and it will generate the styles which comprise a layout.
+
+    I would like to talk about how the random() function in Sass provides an opportunity to explore a different kind of generative art. Whereas most @mixins and @functions will generate the same output provided the same input, random() introduces chance -- unstable stylesheets -- ghosts.
+
+    The lead-in would be a brief overview of the concept and historical placement of generative art and chance art, with some examples from literature and non-digital visual art. Examples might include Raymond Queneau or Jackson Pollock.
+
+    Demonstrations, many of them interactive, would range from topics such as randomly picking a font color to wholly randomized layouts and how random() acts with different control directives. This would take up the bulk of the allotted time.
+
+    The talk would end with a wrap-up which would tie the demonstrated techniques back into coding and art in general.
+  does: "Front-end Developer, Vox"
+  bio: "I live in Brooklyn, NY, and have lived in the northeast megalopolis for my entire life. My favorite word is megalopolis. I spend my work time as a front-end developer at Vox Media; my free time is spent making art with Sass. I am especially interested in randomization and CSS animation."
+  social:
+    github: mknadler
+    twitter: 'antimytheme'
+    web: "http://codepen.io/mknadler/"
+-
+  name: 'Dan Na'
+  location: 'New York, NY'
+  type: 'long'
+  id: 73
+  title: "Transitioning to SCSS at Scale"
+  description: |
+    CSS preprocessors like SCSS add a variety of functions that streamline CSS development: variables, nesting, functions, mixins, etc. The documentation is great, the tools are mature, and starting a new project using SCSS has a clear and straight-forward workflow. But transitioning a large legacy codebase from CSS to SCSS is a different story. CSS syntax errors that may be harmless in production can completely prevent SCSS from compiling. But fixing those errors creates a far juicier problem: will we introduce visual bugs by fixing syntax bugs?
+
+    At Etsy we faced this exact question multiplied across 2100+ CSS files. During this talk I’ll discuss the tools we used and built throughout our SCSS workflow, from the initial transformation of CSS files using Abstract Syntax Trees (ASTs) to the libsass-powered SCSS -> CSS render pipeline we have running on all development machines. I’ll cover some of the tools we’ve built in-house to mitigate some of the biggest potential pitfalls of SCSS (tracking code growth, SCSS live lint), how we ramped up our development and production services to gain confidence in our process and how this entire effort led to a single 1.2M line push that didn’t break production and had minimal impact to developer and designer workflows.
+  does: "Software Engineer, Front-end Infrastructure Team at Etsy"
+  bio: "Dan Na is a software engineer on the Front-end Infrastructure Team at Etsy. He loves tackling the growing complexity of front-end engineering, learning and teaching in a collaborative environment and solving both the technical and people problems of producing software. He’s a fan of NBA basketball, soy lattes, New York City and exploring the boroughs with his wife."
+  social:
+    github: "danielna"
+    twitter: 'dxna'
+    web: "danielna.com"
+-
+  name: 'Tim Hettler'
+  location: 'Brooklyn, NY'
+  type: 'workshop'
+  title: "How to be a meaningful contributor to the Sass development community."
+  id: 26
+  description: |
+    Sass is unique in the world of pre-processing languages because of it's vibrant and enthusiastic community. We give each other inspiration, lessons from mistakes, and a groundwork to build upon with our successes.
+
+    With so much code already being shared you might think that there is no room for your minor accomplishments. This is absolutely incorrect. Your code is awesome and you shouldn't be afraid to share it with others! More code being shared means more opportunities to learn from each other. It's critically important for us as developers to share our code, and I want to show you how.
+
+    In this workshop, we'll go over the specific concerns of open-sourcing your code and some best practices such as: writing documentation, creating tests, managing dependencies, and registering your code in package-management services like Bower. By the end of the workshop, all participants will have "broken the ice" and contributed open-source code to the Sass community.
+
+    The Sass community needs your voice!
+
+    ## What we'll cover
+    * DevOps stuff (build tools, github, etc) * Design patterns for writing reusable code
+    * Dependency management with Bower, npm, and Bundler
+    * Using True to test functions
+    * Using git hooks to prevent committing broken code
+    * Registering your package with Bower, npm & Sache
+    * Semantic Versioning
+    * Writing a useful README
+    * Documentation with SassDoc
+
+  does: "Senior Software Engineer, R/GA"
+  bio: "Tim Hettler is a Senior Software Engineer at R/GA in New York City. He's been working as a web professional for over 10 years, back when creating a box with rounded-corners took at least 2 images. He's passionate about CSS preprocessors (duh), web application development, and utilizing front-end build tools work more efficiently. Ideally this gives him more time to ride his bike, go birdwatching, or bake pies."
+  social:
+    github:
+    twitter: 'timhettler'
+    instagram:
+    web:
+-
+  name: 'Bernard Yu'
+  location: 'Washington, DC'
+  type: 'discussion'
+  id: 49
+  title: "The Missing De-orbit Command: How do we decide to end stale projects?"
+  social:
+    github:
+    twitter: 'thebestsophist'
+    instagram:
+    web:
+-
+  name: 'Ally Palanzi'
+  location: 'Washington, DC'
+  type: 'discussion'
+  title: "Don't Speak in Code: Clear + Kind Communication Skills"
+  id: 39
+  social:
+    github:
+    twitter: 'mylifeasalllly'
+    instagram:
+    web:
+-
+  name: 'Jonathan Cutrell'
+  location: 'Chattanooga, TN'
+  type: 'discussion'
+  id: "https://github.com/SassConf/2015-austin-speaker-cfp/issues/2"
+  title: "Attributes-driven Styles: The Good, the Bad, and the Unknown"
+  description:
+  social:
+    github:
+    twitter: 'jcutrell'
+    instagram:
+    web:
+-
+  name: 'Natalya Shelburne'
+  location: 'Austin, TX'
+  type: 'long'
+  id: https://github.com/SassConf/2015-austin-speaker-cfp/issues/10
+  title: "Practical Color Theory & Design Tips for People Who Code"
+  description: ""
+  social:
+    github:
+    twitter: 'natalyathree'
+    instagram:
+    web:
+-
+  name: 'Lourdes Montano'
+  location: 'Buenos Aires, ARG'
+  type: 'short'
+  id: 36
+  title: "Creating your styleguide with Sass Maps"
+  social:
+    github:
+    twitter: 'loumontano'
+    instagram:
+    web:
+-
+  name: 'Lee Ann Kinney'
+  location: 'Philadelphia, PA'
+  type: 'short'
+  id: 78
+  title: "Unintentional Exclusion - Web accessibility and how we’re failing our users"
+  description: |
+    Web accessibility is usually thought of as something that is hard to do or expensive to work into a project. It is also thought of as something that is only beneficial to users with severe or noticeable disabilities. Many times accessible designs are a result of good UX practices and can benefit all users. Creating accessible websites can help our aging populations navigate the web easier as well as someone with low literacy or a learning disability.
+
+    If you add up all the users in the world who have a disability, whether mild or severe, long-term or temporary, this number far surpasses the amount of people using IE8. Why do we put more consideration into browser support than we do people with disabilities?
+
+    The web has become an essential source of information and it is our responsibility as designers and developers to take all users into consideration and build a better web experience for everyone. Some key points this talk will cover will be:
+
+    * A brief overview of accessible front-end design
+    * Some simple guidelines to make accessible websites
+    * Proof that when accessibility is built in at the beginning of a project, it is much less painful and less expensive to implement
+    * Some simple steps for auditing a website for accessibility
+    * Tools, extensions and most importantly, Sass techniques that will help you to easily incorporate accessibility into your workflow
+    * You will walk away with a better understanding of how you may be excluding certain users from your sites and immediate actions to prevent it from happening.
+  does:
+  bio: "LeeAnn is a front-end developer living in Philadelphia. She is a web accessibility advocate, events coordinator for Girl Develop It Philly and co-organizer of LadyHacks and ELA conf. In her free time, LeeAnn loves to hike, bike and camp."
+  social:
+    github: "leekinney"
+    twitter: '_leekinney'
+    instagram:
+    web: "leekinney.is"
+-
+  name: 'Roy Tomeij'
+  location: 'Amsterdam, NLD'
+  type: 'long'
+  id: 59
+  title: "From 0 to 80 in 40 Minutes"
+  description: |
+    Sass' built-in functions are incredibly powerful, while massively underused. Sure, you may occasionally use lighten() or round(). But how about str-slice(), adjust-hue() or unique-id()? This talk will address all 80 Sass functions, quickly explaining how they work and what to use them for (and yes, some will only get 5 seconds of fame).
+  does: "Speaker, trainer, Front-end Architect"
+  bio: "Roy is a speaker, trainer and front-end architect from Amsterdam, The Netherlands. He started using Sass early 2007 and hasn't written any plain ol' CSS since. By day he works on AppSignal, by night he shoots through the sky as a Sasstronaut."
+  social:
+    github:
+    twitter: 'roy'
+    instagram:
+    web:
+-
+  name: 'Glen Maddern'
+  location: 'Melbourne, AUS'
+  type: 'long'
+  id: 77
+  title: "CSS Modules: turning extension into composition"
+  description: |
+    Sass' @extend function is one of the most powerful, surprising, controversial & subtle parts of the language. We've all seen blog posts about "what you didn't know about @extend", "why @extend is so powerful", "why you shouldn't use @extend" — seemingly every possible viewpoint has someone intelligent arguing for it. It's a confusing state of affairs, yet clearly the intent of @extend is really useful — define all your styles for a component one place, but avoid duplicating output as much as possible.
+
+    Meanwhile, our relationship to markup is changing dramatically. The rise of React brings with it a new rendering model and a whole host of new techniques for writing applications, but the new ideas around styling seem extremely limited, a long way off being ready to use day-to-day.
+
+    In my talk, I'm going to explore what happens when you put these seemingly disparate technologies together, and how that's risen to a new potential standard in CSS Modules. In particular, I will:
+
+    * deconstruct @extend, showing how the algorithm works, and that it's the constraints of the language that cause the problems, not the idea itself
+    * show some of the shortcomings of JS-based styling approaches, and the useful ideas they hint at
+    * explain how the transition from static to dynamic markup marks a profound shift in our capabilities
+    * tell the story of CSS Modules, from my custom Sass @extend-based DSL to a team of 6 (including the authors of Webpack & JSPM) dreaming of a future CSS specification
+    * how you can use CSS Modules with Sass today, even if you're not using React
+  social:
+    github:
+    twitter: 'glenmaddern'
+    instagram:
+    web:
+-
+  name: 'Alicia Liu'
+  location: 'San Francisco, CA'
+  type: 'long'
+  id: 30,
+  title: "Slaying the Dragon: Refactoring CSS Using Sass"
+  social:
+    github:
+    twitter: 'aliciatweet'
+    instagram:
+    web:
+-
+  name: 'Chris Sauve'
+  location: 'Ottawa, ON, CAN'
+  type: 'short'
+  id: 29,
+  title: "Sass Central Nervous Systems"
+  description: ''
+  bio: "Chris is a relative newcomer to the world of design and development. Three years ago, he became enamoured with the joy of solving complex programming problems and left his accounting career to pursue one in front-end development. Now, he spends his days working as a front-end developer at Shopify, and his nights playing board games, ultimate, and building on open-source projects both big and small (including bigfoot, a tool for building beautiful, responsive popovers for footnotes, and an as-yet-unreleased automated pattern library generator)."
+  does: "Front-end Developer, Shopify"
+  social:
+    github: "lemonmade"
+    twitter: '_lemonmade'
+    instagram:
+    web: "http://www.lemondesign.co/"
+-
+  name: 'Stacy Kvernmo'
+  location: 'Aurora, IL'
+  type: 'short'
+  id: 18
+  title: "Code Reviews: Turn Humiliation into Greatness"
+  description:
+  does: "Front-End Developer, WebDevStudios"
+  bio: |
+    After 13 years of designing and building sites I can honestly say I love what I do. When I think about a few “game-changers” in regards to how I build websites today compared to ten years ago, I would have to say that Sass and WordPress have completely enhanced the efficiency of my workflow as a designer. Balancing a love of design and code, I am constantly experimenting with new front-end web technologies that allow for a smooth development process without sacrificing creativity.
+
+    I am a web designer and front-end developer at WebDevStudios, one of the largest WordPress design and development agencies. We love giving back to the community through speaking at events and creating and contributing to open source projects.
+
+    I am also a co-host of the Naperville WordPress Meetup Group and a fangirl of far too many podcasts.
+  social:
+    github:
+    twitter: 'funstacy'
+    instagram:
+    web:
+-
+  name: 'Eva Ferreira'
+  location: 'Buerno Aires, ARG'
+  type: 'workshop'
+  title: "Looping for Animation"
+  description: |
+    In this workshop, full of hand-on exercises, we will look into the gist of Sass’ loops for animations. Introducing the best tips to make impressive animations with a tiny quantity of code. As we take advantage of Mixins and Loops; animating color changes, creating delays and even animating SVG is simpler than ever!
+
+      ### What you will learn:
+      • How to create animations more easily
+      • How to make your code reusable
+      • How to write code faster and more efficiently
+      • How to take advantage of looping and mixins when working with animations
+
+      ### Coding Exercises
+      Attendees will need basic knowledge of HTML, CSS & Sass, and a code editor to work through the exercises. These will vary in difficulty, starting with basic animations of color ranges and finishing with an SVG animation.
+  does: "Web Design Professor, National Technological University of Argentina"
+  bio: "Evangelina Ferreira is a web design professor at the National Technological University of Argentina and an occasional freelance web developer. Evangelina has recently spoken at CSSConf AU 2015, CSSConf US 2014 and JSConf AR 2014. She loves cats and CSS."
+  social:
+    github:
+    twitter: 'evaferreira92'
+    instagram:
+    web:
+-
+  name: 'Rachel Ober'
+  location: 'Brooklyn, NY'
+  type: 'workshop'
+  title: "The Portable Pattern Guide"
+  description: |
+    A pattern guide is more than a set of styles. It's a contract between product and development. Our job is to make something easy to understand and portable for every day use and contribution.
+
+    ## Topics being covered:
+
+    * Extract your pattern guide into a reusable package.
+    * The basics for you Sass Pattern Guide
+    * Setting up a linter
+    * Separating our your folders
+    * Identify repeating elements
+    * Deciding the best way to package your front end for your company/team
+    * A review of gems/npm/grunt
+    * Setting up a new project for your extracted pattern guide
+    * Tips for displaying your pattern guide and why it’s important
+    * Hosting tips
+    * Testing your pattern guide with unit tests
+    * Hooking up a specificity graph
+    * Determining how changes will be merged back into your pattern guide from contributions
+    * Including your pattern guide into old and new projects
+
+
+  bio: |
+    Rachel Ober is a Ruby on Rails developer based in New York City. A true renaissance woman, Rachel has significant experience in and a passion for user experience, user interface and cognitive design. Rachel is a senior developer at Paperless Post where she serves as technical mentor for all front end developers on the development team and leads front end development for the company. She also teaches the ins and outs of Rails at General Assembly for their Back End Ruby on Rails course. Rachel encourages other women developers to hone their skills by contributing to the 3-day conference Write/Speak/Code as a co-organizer. Founded in 2013, Rachel organizes and volunteers her time teaching women Ruby and Ruby on Rails through RailsBridge NYC. Rachel lives in Brooklyn with her husband and fur-child Isabella and loves scrapbooking and card making.
+  social:
+    github: 'rachelober'
+    twitter: 'rachelober'
+    urls: 'rachelober.com'
+-
+  name: 'Lara Schenck'
+  location: 'New York, NY'
+  type: 'discussion'
+  id: 46
+  title: 'Why the Designer Failed FizzBuzz: On Hiring, Job Titles, and Descriptions'
+  social:
+    github:
+    twitter: 'lara126'
+    instagram:
+    web:
+-
+  name: 'Jack Gold'
+  location: 'New York, NY'
+  type: 'long'
+  title: "Polyfill your Job: Tips for doing great work (in not-so-great situations)"
+  social:
+    github:
+    twitter: 'jakemakethings'
+    instagram:
+    web:
+-
+  name: 'Jesse Nichols'
+  location: 'Augusta, GA'
+  type: 'long'
+  id: 27,
+  title: "Websites and Breakdancing"
+  description: ''
+  social:
+    github:
+    twitter: 'jessenicholsweb'
+    instagram:
+    web:

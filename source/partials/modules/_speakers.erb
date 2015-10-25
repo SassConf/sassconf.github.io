@@ -7,227 +7,30 @@
 
 		<div class="speaker-grid">
 
-				<div class="speaker speaker-invited">
-					<div class="speaker-circle">
-						<img src="images/speakers/tab-atkins.jpg">
-					</div>
-					<div class="speaker-name">Tab <span class="speaker-lastname">Atkins-Bittner</span></div>
-					<div class="speaker-twitter"><a href="http://twitter.com/tabatkins">@tabatkins</a></div>
-					<div class="speaker-location">Mountain View, CA</div>
-				</div>
+			<% data.speakers.each do |s| %>
+				<article class="speaker <% if s.invited %>speaker-invited<% end %>" >
+				  <div class="speaker-circle">
+				    <%= image_tag "speakers/#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.jpg" %>
+				  </div>
 
-				<div class="speaker speaker-invited">
-					<div class="speaker-circle">
-						<img src="images/speakers/julie-cameron.jpg">
-					</div>
-					<div class="speaker-name">Julie <span class="speaker-lastname">Cameron</span></div>
-					<div class="speaker-twitter"><a href="http://twitter.com/jewlofthelotus">@jewlofthelotus</a></div>
-					<div class="speaker-location">Ypsilanti, MI</div>
-				</div>
+				  <% if s.title %>
+				  	<h3 class="speaker-talk-title">
+				  		<% link_to "speakers/#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.html" do %>
+				  			<%= s.title %>
+							<% end %>
+				  	</h3>
+					<% end %>
 
-
-				<div class="speaker speaker-invited">
-					<div class="speaker-circle">
-						<img src="images/speakers/eric-suzanne.jpg">
-					</div>
-					<div class="speaker-name">Miriam <span class="speaker-lastname">Suzanne</span></div>
-					<div class="speaker-twitter"><a href="http://twitter.com/mirisuzanne">@mirisuzanne</a></div>
-					<div class="speaker-location">Denver, CO</div>
-				</div>
-
-			</div>
-
-			<div class="speaker-grid">
+				  <div class="speaker-name">
+				  	<%= s.name %>
+				  	</div>
+				  <div class="speaker-twitter"><a href="http://twitter.com/tabatkins">@<%= s.social.twitter %></a></div>
 
 
-				<div class="speaker">
-					<div class="speaker-circle">
-						<img src="images/speakers/james-steinbach.jpg">
-					</div>
-					<div class="speaker-name">James <span class="speaker-lastname">Steinbach</span></div>
-					<div class="speaker-twitter"><a href="http://twitter.com/jdsteinbach">@jdsteinbach</a></div>
-					<div class="speaker-location">Denver, CO</div>
-				</div>
+				  <h4 class="speaker-mini-bio"><%= s.does %></h4>
 
-
-				<div class="speaker">
-					<div class="speaker-circle">
-						<img src="images/speakers/miriam-nadler.jpg">
-					</div>
-					<div class="speaker-name">Miriam <span class="speaker-lastname">Nadler</span></div>
-					<div class="speaker-twitter"><a href="http://twitter.com/antimytheme">@antimytheme</a></div>
-					<div class="speaker-location">Brooklyn, NY</div>
-				</div>
-
-				<div class="speaker">
-					<div class="speaker-circle">
-						<img src="images/speakers/dan-na.jpg">
-					</div>
-					<div class="speaker-name">Dan <span class="speaker-lastname">Na</span></div>
-					<div class="speaker-twitter"><a href="http://twitter.com/dxna">@dxna</a></div>
-					<div class="speaker-location">New York, NY</div>
-				</div>
-
-				<div class="speaker">
-					<div class="speaker-circle">
-						<img src="images/speakers/tim-hettler.jpg">
-					</div>
-					<div class="speaker-name">Tim <span class="speaker-lastname">Hettler</span></div>
-					<div class="speaker-twitter"><a href="http://twitter.com/timhettler">@timhettler</a></div>
-					<div class="speaker-location">Brooklyn, NY</div>
-				</div>
-
-				<div class="speaker">
-					<div class="speaker-circle">
-						<img src="images/speakers/bernard-yu.jpg">
-					</div>
-					<div class="speaker-name">Bernard <span class="speaker-lastname">Yu</span></div>
-					<div class="speaker-twitter"><a href="http://twitter.com/thebestsophist">@thebestsophist</a></div>
-					<div class="speaker-location">Washington, DC</div>
-				</div>
-
-				<div class="speaker">
-					<div class="speaker-circle">
-						<img src="images/speakers/ally-palanzi.jpg">
-					</div>
-					<div class="speaker-name">Ally <span class="speaker-lastname">Palanzi</span></div>
-					<div class="speaker-twitter"><a href="http://twitter.com/mylifeasalllly">@mylifeasalllly</a></div>
-					<div class="speaker-location">Washington, DC</div>
-				</div>
-
-
-				<div class="speaker">
-					<div class="speaker-circle">
-						<img src="images/speakers/jonathan-cutrell.jpg">
-					</div>
-					<div class="speaker-name">Jonathan <span class="speaker-lastname">Cutrell</span></div>
-					<div class="speaker-twitter"><a href="http://twitter.com/jcutrell">@jcutrell</a></div>
-					<div class="speaker-location">Chattanooga, TN</div>
-				</div>
-
-				<div class="speaker">
-					<div class="speaker-circle">
-						<img src="images/speakers/natalya-shelburne.jpg">
-					</div>
-					<div class="speaker-name">Natalya <span class="speaker-lastname">Shelburne</span></div>
-					<div class="speaker-twitter"><a href="http://twitter.com/natalyathree">@natalyathree</a></div>
-					<div class="speaker-location">Austin, TX</div>
-				</div>
-
-
-				<div class="speaker">
-					<div class="speaker-circle">
-						<img src="images/speakers/lourdes-montano.jpg">
-					</div>
-					<div class="speaker-name">Lourdes <span class="speaker-lastname">Montano</span></div>
-					<div class="speaker-twitter"><a href="http://twitter.com/loumontano">@loumontano</a></div>
-					<div class="speaker-location">Buenos Aires, ARG</div>
-				</div>
-
-
-				<div class="speaker">
-					<div class="speaker-circle">
-						<img src="images/speakers/lee-kinney.jpg">
-					</div>
-					<div class="speaker-name">Lee Ann <span class="speaker-lastname">Kinney</span></div>
-					<div class="speaker-twitter"><a href="http://twitter.com/_leekinney">@_leekinney</a></div>
-					<div class="speaker-location">Philadelphia, PA</div>
-				</div>
-
-				<div class="speaker">
-					<div class="speaker-circle">
-						<img src="images/speakers/roy-tomeij.jpg">
-					</div>
-					<div class="speaker-name">Roy <span class="speaker-lastname">Tomeij</span></div>
-					<div class="speaker-twitter"><a href="http://twitter.com/roy">@roy</a></div>
-					<div class="speaker-location">Amsterdam, NLD</div>
-				</div>
-
-				<div class="speaker">
-					<div class="speaker-circle">
-						<img src="images/speakers/glen-maddern.jpg">
-					</div>
-					<div class="speaker-name">Glen <span class="speaker-lastname">Maddern</span></div>
-					<div class="speaker-twitter"><a href="http://twitter.com/glenmaddern">@glenmaddern</a></div>
-					<div class="speaker-location">Melbourne, AUS</div>
-				</div>
-
-				<div class="speaker">
-					<div class="speaker-circle">
-						<img src="images/speakers/alicia-liu.jpg">
-					</div>
-					<div class="speaker-name">Alicia <span class="speaker-lastname">Liu</span></div>
-					<div class="speaker-twitter"><a href="http://twitter.com/aliciatweet">@aliciatweet</a></div>
-					<div class="speaker-location">San Francisco, CA</div>
-				</div>
-
-
-				<div class="speaker">
-					<div class="speaker-circle">
-						<img src="images/speakers/chris-sauve.jpg">
-					</div>
-					<div class="speaker-name">Chris <span class="speaker-lastname">Sauve</span></div>
-					<div class="speaker-twitter"><a href="http://twitter.com/_lemonmade">@_lemonmade</a></div>
-					<div class="speaker-location">Ottawa, ON, CAN</div>
-				</div>
-
-				<div class="speaker">
-					<div class="speaker-circle">
-						<img src="images/speakers/stacy-kvernmo.jpg">
-					</div>
-					<div class="speaker-name">Stacy <span class="speaker-lastname">Kvernmo</span></div>
-					<div class="speaker-twitter"><a href="http://twitter.com/funstacy">@funstacy</a></div>
-					<div class="speaker-location">Aurora, IL</div>
-				</div>
-
-				<div class="speaker">
-					<div class="speaker-circle">
-						<img src="images/speakers/eva-ferreira.jpg">
-					</div>
-					<div class="speaker-name">Eva <span class="speaker-lastname">Ferreira</span></div>
-					<div class="speaker-twitter"><a href="http://twitter.com/evaferreira92">@evaferreira92</a></div>
-					<div class="speaker-location">Buenos Aires, ARG</div>
-				</div>
-
-
-				<div class="speaker">
-					<div class="speaker-circle">
-						<img src="images/speakers/rachel-ober.jpg">
-					</div>
-					<div class="speaker-name">Rachel <span class="speaker-lastname">Ober</span></div>
-					<div class="speaker-twitter"><a href="http://twitter.com/rachelober">@rachelober</a></div>
-					<div class="speaker-location">Brooklyn, NY</div>
-				</div>
-
-				<div class="speaker">
-					<div class="speaker-circle">
-						<img src="images/speakers/lara-schenck.jpg">
-					</div>
-					<div class="speaker-name">Lara <span class="speaker-lastname">Schenck</span></div>
-					<div class="speaker-twitter"><a href="http://twitter.com/laras126">@laras126</a></div>
-					<div class="speaker-location">New York, NY</div>
-				</div>
-
-				<div class="speaker">
-					<div class="speaker-circle">
-						<img src="images/speakers/jack-gold.jpg">
-					</div>
-					<div class="speaker-name">Jack <span class="speaker-lastname">Gold</span></div>
-					<div class="speaker-twitter"><a href="http://twitter.com/jackmakesthings">@jackmakesthings</a></div>
-					<div class="speaker-location">New York, NY</div>
-				</div>
-
-				<div class="speaker">
-					<div class="speaker-circle">
-						<img src="images/speakers/jesse-nichols.jpg">
-					</div>
-					<div class="speaker-name">Jesse <span class="speaker-lastname">Nichols</span></div>
-					<div class="speaker-twitter"><a href="http://twitter.com/jessenicholsweb">@jessenicholsweb</a></div>
-					<div class="speaker-location">Augusta, GA</div>
-				</div>
-
-			</div>
-
+				</article>
+			<% end %>
 
 		</div>
 </section>
