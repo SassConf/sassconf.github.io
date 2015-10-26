@@ -88,6 +88,7 @@
   @include media(grid-lg) {
     .speaker-page__info {
       flex: 1 10em;
+      padding-right: 1.5em;
     }
 
     .speaker-page__main {
@@ -110,7 +111,7 @@
 
 .speaker-twitter { @include social-link($blue);}
 .speaker-github { @include social-link($black);}
-.speaker-site { @include social-link($purple);}
+.speaker-site { @include social-link($gold);}
 
 
 .speaker-url {
@@ -147,4 +148,10 @@
 
 .speaker-page__info .speaker-name__wrapper {
   text-align: center;
+}
+
+//bio header
+.speaker-bio__header {
+  padding-top: 1em;
+  border-top: 2px solid $purple;
 }

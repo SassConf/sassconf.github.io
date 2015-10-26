@@ -50,7 +50,7 @@ layout: layout
       <% end %>
 
       <% if s.bio %>
-        <h6>About <%= s.name %></h6>
+        <h6 class="speaker-bio__header">About <%= s.name %></h6>
         <div class="speaker-bio"><%= markdown(s.bio) %></div>
       <% end %>
     </main>
