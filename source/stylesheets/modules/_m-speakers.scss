@@ -60,37 +60,43 @@
                 max-height: 105%;
             }
         }
+    }
+}
 
-        .speaker-name {
-            background: $green;
-            color: $white;
-            display: inline-block;
-            padding: 6px 12px;
-            font-weight: 400;
-            margin-bottom: .5em;
+.speaker-name {
+    background: $green;
+    color: $white;
+    display: inline-block;
+    padding: 6px 12px;
+    font-weight: 400;
+    margin-bottom: .5em;
 
-            .speaker-lastname {
-                display: none; // hide at smaller than grid-med
-                @include media(grid-med) {
-                    display: inline;
-                }
-            }
+    .speaker-lastname {
+        display: none; // hide at smaller than grid-med
+        @include media(grid-med) {
+            display: inline;
         }
     }
 }
 
-// .speaker-twitter {
-//     a:link, a:active, a:visited {
-//         color: $text-color-light;
-//     }
-//     a:hover, a:focus {
-//         color: $blue;
-//         text-decoration: none;
-//         transition: .5s ease color;
-//     }
-// }
+//Layouts for speaker page
 
+.speaker-page__content {
+  display: flex;
+  flex-wrap: wrap;
 
+  @include media(grid-lg) {
+    .speaker-page__info {
+      flex: 1 10em;
+    }
+
+    .speaker-page__main {
+      flex: 3 10em;
+    }
+  }
+}
+
+//mixin for social media hover colors
 @mixin social-link($color) {
   a:link, a:active, a:visited {
       color: $text-color-light;
@@ -118,17 +124,8 @@
 .speaker-pic {
   border-radius: 100%;
   overflow: hidden;
-  //margin: 0 auto 1em;
   width: 15em;
   height: 15em;
-  // @include media(grid-med) {
-  //     width: 160px;
-  //     height: 160px;
-  // }
-  // @include media(grid-lg) {
-  //     width: 220px;
-  //     height: 220px;
-  // }
   img {
       max-height: 105%;
   }
@@ -140,6 +137,7 @@
 
 .speaker-social {
   @extend %ul-reset;
+  margin-top: 3em !important;
 }
 
 .session-description p {
@@ -147,17 +145,6 @@
   font-size: 100%;
 }
 
-.speaker-page {
-  display: flex;
-  flex-wrap: wrap;
-
-  @include media(grid-lg) {
-    .speaker-page__info {
-      flex: 1 10em;
-    }
-
-    .speaker-page__main {
-      flex: 3 10em;
-    }
-  }
+.speaker-page__info .speaker-name__wrapper {
+  text-align: center;
 }

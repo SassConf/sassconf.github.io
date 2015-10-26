@@ -1,38 +1,40 @@
 -
-  name: "Tab Atkins-Bittner"
+  name: 'Tab Atkins-Bittner'
   slug: "tab-atkins"
-  location: "Austin"
-  type: "short"
+  location: 'Austin'
+  type: 'short'
   invited: true
+  description:
   does: "Google Spec Hacker"
   social:
     github: 'tabatkins'
     twitter: 'tabatkins'
+    instagram:
     web: 'http://www.xanthir.com/'
 -
-  name: "Julie Cameron"
-  location: "Ypsilanti, MI"
-  type: "short"
-  title: "Sass Shop"
+  name: 'Julie Cameron'
+  location: 'Ypsilanti, MI'
+  type: 'short'
+  title: "Using Musical Scales to Build Harmonious Typographic Scale"
   invited: true
-  description: |
-    Vanilla CSS always leaves me wanting more.  It's a fairly simple language, can do some pretty powerful things, but after a while...well, it becomes rather tedious to work with.  Enter Sass: Syntactically Awesome Stylesheets.  Sass is a CSS meta-language and precompiler that makes the prettification of your website a breeze by adding invaluable features of more traditional programming languages.  In this workshop, we'll jump right in to the Sass workflow and cover all the key game changers - nesting, variables, mixins, inheritance, and directives.  We'll also cover some of the gotchyas, tools and extensions, and tips on organization and coding standards.
+  description:
   social:
     github: 'jewlofthelotus'
     twitter: 'jewlofthelotus'
+    instagram:
     web: 'http://www.juliecameron.com/'
 -
-  name: "E. Miriam Suzanne"
-  img: "miriam-suzanne"
-  location: "Denver, CO"
-  type: "discussion"
+  name: 'E. Miriam Suzanne'
+  img: 'miriam-suzanne'
+  location: 'Denver, CO'
+  type: 'discussion'
   invited: true
-  description: |
-    The web is more than a technology platform — it was created with a mission statement, and a clear philosophy of inclusive diversity. One web, for everyone, from any device, with control in the hands of users. Design, code, and management trends also come with attached philosophies — and they’re not always so friendly. What do we believe about diversity, and how is it reflected in our code, our companies, clients, products, and processes?
+  description:
   does: "Oddthings, OddBird"
   social:
     github:
-    twitter:
+    twitter: 'mirisuzanne'
+    instagram:
     web:
 -
   name: 'James Steinbach'
@@ -40,13 +42,12 @@
   type: 'short'
   title: "Using Musical Scales to Build Harmonious Typographic Scale"
   id: "https://github.com/SassConf/2015-austin-speaker-cfp/issues/2"
-  description: "In this talk, we'll look at the math behind musical scales and use those patterns to (hopefully) demystify understanding around typographical scales."
-  does: Front-end Architect
-  bio: "I'm a front-end architect with a passion for Sass-organized modular code, meaningful animation, and content-centric semantic markup. When I'm not at work I'm probably spending time with my wife & baby daughter…or, occasionally still at a computer trying out some [fun front-end stuff](https://codepen.io/jdsteinbach)."
+  description: ''
   social:
-    github: "jdsteinbach"
-    twitter: "jdsteinbach"
-    web: "jdsteinbach.com"
+    github:
+    twitter: 'jdsteinbach'
+    instagram:
+    web:
 -
   name: 'Miriam Nadler'
   location: 'Brooklyn, NY'
@@ -115,218 +116,62 @@
   does: "Senior Software Engineer, R/GA"
   bio: "Tim Hettler is a Senior Software Engineer at R/GA in New York City. He's been working as a web professional for over 10 years, back when creating a box with rounded-corners took at least 2 images. He's passionate about CSS preprocessors (duh), web application development, and utilizing front-end build tools work more efficiently. Ideally this gives him more time to ride his bike, go birdwatching, or bake pies."
   social:
-    github: "timhettler"
-    twitter: "timhettler"
+    github:
+    twitter: 'timhettler'
+    instagram:
+    web:
 -
-  name: "Bernard Yu"
-  location: "Washington, DC"
-  type: "discussion"
+  name: 'Bernard Yu'
+  location: 'Washington, DC'
+  type: 'discussion'
   id: 49
   title: "The Missing De-orbit Command: How do we decide to end stale projects?"
-  description: |
-    Too often our projects outlive our willingness to keep them running: we lose interest, they outlive their usefulness, we need to refocus our attention. Whatever the reason, we need to find ways to end them or pass them off those who are willing to give the projects the love and attention required to keep them viable and do so in a way that is humane to those who are affected.
-
-    When satellites are sent into orbit, there are plans for aborting and eventually decomissioning them by either deorbiting them safely or sending them into high graveyard orbits to keep space clear for future missions. In that same vein, we need to set up processes to help us decide that our projects no longer satistfy our needs, that they need to either evolve or when we need to move on.
-
-    The unplanned end of a project is not failure. Failure is when our friendships and our lives fall apart because the project has outlived its value. Failure is when our employees and coworkers have to be laid off, without severence because the company is no longer sustainable and we refused to notice until it was too late. Failure is when our constituents are left without any way to get their data, or worse: when the tools we make are critical to their needs and they are stuck without any alternatives. We must include plans that allow us to move on. We need to ask “What would make us stop?” and set up a process to thoughtfully and honestly ask ourselves whether our work is fulfilling our needs and is producing the things we want to put out into the world. And we need to do so at the very beginning.
-
-    Moderated Discussions: Topic & Questions (required for discussions only)
-
-    * How do we provide pathways for our users to meaningfully export and use their content and data?
-    * How do we set rules for how we take care of employees and coworkers who have to be laid off?
-    * What if we have a wildly profitable product but our supply chain is unsustainable or unethical? What if the only way to produce a financially viable product is to be evil?
-    * What can we do with our work when the product is shut down?
   social:
-    github: "thebestsophist"
-    twitter: "thebestsophist"
-    web: "bernardyu.com"
+    github:
+    twitter: 'thebestsophist'
+    instagram:
+    web:
 -
-  name: "Ally Palanzi"
-  location: "Washington, DC"
-  type: "discussion"
+  name: 'Ally Palanzi'
+  location: 'Washington, DC'
+  type: 'discussion'
   title: "Don't Speak in Code: Clear + Kind Communication Skills"
-  description: |
-    In a world where we're so used to interacting with other humans shielded behind our screens, sometimes it's important to take a step back and realize that we are communicating with human beings who have feelings. We often dismiss this from time to time when tweeting, submitting issues to repositories, and submitting pull requests. Though it's not always intentional, as members of a community or workplace it is our responsibility to uphold a certain standard of empathy and understanding. Creating a welcoming and inclusive environment is important in order to foster diversity of people and skillsets which in turn creates stronger products and communities.
-
-      Thorough, thoughtful critique is extremely valuable, but what ends up happening more-so than not, is hurtful, empty, commentary.
   id: 39
-  bio: |
-    Ally Palanzi is a front-end engineer making internet things at Vox Media; publisher of Vox, Polygon, The Verge, SB Nation, Eater, Racked, and Curbed.
-
-    She is an active member of the DC design and tech community where she co-organizes the [Sassy DC Meetup](http://sassydc.github.io/) and advocates for [DC Fem Tech](http://dcfemtech.github.io/).
   social:
-    github: allypalanzi
-    twitter: "mylifeasalllly"
-    web: allypalanzi.com
+    github:
+    twitter: 'mylifeasalllly'
+    instagram:
+    web:
 -
   name: 'Jonathan Cutrell'
   location: 'Chattanooga, TN'
   type: 'discussion'
-  id: 2
+  id: "https://github.com/SassConf/2015-austin-speaker-cfp/issues/2"
   title: "Attributes-driven Styles: The Good, the Bad, and the Unknown"
-  description: |
-    Why do we primarily use class selectors to style our elements?
-
-    Here are some common answers:
-
-    - They work
-    - That's what I learned
-    - That's what [insert framework here] uses
-    - I work quickly with them
-
-    Some more (slightly better) answers:
-
-    - Some of my toolset relies on CSS classes for processing
-    - They are pretty flexible
-
-    Sure, there are a lot of other combinatorial selectors we use, but overall, when targeting an element, we use class selectors most often.
-
-    I'm here to challenge your thinking and broaden our horizons a bit by using custom attributes for styling.
-
-    ## Invisible Problems with Classes (or: things we haven't questioned)
-    Do you know what a class is even meant to do? Here it is, straight from the spec.
-
-    >The class attribute, on the other hand, assigns one or more class names to an element; the element may be said to belong to these classes. A class name may be shared by several element instances. The class attribute has several roles in HTML:
-    > - As a style sheet selector (when an author wishes to assign style information to a set of elements).
-    > - For general purpose processing by user agents.
-
-    Okay, so now we know that classes can be used by CSS, and by "user agents", and that classes can be applied to multiple elements. So we know about as much as we knew before we read the spec.
-
-    That's because classes were never intended to have a specific purpose. So we've bloated our class namespaces and stylesheet rules, and we've ended up with things like this:
-
-    ```
-    <div class="col-xs-4 col-xs-offset-6 col-sm-6 col-sm-offset-3 clearfix pad-top article-content article-content-template-php center-text font-serif white-bg no-headline"><!-- what is happening to our brains --></div>
-    ```
-
-    Which, let's be honest, is absolutely insane.
-
-    Okay, if you don't think it's insane, here are a few reasons that will hopefully change your mind.
-
-    1. We're mixing presentation and semantic meaning, which makes classes super general
-    2. It's not discernible if the impact on the resulting element is changed in equal increments per class added. (In other words, adding one clearfix class could have a major effect, a very minor effect, or no effect whatsoever)
-    3. We have classes that, presumably, define very similar things with repeated strings, going very much against the DRY principle
-    4. Do these classes get used by JavaScript? Do they get used by CSS? Do they just exist for semantic purposes?
-
-    How do you fix such a mess? Well, one way might be to create a reliable set of guidelines for your organization. Chris Coyier and a slew of others have started doing things like prepending `js-` to classes that are intended for JavaScript hooks, for example, and creating modular-based things that utilize the awesomeness that SASS provides through mixins that let us take out some of the non-semantic class naming structure.
-
-    But often, these are simply workarounds to the bigger underlying problem: we're using a shotgun approach when we rely so heavily on classes to do so many different things.
-
-    "But what else is there?" - I can hear your brain turning. We've relied on classes for so long, it's almost secondhand nature to write class-based CSS.
-
-    But the truth is, you don't have to rely on bloated class-naming structures and internal documentation to create easy-to-read, easy-to-style markup. You can use an incredibly powerful, compliant solution *today* that fixes these problems, and it's been there all along: *custom attributes*.
-
-    ## The premise
-
-    You might not be aware of this, but you can put any attribute in your HTML tag that you'd like. (If you want to be _really_ safe, prepend data-* to your custom attributes. This also has an added benefit of jQuery and other APIs wrapping these attributes as "data-attributes".)
-    Custom attributes provide some major advantages over classes and IDs.
-
-    Here are a few simple examples to get your brain turning.
-
-    ```
-    <!-- Want a period in the attribute? Go right ahead. -->
-    <html data-template="some-page-name.php"></html>
-
-    <!-- Let's make a pretty complex grid element. -->
-    <div data-grid="md:4 md:offset-4 xs:12 xs:offset-2 lg:1/3 lg:offset-2/3"></div>
-
-    <!-- Maybe another flavor? -->
-    <div data-grid-xs="8 o4" data-grid-md="12 o2"></div>
-
-    <!-- Of course, some semantic modular-magical things can be done. -->
-    <div module="article" module-variant="no-headline"></div>
-
-    <!-- Did we mention that just the existence of the attribute name is useful too? -->
-    <div row><!-- looks weird, but it works. -->
-       <div twitter-widget="@jcutrell"></div>
-    </div>
-    ```
-
-    Here's what's so cool about this: with classes, we have many different restrictions, and everything is thrown into a long string. With data attributes, you can go crazy, and still have powerful selectors at your disposal.
-
-    ```
-    div[row] {}
-    div[twitter-widget] {}
-    div[twitter-widget="@jcutrell"]
-    [data-grid]{}
-    [data-grid*="md:4"]{}
-    [data-grid-md="4"]{}
-    [data-grid-md="1/3"]{}
-    [template="anything you want to check"]
-    ```
-
-    Of course, you can still use classes at your disposal, but now you can limit what goes into that attribute more easily.
-
-    Further discussion about benefits and differences can be found here: http://amcss.github.io/
-
-    ## Implications
-    *Performance*: while the difference in performance of CSS selectors is likely somewhat negligible, there is a real difference in selecting elements with JavaScript by the presence of a custom attribute. For example, in jQuery, you could use the same selector syntax:
-
-    ```
-    $('[data-grid]');
-    ```
-
-    ... and it will work. However, it is far less performant, as there is no built-in JavaScript method for selecting elements by the presence of an arbitrary attribute. Instead, it helps to select based on a nearby scoping ancestor that uses a class or ID:
-
-    ```
-    $('.module').find('[data-grid]');
-    ```
-
-    Which will limit the number of elements that jQuery has to search through to get the matching element.
-
-    *Leaving Framework-land*: Who uses this in their frameworks? Almost no-one.
-
-    *Leaving Browser-hyper-optimization-land*: browsers probably optimize classes. (I don't know this for sure, and it could change tomorrow.) It's harder to optimize for dynamic attributes, because they are... well, dynamic. For that reason, built-in optimizations and methods will focus on the most used (and static) attributes: IDs and Classes. Does this matter? Probably not that much, because browsers are pretty fast at parsing HTML, and are only going to get faster.
-
-    *You can't extend an attribute selector.* And, quite honestly, you wouldn't want to, cause it would be kind of ugly and relatively unnecessary, especially when you can use silent classes.
-
-    *Sometimes, it might end up increasing the weight of your HTML.* This is especially true if you're hellbent on using the data-* version of attributes. Other times, however, it might significantly decrease the weight. For example:
-
-    ```
-    <div class="one-third"></div>
-    <div data-grid="1/3"></div>
-    ```
-
-    The first option gives us a 29 character string. The second option gives a 28 character string. You save an entire byte! Case closed, right? As a general rule, your productivity increases are going to outweigh the extra bytes you incur. If you're really worried about it, then why haven't you dropped jQuery and started using Zepto yet? Because your workflow requires jQuery? Exactly.
-
-    - Why do you use classes?
-    - What patterns do you use with classes for organization?
-    - If you were to hand your code to someone who isn't indoctrinated with your habits/standards, would they be able to predict what was happening as a result of those classes being used?
-    - What parts of the attribute module pattern seem most useful?
-    - Would you use this today? Why or why not?
+  description:
   social:
     github:
     twitter: 'jcutrell'
     instagram:
     web:
 -
-  name: "Natalya Shelburne"
-  location: "Austin, TX"
-  type: "long"
-  id: 10
+  name: 'Natalya Shelburne'
+  location: 'Austin, TX'
+  type: 'long'
+  id: https://github.com/SassConf/2015-austin-speaker-cfp/issues/10
   title: "Practical Color Theory & Design Tips for People Who Code"
-  description: "https://github.com/SassConf/2015-austin-speaker-cfp/issues/10"
-  does: "Front end Developer at RealMassive"
-  bio: |
-    "I'm a classically trained fine artist who spent 6 years lecturing and teaching people how to paint, draw, and grow their creativity. Upon realizing that the Renaissance had in fact already ended, I decided to join the modern world and am now a front end developer at RealMassive. I love writing code as much as I love painting, and I want to convince the world that writing CSS is an art form. I get excited about updating and sharing old school design theory and knowledge and applying it to the infinite canvas that is the internet."
-
-    "I love sharing all kinds of knowledge. I have a bachelor's in Developmental Psychology and a master's degree in Creativity and Talent Development, and do my best to weave interesting facts about how our brains work, learn, and develop into every talk."
-
-    "When I'm not writing code, I paint, I do improv comedy, sing in musicals, and drink absurd amounts of coffee."
+  description: ""
   social:
-    github: "Tallys"
-    twitter: "natalyathree"
-    web: "artist-developer.com"
+    github:
+    twitter: 'natalyathree'
+    instagram:
+    web:
 -
   name: 'Lourdes Montano'
   location: 'Buenos Aires, ARG'
   type: 'short'
   id: 36
   title: "Creating your styleguide with Sass Maps"
-  description: |
-    Code architecture is very important to keep everything under control. CSS is no exception at all. During years, many of us have seen stylesheets with lots of repeated code that is added all the time and not taken away because 'oh dear...you never know...just in case....'.
-
-    So, at the time of think your CSS up, is essential to have a structure that will help you all across the site. This talk is based on the learning process I had when I started using Sass Maps, a powerful tool that helped me to organize my code and structure in order to keep everything DRY and easy to maintain.
-
   social:
     github:
     twitter: 'loumontano'
@@ -359,9 +204,9 @@
     instagram:
     web: "leekinney.is"
 -
-  name: "Roy Tomeij"
-  location: "Amsterdam, NLD"
-  type: "long"
+  name: 'Roy Tomeij'
+  location: 'Amsterdam, NLD'
+  type: 'long'
   id: 59
   title: "From 0 to 80 in 40 Minutes"
   description: |
@@ -369,9 +214,10 @@
   does: "Speaker, trainer, Front-end Architect"
   bio: "Roy is a speaker, trainer and front-end architect from Amsterdam, The Netherlands. He started using Sass early 2007 and hasn't written any plain ol' CSS since. By day he works on AppSignal, by night he shoots through the sky as a Sasstronaut."
   social:
-    github: "roytomeij"
-    twitter: "roy"
-    web: "roytomeij.com"
+    github:
+    twitter: 'roy'
+    instagram:
+    web:
 -
   name: 'Glen Maddern'
   location: 'Melbourne, AUS'
@@ -390,11 +236,10 @@
     * explain how the transition from static to dynamic markup marks a profound shift in our capabilities
     * tell the story of CSS Modules, from my custom Sass @extend-based DSL to a team of 6 (including the authors of Webpack & JSPM) dreaming of a future CSS specification
     * how you can use CSS Modules with Sass today, even if you're not using React
-  does:
-  bio:
   social:
-    github: glenmaddern
+    github:
     twitter: 'glenmaddern'
+    instagram:
     web:
 -
   name: 'Alicia Liu'
@@ -402,16 +247,11 @@
   type: 'long'
   id: 30,
   title: "Slaying the Dragon: Refactoring CSS Using Sass"
-  description: |
-    Refactoring is a practice that is often overlooked when it comes to CSS. As a result, styles seem to just grow and grow, until no one knows for sure which styles apply where, or whether many rules are still used at all. In this talk, we’ll cover strategies for refactoring CSS using Sass, with a focus on maintainability of code. Topics include code organization, naming, incremental change, and handling special cases such as responsive styles.
-
-      The slides will contain fire-breathing dragons 🐉 and kittens 🐱
-  does: "Lead Engineer, Coach.me"
-  bio: "Alicia Liu is a full-stack software engineer who has been building websites and apps since IE5.5. Since cofounding her first company 8 years ago, she has been immersed in early-stage startups, working across all aspects of building web and mobile products from prototype to production. Alicia is currently the lead engineer at Coach.me, an app that helps people reach their goals through behavior design, community, and expert coaches. Outside of work, she writes and speaks on topics ranging from best practices in front-end development to diversity and culture in the tech industry. Alicia was presented with the 2014 ‘Woman to Watch’ award by Women Who Code, a global organization that helps women excel in technology careers."
   social:
-    github: alicial
+    github:
     twitter: 'aliciatweet'
-    web: alicialiu.me
+    instagram:
+    web:
 -
   name: 'Chris Sauve'
   location: 'Ottawa, ON, CAN'
@@ -424,7 +264,8 @@
   social:
     github: "lemonmade"
     twitter: '_lemonmade'
-    web: "www.lemondesign.co"
+    instagram:
+    web: "http://www.lemondesign.co/"
 -
   name: 'Stacy Kvernmo'
   location: 'Aurora, IL'
@@ -441,12 +282,13 @@
     I am also a co-host of the Naperville WordPress Meetup Group and a fangirl of far too many podcasts.
   social:
     github:
-    twitter: "funstacy"
+    twitter: 'funstacy'
+    instagram:
     web:
 -
-  name: "Eva Ferreira"
-  location: "Buerno Aires, ARG"
-  type: "workshop"
+  name: 'Eva Ferreira'
+  location: 'Buerno Aires, ARG'
+  type: 'workshop'
   title: "Looping for Animation"
   description: |
     In this workshop, full of hand-on exercises, we will look into the gist of Sass’ loops for animations. Introducing the best tips to make impressive animations with a tiny quantity of code. As we take advantage of Mixins and Loops; animating color changes, creating delays and even animating SVG is simpler than ever!
@@ -463,12 +305,13 @@
   bio: "Evangelina Ferreira is a web design professor at the National Technological University of Argentina and an occasional freelance web developer. Evangelina has recently spoken at CSSConf AU 2015, CSSConf US 2014 and JSConf AR 2014. She loves cats and CSS."
   social:
     github:
-    twitter: "evaferreira92"
+    twitter: 'evaferreira92'
+    instagram:
     web:
 -
-  name: "Rachel Ober"
-  location: "Brooklyn, NY"
-  type: "workshop"
+  name: 'Rachel Ober'
+  location: 'Brooklyn, NY'
+  type: 'workshop'
   title: "The Portable Pattern Guide"
   description: |
     A pattern guide is more than a set of styles. It's a contract between product and development. Our job is to make something easy to understand and portable for every day use and contribution.
@@ -494,62 +337,20 @@
   bio: |
     Rachel Ober is a Ruby on Rails developer based in New York City. A true renaissance woman, Rachel has significant experience in and a passion for user experience, user interface and cognitive design. Rachel is a senior developer at Paperless Post where she serves as technical mentor for all front end developers on the development team and leads front end development for the company. She also teaches the ins and outs of Rails at General Assembly for their Back End Ruby on Rails course. Rachel encourages other women developers to hone their skills by contributing to the 3-day conference Write/Speak/Code as a co-organizer. Founded in 2013, Rachel organizes and volunteers her time teaching women Ruby and Ruby on Rails through RailsBridge NYC. Rachel lives in Brooklyn with her husband and fur-child Isabella and loves scrapbooking and card making.
   social:
-    github: "rachelober"
-    twitter: "rachelober"
-    urls: "rachelober.com"
+    github: 'rachelober'
+    twitter: 'rachelober'
+    urls: 'rachelober.com'
 -
-  name: "Lara Schenck"
-  location: "New York, NY"
-  type: "discussion"
+  name: 'Lara Schenck'
+  location: 'New York, NY'
+  type: 'discussion'
   id: 46
-  title: "Why the Designer Failed FizzBuzz: On Hiring, Job Titles, and Descriptions"
-  description: |
-    I failed FizzBuzz during an interview and [wrote about it for CSS-Tricks](https://css-tricks.com/tales-of-a-non-unicorn-a-story-about-the-trouble-with-job-titles-and-descriptions/). There was a huge response to the article. Although r/programming ripped it apart, the feedback from the front-end community was very positive, and there's no doubt erroneous job descriptions have affected many more than myself. Negative or positive, all of the feedback indicates that the disconnect between job titles/descriptions and actual roles is a real issue in our industry.
-
-    How can we fix this? Everyone is hiring. Is there really a lack of qualified candidates, or is the disconnect between jobs, job posts, and recruiting methods the problem? Are code schools the solution? I have thoughts, and would love to open up a discussion with others in the field to compare opinions and experiences.
-
-    ### Topic & Questions
-
-    The panel would start with my giving a 15min or so talk to introduce these issues and the widely varied responses to my article. I'll show a few problematic areas in select job titles and descriptions, then we would move into a discussion.
-
-    #### Participants
-
-     Representatives for some/all of the following roles would be great:
-
-    - Someone in charge of interviewing
-    - Someone in charge of writing job descriptions
-    - A code school graduate applying to jobs
-    - Hiring managers - ideally technical _and_ non-technical (though that might be hard at SassConf)
-    - A recruiter (?!)
-    - Someone who recently applied for and was rejected from a job
-    - ..and another who applied and was hired
-
-    #### The Hiring Process
-
-    - Any horror stories? What's worked, what hasn't?
-    - Overall hiring process - who is in charge, how does it work?
-    - Selecting applicants - any red flags when looking at applications? Are code schools a good or bad thing on a resume? (I've heard both sides)
-    - Interviewing techniques - what format do you use? What types of questions?
-    - What are the disconnects between the description, the interview, and the role itself?
-
-    #### Job Titles and Descriptions
-
-    - What's yours? And what do you actually _do_?
-    - What is the difference between a coder, developmer, programmer, engineer, architect, etc, etc, etc?
-    - Does it matter?
-    - Is the ambiguity in titles and descriptions causing unreasonable expectations?
-    - Can we stop looking for a "unicorns"? What does that even mean?
-
-    #### Examine overarching problems, brainstorm solutions
-
-    - Is the traditional hiring process even relevant to our industry? How can we better evaluate candidates' skills? Is work ethic and a capacity to learn more important than checking languages off of a list?
-    - How can we better communicate roles in job posts and titles? Is the problem that companies don't _know_ what they're looking for in the first place?
-  does: Consultant
-  bio: "My name is Lara (not Laura), and I'm a consultant, teacher, and cocktail enthusiast in NYC. I teach front-end development to designers, facilitate corporate trainings with [Decoded](http://decoded.com), and [edit job descriptions](http://notlaura.com/services/job-description-editing/). I build WordPress sites with [Timber](http://upstatement.com/timber) and grew up on a llama farm in Pennsylvania."
+  title: 'Why the Designer Failed FizzBuzz: On Hiring, Job Titles, and Descriptions'
   social:
-    github: "lara126"
-    twitter: "lara126"
-    web: "lara@notlaura.com"
+    github:
+    twitter: 'lara126'
+    instagram:
+    web:
 -
   name: 'Jack Gold'
   location: 'New York, NY'
@@ -558,23 +359,17 @@
   social:
     github:
     twitter: 'jakemakethings'
+    instagram:
     web:
 -
-  name: "Jesse Nichols"
-  location: "Augusta, GA"
-  type: "long"
+  name: 'Jesse Nichols'
+  location: 'Augusta, GA'
+  type: 'long'
   id: 27,
   title: "Websites and Breakdancing"
-  description: |
-    I am currently a UX/UI Designer for a large company in Augusta, GA. I have been designing websites since I discovered the Internet. Many people are shocked to learn about my past job experience: breakdancing instructor and choreographer. I've traveled around the country with dance groups teaching and competing for 5 years! You may be asking yourself:  How does this relate to the web? Surprisingly, in more ways than I could have imagined. I learned many of the concepts needed to be a developer from being a choreographer!
-
-    Two years ago I left the dance work due to the physical demands and the politics. Dancing isn't easy. The dance community is filled with unbridled rivalry and confrontation. It is a cutthroat job with a short lifespan. You must watch your back and be careful not to teach your signature moves to anybody. Don't give away your choreography process or you might strengthen your opponent. Dance workshops contain little innovation. They teach the basics to beginners and push choreography on the advanced.
-
-    We are lucky enough to find ourselves within an industry of collaboration. This conference is one of many examples of why the web community has flourished. When you discover a new technique, you share it with others! You can learn from each other and network. There are no web design street battles. Instead, we have an awesome community and a career path with unlimited potential and no end in sight.
-  does: "UX/UI Designer"
-  bio: "Jesse (Supaman) Nichols was born in Augusta, GA in 1989. He grew up nearby in Beech Island, SC. Jesse's interest in computers started at an early age when his parents bought their first PC. Unaware of the PC's ability to do anything other than word processing, Jesse's parents were shocked to find him playing games on their computer! From there, he began to explore the computer and subsequently, the internet. His early years were spent as a professional breakdancer and choreographer, but he eventually succumbed to his true passion, web development. Jesse lives in North Augusta, SC with his wife Amanda. He enjoys web development, dancing, martial arts, and parkour."
+  description: ''
   social:
-    github: bboysupaman
-    twitter: "jessenicholsweb"
-    web: "blog.happyninja.io"
-
+    github:
+    twitter: 'jessenicholsweb'
+    instagram:
+    web:
