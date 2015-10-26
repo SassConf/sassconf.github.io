@@ -5,6 +5,7 @@ $green: #8dc63f;
 $blue: #438ccb;
 $gold: #ffae00;
 $white: #fff;
+$black: #252525;
 
 // Utility colors
 $text-color:           #444;
@@ -47,3 +48,7 @@ $cs-color-model:       ryb;
 $cs-primary:           $purple;
 $cs-scheme:            analogic;
 $cs-hue-offset:        30;
+
+//
+.hide {display: none;}
+.display {display: block;}

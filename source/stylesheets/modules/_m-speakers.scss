@@ -1,7 +1,7 @@
 .m-speakers,
 .m-workshops {
-    padding: ms(4) 0;
-    padding-bottom: ms(8);
+    // padding: ms(4) 0;
+    // padding-bottom: ms(8);
 
     .speaker-grid {
         margin: 0 auto;
@@ -19,15 +19,27 @@
         text-align: center;
         min-width: 110px;
         margin: 0 20px 20px 0;
+        padding: 0;
+
         @include media(grid-med) {
             min-width: 250px;
             margin-bottom: 2.5em;
             flex: 1 1 10em;
         }
+
         &.speaker-invited {
             .speaker-name {
                 background: $blue;
             }
+        }
+
+        .speaker-mini-bio {
+            font-size: 1em;
+        }
+
+
+        .speaker-talk-title {
+            font-size: 1.2em;
         }
 
         .speaker-circle {
@@ -48,41 +60,98 @@
                 max-height: 105%;
             }
         }
-
-        .speaker-name {
-            background: $green;
-            color: $white;
-            display: inline-block;
-            padding: 6px 12px;
-            font-weight: 400;
-            margin-bottom: .5em;
-
-            .speaker-lastname {
-                display: none; // hide at smaller than grid-med
-                @include media(grid-med) {
-                    display: inline;
-                }
-            }
-        }
-
-        .speaker-twitter {
-            a:link, a:active, a:visited {
-                color: $text-color-light;
-            }
-            a:hover, a:focus {
-                color: $blue;
-                text-decoration: none;
-                transition: .5s ease color;
-            }
-        }
-
-        .speaker-twitter,
-        .speaker-location {
-            color: $text-color-light;
-            font-size: 13px;
-            font-weight: 300;
-            line-height: 1.5;
-        }
-
     }
+}
+
+.speaker-name {
+    background: $green;
+    color: $white;
+    display: inline-block;
+    padding: 6px 12px;
+    font-weight: 400;
+    margin-bottom: .5em;
+
+    .speaker-lastname {
+        display: none; // hide at smaller than grid-med
+        @include media(grid-med) {
+            display: inline;
+        }
+    }
+}
+
+//Layouts for speaker page
+
+.speaker-page__content {
+  display: flex;
+  flex-wrap: wrap;
+
+  @include media(grid-lg) {
+    .speaker-page__info {
+      flex: 1 10em;
+      padding-right: 1.5em;
+    }
+
+    .speaker-page__main {
+      flex: 3 10em;
+    }
+  }
+}
+
+//mixin for social media hover colors
+@mixin social-link($color) {
+  a:link, a:active, a:visited {
+      color: $text-color-light;
+  }
+  a:hover, a:focus {
+      color: $color;
+      text-decoration: none;
+      transition: .5s ease color;
+  }
+}
+
+.speaker-twitter { @include social-link($blue);}
+.speaker-github { @include social-link($black);}
+.speaker-site { @include social-link($gold);}
+
+
+.speaker-url {
+    color: $text-color-light;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+//Speaker pages styles
+.speaker-pic {
+  border-radius: 100%;
+  overflow: hidden;
+  width: 15em;
+  height: 15em;
+  img {
+      max-height: 105%;
+  }
+}
+
+.icon {
+  padding-right: 1em;
+}
+
+.speaker-social {
+  @extend %ul-reset;
+  margin-top: 3em !important;
+}
+
+.session-description p {
+  width: 100%;
+  font-size: 100%;
+}
+
+.speaker-page__info .speaker-name__wrapper {
+  text-align: center;
+}
+
+//bio header
+.speaker-bio__header {
+  padding-top: 1em;
+  border-top: 2px solid $purple;
 }

@@ -9,19 +9,49 @@
 
   .highlight {
     width: auto;
-    text-align: right;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    line-height: 1.6em;
+
+    @include media(grid-med) {
+      text-align: right;
+      margin-top: 3em;
+      margin-bottom: 3em;
+    }
   }
+
+  .highlight__promo-code {
+    color: $white;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid $pink;
+  }
+
   article {
     padding-top: 2em;
   }
   .hero-image {
-    width: 75%;
-    margin-top: -50px;
+
+    width: 85%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+    @include media(grid-med) {
+      width: 75%;
+      margin-top: 3em;
+      margin-bottom: 3em;
+    }
   }
+
   .button-container {
     // override this container to move button to the right
     margin: 0;
-    text-align: right;
+    text-align: center;
+
+    @include media(grid-med) {
+      text-align: right;
+    }
   }
 }
 

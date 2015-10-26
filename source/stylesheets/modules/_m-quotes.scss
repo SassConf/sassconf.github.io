@@ -12,7 +12,7 @@
     @include media(grid-lg) {
         min-height: 800px;
         background-size: cover;
-        background-position: 0 -100px;
+        // background-position: 0 -100px;
     }
     @include media(grid-xl) {
         background-position: center center;

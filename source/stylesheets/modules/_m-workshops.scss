@@ -1,5 +1,5 @@
 .m-workshops {
-    padding: ms(4) 0;
+    // padding: ms(4) 0;
 
     .workshop {
         margin: 4em 0;
@@ -53,4 +53,32 @@
             max-height: 105%;
         }
     }
+}
+
+.workshops__learn-more__container {
+  text-align: right;
+  padding-top: 3em;
+}
+
+.workshops__learn-more {
+  text-align: center;
+  //display: block;
+  text-transform: uppercase;
+  color: $pink !important;
+  border-bottom: 1px solid $blue;
+  font-weight: bold;
+  font-size: 1.1em;
+  text-decoration: none;
+
+  &:hover {text-decoration: none;}
+}
+
+.workshops__description--is-hidden {
+  display: none;
+}
+
+.description__close-btn {
+  text-align: right;
+    display: block;
+    text-transform: uppercase;
 }

@@ -1,0 +1,654 @@
+-
+  name: 'Tab Atkins-Bittner'
+  slug: "tab-atkins"
+  location: 'Austin'
+  type: 'short'
+  invited: true
+  description:
+  does: "Google Spec Hacker"
+  social:
+    github: 'tabatkins'
+    twitter: 'tabatkins'
+    instagram:
+    web: 'http://www.xanthir.com/'
+-
+  name: 'Julie Cameron'
+  location: 'Ypsilanti, MI'
+  type: 'short'
+  title: "Using Musical Scales to Build Harmonious Typographic Scale"
+  invited: true
+  description: |
+    I don't know about you, but vanilla CSS always leaves me wanting more.  It's a fairly simple language, can do some pretty powerful things, but after a while.. well, it can become rather tedious to work with.  Enter Sass: Syntactically Awesome Stylesheets.  Sass is a CSS meta-language and precompiler that makes the prettification of your website a breeze by adding invaluable features of more traditional programming languages.  In this workshop, we'll jump right in to the Sass workflow and cover all the key game changers - nesting, variables, mixins, inheritance, and directives.  We'll also cover some of the gotchyas, tools and extensions, and tips on organization and coding standards.
+  social:
+    github: 'jewlofthelotus'
+    twitter: 'jewlofthelotus'
+    instagram:
+    web: 'http://www.juliecameron.com/'
+-
+  name: 'Miriam Suzanne'
+  img: 'miriam-suzanne'
+  location: 'Denver, CO'
+  type: 'discussion'
+  title: "User Un-Friendly [or Notes Towards a Queer Web]"
+  invited: true
+  description: |
+    The web is more than a technology platform — it was created with a mission statement, and a clear philosophy of inclusive diversity. One web, for everyone, from any device, with control in the hands of users. Design, code, and management trends also come with attached philosophies — and they’re not always so friendly. What do we believe about diversity, and how is it reflected in our code, our companies, clients, products, and processes?
+  does: "Oddthings, OddBird"
+  bio: |
+    Eric Miriam Suzanne is an author, performer, musician, designer, and web developer. She is the author of Riding SideSaddle* (a novel on note cards), The Post-Obsolete Book (a performable website), and a number of open-source frameworks including Susy and True. Formerly Artistic Director of New World Arts & Technical Director of The LIDA Project — Miriam creates web software with OddBird, soundscapes with Teacup Gorilla, words with [WriteyWrite], and performances with Vicious Trap or the Denver Poets’ Theatre.
+  social:
+    github: 'ericam'
+    twitter: 'mirisuzanne'
+    instagram:
+    web: 'http://www.miriamsuzanne.com/'
+-
+  name: 'James Steinbach'
+  location: 'Denver, CO'
+  type: 'short'
+  title: "Using Musical Scales to Build Harmonious Typographic Scale"
+  id: "https://github.com/SassConf/2015-austin-speaker-cfp/issues/2"
+  description: |
+    Choosing types sizes for a project was hard enough before RWD. Designers seems to do it naturally, but devs see those sizes change on every single project and it feels completely arbitrary. Add the complexity of modifying type sizes across various screen sizes, and many developers are ready to throw in the towel and just let a framework pick sizes for them.
+
+    In this talk, we'll satisfy most developers' need for a logical basis for type sizing. We'll look at the math behind musical scales and use those patterns to demystify typographical scales. We'll end by looking at a Sass library to generate all the type sizes needed for a project.
+
+    1. Intro to the Golden Ratio: Not a Myth!
+    2. Building a Musical Scale with Golden Ratio Math
+    3. Type Scales based on Golden Ratio (literally modular)
+    4. Type Scales based on Musical Scales
+    5. Choosing Scales for Breakpoints
+  bio: "I'm a front-end architect with a passion for Sass-organized modular code, meaningful animation, and content-centric semantic markup. When I'm not at work I'm probably spending time with my wife & baby daughter … or, occasionally still at a computer trying out some fun front-end stuff."
+  social:
+    github: 'jdsteinbach'
+    twitter: 'jdsteinbach'
+    instagram:
+    web: 'https://jdsteinbach.com/'
+-
+  name: 'Miriam Nadler'
+  location: 'Brooklyn, NY'
+  type: 'long'
+  id: 17
+  title: "A Machine to Catch Ghosts: Generative Art and Sass "
+  description: |
+    Sass has the potential to be exactly that: a machine to catch ghosts. (That line comes from Jack Spicer, whose poetry I am wholeheartedly taking out of context.)
+
+    Generative art is when you create something indirectly; it is when you create a system or process that does the creating for you. A lot of Sass could be classified as generative art. When you use a grid system instead of manually defining every margin yourself, you are giving that grid system a certain input, and it will generate the styles which comprise a layout.
+
+    I would like to talk about how the random() function in Sass provides an opportunity to explore a different kind of generative art. Whereas most @mixins and @functions will generate the same output provided the same input, random() introduces chance -- unstable stylesheets -- ghosts.
+
+    The lead-in would be a brief overview of the concept and historical placement of generative art and chance art, with some examples from literature and non-digital visual art. Examples might include Raymond Queneau or Jackson Pollock.
+
+    Demonstrations, many of them interactive, would range from topics such as randomly picking a font color to wholly randomized layouts and how random() acts with different control directives. This would take up the bulk of the allotted time.
+
+    The talk would end with a wrap-up which would tie the demonstrated techniques back into coding and art in general.
+  does: "Front-end Developer, Vox"
+  bio: "I live in Brooklyn, NY, and have lived in the northeast megalopolis for my entire life. My favorite word is megalopolis. I spend my work time as a front-end developer at Vox Media; my free time is spent making art with Sass. I am especially interested in randomization and CSS animation."
+  social:
+    github: mknadler
+    twitter: 'antimytheme'
+    web: "http://codepen.io/mknadler/"
+-
+  name: 'Dan Na'
+  location: 'New York, NY'
+  type: 'long'
+  id: 73
+  title: "Transitioning to SCSS at Scale"
+  description: |
+    CSS preprocessors like SCSS add a variety of functions that streamline CSS development: variables, nesting, functions, mixins, etc. The documentation is great, the tools are mature, and starting a new project using SCSS has a clear and straight-forward workflow. But transitioning a large legacy codebase from CSS to SCSS is a different story. CSS syntax errors that may be harmless in production can completely prevent SCSS from compiling. But fixing those errors creates a far juicier problem: will we introduce visual bugs by fixing syntax bugs?
+
+    At Etsy we faced this exact question multiplied across 2100+ CSS files. During this talk I’ll discuss the tools we used and built throughout our SCSS workflow, from the initial transformation of CSS files using Abstract Syntax Trees (ASTs) to the libsass-powered SCSS -> CSS render pipeline we have running on all development machines. I’ll cover some of the tools we’ve built in-house to mitigate some of the biggest potential pitfalls of SCSS (tracking code growth, SCSS live lint), how we ramped up our development and production services to gain confidence in our process and how this entire effort led to a single 1.2M line push that didn’t break production and had minimal impact to developer and designer workflows.
+  does: "Software Engineer, Front-end Infrastructure Team at Etsy"
+  bio: "Dan Na is a software engineer on the Front-end Infrastructure Team at Etsy. He loves tackling the growing complexity of front-end engineering, learning and teaching in a collaborative environment and solving both the technical and people problems of producing software. He’s a fan of NBA basketball, soy lattes, New York City and exploring the boroughs with his wife."
+  social:
+    github: "danielna"
+    twitter: 'dxna'
+    web: "danielna.com"
+-
+  name: 'Tim Hettler'
+  location: 'Brooklyn, NY'
+  type: 'workshop'
+  title: "How to be a meaningful contributor to the Sass development community."
+  id: 26
+  description: |
+    Sass is unique in the world of pre-processing languages because of it's vibrant and enthusiastic community. We give each other inspiration, lessons from mistakes, and a groundwork to build upon with our successes.
+
+    With so much code already being shared you might think that there is no room for your minor accomplishments. This is absolutely incorrect. Your code is awesome and you shouldn't be afraid to share it with others! More code being shared means more opportunities to learn from each other. It's critically important for us as developers to share our code, and I want to show you how.
+
+    In this workshop, we'll go over the specific concerns of open-sourcing your code and some best practices such as: writing documentation, creating tests, managing dependencies, and registering your code in package-management services like Bower. By the end of the workshop, all participants will have "broken the ice" and contributed open-source code to the Sass community.
+
+    The Sass community needs your voice!
+
+    ###### What we'll cover
+    * DevOps stuff (build tools, github, etc) * Design patterns for writing reusable code
+    * Dependency management with Bower, npm, and Bundler
+    * Using True to test functions
+    * Using git hooks to prevent committing broken code
+    * Registering your package with Bower, npm & Sache
+    * Semantic Versioning
+    * Writing a useful README
+    * Documentation with SassDoc
+
+  does: "Senior Software Engineer, R/GA"
+  bio: "Tim Hettler is a Senior Software Engineer at R/GA in New York City. He's been working as a web professional for over 10 years, back when creating a box with rounded-corners took at least 2 images. He's passionate about CSS preprocessors (duh), web application development, and utilizing front-end build tools work more efficiently. Ideally this gives him more time to ride his bike, go birdwatching, or bake pies."
+  social:
+    github: 'timhettler'
+    twitter: 'timhettler'
+    instagram:
+    web: 'http://timhettler.com/'
+-
+  name: 'Bernard Yu'
+  location: 'Washington, DC'
+  bio: |
+    Content strategist and information architect by trade. Philosopher and political theorist by training. Social justice wizard and lover of style guides by {heart/vocation/necessity}. Maker of internetty things.
+
+    I use empathy, words, philosophy, and code for editorial systems design {for/in/at} social and environmental justice {advocacy/educational/publishing} not-for-profit organizations. And advocate for open-access publishing and interdisciplinary scholarship. I nerd out at the intersection of scholarship, design, and public policy.
+
+    One day, I may grow up to become a scholar.
+  type: 'discussion'
+  id: 49
+  title: "The Missing De-orbit Command: How do we decide to end stale projects?"
+  description: |
+    Too often our projects outlive our willingness to keep them running: we lose interest, they outlive their usefulness, we need to refocus our attention. Whatever the reason, we need to find ways to end them or pass them off those who are willing to give the projects the love and attention required to keep them viable and do so in a way that is humane to those who are affected.
+
+    When satellites are sent into orbit, there are plans for aborting and eventually decomissioning them by either deorbiting them safely or sending them into high graveyard orbits to keep space clear for future missions. In that same vein, we need to set up processes to help us decide that our projects no longer satistfy our needs, that they need to either evolve or when we need to move on.
+
+    The unplanned end of a project is not failure. Failure is when our friendships and our lives fall apart because the project has outlived its value. Failure is when our employees and coworkers have to be laid off, without severence because the company is no longer sustainable and we refused to notice until it was too late. Failure is when our constituents are left without any way to get their data, or worse: when the tools we make are critical to their needs and they are stuck without any alternatives. We must include plans that allow us to move on. We need to ask “What would make us stop?” and set up a process to thoughtfully and honestly ask ourselves whether our work is fulfilling our needs and is producing the things we want to put out into the world. And we need to do so at the very beginning.
+
+    ###### Moderated Discussions: Topic & Questions (required for discussions only)
+
+    * How do we provide pathways for our users to meaningfully export and use their content and data?
+    * How do we set rules for how we take care of employees and coworkers who have to be laid off?
+    * What if we have a wildly profitable product but our supply chain is unsustainable or unethical? What if the only way to produce a financially viable product is to be evil?
+    * What can we do with our work when the product is shut down?
+  social:
+    github: 'thebestsophist'
+    twitter: 'thebestsophist'
+    instagram:
+    web: 'http://bernardyu.com/'
+-
+  name: 'Ally Palanzi'
+  location: 'Washington, DC'
+  type: 'discussion'
+  title: "Don't Speak in Code: Clear + Kind Communication Skills"
+  description: |
+    In a world where we're so used to interacting with other humans shielded behind our screens, sometimes it's important to take a step back and realize that we are communicating with human beings who have feelings. We often dismiss this from time to time when tweeting, submitting issues to repositories, and submitting pull requests. Though it's not always intentional, as members of a community or workplace it is our responsibility to uphold a certain standard of empathy and understanding. Creating a welcoming and inclusive environment is important in order to foster diversity of people and skillsets which in turn creates stronger products and communities.
+
+    Thorough, thoughtful critique is extremely valuable, but what ends up happening more-so than not, is hurtful, empty, commentary.
+
+    In this talk, I'll discuss:
+
+    * How to effectively critique in public, provide context, and prevent insensitive remarks
+    * Code reviews / pull request / issue etiquette
+    * Providing guidelines for open source/internal repos
+    * How to avoid hurtful words and phrases
+    * Tips on how to communicate effectively
+  does: 'Front-end Engineer, Vox Media'
+  bio: |
+    Ally Palanzi is a front-end engineer making internet things at Vox Media; publisher of Vox, Polygon, The Verge, SB Nation, Eater, Racked, and Curbed.
+
+    She is an active member of the DC design and tech community where she co-organizes the Sassy DC Meetup and advocates for DC Fem Tech.
+  id: 39
+  social:
+    github: 'allypalanzi'
+    twitter: 'mylifeasalllly'
+    instagram:
+    web: 'http://allypalanzi.com/'
+-
+  name: 'Jonathan Cutrell'
+  location: 'Chattanooga, TN'
+  type: 'discussion'
+  id: "https://github.com/SassConf/2015-austin-speaker-cfp/issues/3"
+  title: "Attributes-driven Styles: The Good, the Bad, and the Unknown"
+  description: |
+    Why do we primarily use class selectors to style our elements?
+
+    Here are some common answers:
+
+    * They work
+    * That's what I learned
+    * That's what [insert framework here] uses
+    * I work quickly with them
+
+    Some more (slightly better) answers:
+
+    * Some of my toolset relies on CSS classes for processing
+    * They are pretty flexible
+
+    Sure, there are a lot of other combinatorial selectors we use, but overall, when targeting an element, we use class selectors most often.
+
+    I'm here to challenge your thinking and broaden our horizons a bit by using custom attributes for styling.
+
+  does: "Director of Technology, Whiteboard"
+  bio: "Jonathan is a builder, scholar, teacher, and advocate for craftsmanship in any field. Jonathan hosts Developer Tea, a top-listed podcast dedicated to exploring the development craft. Jonathan leads a team of developers daily at Whiteboard, and works in Chattanooga, TN where he lives with his wife Lauren (who also works at Whiteboard) and dog, Evie (who is currently unemployed)."
+  social:
+    github: 'jcutrell'
+    twitter: 'jcutrell'
+    instagram:
+    web: 'http://jonathancutrell.com/'
+-
+  name: 'Natalya Shelburne'
+  location: 'Austin, TX'
+  type: 'long'
+  id: https://github.com/SassConf/2015-austin-speaker-cfp/issues/10
+  title: "Practical Color Theory & Design Tips for People Who Code"
+  description: |
+    I want to share what I've learned about design and color theory, and of course, make it fun and entertaining all at the same time. This isn't a read-out of any documentation, but coming from years of digging through a bunch of amazing resources aimed at painters and updating them for people who work on the web.
+
+    ###### Big aims & goals of the presentation
+
+    * I want to talk about the why of color implementation and design, rather than the just the how. For example, how does contrast and texture affect the perception of depth? Why should you pick a complimentary color as your accent color?
+    * I want this talk to be fun and entertaining, so there will be jokes.
+    * I know just how intimidating color and design decisions can be, and how often people pass it on to "someone better" even if they're really interested in learning more! I want everyone to feel like they can do the basics, and to feel confident learning more on their own if they are inspired.
+
+    ###### Specifics of color theory takeaways. After my talk, people should be able to:
+
+    * Add Sass color functions to their toolkit by learning how to wield luminosity, saturation, tint, shade, and opacity with confidence and understanding. There's plenty of documentation on the how, I'd be focusing on the why.
+    * Be able to confidently pick color schemes and create their own Sass color variables partial. I am also going to be providing a gist https://gist.github.com/Tallys/130b2a34b3ce11357c14 as an example.
+    * Finally understand the reason every art room had a color wheel poster! It actually has its own documentation for how to read it - surprise, it's actually a color map.
+    * Feel confident in exploring the old school design pattern that is color theory.
+    * Resources - I want everyone to leave my talk with a better understanding of how to seek out design resources that will actually help them in their day-to-day work.
+
+    ###### I like to encourage curiosity, so here are some of the questions that will come up (and most will even be answered) :)
+
+    * Why are there rounded corners on just about everything?
+    * How can I improve accessibility with my use of color?
+    * Why are traffic cones and safety vests orange?
+    * Why shouldn't I use #000 on my website?
+    * Why can red and green color schemes troublesome in design?
+    * What happens if you mix exactly equal parts red and green? How about blue and orange?
+    * Why do we start to like beige as we get older?
+    * Why do highlights always go on the tops of buttons?
+    * Why does a color look good in a color picker, but can look so bad when you put it on your site?
+    * Why does putting art in frames make it look so much better?
+    * Why are Sass variables and color functions such an awesome tool and timesaver?
+
+  bio: |
+    I'm a classically trained fine artist who spent 6 years lecturing and teaching people how to paint, draw, and grow their creativity. Upon realizing that the Renaissance had in fact already ended, I decided to join the modern world and am now a front end developer at RealMassive. I love writing code as much as I love painting, and I want to convince the world that writing CSS is an art form. I get excited about updating and sharing old school design theory and knowledge and applying it to the infinite canvas that is the internet.
+
+    I love sharing all kinds of knowledge. I have a bachelor's in Developmental Psychology and a master's degree in Creativity and Talent Development, and do my best to weave interesting facts about how our brains work, learn, and develop into every talk.
+
+    When I'm not writing code, I paint, I do improv comedy, sing in musicals, and drink absurd amounts of coffee.
+  does: 'Front-end Developer, RealMassive'
+  social:
+    github: 'Tallys'
+    twitter: 'natalyathree'
+    instagram:
+    web: 'http://www.artist-developer.com'
+-
+  name: 'Lourdes Montano'
+  location: 'Buenos Aires, ARG'
+  type: 'short'
+  id: 36
+  title: "Creating your styleguide with Sass Maps"
+  description: |
+    When working on big projects, the code architecture is very important to keep everything under control. CSS is no exception at all. During years, many of us have seen stylesheets with lots of repeated code that is added all the time and not taken away because 'oh dear...you never know...just in case....'.
+
+    So, at the time of think your CSS up, is essential to have a structure that will help you all across the site. This talk is based on the learning process I had when I started using Sass Maps, a powerful tool that helped me to organize my code and structure in order to keep everything DRY and easy to maintain.
+
+    ###### Outline:
+
+    * A quick Maps catch up
+    * Different uses for Sass Maps
+    * How to create your dynamic classes
+    * Extending this to big projects and large work teams
+  bio: 'Lourdes Montano is a Front End developer who loves working on responsive websites using CSS and its pre-processors. She works as Sr. Presentation Code Developer at R/GA Buenos Aires and from time to time she is a speaker at some conferences like JSConf Uruguay and CSS Conference in Brazil. When she is not writing code or talking about CSS she loves go climbing mountains or surfing waves.'
+  does: ' Sr. Presentation Code Developer, R/GA Buenos Aires'
+  social:
+    github: 'loumontano'
+    twitter: 'loumontano'
+    instagram:
+    web:
+-
+  name: 'Lee Ann Kinney'
+  location: 'Philadelphia, PA'
+  type: 'short'
+  id: 78
+  title: "Unintentional Exclusion - Web accessibility and how we’re failing our users"
+  description: |
+    Web accessibility is usually thought of as something that is hard to do or expensive to work into a project. It is also thought of as something that is only beneficial to users with severe or noticeable disabilities. Many times accessible designs are a result of good UX practices and can benefit all users. Creating accessible websites can help our aging populations navigate the web easier as well as someone with low literacy or a learning disability.
+
+    If you add up all the users in the world who have a disability, whether mild or severe, long-term or temporary, this number far surpasses the amount of people using IE8. Why do we put more consideration into browser support than we do people with disabilities?
+
+    The web has become an essential source of information and it is our responsibility as designers and developers to take all users into consideration and build a better web experience for everyone. Some key points this talk will cover will be:
+
+    * A brief overview of accessible front-end design
+    * Some simple guidelines to make accessible websites
+    * Proof that when accessibility is built in at the beginning of a project, it is much less painful and less expensive to implement
+    * Some simple steps for auditing a website for accessibility
+    * Tools, extensions and most importantly, Sass techniques that will help you to easily incorporate accessibility into your workflow
+    * You will walk away with a better understanding of how you may be excluding certain users from your sites and immediate actions to prevent it from happening.
+  does: 'Front-end Web Developer, BAYADA Home Health Care'
+  bio: "LeeAnn is a front-end developer living in Philadelphia. She is a web accessibility advocate, events coordinator for Girl Develop It Philly and co-organizer of LadyHacks and ELA conf. In her free time, LeeAnn loves to hike, bike and camp."
+  social:
+    github: "leekinney"
+    twitter: '_leekinney'
+    instagram:
+    web: "leekinney.is"
+-
+  name: 'Roy Tomeij'
+  location: 'Amsterdam, NLD'
+  type: 'long'
+  id: 59
+  title: "From 0 to 80 in 40 Minutes"
+  description: |
+    Sass' built-in functions are incredibly powerful, while massively underused. Sure, you may occasionally use lighten() or round(). But how about str-slice(), adjust-hue() or unique-id()? This talk will address all 80 Sass functions, quickly explaining how they work and what to use them for (and yes, some will only get 5 seconds of fame).
+
+    In case you hadn't guessed: this is going to be a high energy, fast paced presentation
+  does: "Speaker, trainer & Front-end Architect"
+  bio: "Roy is a speaker, trainer and front-end architect from Amsterdam, The Netherlands. He started using Sass early 2007 and hasn't written any plain ol' CSS since. By day he works on AppSignal, by night he shoots through the sky as a Sasstronaut."
+  social:
+    github: 'roytomeij'
+    twitter: 'roy'
+    instagram:
+    web: 'http://roytomeij.com/'
+-
+  name: 'Glen Maddern'
+  location: 'Melbourne, AUS'
+  type: 'long'
+  id: 77
+  title: "CSS Modules: turning extension into composition"
+  description: |
+    Sass' @extend function is one of the most powerful, surprising, controversial & subtle parts of the language. We've all seen blog posts about "what you didn't know about @extend", "why @extend is so powerful", "why you shouldn't use @extend" — seemingly every possible viewpoint has someone intelligent arguing for it. It's a confusing state of affairs, yet clearly the intent of @extend is really useful — define all your styles for a component one place, but avoid duplicating output as much as possible.
+
+    Meanwhile, our relationship to markup is changing dramatically. The rise of React brings with it a new rendering model and a whole host of new techniques for writing applications, but the new ideas around styling seem extremely limited, a long way off being ready to use day-to-day.
+
+    In my talk, I'm going to explore what happens when you put these seemingly disparate technologies together, and how that's risen to a new potential standard in CSS Modules. In particular, I will:
+
+    * deconstruct @extend, showing how the algorithm works, and that it's the constraints of the language that cause the problems, not the idea itself
+    * show some of the shortcomings of JS-based styling approaches, and the useful ideas they hint at
+    * explain how the transition from static to dynamic markup marks a profound shift in our capabilities
+    * tell the story of CSS Modules, from my custom Sass @extend-based DSL to a team of 6 (including the authors of Webpack & JSPM) dreaming of a future CSS specification
+    * how you can use CSS Modules with Sass today, even if you're not using React
+  does: 'Independent Web Developer'
+  bio: 'Glen Maddern is an independent web developer from Melbourne, Australia, with a background in mathematical simulations and distributed computing. Since 2009, he’s been working exclusively on the web and most recently, almost entirely on the front-end. He believes there’s never been a more potent target for ideas than the browser and the web, and loves the incredible pace at which new ideas are emerging, and the new ways ideas can be demonstrated, shared and built upon. He helps to run CSSConf AU, tied for greatest conference in the world with SassConf.'
+  social:
+    github: geelen
+    twitter: 'glenmaddern'
+    instagram:
+    web: 'http://glenmaddern.com/'
+-
+  name: 'Alicia Liu'
+  location: 'San Francisco, CA'
+  type: 'long'
+  id: 30,
+  title: "Slaying the Dragon: Refactoring CSS Using Sass"
+  description: |
+    Refactoring is a practice that is often overlooked when it comes to CSS. As a result, styles seem to just grow and grow, until no one knows for sure which styles apply where, or whether many rules are still used at all. In this talk, we’ll cover strategies for refactoring CSS using Sass, with a focus on maintainability of code. Topics include code organization, naming, incremental change, and handling special cases such as responsive styles.
+
+    This talk is based on my experience refactoring thousands of lines of CSS into Sass, in a way that allowed for continuous feature development, as well as supporting multiple layers of responsive styles and device-specific styles.
+
+    The slides will contain fire-breathing dragons 🐉 and kittens 🐱.
+
+    ###### Outline:
+
+    * Define Goals
+      * Why refactor?
+    * Foundations
+      * Naming conventions
+      * Different ways to DRY up code using Sass
+      * Code organization
+      * How to handle multiple layers of styling, e.g. responsive styles, device-specific styles
+    * Identifying Problems
+      * Examples of different types of code smells
+    * How to go about refactoring
+      * General principles of refactoring
+      * Specific tactics for incremental refactors
+      * Discussion about trade-offs
+  does: 'Full-stack Software Engineer'
+  bio: "Alicia Liu is a full-stack software engineer who has been building websites and apps since IE5.5. Since cofounding her first company 8 years ago, she has been immersed in early-stage startups, working across all aspects of building web and mobile products from prototype to production. Alicia is currently the lead engineer at Coach.me, an app that helps people reach their goals through behavior design, community, and expert coaches. Outside of work, she writes and speaks on topics ranging from best practices in front-end development to diversity and culture in the tech industry. Alicia was presented with the 2014 ‘Woman to Watch’ award by Women Who Code, a global organization that helps women excel in technology careers."
+  social:
+    github: 'alicial'
+    twitter: 'aliciatweet'
+    instagram:
+    web: 'http://alicialiu.me/'
+-
+  name: 'Chris Sauve'
+  location: 'Ottawa, ON, CAN'
+  type: 'short'
+  id: 29,
+  title: "Sass Central Nervous Systems"
+  description: |
+    As a stylesheet grows in size and scope, new code inevitably starts stomping on the toes of code that's already there. At Shopify, some of our more inelegant styles start to behave like flailing limbs, causing far more damage than whatever problems it purports to solve. Components start stacking in the wrong order, colors that aren't part of the styleguide leak into the codebase, spacing becomes inconsistent, and so on.
+
+    What we want is a central nervous system to keep our stylesheet in line, to keep all the limbs we add moving in tune (in this analogy, our stylesheet is a many-limbed creature, not merely a simple biped like ourselves). What we need, then, is a set of central utilities that manage core, shared concerns so that individual stylesheets can draw on these instead of counting on each one of those stylesheets to behave themselves. Utilities that provide a simple API for ensuring consistency even as the number of limbs multiples.
+
+    Thankfully, Sass provides many excellent tools, most notably Maps, Mixins, Functions, and @content directives, which enable just these kinds of expressive utilities.
+
+    Here are some of the things I'd love to chat about on this topic (this is a mixture of things we do at Shopify to manage our extremely large codebase/ large number of contributors, and things I have done in open source and other personal projects):
+
+    * Ensuring conformance to design and style guides by providing centralized maps and associated "getters" for colors, font sizes, and defaults (spacing, border radius, etc).
+
+    * Managing stacking contexts by providing a centralized z-index utility that lets you add stacking contexts per component and using those contexts in an expressive, self-documenting way.
+
+    * Providing centralized breakpoint management to let components use provide component-specific rules for meaningful breakpoints and to enable common size-related behaviours (hide, show, linear-ize, etc) with mixins.
+
+    * Creating a set of utility functions and mixins to solve common problems and make users of those utilities more self-documenting.
+
+    * For components that are used by other components, building public APIs to more cleanly and clearly manage those associations.
+  bio: "Chris is a relative newcomer to the world of design and development. Three years ago, he became enamoured with the joy of solving complex programming problems and left his accounting career to pursue one in front-end development. Now, he spends his days working as a front-end developer at Shopify, and his nights playing board games, ultimate, and building on open-source projects both big and small (including bigfoot, a tool for building beautiful, responsive popovers for footnotes, and an as-yet-unreleased automated pattern library generator)."
+  does: "Front-end Developer, Shopify"
+  social:
+    github: "lemonmade"
+    twitter: '_lemonmade'
+    instagram:
+    web: "http://www.lemondesign.co/"
+-
+  name: 'Stacy Kvernmo'
+  location: 'Aurora, IL'
+  type: 'short'
+  id: 18
+  title: "Code Reviews: Turn Humiliation into Greatness"
+  description: |
+    No pain no gain. How one code review changed my life.
+
+    After writing CSS for over 10 years you'd think you would know everything there is to know, right? I couldn't be more wrong and I found out the hard way. While my first formal code review session was painfully embarrassing it was also the most important lesson I have learned throughout my career. Code reviews force you to communicate on a different level which ultimately leads to more thoughtful coding practices. When writing Sass and other pre-processed languages it is even more important that you review your code continually, which even the more seasoned front end developers may neglect at times.
+
+    ###### You will learn:
+
+    * What a code review looks like
+    * Different types of code reviews
+    * How to receive and implement feedback
+    * How to review and give feedback
+    * How to conduct your own code review whether you are on a team or working on your own
+    * Tools for code reviews
+
+    ######Code reviews will:
+
+    * Expose additional ways to solve a problem that you may not have thought about yourself
+    * Help you write better code
+    * Help you developer faster
+    * Reveal code smells
+    * Increase your overall knowledge of your language of choice
+    and more
+
+    While writing CSS has become so much better with Sass, it also presented additional challenges. Even experienced designers/developers will output overly specific code or have troubles when an @extend.
+
+    **Bottom line: Code reviews will make you better.**
+
+  does: "Front-End Developer, WebDevStudios"
+  bio: |
+    After 13 years of designing and building sites I can honestly say I love what I do. When I think about a few “game-changers” in regards to how I build websites today compared to ten years ago, I would have to say that Sass and WordPress have completely enhanced the efficiency of my workflow as a designer. Balancing a love of design and code, I am constantly experimenting with new front-end web technologies that allow for a smooth development process without sacrificing creativity.
+
+    I am a web designer and front-end developer at WebDevStudios, one of the largest WordPress design and development agencies. We love giving back to the community through speaking at events and creating and contributing to open source projects.
+
+    I am also a co-host of the Naperville WordPress Meetup Group and a fangirl of far too many podcasts.
+  social:
+    github: 'stacyk'
+    twitter: 'funstacy'
+    instagram:
+    web: 'http://stacykvernmo.com/'
+-
+  name: 'Eva Ferreira'
+  location: 'Buerno Aires, ARG'
+  type: 'workshop'
+  title: "Looping for Animation"
+  description: |
+    In this workshop, full of hand-on exercises, we will look into the gist of Sass’ loops for animations. Introducing the best tips to make impressive animations with a tiny quantity of code. As we take advantage of Mixins and Loops; animating color changes, creating delays and even animating SVG is simpler than ever!
+
+    ###### What you will learn:
+
+    * How to create animations more easily
+    * How to make your code reusable
+    * How to write code faster and more efficiently
+    * How to take advantage of looping and mixins when working with animations
+
+    ###### Coding Exercises
+
+    Attendees will need basic knowledge of HTML, CSS & Sass, and a code editor to work through the exercises. These will vary in difficulty, starting with basic animations of color ranges and finishing with an SVG animation.
+  does: "Web Design Professor, National Technological University of Argentina"
+  bio: |
+    Evangelina Ferreira is a web design professor at the National Technological University of Argentina and an occasional freelance web developer. Evangelina has recently spoken at CSSConf AU 2015, CSSConf US 2014 and JSConf AR 2014. She loves cats and CSS.
+  social:
+    github: 'evaferreira'
+    twitter: 'evaferreira92'
+    instagram:
+    web:
+-
+  name: 'Rachel Ober'
+  location: 'Brooklyn, NY'
+  type: 'workshop'
+  title: "The Portable Pattern Guide"
+  description: |
+    A pattern guide is more than a set of styles. It's a contract between product and development. Our job is to make something easy to understand and portable for every day use and contribution.
+
+    ###### Topics being covered:
+
+    * Extract your pattern guide into a reusable package.
+    * The basics for you Sass Pattern Guide
+    * Setting up a linter
+    * Separating our your folders
+    * Identify repeating elements
+    * Deciding the best way to package your front end for your company/team
+    * A review of gems/npm/grunt
+    * Setting up a new project for your extracted pattern guide
+    * Tips for displaying your pattern guide and why it’s important
+    * Hosting tips
+    * Testing your pattern guide with unit tests
+    * Hooking up a specificity graph
+    * Determining how changes will be merged back into your pattern guide from contributions
+    * Including your pattern guide into old and new projects
+
+
+  bio: |
+    Rachel Ober is a Ruby on Rails developer based in New York City. A true renaissance woman, Rachel has significant experience in and a passion for user experience, user interface and cognitive design. Rachel is a senior developer at Paperless Post where she serves as technical mentor for all front end developers on the development team and leads front end development for the company. She also teaches the ins and outs of Rails at General Assembly for their Back End Ruby on Rails course. Rachel encourages other women developers to hone their skills by contributing to the 3-day conference Write/Speak/Code as a co-organizer. Founded in 2013, Rachel organizes and volunteers her time teaching women Ruby and Ruby on Rails through RailsBridge NYC. Rachel lives in Brooklyn with her husband and fur-child Isabella and loves scrapbooking and card making.
+  social:
+    github: 'rachelober'
+    twitter: 'rachelober'
+    urls: 'rachelober.com'
+-
+  name: 'Lara Schenck'
+  location: 'New York, NY'
+  type: 'discussion'
+  id: 46
+  title: 'Why the Designer Failed FizzBuzz: On Hiring, Job Titles, and Descriptions'
+  description: |
+    I failed FizzBuzz during an interview and wrote about it for CSS-Tricks. There was a huge response to the article. Although r/programming ripped it apart, the feedback from the front-end community was very positive, and there's no doubt erroneous job descriptions have affected many more than myself. Negative or positive, all of the feedback indicates that the disconnect between job titles/descriptions and actual roles is a real issue in our industry.
+
+    How can we fix this? Everyone is hiring. Is there really a lack of qualified candidates, or is the disconnect between jobs, job posts, and recruiting methods the problem? Are code schools the solution? I have thoughts, and would love to open up a discussion with others in the field to compare opinions and experiences.
+
+    ###### Topic & Questions
+
+    The panel would start with my giving a 15min or so talk to introduce these issues and the widely varied responses to my article. I'll show a few problematic areas in select job titles and descriptions, then we would move into a discussion.
+
+    **Participants**
+
+    Representatives for some/all of the following roles would be great:
+
+    * Someone in charge of interviewing
+    * Someone in charge of writing job descriptions
+    * A code school graduate applying to jobs
+    * Hiring managers - ideally technical and non-technical (though that might be hard at SassConf)
+    * A recruiter (?!)
+    * Someone who recently applied for and was rejected from a job
+    * ..and another who applied and was hired
+
+    **The Hiring Process**
+
+    * Any horror stories? What's worked, what hasn't?
+    * Overall hiring process - who is in charge, how does it work?
+    * Selecting applicants - any red flags when looking at applications? Are code schools a good or bad thing on a resume? (I've heard both sides)
+    * Interviewing techniques - what format do you use? What types of questions?
+    * What are the disconnects between the description, the interview, and the role itself?
+
+    **Job Titles and Descriptions**
+
+    * What's yours? And what do you actually do?
+    * What is the difference between a coder, developmer, programmer, engineer, architect, etc, etc, etc?
+    * Does it matter?
+    * Is the ambiguity in titles and descriptions causing unreasonable expectations?
+    * Can we stop looking for a "unicorns"? What does that even mean?
+
+    **Examine overarching problems, brainstorm solutions**
+
+    * Is the traditional hiring process even relevant to our industry? How can we better evaluate candidates' skills? Is work ethic and a capacity to learn more important than checking languages off of a list?
+    * How can we better communicate roles in job posts and titles? Is the problem that companies don't know what they're looking for in the first place?
+  does: 'Consultant & Teacher'
+  bio: |
+    My name is Lara (not Laura), and I'm a consultant, teacher, and cocktail enthusiast in NYC. I teach front-end development to designers, facilitate corporate trainings with Decoded, and edit job descriptions. I build WordPress sites with Timber and grew up on a llama farm in Pennsylvania.
+  social:
+    github: 'laras126'
+    twitter: 'lara126'
+    instagram:
+    web: 'http://notlaura.com/'
+-
+  name: 'Jack Gold'
+  location: 'New York, NY'
+  type: 'long'
+  title: "Polyfill your Job: Tips for doing great work (in not-so-great situations)"
+  description: |
+    There's no shortage of ideas out there about all the ways developers should make design choices, all the things we can do to make our projects run smoothly, all the workflows and strategies and tools we can embrace. There has never been a greater wealth of information out there about how to craft a design system, or direct a work environment, or negotiate with clients. And that's great!
+
+    What I don't hear being discussed is what to do when that's not an option. The question gets asked sometimes, but the answer always seems to be one of two:
+
+    * "If your work environment isn't supportive of these ideas, make it change!"
+
+    or
+
+    * "You could always get a new job..."
+
+  does: 'Web Engineer, Huge'
+  bio: |
+    I'm jack. I'm a front-end developer and code enthusiast, and frankly, I never saw that coming. I wandered into the world of code, coming from a fairly traditional graphic design background. These days I'm a Web Engineer at Huge, working in Brooklyn, living in Queens. When I'm not coding, I'm usually teaching others about it, reading up on the web, or building something in my apartment. (Or, I'm trying to code, but can't, because there's a cat sitting on my laptop.)
+  social:
+    github: 'jackmakesthings'
+    twitter: 'jakemakethings'
+    instagram:
+    web: 'http://jackmakesthings.com/'
+-
+  name: 'Jesse Nichols'
+  location: 'Augusta, GA'
+  type: 'long'
+  id: 27
+  title: "Websites and Breakdancing"
+  description: |
+    I am currently a UX/UI Designer for a large company in Augusta, GA. I have been designing websites since I discovered the Internet. But, many people are shocked to learn about my past job experience.
+
+    I am a former breakdancing instructor and choreographer. I traveled around the country with dance groups teaching and competing for 5 years! I know what you're thinking... "What a great conversation starter on your resume!" You are right! I think that quirky entry on my resume may be part of what made me stand out to employers.
+
+    How does this relate to the web? Well, in more ways than I could have imagined. I learned many of the concepts needed to be a developer from being a choreographer!
+
+    * Customer Service
+    * Design
+    * Look and Feel
+    * User Experience
+    * Structure
+    * Modularization
+    * CPD (Continuing Professional Development)
+
+    I left the dance community two years ago. You may think that dancing through life is easy. But, it's not. I left this world due to the physical demands and the politics.
+
+    The dance community is filled with unbridled rivalry and confrontation. It is a cutthroat job with a short lifespan. You must watch your back and be careful not to teach your signature moves to anybody. Don't give away your choreography process or you might strengthen your opponent. Dance workshops contain little innovation. They teach the basics to beginners and push choreography on the advanced.
+
+    But, we are lucky enough to find ourselves within an industry of collaboration. This conference is one of many examples of why the web community has flourished. When you discover a new technique, you share it with others! You can learn from each other and network. There are no web design street battles (though I've pitched the idea to movie producers).
+
+    Instead, we have an awesome community and a career path with unlimited potential and no end in sight.
+
+    And of course, I will dance for a minute or two!
+  does: 'UX Developer'
+  bio: |
+    Jesse (Supaman) Nichols was born in Augusta, GA in 1989. He grew up close by, in Beech Island, SC. Jesse's interest in computers started at an early age when his parents bought their first PC. Unaware of the PC's ability to do anything other than word processing, Jesse's parents were shocked to find him playing games on their computer! From there, he began to explore the computer and subsequently, the internet. His early years were spent as a professional breakdancer and choreographer, but he eventually succumbed to his true passion, web development. Jesse lives in North Augusta, SC with his wife Amanda. He enjoys web development, dancing, martial arts, and parkour.
+  social:
+    github: 'bboysupaman'
+    twitter: 'jessenicholsweb'
+    instagram:
+    web: 'http://blog.happyninja.io'

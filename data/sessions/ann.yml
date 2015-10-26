@@ -1,0 +1,27 @@
+name: 'ann ober'
+location: 'Brooklyn, NY'
+type: 'workshop'
+title: "The Portable Pattern Guide"
+social:
+  github: 'rachelober'
+  twitter: 'rachelober'
+  urls: 'rachelober.com'
+title: "The Portable Pattern Guide"
+description: |
+  # This is **bold** text
+  This is a *paragraph*## Topics being covered:
+
+  * Extract your pattern guide into a reusable package.
+  * The basics for you Sass Pattern Guide
+  * Setting up a linter
+  * Separating our your folders
+  * Identify repeating elements
+  * Deciding the best way to package your front end for your company/team
+  * A review of gems/npm/grunt
+  * Setting up a new project for your extracted pattern guide
+  * Tips for displaying your pattern guide and why it’s important
+  * Hosting tips
+  * Testing your pattern guide with unit tests
+  * Hooking up a specificity graph
+  * Determining how changes will be merged back into your pattern guide from submissions
+  * Including your pattern guide into old and new projects

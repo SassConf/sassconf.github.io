@@ -3,7 +3,7 @@ pageable: true
 per_page: 10
 ---
 
-<!-- <section class="m-news-archive"> -->
+<article>
 
 
 <% if paginate && num_pages > 1 %>
@@ -14,7 +14,7 @@ per_page: 10
   <% end %>
 <% end %>
 
-<h3>News Archive</h3>
+<h2 class="sub-header header--white">News Archive</h2>
 
 <% page_articles.each_with_index do |article, i| %>
         <div class="news-item">
@@ -35,4 +35,4 @@ per_page: 10
   <% end %>
 <% end %>
 
-<!-- </section> -->
+</article>

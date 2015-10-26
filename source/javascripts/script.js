@@ -17,16 +17,37 @@ if (today.getMonth()==11 && today.getDate()>25) //if conference has passed alrea
 //Set 1 day in milliseconds
 var one_day=1000*60*60*24
 
-// Find Days Until box and put in the correct number
-document.getElementById('daysuntil-number').innerHTML = (Math.ceil((conference.getTime()-today.getTime())/(one_day)));
-
 $(document).ready(function(){
   var $subHeader = $('.sub-header');
   var $subHeaderStripes = $('<div class="sub-header__stripes"></div>');
   var $subHeaderContainer = $('<div class="sub-header__container"></div>');
+  // var $workshopLearnMoreBtn = $('.js-workshops__learn-more');
 
   $subHeader.wrap($subHeaderContainer);
   $subHeader.after($subHeaderStripes);
 
+  // Click a element to hide
+  // var clickHide = function(el) {
+  //     $(this).addClass('hide');
+  // }
+
+
+  $('.js-workshops__learn-more').bind('click', function(e){
+    e.preventDefault();
+    $(this).addClass('hide');
+    $(this).parents('.workshop').find('.workshops__description').removeClass("workshops__description--is-hidden");
+  });
+
+  $('.js-description__close-btn').bind('click', function(e){
+    e.preventDefault();
+    $('.js-workshops__learn-more').removeClass('hide');
+    $(this).parents('workshops__description').addClass("workshops__description--is-hidden");
+
+    console.log($(this).parents('.workshops__description').addClass("workshops__description--is-hidden"));
+  })
+
   //$subHeader.append($subHeaderStripes);
 });
+
+// Find Days Until box and put in the correct number
+document.getElementById('daysuntil-number').innerHTML = (Math.ceil((conference.getTime()-today.getTime())/(one_day)));
