@@ -23,18 +23,18 @@ layout: layout
         <ul class="speaker-social">
           <% if s.social.twitter %>
             <li class="speaker-twitter speaker-url">
-              <a href="http://twitter.com/<%= s.social.twitter%>"><span class="icon icon-twitter"></span>@<%= s.social.twitter%></a>
+              <a href="http://twitter.com/<%= s.social.twitter%>" target="_blank"><span class="icon icon-twitter"></span>@<%= s.social.twitter%></a>
             </li>
           <% end %>
           <% if s.social.github %>
             <li class="speaker-github speaker-url">
               <a href="http://github.com/<%= s.social.github%>">
-                <span class="icon icon-github"></span><%= s.social.github%></a>
+                <span class="icon icon-github" target="_blank"></span><%= s.social.github%></a>
             </li>
           <% end %>
           <% if s.social.web %>
             <li class="speaker-site speaker-url">
-              <a href="<%= s.social.web%>"><span class="icon icon-link"></span><%= s.social.web%></a>
+              <a href="<%= s.social.web%>" target="_blank"><span class="icon icon-link"></span><%= s.social.web%></a>
             </li>
           <% end %>
         </ul>
