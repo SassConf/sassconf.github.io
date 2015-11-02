@@ -92,17 +92,17 @@
   location: 'New York, NY'
   type: 'long'
   id: 73
-  title: "Transitioning to SCSS at Scale"
+  title: "Transitioning to Sass at Scale"
   description: |
-    CSS preprocessors like SCSS add a variety of functions that streamline CSS development: variables, nesting, functions, mixins, etc. The documentation is great, the tools are mature, and starting a new project using SCSS has a clear and straight-forward workflow. But transitioning a large legacy codebase from CSS to SCSS is a different story. CSS syntax errors that may be harmless in production can completely prevent SCSS from compiling. But fixing those errors creates a far juicier problem: will we introduce visual bugs by fixing syntax bugs?
+    CSS preprocessors like Sass add a variety of functions that streamline CSS development: variables, nesting, functions, mixins, etc. The documentation is great, the tools are mature, and starting a new project using Sass has a clear and straight-forward workflow. But transitioning a large legacy codebase from CSS to Sass is a different story. CSS syntax errors that may be harmless in production can completely prevent Sass from compiling. But fixing those errors creates a far juicier problem: will we introduce visual bugs by fixing syntax bugs?
 
-    At Etsy we faced this exact question multiplied across 2100+ CSS files. During this talk I’ll discuss the tools we used and built throughout our SCSS workflow, from the initial transformation of CSS files using Abstract Syntax Trees (ASTs) to the libsass-powered SCSS -> CSS render pipeline we have running on all development machines. I’ll cover some of the tools we’ve built in-house to mitigate some of the biggest potential pitfalls of SCSS (tracking code growth, SCSS live lint), how we ramped up our development and production services to gain confidence in our process and how this entire effort led to a single 1.2M line push that didn’t break production and had minimal impact to developer and designer workflows.
+    At Etsy we faced this exact question multiplied across 2100+ CSS files. During this talk I’ll discuss the tools we used and built throughout our Sass workflow, from the initial transformation of CSS files using Abstract Syntax Trees (ASTs) to the libsass-powered Sass -> CSS render pipeline we have running on all development machines. I’ll cover some of the tools we’ve built in-house to mitigate some of the biggest potential pitfalls of Sass (Sass live lint), how we ramped up our development and production services to gain confidence in our process and how this entire effort led to a single 1.2M line push that didn’t break production and had minimal impact to developer and designer workflows.
   does: "Software Engineer, Front-end Infrastructure Team at Etsy"
   bio: "Dan Na is a software engineer on the Front-end Infrastructure Team at Etsy. He loves tackling the growing complexity of front-end engineering, learning and teaching in a collaborative environment and solving both the technical and people problems of producing software. He’s a fan of NBA basketball, soy lattes, New York City and exploring the boroughs with his wife."
   social:
     github: "danielna"
     twitter: 'dxna'
-    web: "danielna.com"
+    web: "http://www.danielna.com"
 -
   name: 'Tim Hettler'
   location: 'Brooklyn, NY'
