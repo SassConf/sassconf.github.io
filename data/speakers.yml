@@ -19,6 +19,9 @@
   invited: true
   description: |
     I don't know about you, but vanilla CSS always leaves me wanting more.  It's a fairly simple language, can do some pretty powerful things, but after a while.. well, it can become rather tedious to work with.  Enter Sass: Syntactically Awesome Stylesheets.  Sass is a CSS meta-language and precompiler that makes the prettification of your website a breeze by adding invaluable features of more traditional programming languages.  In this workshop, we'll jump right in to the Sass workflow and cover all the key game changers - nesting, variables, mixins, inheritance, and directives.  We'll also cover some of the gotchyas, tools and extensions, and tips on organization and coding standards.
+  does: "Front-end Developer & Co-Founder of Girl Develop It Ann Arbor"
+  bio: |
+    Julie is a frontend developer working remotely out of Michigan for a company called Articulate. She is co-founder of the Ann Arbor chapter of Girl Develop It where she leads the team and organizes events like a Boss. She is super passionate about Sass and modular architecture; and when she’s not writing code, she enjoys live music, yoga, beer, and cats.
   social:
     github: 'jewlofthelotus'
     twitter: 'jewlofthelotus'
