@@ -174,20 +174,12 @@
   type: 'discussion'
   title: "Don't Speak in Code: Clear + Kind Communication Skills"
   description: |
-    In a world where we're so used to interacting with other humans shielded behind our screens, sometimes it's important to take a step back and realize that we are communicating with human beings who have feelings. We often dismiss this from time to time when tweeting, submitting issues to repositories, and submitting pull requests. Though it's not always intentional, as members of a community or workplace it is our responsibility to uphold a certain standard of empathy and understanding. Creating a welcoming and inclusive environment is important in order to foster diversity of people and skillsets which in turn creates stronger products and communities.
+    In a world where we are so used to interacting with other humans from behind our screens, sometimes it's important to take a step back and realize that we are communicating with human beings who have feelings. We often dismiss this from time to time when tweeting, submitting issues to repositories, communicating via messages, and submitting pull requests. Though it's not always intentional, as members of a community or workplace it is our responsibility to uphold a certain standard of empathy and understanding. Creating a welcoming and inclusive environment is important in order to foster diversity of people and skill sets which in turn creates stronger products and communities.
 
-    Thorough, thoughtful critique is extremely valuable, but what ends up happening more-so than not, is hurtful, empty, commentary.
-
-    In this talk, I'll discuss:
-
-    * How to effectively critique in public, provide context, and prevent insensitive remarks
-    * Code reviews / pull request / issue etiquette
-    * Providing guidelines for open source/internal repos
-    * How to avoid hurtful words and phrases
-    * Tips on how to communicate effectively
-  does: 'Front-end Engineer, Vox Media'
+    During this discussion, we'll talk about our personal experiences in tech, about improving communication to be more thoughtful, and most importantly: how to bring this back to our companies, open source projects, and lives.
+  does: 'Senior Front-End Engineer, Vox Media'
   bio: |
-    Ally Palanzi is a front-end engineer making internet things at Vox Media; publisher of Vox, Polygon, The Verge, SB Nation, Eater, Racked, and Curbed.
+    Ally Palanzi is a senior front-end engineer making internet things at Vox Media; publisher of Vox, Polygon, The Verge, SB Nation, Eater, Racked, Re/code, and Curbed.
 
     She is an active member of the DC design and tech community where she co-organizes the Sassy DC Meetup and advocates for DC Fem Tech.
   id: 39
@@ -195,7 +187,7 @@
     github: 'allypalanzi'
     twitter: 'mylifeasalllly'
     instagram:
-    web: 'http://allypalanzi.com/'
+    web: 'http://blog.allypalanzi.com/'
 -
   name: 'Jonathan Cutrell'
   location: 'Chattanooga, TN'
