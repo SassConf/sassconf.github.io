@@ -1,10 +1,12 @@
 -
-  name: 'Tab Atkins-Bittner'
+  name: 'Tab Atkins Bittner'
   slug: "tab-atkins"
   location: 'Austin'
   type: 'short'
+  title: "Houdini: The Extensible Future of CSS"
   invited: true
-  description:
+  description: |
+    The Houdini Task Force, which I introduced at last year's SassConf, is rolling along nicely. Several aspects of making CSS customizable now have draft specs, and are maturing nicely. There are even experimental builds in browsers! This talk will give a quick introduction to Houdini for those who are new, describe the parts that are reaching maturity, and hint at those that are still a bit far off.
   does: "Google Spec Hacker"
   social:
     github: 'tabatkins'
