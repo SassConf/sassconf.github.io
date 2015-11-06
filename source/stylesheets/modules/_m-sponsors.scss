@@ -40,7 +40,9 @@
 
 .sponsors__silver {
   li {
-    max-width: 20em;
+    max-width: 15em;
+
+    a {display: flex; max-height: 12em;}
   }
 }
 
