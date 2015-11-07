@@ -212,3 +212,16 @@
         font-weight: 400;
     }
 }
+
+
+
+// Quote styles
+
+.m-quote-highlight__green {
+
+    .highlight {
+        background: $green;
+        box-shadow: .25em 0 0 $green,
+                .25em*-1 0 0 $green;
+    }
+}

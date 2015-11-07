@@ -1,0 +1,253 @@
+<section class="m-speakers">
+		<article>
+			<h2>One Amazing Conference</h2>
+			<p>4 days, 2 parties, single-track talks, workshops, moderated discussions, and training</p>
+		</article>
+
+		<section class="m-venue m-quote">
+
+		    <h3 class="quote-text">
+		        <span class="highlight highlight-wrap">
+		            Official Opening Party: State of Sass
+		        </span>
+		        <span class="highlight highlight-breaks">
+		            Official Opening Party<br/>Nov. 10 6:30-10PM
+		        </span>
+		    </h3>
+		</section>
+
+
+		<article>
+			<h3>State of Sass Panel with SassCSS Core Team</h3>
+			<h4>Sponsored by Shopify</h4>
+
+			<p>It's a SassConf tradition reveal Sass related news: in 2013 it was the new Sass lang site, LibSass; in 2014 it was Sass 3.4.</p>
+
+			<p></p>
+
+
+
+		<div class="speaker-grid">
+			<% data.opening.participants.each do |s| %>
+
+				<article class="speaker" >
+				  <div class="speaker-circle">
+				    <%= image_tag "speakers/#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.jpg" %>
+				  </div>
+
+				  <% if s.title %>
+				  	<h3 class="speaker-talk-title">
+				  		<% link_to "http://twitter.com/<%= s.social.twitter%" do %>
+				  			<%= s.title %>
+							<% end %>
+				  	</h3>
+					<% end %>
+
+				  <div class="speaker-name">
+				  	<%= s.name %>
+			  	</div>
+
+				  <h4 class="speaker-mini-bio"><%= s.does %></h4>
+
+				</article>
+			<% end %>
+
+		</div>
+
+
+		</article>
+
+</section>
+
+<section class="m-speakers">
+
+		<section class="m-venue m-quote">
+
+		    <h3 class="quote-text">
+		        <span class="highlight highlight-wrap">
+		            Official Opening Party: State of Sass
+		        </span>
+		        <span class="highlight highlight-breaks">
+		            Talks, Discussions, Workshops<br/>Nov. 11-12
+		        </span>
+		    </h3>
+		</section>
+
+
+		<article>
+
+
+			<h3>Single-track conference, participatory discussions, hands on workshops</h3>
+			<p>Our signature single-track conference with a flair. We've added new
+			talk formats. With 24 speakers from all around the world.</p>
+
+
+
+
+
+		<div class="speaker-grid">
+			<% data.speakers.each do |s| %><% if s.invited %>
+
+				<article class="speaker" >
+				  <div class="speaker-circle">
+				    <%= image_tag "speakers/#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.jpg" %>
+				  </div>
+
+				  <% if s.title %>
+				  	<h3 class="speaker-talk-title">
+				  		<% link_to "http://twitter.com/<%= s.social.twitter%" do %>
+				  			<%= s.title %>
+							<% end %>
+				  	</h3>
+					<% end %>
+
+				  <div class="speaker-name">
+				  	<%= s.name %>
+			  	</div>
+
+				  <h4 class="speaker-mini-bio"><%= s.does %></h4>
+
+				</article>
+			<% end %><% end %>
+
+		</div>
+
+
+		</article>
+
+</section>
+
+<section class="m-speakers">
+
+		<section class="m-venue m-quote">
+
+		    <h3 class="quote-text">
+		        <span class="highlight highlight-wrap">
+		            Official Opening Party: State of Sass
+		        </span>
+		        <span class="highlight highlight-breaks">
+		            Speaker Panel<br/>Thursday, Nov. 12 6pm
+		        </span>
+		    </h3>
+		</section>
+
+
+		<article>
+
+
+			<h3>A closing conference tradition</h3>
+			<p></p>
+		</article>
+</section>
+
+
+<section class="m-speakers">
+
+		<section class="m-venue m-quote">
+
+		    <h3 class="quote-text">
+		        <span class="highlight highlight-wrap">
+		            Main Conference Party: State of Sass
+		        </span>
+		        <span class="highlight highlight-breaks">
+		            Main Conference Party<br/>Thursday, Nov. 12 8:00PM
+		        </span>
+		    </h3>
+		</section>
+
+
+		<article>
+			<h3>Music, Laughs, Stories, Fun</h3>
+			<h5>Vox Media, Drinks Sponsor</h5>
+			<div class="location">
+				<h6>at Brew & Brew</h6>
+			</div>
+
+			<p>Keep on riding the fun into the conference party. Featuring delicious
+			cocktails by SassConf 205 Speaker and drink lover, Lara Schenck, as well as renowed collection of craft beers. Wine and non-alcholic beverages, too.</p>
+		</article>
+
+</section>
+
+
+
+<section class="m-speakers">
+
+		<section class="m-venue m-quote">
+
+		    <h3 class="quote-text">
+		        <span class="highlight highlight-wrap">
+		            Official Opening Party: State of Sass
+		        </span>
+		        <span class="highlight highlight-breaks">
+		            Community UnConfernce<br/>Friday, Nov. 13 11AM
+		        </span>
+		    </h3>
+		</section>
+
+
+		<article>
+			<h3>Sass Community Signature Event</h3>
+			<h5>at Brew & Brew</h5>
+
+			<p>SassConf UnConf is an organic day where attendees can present, hack, and learn together. Come hang out with us at our favorite coffee.</p>
+
+			<p>Sign up in advance or decide the day of. Come early for brunch.</p>
+
+			<p>We'll enjoy discounts at Brew & Brew, one of Austin's best coffee shops</p>
+
+		</article>
+
+</section>
+
+<section class="m-speakers">
+
+		<section class="m-venue m-quote">
+
+		    <h3 class="quote-text">
+		        <span class="highlight highlight-wrap">
+		            Official Opening Party: State of Sass
+		        </span>
+		        <span class="highlight highlight-breaks">
+		            Training<br/>Saturday, Nov. 14th 9AM
+		        </span>
+		    </h3>
+		</section>
+
+
+		<article>
+			<h3>Full Day Advanced Front-End Training</h3>
+			<h5>at Capital Factory</h5>
+
+			<p>Get even more out of SassConf with state of the art training from leaders in front-end development.</p>
+
+
+		<div class="speaker-grid">
+			<% data.opening.participants.each do |s| %>
+
+				<article class="speaker" >
+				  <div class="speaker-circle">
+				    <%= image_tag "speakers/#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.jpg" %>
+				  </div>
+
+				  <% if s.title %>
+				  	<h3 class="speaker-talk-title">
+				  		<% link_to "http://twitter.com/<%= s.social.twitter%" do %>
+				  			<%= s.title %>
+							<% end %>
+				  	</h3>
+					<% end %>
+
+				  <div class="speaker-name">
+				  	<%= s.name %>
+			  	</div>
+
+				  <h4 class="speaker-mini-bio"><%= s.does %></h4>
+
+				</article>
+			<% end %>
+
+		</div>
+	</article>
+
+</section>

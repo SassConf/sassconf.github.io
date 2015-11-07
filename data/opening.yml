@@ -1,0 +1,30 @@
+title: "State of Sass Panel"
+description: "It's a SassConf tradition reveal Sass related news: in 2013 it was the new Sass lang site, LibSass; in 2014 it was Sass 3.4."
+sponsor:
+  name: Shopify
+  url: shoppify.com
+  twitter: shopify
+participants:
+  -
+    name: 'Hampton Catlin'
+    slug: "hampton-catlin"
+    does: "Inventor of Sass"
+    social:
+      twitter: "hcatlin"
+  -
+    name: 'Natalie Weizenbaum'
+    slug: "nat-weizenbaum"
+    does: "Architect of Sass"
+    social:
+      twitter: "nex3"
+  -
+    name: 'Chris Eppstein'
+    slug: "chris-esppstein"
+    does: "Core Maintainer of Sass, Creator of Compass & Eyeglass"
+    social:
+      twitter: "chriseppstein"
+  -
+    name: "Michael Misfud"
+    does: "Core LibSass maintainer"
+    social:
+      twitter: "xyzer"
