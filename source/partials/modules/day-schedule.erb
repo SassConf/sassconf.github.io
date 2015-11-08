@@ -1,0 +1,28 @@
+<section class="m-day-schedule">
+    <a name="coc"></a>
+    <div>
+      <aside class="">
+        <% data.speakers.each do |s| %>
+          <%= s.start %>
+        <% end %>
+      </aside>
+      <article>
+        <% data.speakers.each do |s| %>
+          <h5>
+            <%= s.start %> - <%= s.end %>
+          </h5>
+          <h3>
+            <%= s.title %>
+          </h3>
+
+          <h6><%= s.name %></h6>
+          <p>
+            <%= s.description %>
+          </p>
+          <p>
+            <%= s.bio %>
+          </p>
+        <% end %>
+      </article>
+    </div>
+</section>
