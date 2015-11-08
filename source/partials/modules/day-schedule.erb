@@ -1,12 +1,11 @@
 <section class="m-day-schedule">
-    <a name="coc"></a>
-    <div>
-      <aside class="">
+    <!-- <a name="coc"></a> -->
+      <aside class="day-schedule__nav">
         <% data.speakers.each do |s| %>
-          <%= s.start %>
+          <a class="day-schedule__nav__link"><%= s.start %></a> <br>
         <% end %>
       </aside>
-      <article>
+      <article class="day-schedule__body">
         <% data.speakers.each do |s| %>
           <h5>
             <%= s.start %> - <%= s.end %>
@@ -19,10 +18,12 @@
           <p>
             <%= s.description %>
           </p>
-          <p>
-            <%= s.bio %>
-          </p>
+          <footer>
+            <% if s.bio %>
+              <h6 class="speaker-bio__header">About <%= s.name %></h6>
+              <div class="speaker-bio"><%= markdown(s.bio) %></div>
+            <% end %>
+          </footer>
         <% end %>
       </article>
-    </div>
 </section>

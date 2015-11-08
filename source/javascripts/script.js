@@ -46,7 +46,15 @@ $(document).ready(function(){
     console.log($(this).parents('.workshops__description').addClass("workshops__description--is-hidden"));
   })
 
-  //$subHeader.append($subHeaderStripes);
+  // var time = $('.day-schedule__nav__link').html();
+  //
+  // function stringToInteger(e) {
+  //   var date = parseInt(e);
+  //   return date;
+  // }
+
+
+
 });
 
 // Find Days Until box and put in the correct number

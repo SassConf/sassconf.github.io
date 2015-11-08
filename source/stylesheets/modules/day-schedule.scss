@@ -1,0 +1,12 @@
+.m-day-schedule {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.day-schedule__nav {
+  flex: 1 10em;
+}
+
+.day-schedule__body {
+  flex: 3 30em;
+}
