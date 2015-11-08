@@ -8,6 +8,7 @@
 		<div class="speaker-grid">
 
 			<% data.speakers.each do |s| %>
+				<% link_to "speakers/#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.html" do %>
 				<article class="speaker <% if s.invited %>speaker-invited<% end %>" >
 				  <div class="speaker-circle">
 				    <%= image_tag "speakers/#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.jpg" %>
@@ -15,9 +16,8 @@
 
 				  <% if s.title %>
 				  	<h3 class="speaker-talk-title">
-				  		<% link_to "speakers/#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.html" do %>
+
 				  			<%= s.title %>
-							<% end %>
 				  	</h3>
 					<% end %>
 
@@ -30,6 +30,7 @@
 				  <!-- <h4 class="speaker-mini-bio"><%= s.does %></h4> -->
 
 				</article>
+				<% end %>
 			<% end %>
 
 		</div>
