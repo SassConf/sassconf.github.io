@@ -1,16 +1,29 @@
-<section class="m-speakers">
+<style>
+.imgix-fluid-bg {
+  /*position: absolute;*/
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: block;
+}
+</style>
+
+
+<section class="m-venue__opening">
 		<article>
 			<h2>One Amazing Conference</h2>
-			<p>4 days, 2 parties, single-track talks, workshops, moderated discussions, and training</p>
+			<p>4 days, 2 parties, single-track talks, workshops, moderated discussions, and training.</p>
 		</article>
 
-		<section class="m-venue m-quote">
+
+   <section data-src="https://sassconf.imgix.net/backgrounds/austin-fireside-lounge.jpg?auto=format" class="imgix-fluid imgix-fluid-bg m-quote">
 
 		    <h3 class="quote-text">
-		        <span class="highlight highlight-wrap">
+		        <span class="highlight highlight__pink highlight-wrap">
 		            Official Opening Party: State of Sass
 		        </span>
-		        <span class="highlight highlight-breaks">
+		        <span class="highlight highlight__pink highlight-breaks">
 		            Official Opening Party<br/>Nov. 10 6:30-10PM
 		        </span>
 		    </h3>
@@ -21,12 +34,12 @@
 			<h3>State of Sass Panel with SassCSS Core Team</h3>
 			<h4>Sponsored by Shopify</h4>
 
-			<p>It's a SassConf tradition reveal Sass related news: in 2013 it was the new Sass lang site, LibSass; in 2014 it was Sass 3.4.</p>
+			<p>It's a SassConf tradition reveal Sass related news: in 2013 it was the new Sass-lang site and new versions of Sass; in 2014 it was LibSass. What will it be this year? Get a delicious cocktail, order a little food, and come hear the panel.</p>
 
 			<p></p>
 
 
-
+	<div class="m-speakers">
 		<div class="speaker-grid">
 			<% data.opening.participants.each do |s| %>
 
@@ -51,24 +64,25 @@
 
 				</article>
 			<% end %>
-
 		</div>
 
-
+		</div>
 		</article>
-
 </section>
+
+
+
 
 <section class="m-speakers">
 
-		<section class="m-venue m-quote">
+		   <section data-src="https://sassconf.imgix.net/backgrounds/talks-discussions-workshops.jpg?auto=format" class="imgix-fluid imgix-fluid-bg m-quote">
 
 		    <h3 class="quote-text">
-		        <span class="highlight highlight-wrap">
-		            Official Opening Party: State of Sass
+		        <span class="highlight highlight__pink highlight-wrap">
+		            Talks, Discussions, Workshops Nov. 11-12 9AM-6PM
 		        </span>
-		        <span class="highlight highlight-breaks">
-		            Talks, Discussions, Workshops<br/>Nov. 11-12
+		        <span class="highlight highlight__pink highlight-breaks">
+		            Talks, Discussions, Workshops<br/>Nov. 11-12 9AM-6PM
 		        </span>
 		    </h3>
 		</section>
@@ -76,13 +90,10 @@
 
 		<article>
 
-
 			<h3>Single-track conference, participatory discussions, hands on workshops</h3>
-			<p>Our signature single-track conference with a flair. We've added new
-			talk formats. With 24 speakers from all around the world.</p>
-
-
-
+			<h4>Lunch sponsored by Casper</h4>
+			<p>Our signature single-track conference featuring 24 speakers from all around the world. We've added new
+			talk formats.</p>
 
 
 		<div class="speaker-grid">
@@ -119,13 +130,13 @@
 
 <section class="m-speakers">
 
-		<section class="m-venue m-quote">
+   <section data-src="https://sassconf.imgix.net/backgrounds/speaker-panel.jpg?auto=format" class="imgix-fluid imgix-fluid-bg m-quote">
 
 		    <h3 class="quote-text">
-		        <span class="highlight highlight-wrap">
+		        <span class="highlight hightlight__gold highlight-wrap">
 		            Official Opening Party: State of Sass
 		        </span>
-		        <span class="highlight highlight-breaks">
+		        <span class="highlight highlight__gold highlight-breaks">
 		            Speaker Panel<br/>Thursday, Nov. 12 6pm
 		        </span>
 		    </h3>
@@ -134,23 +145,27 @@
 
 		<article>
 
-
 			<h3>A closing conference tradition</h3>
-			<p></p>
+			<div class="location">
+				<h6>at Brew & Brew</h6>
+			</div>
+
+			<p>Grab some delicious brews or maybe some TopoChica and gather around for our closing conference tradition</p>
 		</article>
 </section>
 
 
 <section class="m-speakers">
 
-		<section class="m-venue m-quote">
+   <section data-src="https://sassconf.imgix.net/backgrounds/one-amazing-conference.jpg?auto=format" class="imgix-fluid imgix-fluid-bg m-quote">
+
 
 		    <h3 class="quote-text">
-		        <span class="highlight highlight-wrap">
-		            Main Conference Party: State of Sass
+		        <span class="highlight highlight__green highlight-wrap">
+		            Main Conference Party: State of Sass Thursday, Nov. 12 8:00PM
 		        </span>
-		        <span class="highlight highlight-breaks">
-		            Main Conference Party<br/>Thursday, Nov. 12 8:00PM
+		        <span class="highlight highlight__green highlight-breaks">
+		            Main Conference Party<br/>Thursday, Nov. 12 8:00PM - 12:00AM
 		        </span>
 		    </h3>
 		</section>
@@ -158,13 +173,13 @@
 
 		<article>
 			<h3>Music, Laughs, Stories, Fun</h3>
-			<h5>Vox Media, Drinks Sponsor</h5>
+			<h4>Drinks sponsored by Vox</h4>
 			<div class="location">
 				<h6>at Brew & Brew</h6>
 			</div>
 
 			<p>Keep on riding the fun into the conference party. Featuring delicious
-			cocktails by SassConf 205 Speaker and drink lover, Lara Schenck, as well as renowed collection of craft beers. Wine and non-alcholic beverages, too.</p>
+			cocktails by SassConf 205 Speaker and drink lover, Lara, as well as renowned collection of craft beers. Wine and non-alcoholic drinks too.</p>
 		</article>
 
 </section>
@@ -173,14 +188,14 @@
 
 <section class="m-speakers">
 
-		<section class="m-venue m-quote">
+   <section data-src="https://sassconf.imgix.net/backgrounds/brewandbrew.jpg?auto=format" class="imgix-fluid imgix-fluid-bg m-quote">
 
 		    <h3 class="quote-text">
-		        <span class="highlight highlight-wrap">
-		            Official Opening Party: State of Sass
+		        <span class="highlight highlight__gold highlight-wrap">
+		            Community UnConference Friday, Nov. 13 10:30AM
 		        </span>
-		        <span class="highlight highlight-breaks">
-		            Community UnConfernce<br/>Friday, Nov. 13 11AM
+		        <span class="highlight highlight__gold highlight-breaks">
+		            Community UnConference<br/>Friday, Nov. 13 10:30AM
 		        </span>
 		    </h3>
 		</section>
@@ -194,7 +209,7 @@
 
 			<p>Sign up in advance or decide the day of. Come early for brunch.</p>
 
-			<p>We'll enjoy discounts at Brew & Brew, one of Austin's best coffee shops</p>
+			<p>We'll enjoy discounts at Brew & Brew, one of Austin's best coffee shops.</p>
 
 		</article>
 
@@ -202,13 +217,13 @@
 
 <section class="m-speakers">
 
-		<section class="m-venue m-quote">
+		 <section data-src="https://sassconf.imgix.net/backgrounds/advanced-training.jpg?auto=format" class="imgix-fluid imgix-fluid-bg m-quote">
 
 		    <h3 class="quote-text">
-		        <span class="highlight highlight-wrap">
-		            Official Opening Party: State of Sass
+		        <span class="highlight highlight__green highlight-wrap">
+		            Training Saturday, Nov. 14th 9AM
 		        </span>
-		        <span class="highlight highlight-breaks">
+		        <span class="highlight highlight__green highlight-breaks">
 		            Training<br/>Saturday, Nov. 14th 9AM
 		        </span>
 		    </h3>

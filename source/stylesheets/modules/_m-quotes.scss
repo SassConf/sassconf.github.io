@@ -1,19 +1,18 @@
 .m-quote {
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: 150%;
-    background-position: 0 0;
     @include media(grid-sm) {
         min-height: 350px;
     }
+
     @include media(grid-med) {
-        min-height: 600px;
+        min-height: 400px;
     }
+
     @include media(grid-lg) {
-        min-height: 800px;
+        min-height: 500px;
         background-size: cover;
-        // background-position: 0 -100px;
+        background-position: 0 -100px;
     }
+
     @include media(grid-xl) {
         background-position: center center;
     }
@@ -36,6 +35,7 @@
             display: none;
         }
     }
+
     &.highlight-breaks {
         display: none;
         @include media(grid-med) {
@@ -88,13 +88,6 @@
 
 }
 
-.m-quote-a {
-    .highlight {
-        background: $green;
-        box-shadow: .25em 0 0 $green,
-                .25em*-1 0 0 $green;
-    }
-}
 
 // Second
 
@@ -154,12 +147,34 @@
 
 // Venue module is basically a quote with some other stuff
 
-.m-venue {
-    background-image: url("/images/backgrounds/brewandbrew.jpg");
-    @include media(grid-xl) {
-        background-position: 50% 70%;
-    }
+// .m-venue {
+//     background-image: url("/images/backgrounds/brewandbrew.jpg");
+//     @include media(grid-xl) {
+//         background-position: 50% 70%;
+//     }
+// }
+
+
+.highlight__pink {
+    background: $pink;
+    box-shadow: .25em 0 0 $pink,
+            .25em*-1 0 0 $pink;
 }
+
+
+.highlight__green {
+    background: $green;
+    box-shadow: .25em 0 0 $green,
+            .25em*-1 0 0 $green;
+}
+
+
+.highlight__gold {
+    background: $gold;
+    box-shadow: .25em 0 0 $gold,
+            .25em*-1 0 0 $gold;
+}
+
 
 .m-venue {
 
