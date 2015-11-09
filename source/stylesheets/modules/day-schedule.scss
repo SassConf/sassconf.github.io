@@ -14,8 +14,14 @@
   // background: $blue;
 }
 
-.day-schedule__nav {
+.day-schedule__nav-group {
+  padding-left: 0;
+  list-style: none;
   position: fixed;
   width: 10em;
   // top: 0;
+}
+
+.day-schedule__nav-item {
+  padding: 0.25em  1em;
 }

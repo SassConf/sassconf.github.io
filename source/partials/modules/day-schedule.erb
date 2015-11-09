@@ -3,11 +3,13 @@
 <!-- <section class="m-day-schedule"> -->
     <!-- <a name="coc"></a> -->
       <aside class="day-schedule__nav__container">
-          <div class="day-schedule__nav">
+        <ul class="day-schedule__nav-group">
             <% data.speakers.each do |s| %>
-            <%= link_to s.social.github, "##{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}" %>
+            <li class="day-schedule__nav-item">
+              <%= link_to s.start, "##{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}", :class => "day-schedule__nav__link" %>
+            </li>
             <% end %>
-          </div>
+        </ul>
       </aside>
       <article class="day-schedule__body">
         <% data.speakers.each do |s| %>
