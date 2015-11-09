@@ -1,12 +1,17 @@
-<section class="m-day-schedule">
+
+
+<!-- <section class="m-day-schedule"> -->
     <!-- <a name="coc"></a> -->
-      <aside class="day-schedule__nav">
-        <% data.speakers.each do |s| %>
-          <a class="day-schedule__nav__link"><%= s.start %></a> <br>
-        <% end %>
+      <aside class="day-schedule__nav__container">
+          <div class="day-schedule__nav">
+            <% data.speakers.each do |s| %>
+            <%= link_to s.social.github, "##{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}" %>
+            <% end %>
+          </div>
       </aside>
       <article class="day-schedule__body">
         <% data.speakers.each do |s| %>
+          <%= link_to :name => "#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}" %>
           <h5>
             <%= s.start %> - <%= s.end %>
           </h5>
@@ -26,4 +31,4 @@
           </footer>
         <% end %>
       </article>
-</section>
+<!-- </section> -->
