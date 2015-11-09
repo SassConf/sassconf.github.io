@@ -67,6 +67,6 @@ $(document).ready(function() {
   // $timeLink.html(time);
   
   // Find Days Until box and put in the correct number
-  document.getElementById('daysuntil-number').innerHTML = (Math.ceil((conference.getTime()-today.getTime())/(one_day)));
+  // document.getElementById('daysuntil-number').innerHTML = (Math.ceil((conference.getTime()-today.getTime())/(one_day)));
 
 });
