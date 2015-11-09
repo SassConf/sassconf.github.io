@@ -48,24 +48,40 @@ $(document).ready(function(){
 
   // moment($('.day-schedule__nav__link').html).format("MM DD h hh:m a");
 
-  // var $timeLink = $('.day-schedule__nav__link');
-  // var $timeLinkArray = [];
-  // var $timeLinkHtml = $timeLink.html();
-  // var time;
-  //
-  //
-  // for (var i = 0; i < array.length; i++) {
-  //   array[i]
-  // }
-  // function stringToInteger(e) {
-  //   var date = parseInt(e);
-  //   time = date;
-  // }
-  // stringToInteger($timeLinkHtml);
-  //
-  // $timeLink.html(time);
 
-  
+  // var $startTime = $('.session-time__start');
+  // var array = [];
+
+  function convertDate(e) {
+    var $el = $(e);
+    var timeArray = [];
+
+    for (var i = 0; i < $el.length; i++) {
+      var dateInteger = parseInt($el[i].innerHTML);
+      var momentDate = moment(dateInteger).format("h:mm A");
+      timeArray.push(momentDate);
+      $el[i].innerHTML = timeArray[i];
+    }
+  }
+
+  convertDate('.session-time__start');
+  convertDate('.session-time__end');
+  convertDate('.day-schedule__nav__link');
+
+  // for (var i = 0; i < $startTime.length; i++) {
+  //   var dateInteger = parseInt($startTime[i].innerHTML);
+  //   var momentDate = moment(dateInteger).format("hh:m A");
+  //   startTimeArray.push(momentDate);
+  //   $startTime[i].innerHTML = startTimeArray[i];
+  // }
+
+
+
+
+  $('.day-schedule__session-title').bind('click', function(e){
+    $(this).closest('.day-schedule__session-footer').removeClass('hide');
+     console.log($(this));
+  })
 
 
 });

@@ -18,10 +18,26 @@
   padding-left: 0;
   list-style: none;
   position: fixed;
-  width: 10em;
+  min-width: 4.8em;
   // top: 0;
 }
 
 .day-schedule__nav-item {
-  padding: 0.25em  1em;
+  padding: 0.25em;
+}
+
+
+.day-schedule__session {
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+  &:not(:last-child) {
+    border-bottom: 2px solid $black;
+  }
+
+}
+
+.day-schedule__session-title {
+  font-weight: bold;
+  cursor: pointer;
 }
