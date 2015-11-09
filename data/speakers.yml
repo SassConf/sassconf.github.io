@@ -85,7 +85,7 @@
 
     Demonstrations will include randomizing colors, animations, and layouts, and some details on how random() behaves within different control directives.
 
-  does: "Front-end Developer, Vox"
+  does: "Front-end Developer, Vox Media"
   bio: "I live in Brooklyn, NY, and have lived in the northeast megalopolis for my entire life. My favorite word is megalopolis. I spend my work time as a front-end developer at Vox Media; some of my free time is spent making art with Sass. I am especially interested in randomization and CSS animation."
   social:
     github: mknadler
