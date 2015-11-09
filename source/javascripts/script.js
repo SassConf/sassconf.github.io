@@ -46,16 +46,28 @@ $(document).ready(function(){
     console.log($(this).parents('.workshops__description').addClass("workshops__description--is-hidden"));
   })
 
-  // var time = $('.day-schedule__nav__link').html();
+  // moment($('.day-schedule__nav__link').html).format("MM DD h hh:m a");
+
+  // var $timeLink = $('.day-schedule__nav__link');
+  // var $timeLinkArray = [];
+  // var $timeLinkHtml = $timeLink.html();
+  // var time;
   //
+  //
+  // for (var i = 0; i < array.length; i++) {
+  //   array[i]
+  // }
   // function stringToInteger(e) {
   //   var date = parseInt(e);
-  //   return date;
+  //   time = date;
   // }
+  // stringToInteger($timeLinkHtml);
+  //
+  // $timeLink.html(time);
 
 
 
 });
 
 // Find Days Until box and put in the correct number
-document.getElementById('daysuntil-number').innerHTML = (Math.ceil((conference.getTime()-today.getTime())/(one_day)));
+// document.getElementById('daysuntil-number').innerHTML = (Math.ceil((conference.getTime()-today.getTime())/(one_day)));
