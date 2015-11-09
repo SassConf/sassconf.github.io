@@ -1,0 +1,23 @@
+{
+  "name": "sassconf.github.io",
+  "version": "1.0.0",
+  "description": "Website for Sassconf 2015",
+  "main": "index.js",
+  "dependencies": {
+    "moment": "^2.10.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SassConf/sassconf.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SassConf/sassconf.github.io/issues"
+  },
+  "homepage": "https://github.com/SassConf/sassconf.github.io"
+}
