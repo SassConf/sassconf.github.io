@@ -1,5 +1,5 @@
 title: "State of Sass Panel"
-description: "It's a SassConf tradition reveal Sass related news: in 2013 it was the new Sass lang site, LibSass; in 2014 it was Sass 3.4."
+description: "It's a SassConf tradition to reveal Sass related news: in 2013, the new Sass-lang site, LibSass, was unveiled; in 2014, we revealed Sass 3.4."
 sponsor:
   name: Shopify
   url: shoppify.com
@@ -24,7 +24,7 @@ participants:
     social:
       twitter: "chriseppstein"
   -
-    name: "Michael Misfud"
+    name: "Michael Mifsud"
     does: "Core LibSass maintainer"
     social:
       twitter: "xyzer"

@@ -7,7 +7,15 @@
         margin: 60px 0;
     }
     h4 {
+        color: $white;
+    }
+
+    a {
         color: $gold;
+        &:hover,
+        &:focus {
+            color: lighten($gold, 10%);
+        }
     }
 }
 

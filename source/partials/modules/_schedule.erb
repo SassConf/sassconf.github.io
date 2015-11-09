@@ -17,7 +17,7 @@
 		</article>
 
 
-   <section data-src="https://sassconf.imgix.net/backgrounds/austin-fireside-lounge.jpg?auto=format" class="imgix-fluid imgix-fluid-bg m-quote">
+   <section data-src="https://sassconf.imgix.net/backgrounds/austin-firehouse-lounge.jpg?auto=format" class="imgix-fluid imgix-fluid-bg m-quote">
 
 		    <h3 class="quote-text">
 		        <span class="highlight highlight__pink highlight-wrap">
@@ -32,9 +32,11 @@
 
 		<article>
 			<h3>State of Sass Panel with SassCSS Core Team</h3>
-			<h4>Sponsored by Shopify</h4>
+			<h4>Sponsored by <a href="https://twitter.com/Shopify">Shopify</a></h4>
 
-			<p>It's a SassConf tradition reveal Sass related news: in 2013 it was the new Sass-lang site and new versions of Sass; in 2014 it was LibSass. What will it be this year? Get a delicious cocktail, order a little food, and come hear the panel.</p>
+			<p>It's a SassConf tradition reveal Sass related news: 2013 revealed both the new Sass-lang site and versions of Sass; 2014 unveiled LibSass. What will it be this year?
+
+			Come hear the panel at <a href="http://www.firehousehostel.com/">FireHouse</a>: Get a delicious cocktail, order some great food, and enjoy!</p>
 
 			<p></p>
 
@@ -91,7 +93,7 @@
 		<article>
 
 			<h3>Single-track conference, participatory discussions, hands on workshops</h3>
-			<h4>Lunch sponsored by Casper</h4>
+			<h4>Lunch sponsored by <a href="https://twitter.com/casper">Casper</a></h4>
 			<p>Our signature single-track conference featuring 24 speakers from all around the world. We've added new
 			talk formats.</p>
 
@@ -137,7 +139,7 @@
 		            Official Opening Party: State of Sass
 		        </span>
 		        <span class="highlight highlight__gold highlight-breaks">
-		            Speaker Panel<br/>Thursday, Nov. 12 6pm
+		            Speaker Panel<br/>Thursday, Nov. 12 @ 6pm
 		        </span>
 		    </h3>
 		</section>
@@ -145,9 +147,9 @@
 
 		<article>
 
-			<h3>A closing conference tradition</h3>
+			<h3>Our closing conference tradition</h3>
 			<div class="location">
-				<h6>at Brew & Brew</h6>
+				<h6>at <a href="https://twitter.com/TheBrewAndBrew">Brew & Brew</a></h6>
 			</div>
 
 			<p>Grab some delicious brews or maybe some TopoChica and gather around for our closing conference tradition</p>
@@ -173,13 +175,13 @@
 
 		<article>
 			<h3>Music, Laughs, Stories, Fun</h3>
-			<h4>Drinks sponsored by Vox</h4>
+			<h4>Drinks sponsored by <a href="https://twitter.com/voxmediainc">Vox</a></h4>
 			<div class="location">
-				<h6>at Brew & Brew</h6>
+				<h6>at <a href="https://twitter.com/TheBrewAndBrew">Brew & Brew</a></h6>
 			</div>
 
-			<p>Keep on riding the fun into the conference party. Featuring delicious
-			cocktails by SassConf 205 Speaker and drink lover, Lara, as well as renowned collection of craft beers. Wine and non-alcoholic drinks too.</p>
+			<p>Keep riding the fun into the conference party, featuring delicious
+			cocktails by SassConf 2015 Speaker and drink lover <a href="https://twitter.com/laras126">Lara</a>, as well as renowned collection of craft beers. Wine and non-alcoholic drinks are available too.</p>
 		</article>
 
 </section>
@@ -203,13 +205,13 @@
 
 		<article>
 			<h3>Sass Community Signature Event</h3>
-			<h5>at Brew & Brew</h5>
+			<h5>at <a href="https://twitter.com/TheBrewAndBrew">Brew & Brew</a></h5>
 
-			<p>SassConf UnConf is an organic day where attendees can present, hack, and learn together. Come hang out with us at our favorite coffee.</p>
+			<p>SassConf Community Day is an organic day where attendees can present, hack, and learn together. Come hang out with us at our favorite coffee shop.</p>
 
 			<p>Sign up in advance or decide the day of. Come early for brunch.</p>
 
-			<p>We'll enjoy discounts at Brew & Brew, one of Austin's best coffee shops.</p>
+			<p>We'll enjoy discounts at <a href="https://twitter.com/TheBrewAndBrew">Brew & Brew</a>, one of Austin's best coffee shops.</p>
 
 		</article>
 
@@ -232,35 +234,51 @@
 
 		<article>
 			<h3>Full Day Advanced Front-End Training</h3>
-			<h5>at Capital Factory</h5>
+			<h5>at <a href="http://capitalfactory.com/">Capital Factory</a> </h5>
 
 			<p>Get even more out of SassConf with state of the art training from leaders in front-end development.</p>
 
 
 		<div class="speaker-grid">
-			<% data.opening.participants.each do |s| %>
+
 
 				<article class="speaker" >
 				  <div class="speaker-circle">
-				    <%= image_tag "speakers/#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.jpg" %>
+				    <%= image_tag "workshops/wesbos.jpg" %>
 				  </div>
 
-				  <% if s.title %>
-				  	<h3 class="speaker-talk-title">
-				  		<% link_to "http://twitter.com/<%= s.social.twitter%" do %>
-				  			<%= s.title %>
-							<% end %>
-				  	</h3>
-					<% end %>
+			  	<h3 class="speaker-talk-title">
+			  		Getting Good at Gulp
+			  	</h3>
 
 				  <div class="speaker-name">
-				  	<%= s.name %>
+				  	<% link_to "http://twitter.com/wesbos" do %>
+			  			Wes Bos
+						<% end %>
 			  	</div>
 
-				  <h4 class="speaker-mini-bio"><%= s.does %></h4>
+				</article>
+
+
+				<article class="speaker" >
+				  <div class="speaker-circle">
+				    <%= image_tag "speakers/roy-tomeij.jpg" %>
+				  </div>
+
+			  	<h3 class="speaker-talk-title">
+			  		Advanced Sass: Turn your Sass up to 11
+			  	</h3>
+
+				  <div class="speaker-name">
+				  	<% link_to "http://twitter.com/wesbos" do %>
+			  			Roy Tomeij
+						<% end %>
+			  	</div>
 
 				</article>
-			<% end %>
+
+
+
 
 		</div>
 	</article>
