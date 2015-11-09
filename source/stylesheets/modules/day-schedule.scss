@@ -1,12 +1,21 @@
 .m-day-schedule {
   display: flex;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
-.day-schedule__nav {
-  flex: 1 10em;
+.day-schedule__nav__container {
+  flex: 1 3em;
+  background: $pink;
 }
 
 .day-schedule__body {
-  flex: 3 30em;
+  flex: 3 12em;
+  // background: $blue;
+}
+
+.day-schedule__nav {
+  position: fixed;
+  width: 10em;
+  // top: 0;
 }
