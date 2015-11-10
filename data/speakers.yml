@@ -94,15 +94,14 @@
 
     Generative art is when you create something indirectly; it is when you create a system or process that does the creating for you. A lot of Sass could be classified as generative art. When you use a grid system instead of manually defining every margin yourself, you are giving that grid system a certain input, and it will generate the styles which comprise a layout.
 
-    I would like to talk about how the random() function in Sass provides an opportunity to explore a different kind of generative art. Whereas most @mixins and @functions will generate the same output provided the same input, random() introduces chance -- unstable stylesheets -- ghosts.
+    I will be talking about how the random() function in Sass provides an opportunity to explore a different kind of generative art. Whereas most @mixins and @functions will generate the same output provided the same input, random() introduces chance -- unstable stylesheets -- ghosts.
 
-    The lead-in would be a brief overview of the concept and historical placement of generative art and chance art, with some examples from literature and non-digital visual art. Examples might include Raymond Queneau or Jackson Pollock.
+    The talk will cover the inner workings of the random number generator that powers the random() function in Sass, non-digital chance art (including examples from most of recorded history), and a variety of other connected topics.
 
-    Demonstrations, many of them interactive, would range from topics such as randomly picking a font color to wholly randomized layouts and how random() acts with different control directives. This would take up the bulk of the allotted time.
+    Demonstrations will include randomizing colors, animations, and layouts, and some details on how random() behaves within different control directives.
 
-    The talk would end with a wrap-up which would tie the demonstrated techniques back into coding and art in general.
-  does: "Front-end Developer, Vox"
-  bio: "I live in Brooklyn, NY, and have lived in the northeast megalopolis for my entire life. My favorite word is megalopolis. I spend my work time as a front-end developer at Vox Media; my free time is spent making art with Sass. I am especially interested in randomization and CSS animation."
+  does: "Front-end Developer, Vox Media"
+  bio: "I live in Brooklyn, NY, and have lived in the northeast megalopolis for my entire life. My favorite word is megalopolis. I spend my work time as a front-end developer at Vox Media; some of my free time is spent making art with Sass. I am especially interested in randomization and CSS animation."
   social:
     github: mknadler
     twitter: 'antimytheme'

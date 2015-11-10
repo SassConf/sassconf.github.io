@@ -1,4 +1,7 @@
-
+<%
+speakers_day_one = data.speakers.select{|s|
+   Time.at(s.start / 1000).day == 11}.sort_by {|s| s.start }
+%>
 
 <!-- <section class="m-day-schedule"> -->
     <!-- <a name="coc"></a> -->
@@ -10,7 +13,7 @@
               <!-- <%= image_tag 'full__logo.svg', :class => "day-schedule__logo" %> -->
             </a>
           </li>
-            <% data.speakers.each do |s| %>
+            <% speakers_day_one.each do |s| %>
             <li class="day-schedule__nav-item">
               <%= link_to s.start, "##{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}", :class => "day-schedule__nav__link" %>
             </li>
@@ -18,10 +21,10 @@
         </ul>
       </aside>
       <article class="day-schedule__body">
-        <% data.speakers.each do |s| %>
+        <% speakers_day_one.each do |s| %>
           <section class="day-schedule__session">
             <%= link_to :name => "#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}" %>
-            <h5 class="day-schedule__session-time"><span class="session-time__start"><%= s.start %></span>  - <span class="session-time__end"><%= s.end %></span> <br> at <span class="day-schedule__session-location"><%= s.venue %></span></h5>
+            <h5 class="day-schedule__session-time"><span class="session-time__start"><%= s.start %></span>  - <span class="session-time__end"><%= s.end %></span> <br> <span class="day-schedule__session-location"><%= s.venue %></span></h5>
             <!-- <span class="day-schedule__session-type"><%= s.type %></span> -->
             <h3 class="day-schedule__session-title"><%= s.title %></h3>
             <span class="day-schedule__session-type"><%= s.type %></span>

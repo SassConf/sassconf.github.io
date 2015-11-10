@@ -1,4 +1,11 @@
 ###
+# Template engines
+###
+
+set :haml, { :ugly => true, :format => :html5 }
+
+
+###
 # Compass
 ###
 
@@ -69,6 +76,7 @@ helpers do
   def markdown(text)
       Tilt['markdown'].new { text }.render(scope=self)
   end
+
 end
 
 set :css_dir, 'stylesheets'
