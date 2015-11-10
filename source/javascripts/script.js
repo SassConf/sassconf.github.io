@@ -103,6 +103,36 @@ $(document).ready(function() {
   });
 });
 
+
+// function addTypeClass(e){
+//   if (e.html() === "short") {
+//     $(this).addClass('day-schedule__session-type--short');
+//   }
+//   else if (e.html() === "long") {
+//     $(this).addClass('day-schedule__session-type--long');
+//
+//   } else {
+//     $(this).addClass('day-schedule__session-type--discussion');
+//   }
+// }
+
+// function addTypeClass(){
+//   if ($('.day-schedule__session-type').html() === "short") {
+//     $(this).addClass('day-schedule__session-type--short');
+//     console.log($(this));
+//   }
+//   // $('.day-schedule__session-type').addClass('day-schedule__session-type--short');
+// }
+
+// addTypeClass();
+
+
+
+//'.day-schedule__session-type'
+//addTypeClass($('.day-schedule__session-type'));
+
+
+
   // Find Days Until box and put in the correct number
   // document.getElementById('daysuntil-number').innerHTML = (Math.ceil((conference.getTime()-today.getTime())/(one_day)));
 
