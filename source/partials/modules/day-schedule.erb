@@ -4,9 +4,12 @@
     <!-- <a name="coc"></a> -->
       <aside class="day-schedule__nav__container">
         <ul class="day-schedule__nav-group">
-          <!-- <li>
-            <a class="subpage-nav-item logo"><%= partial "partials/logo" %></a>
-          </li> -->
+          <li class="day-schedule__logo__container">
+            <a class="day-schedule__logo__link">
+              <%= partial "images/logo__icon.svg", :class => "day-schedule__logo"%>
+              <!-- <%= image_tag 'full__logo.svg', :class => "day-schedule__logo" %> -->
+            </a>
+          </li>
             <% data.speakers.each do |s| %>
             <li class="day-schedule__nav-item">
               <%= link_to s.start, "##{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}", :class => "day-schedule__nav__link" %>
@@ -19,7 +22,9 @@
           <section class="day-schedule__session">
             <%= link_to :name => "#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}" %>
             <h5 class="day-schedule__session-time"><span class="session-time__start"><%= s.start %></span>  - <span class="session-time__end"><%= s.end %></span></h5>
-            <h2 class="day-schedule__session-title"><%= s.title %></h2>
+            <!-- <span class="day-schedule__session-type"><%= s.type %></span> -->
+            <h3 class="day-schedule__session-title"><%= s.title %></h3>
+            <span class="day-schedule__session-type"><%= s.type %></span>
             <h6 class="day-schedule__session-name"><%= s.name %></h6>
             <footer class="day-schedule__session-footer hide">
               <p><%= s.description %></p>

@@ -63,11 +63,46 @@ $(document).ready(function() {
   convertDate('.session-time__end');
   convertDate('.day-schedule__nav__link');
 
+  $('.day-schedule__session-footer').append('<a href="#" class="session-description__close">Close</a>');
+
 
   $('.day-schedule__session-title').bind('click', function(e){
-    $(this).closest('.day-schedule__session-footer').removeClass('hide');
-     console.log($(this));
+    $(this).parent().find('.day-schedule__session-footer').slideToggle('hide');
   })
+
+  // Close description
+  $('.session-description__close').bind('click', function(e){
+    $(this).parent().slideUp();
+    console.log($(this));
+
+
+
+  })
+
+  // Animation when you click on session link
+  $(function() {
+  $('.day-schedule__nav__link').click(function() {
+
+    if($(this).parent().hasClass('active')) {
+      $(this).parent().removeClass('active');
+    } else {
+      $(this).parent().siblings().removeClass('active');
+      $(this).parent().addClass('active');
+    }
+
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
   // Find Days Until box and put in the correct number
   // document.getElementById('daysuntil-number').innerHTML = (Math.ceil((conference.getTime()-today.getTime())/(one_day)));
 

@@ -6,7 +6,7 @@
 
 .day-schedule__nav__container {
   flex: 1 3em;
-  background: $pink;
+  background: $purple;
 }
 
 .day-schedule__body {
@@ -23,7 +23,7 @@
 }
 
 .day-schedule__nav-item {
-  padding: 0.25em;
+  //padding: 0.25em;
 }
 
 
@@ -40,4 +40,99 @@
 .day-schedule__session-title {
   font-weight: bold;
   cursor: pointer;
+  transition: 1s ease color;
+
+  &:hover {
+    color:$blue;
+  }
+}
+
+.day-schedule__nav-item.active {
+
+  .day-schedule__nav__link {
+    background-color: $pink;
+    opacity: 1.0;
+  }
+}
+
+.day-schedule__nav__link {
+  display: block;
+  padding: 1em 0.3em;
+  font-size: 0.9em;
+  text-align: center;
+  font-weight: bolder;
+  color: $white !important;
+  opacity: 0.5;
+  transition: 1s ease opacity;
+  //border-bottom: 1px solid $white;
+  //border-top: 1px solid $white;
+
+  &:hover {
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.2);
+    opacity: 1.0;
+  }
+
+}
+
+.session-description__close {
+  width: 25%;
+  text-align: center;
+  display: block;
+  padding: 1em;
+  margin: 0 auto;
+  border: 1px solid $blue;
+  border-radius: 5px;
+  color: $blue;
+  text-transform: uppercase;
+}
+.day-schedule__session-type {
+  padding: 0.5em;
+  border: 1px solid $green;
+  border-radius: 5px;
+  font-size: 0.8em;
+  color: $green;
+}
+
+.schedule__session-time {
+  font-weight: bold;
+}
+
+
+// .day-schedule__logo {
+//   width: 10em;
+// }
+
+.day-schedule__logo__container {
+  width: 4.8em;
+  margin-bottom: 1em;
+}
+
+.day-schedule__logo__link {
+  display: block;
+
+  svg {
+    // width: 2.95em;
+    // height: 2.95em;
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 1em;
+  }
+
+}
+
+.full-logo__icon {
+  //display: none;
+  width: 100em;
+  height: 100em;
+}
+
+.full-logo__white {
+  display: none;
+}
+
+.full-logo__2015 {
+  display: none;
 }
