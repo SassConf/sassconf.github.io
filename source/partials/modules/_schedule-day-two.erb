@@ -25,7 +25,7 @@ speakers_day_one = data.speakers.select{|s|
         <% speakers_day_one.each do |s| %>
           <section class="day-schedule__session">
             <%= link_to :name => "#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}" %>
-            <h5 class="day-schedule__session-time"><span class="session-time__start"><%= s.start %></span>  - <span class="session-time__end"><%= s.end %></span> <br> <span class="day-schedule__session-location"><%= s.venue %></span></h5>
+            <h5 class="day-schedule__session-time"><span class="session-time__start"><%= s.start %></span>  - <span class="session-time__end"><%= s.end %></span> <br> <span class="day-schedule__session-location <%= h s.venue.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase -%>" ><%= s.venue %></span></h5>
             <!-- <span class="day-schedule__session-type"><%= s.type %></span> -->
             <h3 class="day-schedule__session-title"><%= s.title %></h3>
             <span class="day-schedule__session-type <%= h s.type.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase -%>"><%= s.type %></span>

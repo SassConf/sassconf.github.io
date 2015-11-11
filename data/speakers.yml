@@ -533,8 +533,8 @@
   venue: 'The North Door'
   type: 'workshop'
   title: "Looping for Animation"
-  start: 1447362900000
-  end: 1447373700000
+  start: 1447276500000
+  end: 1447244100000
   description: |
     In this workshop, full of hand-on exercises, we will look into the gist of Sass’ loops for animations. Introducing the best tips to make impressive animations with a tiny quantity of code. As we take advantage of Mixins and Loops; animating color changes, creating delays and even animating SVG is simpler than ever!
 
@@ -598,8 +598,8 @@
   type: 'Discussion'
   id: 46
   title: 'Why the Designer Failed FizzBuzz: On Hiring, Job Titles, and Descriptions'
-  start: 1447367100000
-  end: 1447370700000
+  start: 1447280700000
+  end: 1447284300000
   description: |
     I failed FizzBuzz during an interview and wrote about it for CSS-Tricks. There was a huge response to the article. Although r/programming ripped it apart, the feedback from the front-end community was very positive, and there's no doubt erroneous job descriptions have affected many more than myself. Negative or positive, all of the feedback indicates that the disconnect between job titles/descriptions and actual roles is a real issue in our industry.
 
