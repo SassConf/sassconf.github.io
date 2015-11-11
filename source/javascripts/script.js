@@ -104,6 +104,12 @@ $(document).ready(function(){
 });
 
 
+$('span[class^="day-schedule__session-location the-north-door-"]').wrap( '<a href="https://www.google.com/maps/place/The+North+Door/@30.264718,-97.7362335,17z/data=!3m1!4b1!4m2!3m1!1s0x8644b5a58809fbd1:0x2f09e2f5c3c6dc6d" target="_blank"></a>' );
+
+$('span[class^="day-schedule__session-location retail-me-"]').wrap( '<a href="https://www.google.com/maps/place/RetailMeNot+Inc./@30.259059,-97.736249,15z/data=!4m2!3m1!1s0x0000000000000000:0x4ea05c5cb98939a0" target="_blank"></a>' );
+
+$('span[class^="day-schedule__session-location funsize-"]').wrap( '<a href="https://www.google.com/maps/place/Funsize/@30.2669042,-97.7390286,15z/data=!4m2!3m1!1s0x0:0x27e62ae56ef4658b" target="_blank" ></a>' );
+
   // Find Days Until box and put in the correct number
   // document.getElementById('daysuntil-number').innerHTML = (Math.ceil((conference.getTime()-today.getTime())/(one_day)));
 
