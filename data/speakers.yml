@@ -3,7 +3,7 @@
   slug: "tab-atkins"
   location: 'Austin'
   venue: 'North Door'
-  type: 'short'
+  type: 'Lighting Talk'
   title: "Houdini: The Extensible Future of CSS"
   start: 1447260420000
   end: 1447261020000
@@ -20,7 +20,7 @@
   name: 'Julie Cameron'
   location: 'Ypsilanti, MI'
   venue: 'Retail Me Not'
-  type: 'short'
+  type: 'Lighting Talk'
   title: "Getting Sassy with CSS"
   start: 1447276500000
   end: 1447287300000
@@ -40,7 +40,7 @@
   img: 'miriam-suzanne'
   location: 'Denver, CO'
   venue: 'North Door'
-  type: 'discussion'
+  type: 'Discussion'
   title: "User Un-Friendly [or Notes Towards a Queer Web]"
   start: 1447276500000
   end: 1447280100000
@@ -59,7 +59,7 @@
   name: 'James Steinbach'
   location: 'Denver, CO'
   venue: 'North Door'
-  type: 'short'
+  type: 'Lighting Talk'
   title: "Using Musical Scales to Build Harmonious Typographic Scale"
   start: 1447269300000
   end: 1447270200000
@@ -84,7 +84,7 @@
   name: 'Miriam Nadler'
   location: 'Brooklyn, NY'
   venue: 'North Door'
-  type: 'long'
+  type: 'Standard Talk'
   id: 17
   title: "A Machine to Catch Ghosts: Generative Art and Sass"
   start: 1447257600000
@@ -110,7 +110,7 @@
   name: 'Dan Na'
   location: 'New York, NY'
   venue: 'North Door'
-  type: 'long'
+  type: 'Standard Talk'
   id: 73
   title: "Transitioning to Sass at Scale"
   start: 1447272600000
@@ -170,7 +170,7 @@
     I use empathy, words, philosophy, and code for editorial systems design {for/in/at} social and environmental justice {advocacy/educational/publishing} not-for-profit organizations. And advocate for open-access publishing and interdisciplinary scholarship. I nerd out at the intersection of scholarship, design, and public policy.
 
     One day, I may grow up to become a scholar.
-  type: 'discussion'
+  type: 'Discussion'
   id: 49
   title: "The Missing De-orbit Command: How do we decide to end stale projects?"
   start: 1447276500000
@@ -197,7 +197,7 @@
   name: 'Ally Palanzi'
   location: 'Washington, DC'
   venue: 'Funsize'
-  type: 'discussion'
+  type: 'Discussion'
   title: "Don't Speak in Code: Clear + Kind Communication Skills"
   start: 1447362900000
   end: 1447366200000
@@ -220,7 +220,7 @@
   name: 'Jonathan Cutrell'
   location: 'Chattanooga, TN'
   venue: 'North Door'
-  type: 'discussion'
+  type: 'Discussion'
   id: "https://github.com/SassConf/2015-austin-speaker-cfp/issues/3"
   title: "Attributes-driven Styles: The Good, the Bad, and the Unknown"
   start: 1447280700000
@@ -255,7 +255,7 @@
   name: 'Natalya Shelburne'
   location: 'Austin, TX'
   venue: 'North Door'
-  type: 'long'
+  type: 'Standard Talk'
   id: https://github.com/SassConf/2015-austin-speaker-cfp/issues/10
   title: "Practical Color Theory & Design Tips for People Who Code"
   start: 1447261200000
@@ -307,7 +307,7 @@
   name: 'Lourdes Montano'
   location: 'Buenos Aires, ARG'
   venue: 'North Door'
-  type: 'short'
+  type: 'Lighting Talk'
   id: 36
   title: "Creating your styleguide with Sass Maps"
   start: 1447263300000
@@ -334,7 +334,7 @@
   name: 'Lee Ann Kinney'
   location: 'Philadelphia, PA'
   venue: 'North Door'
-  type: 'short'
+  type: 'Lighting Talk'
   id: 78
   title: "Unintentional Exclusion - Web accessibility and how we’re failing our users"
   start: 1447270320000
@@ -363,7 +363,7 @@
   name: 'Roy Tomeij'
   location: 'Amsterdam, NLD'
   venue: 'North Door'
-  type: 'long'
+  type: 'Standard Talk'
   id: 59
   title: "From 0 to 80 in 40 Minutes"
   start: 1447343100000
@@ -383,7 +383,7 @@
   name: 'Glen Maddern'
   location: 'Melbourne, AUS'
   venue: 'North Door'
-  type: 'long'
+  type: 'Standard Talk'
   id: 77
   title: "CSS Modules: turning extension into composition"
   start: 1447356300000
@@ -411,7 +411,7 @@
   name: 'Alicia Liu'
   location: 'San Francisco, CA'
   venue: 'North Door'
-  type: 'long'
+  type: 'Standard Talk'
   id: 30,
   title: "Slaying the Dragon: Refactoring CSS Using Sass"
   start: 1447345800000
@@ -449,7 +449,7 @@
   name: 'Chris Sauve'
   location: 'Ottawa, ON, CAN'
   venue: 'North Door'
-  type: 'short'
+  type: 'Lighting Talk'
   id: 29,
   title: "Sass Central Nervous Systems"
   start: 1447355100000
@@ -483,7 +483,7 @@
   name: 'Stacy Kvernmo'
   location: 'Aurora, IL'
   venue: 'North Door'
-  type: 'short'
+  type: 'Lighting Talk'
   id: 18
   title: "Code Reviews: Turn Humiliation into Greatness"
   start: 1447271400000
@@ -595,7 +595,7 @@
   name: 'Lara Schenck'
   location: 'New York, NY'
   venue: 'Funsize'
-  type: 'discussion'
+  type: 'Discussion'
   id: 46
   title: 'Why the Designer Failed FizzBuzz: On Hiring, Job Titles, and Descriptions'
   start: 1447367100000
@@ -653,7 +653,7 @@
   name: 'Jack Gold'
   location: 'New York, NY'
   venue: 'North Door'
-  type: 'long'
+  type: 'Standard Talk'
   title: "Polyfill your Job: Tips for doing great work (in not-so-great situations)"
   start: 1447348320000
   end: 1447349220000
@@ -680,7 +680,7 @@
   name: 'Jesse Nichols'
   location: 'Augusta, GA'
   venue: 'North Door'
-  type: 'long'
+  type: 'Standard Talk'
   id: 27
   title: "Websites and Breakdancing"
   start: 1447359000000

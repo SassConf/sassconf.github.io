@@ -1,0 +1,47 @@
+<%
+speakers_day_one = data.speakers.select{|s|
+   Time.at(s.start / 1000).day == 11}.sort_by {|s| s.start }
+%>
+
+<!-- <section class="m-day-schedule"> -->
+    <!-- <a name="coc"></a> -->
+      <aside class="day-schedule__nav__container">
+        <ul class="day-schedule__nav-group">
+          <li class="day-schedule__logo__container">
+            <a class="day-schedule__logo__link">
+              <%= partial "images/logo__icon.svg", :class => "day-schedule__logo"%>
+              <!-- <%= image_tag 'full__logo.svg', :class => "day-schedule__logo" %> -->
+            </a>
+          </li>
+            <% speakers_day_one.each do |s| %>
+            <li class="day-schedule__nav-item">
+              <%= link_to s.start, "##{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}", :class => "day-schedule__nav__link" %>
+            </li>
+            <% end %>
+        </ul>
+      </aside>
+      <article class="day-schedule__body">
+          <h1>Conference Day One | <a href="schedule-day-two.html">Day Two</a></h1>
+        <% speakers_day_one.each do |s| %>
+          <section class="day-schedule__session">
+            <%= link_to :name => "#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}" %>
+            <h5 class="day-schedule__session-time"><span class="session-time__start"><%= s.start %></span>  - <span class="session-time__end"><%= s.end %></span> <br> <span class="day-schedule__session-location"><%= s.venue %></span></h5>
+            <!-- <span class="day-schedule__session-type"><%= s.type %></span> -->
+            <h3 class="day-schedule__session-title"><%= s.title %></h3>
+            <span class="day-schedule__session-type <%= h s.type.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase -%>"><%= s.type %></span>
+            <!-- <span class="day-schedule__session-location__container">
+              Location:
+              <span class="day-schedule__session-location"><%= s.venue %></span>
+            </span> -->
+            <h6 class="day-schedule__session-name"><%= s.name %></h6>
+            <footer class="day-schedule__session-footer hide">
+              <p><%= s.description %></p>
+              <% if s.bio %>
+                <h6 class="speaker-bio__header">About <%= s.name %></h6>
+                <div class="speaker-bio"><%= markdown(s.bio) %></div>
+              <% end %>
+            </footer>
+          </section>
+        <% end %>
+      </article>
+<!-- </section> -->

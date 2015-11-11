@@ -7,18 +7,21 @@
 .day-schedule__nav__container {
   flex: 1 3em;
   background: $purple;
+  position: fixed;
+  height: 100%;
 }
 
 .day-schedule__body {
   flex: 3 12em;
   // background: $blue;
+  margin-left: 77px;
 }
 
 .day-schedule__nav-group {
   padding-left: 0;
   list-style: none;
-  position: fixed;
-  min-width: 4.8em;
+  //position: fixed;
+  //min-width: 4.8em;
   // top: 0;
 }
 
@@ -41,7 +44,7 @@
   font-weight: bold;
   cursor: pointer;
   transition: 1s ease color;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 
   &:hover {
     color:$blue;
@@ -80,19 +83,45 @@
   width: 25%;
   text-align: center;
   display: block;
-  padding: 1em;
+  padding: 0.5em;
   margin: 0 auto;
   border: 1px solid $blue;
   border-radius: 5px;
   color: $blue;
   text-transform: uppercase;
+  font-size: 90%;
+  // transition: 0.5s ease background-color;
+
+  &:hover {
+    text-decoration: none;
+    // color: $white;
+    // background-color: $blue;
+  }
 }
 .day-schedule__session-type {
   padding: 0.5em;
-  border: 2px solid $green;
   border-radius: 5px;
   font-size: 0.8em;
   color: $green;
+
+  &.standard-talk {
+    color: $green;
+    border: 2px solid $green;
+  }
+  &.discussion {
+    color: $pink;
+    border: 2px solid $pink;
+  }
+
+  &.lighting-talk {
+    color: $gold;
+    border: 2px solid $gold;
+  }
+
+  &.workshop {
+    color: $blue;
+    border: 2px solid $blue;
+  }
 }
 
 .schedule__session-time {

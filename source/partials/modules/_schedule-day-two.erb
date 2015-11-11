@@ -1,6 +1,6 @@
 <%
 speakers_day_one = data.speakers.select{|s|
-   Time.at(s.start / 1000).day == 11}.sort_by {|s| s.start }
+   Time.at(s.start / 1000).day == 12}.sort_by {|s| s.start }
 %>
 
 <!-- <section class="m-day-schedule"> -->
@@ -21,13 +21,14 @@ speakers_day_one = data.speakers.select{|s|
         </ul>
       </aside>
       <article class="day-schedule__body">
+        <h2>Conference Day Two | <a href="/schedule-day-one.html">Day One</a></h2>
         <% speakers_day_one.each do |s| %>
           <section class="day-schedule__session">
             <%= link_to :name => "#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}" %>
             <h5 class="day-schedule__session-time"><span class="session-time__start"><%= s.start %></span>  - <span class="session-time__end"><%= s.end %></span> <br> <span class="day-schedule__session-location"><%= s.venue %></span></h5>
             <!-- <span class="day-schedule__session-type"><%= s.type %></span> -->
             <h3 class="day-schedule__session-title"><%= s.title %></h3>
-            <span class="day-schedule__session-type"><%= s.type %></span>
+            <span class="day-schedule__session-type <%= h s.type.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase -%>"><%= s.type %></span>
             <!-- <span class="day-schedule__session-location__container">
               Location:
               <span class="day-schedule__session-location"><%= s.venue %></span>
