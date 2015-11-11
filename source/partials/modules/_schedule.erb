@@ -52,7 +52,7 @@
 
 				  <% if s.title %>
 				  	<h3 class="speaker-talk-title">
-				  		<% link_to "http://twitter.com/<%= s.social.twitter%" do %>
+				  		<% link_to "http://twitter.com/#{s.social.twitter}" do %>
 				  			<%= s.title %>
 							<% end %>
 				  	</h3>
@@ -108,7 +108,7 @@
 
 				  <% if s.title %>
 				  	<h3 class="speaker-talk-title">
-				  		<% link_to "http://twitter.com/<%= s.social.twitter%" do %>
+				  		<% link_to "http://twitter.com/#{s.social.twitter}" do %>
 				  			<%= s.title %>
 							<% end %>
 				  	</h3>
