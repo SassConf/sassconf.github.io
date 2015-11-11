@@ -8,7 +8,7 @@ speakers_day_one = data.speakers.select{|s|
       <aside class="day-schedule__nav__container">
         <ul class="day-schedule__nav-group">
           <li class="day-schedule__logo__container">
-            <a class="day-schedule__logo__link">
+            <a class="day-schedule__logo__link" href="/home.html">
               <%= partial "images/logo__icon.svg", :class => "day-schedule__logo"%>
               <!-- <%= image_tag 'full__logo.svg', :class => "day-schedule__logo" %> -->
             </a>
@@ -35,11 +35,29 @@ speakers_day_one = data.speakers.select{|s|
             </span> -->
             <h6 class="day-schedule__session-name"><%= s.name %></h6>
             <footer class="day-schedule__session-footer hide">
-              <p><%= s.description %></p>
+              <%= markdown(s.description) %>
+              <!-- <p><%= s.description %></p> -->
               <% if s.bio %>
                 <h6 class="speaker-bio__header">About <%= s.name %></h6>
                 <div class="speaker-bio"><%= markdown(s.bio) %></div>
               <% end %>
+              <ul class="speaker-social">
+                <% if s.social.twitter %>
+                  <li class="speaker-twitter speaker-url">
+                    <a href="http://twitter.com/<%= s.social.twitter%>" target="_blank"><span class="icon icon-twitter"></span>@<%= s.social.twitter%></a>
+                  </li>
+                <% end %>
+                <% if s.social.github %>
+                  <li class="speaker-github speaker-url">
+                    <a href="http://github.com/<%= s.social.github%>">
+                      <span class="icon icon-github" target="_blank"></span><%= s.social.github%></a>
+                  </li>
+                <% end %>
+                <% if s.social.web %>
+                  <li class="speaker-site speaker-url">
+                    <a href="<%= s.social.web%>" target="_blank"><span class="icon icon-link"></span><%= s.social.web%></a>
+                  </li>
+                <% end %>
             </footer>
           </section>
         <% end %>

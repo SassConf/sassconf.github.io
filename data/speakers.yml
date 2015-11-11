@@ -19,7 +19,7 @@
 -
   name: 'Julie Cameron'
   location: 'Ypsilanti, MI'
-  venue: 'Retail Me Not'
+  venue: 'Retail Me Not - Boardroom - Michael'
   type: 'Lighting Talk'
   title: "Getting Sassy with CSS"
   start: 1447276500000
@@ -39,7 +39,7 @@
   name: 'Miriam Suzanne'
   img: 'miriam-suzanne'
   location: 'Denver, CO'
-  venue: 'North Door'
+  venue: 'Funsize - Small Room'
   type: 'Discussion'
   title: "User Un-Friendly [or Notes Towards a Queer Web]"
   start: 1447276500000
@@ -128,11 +128,11 @@
 -
   name: 'Tim Hettler'
   location: 'Brooklyn, NY'
-  venue: 'Retail Me Not'
+  venue: 'Retail Me Not - Boardroom - Ray'
   type: 'workshop'
   title: "How to be a meaningful contributor to the Sass development community."
-  start: 1447276500000
-  end: 1447287300000
+  start: 1447362900000
+  end: 1447373700000
   id: 26
   description: |
     Sass is unique in the world of pre-processing languages because of it's vibrant and enthusiastic community. We give each other inspiration, lessons from mistakes, and a groundwork to build upon with our successes.
@@ -163,7 +163,7 @@
 -
   name: 'Bernard Yu'
   location: 'Washington, DC'
-  venue: 'Funsize'
+  venue: 'Retail Me Not - Boardroom - Ray'
   bio: |
     Content strategist and information architect by trade. Philosopher and political theorist by training. Social justice wizard and lover of style guides by {heart/vocation/necessity}. Maker of internetty things.
 
@@ -196,7 +196,7 @@
 -
   name: 'Ally Palanzi'
   location: 'Washington, DC'
-  venue: 'Funsize'
+  venue: 'Funsize - Large'
   type: 'Discussion'
   title: "Don't Speak in Code: Clear + Kind Communication Skills"
   start: 1447362900000
@@ -219,7 +219,7 @@
 -
   name: 'Jonathan Cutrell'
   location: 'Chattanooga, TN'
-  venue: 'North Door'
+  venue: 'Retail Me Not - Boardroom - Ray'
   type: 'Discussion'
   id: "https://github.com/SassConf/2015-austin-speaker-cfp/issues/3"
   title: "Attributes-driven Styles: The Good, the Bad, and the Unknown"
@@ -502,7 +502,7 @@
     * How to conduct your own code review whether you are on a team or working on your own
     * Tools for code reviews
 
-    ######Code reviews will:
+    ###### Code reviews will:
 
     * Expose additional ways to solve a problem that you may not have thought about yourself
     * Help you write better code
@@ -530,7 +530,7 @@
 -
   name: 'Eva Ferreira'
   location: 'Buerno Aires, ARG'
-  venue: 'Retail Me Not'
+  venue: 'The North Door'
   type: 'workshop'
   title: "Looping for Animation"
   start: 1447362900000
@@ -559,7 +559,7 @@
 -
   name: 'Rachel Ober'
   location: 'Brooklyn, NY'
-  venue: 'Retail Me Not'
+  venue: 'The North Door'
   type: 'workshop'
   title: "The Portable Pattern Guide"
   start: 1447362900000
@@ -594,7 +594,7 @@
 -
   name: 'Lara Schenck'
   location: 'New York, NY'
-  venue: 'Funsize'
+  venue: 'Funsize - Large Room'
   type: 'Discussion'
   id: 46
   title: 'Why the Designer Failed FizzBuzz: On Hiring, Job Titles, and Descriptions'
