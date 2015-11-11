@@ -19,7 +19,7 @@
 -
   name: 'Julie Cameron'
   location: 'Ypsilanti, MI'
-  venue: 'Retail Me Not (301 Congress Ave #700, Austin, TX 78701) - Boardroom - Michael'
+  venue: 'Retail Me Not (301 Congress Ave #700, Austin, TX 78701) - Boardroom'
   type: 'workshop'
   title: "Getting Sassy with CSS"
   start: 1447276500000
@@ -128,7 +128,7 @@
 -
   name: 'Tim Hettler'
   location: 'Brooklyn, NY'
-  venue: 'Retail Me Not (301 Congress Ave #700, Austin, TX 78701) - RMN - Ray'
+  venue: 'Retail Me Not (301 Congress Ave #700, Austin, TX 78701) - RMN'
   type: 'workshop'
   title: "How to be a meaningful contributor to the Sass development community."
   start: 1447362900000
@@ -163,7 +163,7 @@
 -
   name: 'Bernard Yu'
   location: 'Washington, DC'
-  venue: 'Retail Me Not (301 Congress Ave #700, Austin, TX 78701) - RMN - Ray'
+  venue: 'Retail Me Not (301 Congress Ave #700, Austin, TX 78701) - RMN'
   bio: |
     Content strategist and information architect by trade. Philosopher and political theorist by training. Social justice wizard and lover of style guides by {heart/vocation/necessity}. Maker of internetty things.
 
@@ -219,7 +219,7 @@
 -
   name: 'Jonathan Cutrell'
   location: 'Chattanooga, TN'
-  venue: 'Retail Me Not (301 Congress Ave #700, Austin, TX 78701) - RMN - Ray'
+  venue: 'Retail Me Not (301 Congress Ave #700, Austin, TX 78701) - RMN'
   type: 'Discussion'
   id: "https://github.com/SassConf/2015-austin-speaker-cfp/issues/3"
   title: "Attributes-driven Styles: The Good, the Bad, and the Unknown"
