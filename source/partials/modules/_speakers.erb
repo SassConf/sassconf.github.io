@@ -16,7 +16,7 @@
 
 		<div class="speaker-grid">
 
-			<% data.speakers.each do |s| %><% if s.type == "short" || s.type == "long" %>
+			<% data.speakers.each do |s| %><% if s.type == "Lighting Talk" || s.type == "Standard Talk" %>
 				<% link_to "speakers/#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.html" do %>
 				<article class="speaker <% if s.invited %>speaker-invited<% end %>" >
 				  <div class="speaker-circle">
@@ -58,7 +58,7 @@
 
     <div class="speaker-grid">
 
-      <% data.speakers.each do |s| %><% if s.type == "discussion" %>
+      <% data.speakers.each do |s| %><% if s.type == "Discussion" %>
         <article class="speaker <% if s.invited %>speaker-invited<% end %>" >
           <div class="speaker-circle">
             <%= image_tag "speakers/#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.jpg" %>
