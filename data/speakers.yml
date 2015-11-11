@@ -2,7 +2,7 @@
   name: 'Tab Atkins Bittner'
   slug: "tab-atkins"
   location: 'Austin'
-  venue: 'North Door'
+  venue: 'The North Door'
   type: 'Lighting Talk'
   title: "Houdini: The Extensible Future of CSS"
   start: 1447260420000
@@ -20,7 +20,7 @@
   name: 'Julie Cameron'
   location: 'Ypsilanti, MI'
   venue: 'Retail Me Not - Boardroom - Michael'
-  type: 'Lighting Talk'
+  type: 'workshop'
   title: "Getting Sassy with CSS"
   start: 1447276500000
   end: 1447287300000
@@ -58,7 +58,7 @@
 -
   name: 'James Steinbach'
   location: 'Denver, CO'
-  venue: 'North Door'
+  venue: 'The North Door'
   type: 'Lighting Talk'
   title: "Using Musical Scales to Build Harmonious Typographic Scale"
   start: 1447269300000
@@ -83,7 +83,7 @@
 -
   name: 'Miriam Nadler'
   location: 'Brooklyn, NY'
-  venue: 'North Door'
+  venue: 'The North Door'
   type: 'Standard Talk'
   id: 17
   title: "A Machine to Catch Ghosts: Generative Art and Sass"
@@ -109,7 +109,7 @@
 -
   name: 'Dan Na'
   location: 'New York, NY'
-  venue: 'North Door'
+  venue: 'The North Door'
   type: 'Standard Talk'
   id: 73
   title: "Transitioning to Sass at Scale"
@@ -254,7 +254,7 @@
 -
   name: 'Natalya Shelburne'
   location: 'Austin, TX'
-  venue: 'North Door'
+  venue: 'The North Door'
   type: 'Standard Talk'
   id: https://github.com/SassConf/2015-austin-speaker-cfp/issues/10
   title: "Practical Color Theory & Design Tips for People Who Code"
@@ -306,12 +306,12 @@
 -
   name: 'Lourdes Montano'
   location: 'Buenos Aires, ARG'
-  venue: 'North Door'
+  venue: 'The North Door'
   type: 'Lighting Talk'
   id: 36
   title: "Creating your styleguide with Sass Maps"
-  start: 1447263300000
-  end: 1447264200000
+  start: 1447349700000
+  end: 1447350600000
   description: |
     When working on big projects, the code architecture is very important to keep everything under control. CSS is no exception at all. During years, many of us have seen stylesheets with lots of repeated code that is added all the time and not taken away because 'oh dear...you never know...just in case....'.
 
@@ -333,7 +333,7 @@
 -
   name: 'Lee Ann Kinney'
   location: 'Philadelphia, PA'
-  venue: 'North Door'
+  venue: 'The North Door'
   type: 'Lighting Talk'
   id: 78
   title: "Unintentional Exclusion - Web accessibility and how we’re failing our users"
@@ -362,7 +362,7 @@
 -
   name: 'Roy Tomeij'
   location: 'Amsterdam, NLD'
-  venue: 'North Door'
+  venue: 'The North Door'
   type: 'Standard Talk'
   id: 59
   title: "From 0 to 80 in 40 Minutes"
@@ -382,7 +382,7 @@
 -
   name: 'Glen Maddern'
   location: 'Melbourne, AUS'
-  venue: 'North Door'
+  venue: 'The North Door'
   type: 'Standard Talk'
   id: 77
   title: "CSS Modules: turning extension into composition"
@@ -410,7 +410,7 @@
 -
   name: 'Alicia Liu'
   location: 'San Francisco, CA'
-  venue: 'North Door'
+  venue: 'The North Door'
   type: 'Standard Talk'
   id: 30,
   title: "Slaying the Dragon: Refactoring CSS Using Sass"
@@ -448,7 +448,7 @@
 -
   name: 'Chris Sauve'
   location: 'Ottawa, ON, CAN'
-  venue: 'North Door'
+  venue: 'The North Door'
   type: 'Lighting Talk'
   id: 29,
   title: "Sass Central Nervous Systems"
@@ -482,7 +482,7 @@
 -
   name: 'Stacy Kvernmo'
   location: 'Aurora, IL'
-  venue: 'North Door'
+  venue: 'The North Door'
   type: 'Lighting Talk'
   id: 18
   title: "Code Reviews: Turn Humiliation into Greatness"
@@ -652,7 +652,7 @@
 -
   name: 'Jack Gold'
   location: 'New York, NY'
-  venue: 'North Door'
+  venue: 'The North Door'
   type: 'Standard Talk'
   title: "Polyfill your Job: Tips for doing great work (in not-so-great situations)"
   start: 1447348320000
@@ -679,7 +679,7 @@
 -
   name: 'Jesse Nichols'
   location: 'Augusta, GA'
-  venue: 'North Door'
+  venue: 'The North Door'
   type: 'Standard Talk'
   id: 27
   title: "Websites and Breakdancing"
