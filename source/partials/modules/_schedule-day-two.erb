@@ -21,7 +21,7 @@ speakers_day_one = data.speakers.select{|s|
         </ul>
       </aside>
       <article class="day-schedule__body">
-        <h2>Conference Day Two | <a href="/schedule-day-one.html">Day One</a></h2>
+        <h2>Conference Day Two</a></h2>
         <% speakers_day_one.each do |s| %>
           <section class="day-schedule__session">
             <%= link_to :name => "#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}" %>
