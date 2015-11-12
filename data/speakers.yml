@@ -39,11 +39,11 @@
   name: 'Miriam Suzanne'
   img: 'miriam-suzanne'
   location: 'Denver, CO'
-  venue: 'Funsize (407B E 6th St #204, Austin, TX 78701) - Small Room'
+  venue: 'Funsize (407B E 6th St #204, Austin, TX 78701) - Large Room'
   type: 'Discussion'
   title: "User Un-Friendly [or Notes Towards a Queer Web]"
-  start: 1447280700000
-  end: 1447284300000
+  start: 1447362900000
+  end: 1447366500000
   invited: true
   description: |
     The web is more than a technology platform — it was created with a mission statement, and a clear philosophy of inclusive diversity. One web, for everyone, from any device, with control in the hands of users. Design, code, and management trends also come with attached philosophies — and they’re not always so friendly. What do we believe about diversity, and how is it reflected in our code, our companies, clients, products, and processes?
@@ -128,7 +128,7 @@
 -
   name: 'Tim Hettler'
   location: 'Brooklyn, NY'
-  venue: 'Retail Me Not (301 Congress Ave #700, Austin, TX 78701) - RMN'
+  venue: 'Retail Me Not (301 Congress Ave #700, Austin, TX 78701) - Boardroom'
   type: 'workshop'
   title: "How to be a meaningful contributor to the Sass development community."
   start: 1447362900000
@@ -163,7 +163,7 @@
 -
   name: 'Bernard Yu'
   location: 'Washington, DC'
-  venue: 'Retail Me Not (301 Congress Ave #700, Austin, TX 78701) - RMN'
+  venue: 'Funsize (407B E 6th St #204, Austin, TX 78701) - Small Room'
   bio: |
     Content strategist and information architect by trade. Philosopher and political theorist by training. Social justice wizard and lover of style guides by {heart/vocation/necessity}. Maker of internetty things.
 
@@ -173,8 +173,8 @@
   type: 'Discussion'
   id: 49
   title: "The Missing De-orbit Command: How do we decide to end stale projects?"
-  start: 1447276500000
-  end: 1447280100000
+  start: 1447367100000
+  end: 1447370700000
   description: |
     Too often our projects outlive our willingness to keep them running: we lose interest, they outlive their usefulness, we need to refocus our attention. Whatever the reason, we need to find ways to end them or pass them off those who are willing to give the projects the love and attention required to keep them viable and do so in a way that is humane to those who are affected.
 
@@ -196,11 +196,11 @@
 -
   name: 'Ally Palanzi'
   location: 'Washington, DC'
-  venue: 'Funsize (407B E 6th St #204, Austin, TX 78701) - Large'
+  venue: 'Funsize (407B E 6th St #204, Austin, TX 78701) - Large Room'
   type: 'Discussion'
   title: "Don't Speak in Code: Clear + Kind Communication Skills"
-  start: 1447280700000
-  end: 1447284300000
+  start: 1447367100000
+  end: 1447370700000
   description: |
     In a world where we are so used to interacting with other humans from behind our screens, sometimes it's important to take a step back and realize that we are communicating with human beings who have feelings. We often dismiss this from time to time when tweeting, submitting issues to repositories, communicating via messages, and submitting pull requests. Though it's not always intentional, as members of a community or workplace it is our responsibility to uphold a certain standard of empathy and understanding. Creating a welcoming and inclusive environment is important in order to foster diversity of people and skill sets which in turn creates stronger products and communities.
 
@@ -223,8 +223,8 @@
   type: 'Discussion'
   id: "https://github.com/SassConf/2015-austin-speaker-cfp/issues/3"
   title: "Attributes-driven Styles: The Good, the Bad, and the Unknown"
-  start: 1447280700000
-  end: 1447284300000
+  start: 1447367100000
+  end: 1447370700000
   description: |
     Why do we primarily use class selectors to style our elements?
 
@@ -559,7 +559,7 @@
 -
   name: 'Rachel Ober'
   location: 'Brooklyn, NY'
-  venue: 'The North Door (501 Brushy St, Austin, TX 78702)'
+  venue: 'Retail Me Not (301 Congress Ave #700, Austin, TX 78701) - RMN'
   type: 'workshop'
   title: "The Portable Pattern Guide"
   start: 1447362900000
@@ -594,12 +594,12 @@
 -
   name: 'Lara Schenck'
   location: 'New York, NY'
-  venue: 'Funsize (407B E 6th St #204, Austin, TX 78701) - Large Room'
+  venue: 'The North Door (501 Brushy St, Austin, TX 78702)'
   type: 'Discussion'
   id: 46
   title: 'Why the Designer Failed FizzBuzz: On Hiring, Job Titles, and Descriptions'
-  start: 1447276500000
-  end: 1447280100000
+  start: 1447362900000
+  end: 1447367100000
   description: |
     I failed FizzBuzz during an interview and wrote about it for CSS-Tricks. There was a huge response to the article. Although r/programming ripped it apart, the feedback from the front-end community was very positive, and there's no doubt erroneous job descriptions have affected many more than myself. Negative or positive, all of the feedback indicates that the disconnect between job titles/descriptions and actual roles is a real issue in our industry.
 
@@ -653,7 +653,7 @@
   name: 'Jack Gold'
   location: 'New York, NY'
   venue: 'The North Door (501 Brushy St, Austin, TX 78702)'
-  type: 'Standard Talk'
+  type: 'Lighting Talk'
   title: "Polyfill your Job: Tips for doing great work (in not-so-great situations)"
   start: 1447348320000
   end: 1447349220000
