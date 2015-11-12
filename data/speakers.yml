@@ -3,7 +3,7 @@
   slug: "tab-atkins"
   location: 'Austin'
   venue: 'The North Door (501 Brushy St, Austin, TX 78702)'
-  type: 'Lighting Talk'
+  type: 'Lightning Talk'
   title: "Houdini: The Extensible Future of CSS"
   start: 1447260420000
   end: 1447261020000
@@ -59,7 +59,7 @@
   name: 'James Steinbach'
   location: 'Denver, CO'
   venue: 'The North Door (501 Brushy St, Austin, TX 78702)'
-  type: 'Lighting Talk'
+  type: 'Lightning Talk'
   title: "Using Musical Scales to Build Harmonious Typographic Scale"
   start: 1447269300000
   end: 1447270200000
@@ -219,7 +219,7 @@
 -
   name: 'Jonathan Cutrell'
   location: 'Chattanooga, TN'
-  venue: 'Retail Me Not (301 Congress Ave #700, Austin, TX 78701) - RMN'
+  venue: 'The North Door (501 Brushy St, Austin, TX 78702)'
   type: 'Discussion'
   id: "https://github.com/SassConf/2015-austin-speaker-cfp/issues/3"
   title: "Attributes-driven Styles: The Good, the Bad, and the Unknown"
@@ -307,7 +307,7 @@
   name: 'Lourdes Montano'
   location: 'Buenos Aires, ARG'
   venue: 'The North Door (501 Brushy St, Austin, TX 78702)'
-  type: 'Lighting Talk'
+  type: 'Lightning Talk'
   id: 36
   title: "Creating your styleguide with Sass Maps"
   start: 1447349700000
@@ -334,7 +334,7 @@
   name: 'Lee Ann Kinney'
   location: 'Philadelphia, PA'
   venue: 'The North Door (501 Brushy St, Austin, TX 78702)'
-  type: 'Lighting Talk'
+  type: 'Lightning Talk'
   id: 78
   title: "Unintentional Exclusion - Web accessibility and how we’re failing our users"
   start: 1447270320000
@@ -449,7 +449,7 @@
   name: 'Chris Sauve'
   location: 'Ottawa, ON, CAN'
   venue: 'The North Door (501 Brushy St, Austin, TX 78702)'
-  type: 'Lighting Talk'
+  type: 'Lightning Talk'
   id: 29,
   title: "Sass Central Nervous Systems"
   start: 1447355100000
@@ -483,7 +483,7 @@
   name: 'Stacy Kvernmo'
   location: 'Aurora, IL'
   venue: 'The North Door (501 Brushy St, Austin, TX 78702)'
-  type: 'Lighting Talk'
+  type: 'Lightning Talk'
   id: 18
   title: "Code Reviews: Turn Humiliation into Greatness"
   start: 1447271400000
@@ -653,10 +653,10 @@
   name: 'Jack Gold'
   location: 'New York, NY'
   venue: 'The North Door (501 Brushy St, Austin, TX 78702)'
-  type: 'Lighting Talk'
+  type: 'Lightning Talk'
   title: "Polyfill your Job: Tips for doing great work (in not-so-great situations)"
-  start: 1447348320000
-  end: 1447349220000
+  start: 1447348500000
+  end: 1447349400000
   description: |
     There's no shortage of ideas out there about all the ways developers should make design choices, all the things we can do to make our projects run smoothly, all the workflows and strategies and tools we can embrace. There has never been a greater wealth of information out there about how to craft a design system, or direct a work environment, or negotiate with clients. And that's great!
 
