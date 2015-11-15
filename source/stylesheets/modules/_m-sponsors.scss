@@ -29,6 +29,9 @@
     margin: 0 auto 30px;
     cursor: pointer;
 
+    a {
+      height: 100%;
+    }
 
     @include media(grid-lg) {
         &:not(:last-child) {
