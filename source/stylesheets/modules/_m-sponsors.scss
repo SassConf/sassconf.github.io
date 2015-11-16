@@ -29,7 +29,6 @@
     margin: 0 auto 30px;
     cursor: pointer;
 
-
     @include media(grid-lg) {
         &:not(:last-child) {
           margin-right: 1em;
@@ -42,7 +41,12 @@
   li {
     max-width: 15em;
 
-    a {display: flex; max-height: 12em;}
+    a {
+      display: flex;
+      max-height: 12em;
+      height: 12em;
+      width: 15em;
+    }
   }
 }
 
@@ -54,6 +58,11 @@
     max-width: 10em;
 
 
-    a {display: flex; max-height: 7em;}
+    a {
+      display: flex;
+      height: 7em;
+      width: 10em;
+      max-height: 7em;
+    }
   }
 }
