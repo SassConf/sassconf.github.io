@@ -1,0 +1,100 @@
+<%
+speakers_day_one = data.speakers.select{|s|
+   Time.at(s.start / 1000).day == 12}.sort_by {|s| s.start }
+%>
+
+<!-- <section class="m-day-schedule"> -->
+    <!-- <a name="coc"></a> -->
+      <aside class="day-schedule__nav__container">
+        <ul class="day-schedule__nav-group">
+          <li class="day-schedule__logo__container">
+            <a class="day-schedule__logo__link" href="/index.html">
+              <%= partial "images/logo__icon.svg", :class => "day-schedule__logo"%>
+              <!-- <%= image_tag 'full__logo.svg', :class => "day-schedule__logo" %> -->
+            </a>
+          </li>
+            <% speakers_day_one.each do |s| %>
+            <li class="day-schedule__nav-item">
+              <%= link_to s.start, "##{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}", :class => "day-schedule__nav__link" %>
+            </li>
+            <% end %>
+        </ul>
+      </aside>
+      <article class="day-schedule__body">
+        <h2>Conference Day Two</a></h2>
+
+        <section class="day-schedule__session">
+          <h5 class="day-schedule__session-time">
+            <span class="">9:00 am</span><br>
+            <a href="https://www.google.com/maps/place/The+North+Door/@30.264718,-97.7362335,17z/data=!3m1!4b1!4m2!3m1!1s0x8644b5a58809fbd1:0x2f09e2f5c3c6dc6d" target="_blank" rel="nofollow">
+              <span class="day-schedule__session-location the-north-door-">The North Door (501 Brushy St, Austin, TX 78702)</span>
+            </a>
+          </h5>
+          <h3 class="day-schedule__session-title">
+            Breakfast
+          </h3>
+        </section>
+
+        <section class="day-schedule__session">
+          <h5 class="day-schedule__session-time">
+            <span class="">9:30 am</span>  -
+            <span class="">9:40 am</span> <br>
+            <a href="https://www.google.com/maps/place/The+North+Door/@30.264718,-97.7362335,17z/data=!3m1!4b1!4m2!3m1!1s0x8644b5a58809fbd1:0x2f09e2f5c3c6dc6d" target="_blank" rel="nofollow">
+              <span class="day-schedule__session-location the-north-door-">The North Door (501 Brushy St, Austin, TX 78702)</span>
+            </a>
+          </h5>
+          <h3 class="day-schedule__session-title">
+            Introduction
+          </h3>
+        </section>
+
+        <% speakers_day_one.each do |s| %>
+          <section class="day-schedule__session">
+            <%= link_to :name => "#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}" %>
+            <h5 class="day-schedule__session-time"><span class="session-time__start"><%= s.start %></span>  - <span class="session-time__end"><%= s.end %></span> <br> <span class="day-schedule__session-location <%= h s.venue.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase -%>" ><%= s.venue %>
+            </span>
+            </h5>
+            <!-- <span class="day-schedule__session-type"><%= s.type %></span> -->
+            <h3 class="day-schedule__session-title"><%= s.title %></h3>
+            <span class="day-schedule__session-type <%= h s.type.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase -%>"><%= s.type %></span>
+            <!-- <span class="day-schedule__session-location__container">
+              Location:
+              <span class="day-schedule__session-location"><%= s.venue %></span>
+            </span> -->
+            <h6 class="day-schedule__session-name"><%= s.name %></h6>
+            <footer class="day-schedule__session-footer hide">
+              <p><%= s.description %></p>
+              <% if s.bio %>
+                <h6 class="speaker-bio__header">About <%= s.name %></h6>
+                <div class="speaker-bio"><%= markdown(s.bio) %></div>
+              <% end %>
+            </footer>
+          </section>
+        <% end %>
+
+        <section class="day-schedule__session">
+          <h5 class="day-schedule__session-time">
+            <span class="">6:45 pm</span>  -
+            <span class="">7:45 pm</span> <br>
+            <a href="https://www.google.com/maps/place/Wright+Bros.+Brew+and+Brew/@30.259059,-97.736249,15z/data=!4m2!3m1!1s0x0000000000000000:0x1aca02d5fc79c6c9" target="_blank"><span class="day-schedule__session-location brew-brew"> Wright Bros. Brew and Brew </span></a>
+          </h5>
+          <h3 class="day-schedule__session-title">
+            All Speaker Panel
+          </h3>
+          <span class="day-schedule__session-type standard-talk">Panel</span>
+        </section>
+
+        <section class="day-schedule__session">
+          <h5 class="day-schedule__session-time">
+            <span class="">7:45pm</span>  -
+            <span class="">Midnight</span> <br>
+            <a href="https://www.google.com/maps/place/Wright+Bros.+Brew+and+Brew/@30.2644869,-97.7351926,17z/data=!3m1!4b1!4m2!3m1!1s0x8644b5af858cb3fd:0x1aca02d5fc79c6c9" target="_blank"><span class="day-schedule__session-location brew-brew"> Wright Bros. Brew and Brew </span></a>
+          </h5>
+          <h3 class="day-schedule__session-title">
+            Closing Party &amp; Dinner
+          </h3>
+          <span class="day-schedule__session-type"></span>
+        </section>
+
+      </article>
+<!-- </section> -->

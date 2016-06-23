@@ -1,4 +1,13 @@
 .m-footer {
     background: $about-bg;
     color: $text-color-light;
+
+    a {
+      color: $gold;
+
+      &:hover,
+      &:focus {
+        color: lighten($gold, 10%);
+      }
+    }
 }

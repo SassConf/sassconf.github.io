@@ -1,0 +1,286 @@
+<style>
+.imgix-fluid-bg {
+  /*position: absolute;*/
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: block;
+}
+</style>
+
+
+<section class="m-venue__opening">
+		<article>
+			<h2>One Amazing Conference</h2>
+			<p>4 days, 2 parties, single-track talks, workshops, moderated discussions, and training.</p>
+		</article>
+
+
+   <section data-src="https://sassconf.imgix.net/backgrounds/austin-firehouse-lounge.jpg?auto=format" class="imgix-fluid imgix-fluid-bg m-quote">
+
+		    <h3 class="quote-text">
+		        <span class="highlight highlight__pink highlight-wrap">
+		            Official Opening Party: State of Sass
+		        </span>
+		        <span class="highlight highlight__pink highlight-breaks">
+		            Official Opening Party<br/>Nov. 10 6:30-10PM
+		        </span>
+		    </h3>
+		</section>
+
+
+		<article>
+			<h3>State of Sass Panel with SassCSS Core Team</h3>
+			<h4>Sponsored by <a href="https://twitter.com/Shopify">Shopify</a></h4>
+
+			<p>It's a SassConf tradition reveal Sass related news: 2013 revealed both the new Sass-lang site and versions of Sass; 2014 unveiled LibSass. What will it be this year?
+
+			Come hear the panel at <a href="http://www.firehousehostel.com/">FireHouse</a>: Get a delicious cocktail, order some great food, and enjoy!</p>
+
+			<p></p>
+
+
+	<div class="m-speakers">
+		<div class="speaker-grid">
+			<% data.opening.participants.each do |s| %>
+
+				<article class="speaker" >
+				  <div class="speaker-circle">
+				    <%= image_tag "speakers/#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.jpg" %>
+				  </div>
+
+				  <% if s.title %>
+				  	<h3 class="speaker-talk-title">
+				  		<% link_to "http://twitter.com/#{s.social.twitter}" do %>
+				  			<%= s.title %>
+							<% end %>
+				  	</h3>
+					<% end %>
+
+				  <div class="speaker-name">
+				  	<%= s.name %>
+			  	</div>
+
+				  <h4 class="speaker-mini-bio"><%= s.does %></h4>
+
+				</article>
+			<% end %>
+		</div>
+
+		</div>
+		</article>
+</section>
+
+
+
+
+<section class="m-speakers">
+
+		   <section data-src="https://sassconf.imgix.net/backgrounds/talks-discussions-workshops.jpg?auto=format" class="imgix-fluid imgix-fluid-bg m-quote">
+
+		    <h3 class="quote-text">
+		        <span class="highlight highlight__pink highlight-wrap">
+		            Talks, Discussions, Workshops Nov. 11-12 9AM-6PM
+		        </span>
+		        <span class="highlight highlight__pink highlight-breaks">
+		            Talks, Discussions, Workshops<br/>Nov. 11-12 9AM-6PM
+		        </span>
+		    </h3>
+		</section>
+
+
+		<article>
+
+			<h3>Single-track conference, participatory discussions, hands on workshops</h3>
+			<h4>Lunch sponsored by <a href="https://twitter.com/casper">Casper</a></h4>
+			<p>Our signature single-track conference featuring 24 speakers from all around the world. We've added new
+			talk formats.</p>
+
+
+		<div class="speaker-grid">
+			<% data.speakers.each do |s| %><% if s.invited %>
+
+				<article class="speaker" >
+				  <div class="speaker-circle">
+				    <%= image_tag "speakers/#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.jpg" %>
+				  </div>
+
+				  <% if s.title %>
+				  	<h3 class="speaker-talk-title">
+				  		<% link_to "http://twitter.com/#{s.social.twitter}" do %>
+				  			<%= s.title %>
+							<% end %>
+				  	</h3>
+					<% end %>
+
+				  <div class="speaker-name">
+				  	<%= s.name %>
+			  	</div>
+
+				  <h4 class="speaker-mini-bio"><%= s.does %></h4>
+
+				</article>
+			<% end %><% end %>
+
+		</div>
+
+
+		</article>
+
+</section>
+
+<section class="m-speakers">
+
+   <section data-src="https://sassconf.imgix.net/backgrounds/speaker-panel.jpg?auto=format" class="imgix-fluid imgix-fluid-bg m-quote">
+
+		    <h3 class="quote-text">
+		        <span class="highlight hightlight__gold highlight-wrap">
+		            Official Opening Party: State of Sass
+		        </span>
+		        <span class="highlight highlight__gold highlight-breaks">
+		            Speaker Panel<br/>Thursday, Nov. 12 @ 6pm
+		        </span>
+		    </h3>
+		</section>
+
+
+		<article>
+
+			<h3>Our closing conference tradition</h3>
+			<div class="location">
+				<h6>at <a href="https://twitter.com/TheBrewAndBrew">Brew & Brew</a></h6>
+			</div>
+
+			<p>Grab some delicious brews or maybe some TopoChica and gather around for our closing conference tradition</p>
+		</article>
+</section>
+
+
+<section class="m-speakers">
+
+   <section data-src="https://sassconf.imgix.net/backgrounds/one-amazing-conference.jpg?auto=format" class="imgix-fluid imgix-fluid-bg m-quote">
+
+
+		    <h3 class="quote-text">
+		        <span class="highlight highlight__green highlight-wrap">
+		            Main Conference Party: State of Sass Thursday, Nov. 12 8:00PM
+		        </span>
+		        <span class="highlight highlight__green highlight-breaks">
+		            Main Conference Party<br/>Thursday, Nov. 12 8:00PM - 12:00AM
+		        </span>
+		    </h3>
+		</section>
+
+
+		<article>
+			<h3>Music, Laughs, Stories, Fun</h3>
+			<h4>Drinks sponsored by <a href="https://twitter.com/voxmediainc">Vox Media</a></h4>
+			<div class="location">
+				<h6>at <a href="https://twitter.com/TheBrewAndBrew">Brew & Brew</a></h6>
+			</div>
+
+			<p>Keep riding the fun into the conference party, featuring delicious
+			cocktails by SassConf 2015 Speaker and drink lover <a href="https://twitter.com/laras126">Lara</a>, as well as renowned collection of craft beers. Wine and non-alcoholic drinks are available too.</p>
+		</article>
+
+</section>
+
+
+
+<section class="m-speakers">
+
+   <section data-src="https://sassconf.imgix.net/backgrounds/brewandbrew.jpg?auto=format" class="imgix-fluid imgix-fluid-bg m-quote">
+
+		    <h3 class="quote-text">
+		        <span class="highlight highlight__gold highlight-wrap">
+		            Community UnConference Friday, Nov. 13 10:30AM
+		        </span>
+		        <span class="highlight highlight__gold highlight-breaks">
+		            Community UnConference<br/>Friday, Nov. 13 10:30AM
+		        </span>
+		    </h3>
+		</section>
+
+
+		<article>
+			<h3>Sass Community Signature Event</h3>
+			<h5>at <a href="https://twitter.com/TheBrewAndBrew">Brew & Brew</a></h5>
+
+			<p>SassConf Community Day is an organic day where attendees can present, hack, and learn together. Come hang out with us at our favorite coffee shop.</p>
+
+			<p>Sign up in advance or decide the day of. Come early for brunch.</p>
+
+			<p>We'll enjoy discounts at <a href="https://twitter.com/TheBrewAndBrew">Brew & Brew</a>, one of Austin's best coffee shops.</p>
+
+		</article>
+
+</section>
+
+<section class="m-speakers">
+
+		 <section data-src="https://sassconf.imgix.net/backgrounds/advanced-training.jpg?auto=format" class="imgix-fluid imgix-fluid-bg m-quote">
+
+		    <h3 class="quote-text">
+		        <span class="highlight highlight__green highlight-wrap">
+		            Training Saturday, Nov. 14th 9AM
+		        </span>
+		        <span class="highlight highlight__green highlight-breaks">
+		            Training<br/>Saturday, Nov. 14th 9AM
+		        </span>
+		    </h3>
+		</section>
+
+
+		<article>
+			<h3>Full Day Advanced Front-End Training</h3>
+			<h5>at <a href="http://capitalfactory.com/">Capital Factory</a> </h5>
+
+			<p>Get even more out of SassConf with state of the art training from leaders in front-end development.</p>
+
+
+		<div class="speaker-grid">
+
+
+				<article class="speaker" >
+				  <div class="speaker-circle">
+				    <%= image_tag "workshops/wesbos.jpg" %>
+				  </div>
+
+			  	<h3 class="speaker-talk-title">
+			  		Getting Good at Gulp
+			  	</h3>
+
+				  <div class="speaker-name">
+				  	<% link_to "http://twitter.com/wesbos" do %>
+			  			Wes Bos
+						<% end %>
+			  	</div>
+
+				</article>
+
+
+				<article class="speaker" >
+				  <div class="speaker-circle">
+				    <%= image_tag "speakers/roy-tomeij.jpg" %>
+				  </div>
+
+			  	<h3 class="speaker-talk-title">
+			  		Advanced Sass: Turn your Sass up to 11
+			  	</h3>
+
+				  <div class="speaker-name">
+				  	<% link_to "http://twitter.com/wesbos" do %>
+			  			Roy Tomeij
+						<% end %>
+			  	</div>
+
+				</article>
+
+
+
+
+		</div>
+	</article>
+
+</section>

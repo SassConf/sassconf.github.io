@@ -1,13 +1,23 @@
 <section class="m-speakers">
-	<a name="speakers"></a>
-		<article >
+
+		<article>
 			<h2 class="sub-header header--white">Speakers</h2>
+			<p>We are proud to be hosting more speakers than any year prior: 24, evenly split 50/50 men and women, both new and experienced. Our speakers are from all over the world: North and South America, Australia, and Europe!</p>
+		</article>
+</section>
+
+<section id="speakers__talks" class="m-speakers">
+
+		<article>
+			<h2 class="sub-header header--white">Talks</h2>
+			<p>We're mixing it up this year with short and long talks.</p>
 		</article>
 
 
 		<div class="speaker-grid">
 
-			<% data.speakers.each do |s| %>
+			<% data.speakers.each do |s| %><% if s.type == "Lighting Talk" || s.type == "Standard Talk" %>
+				<% link_to "speakers/#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.html" do %>
 				<article class="speaker <% if s.invited %>speaker-invited<% end %>" >
 				  <div class="speaker-circle">
 				    <%= image_tag "speakers/#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.jpg" %>
@@ -15,9 +25,8 @@
 
 				  <% if s.title %>
 				  	<h3 class="speaker-talk-title">
-				  		<% link_to "speakers/#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.html" do %>
+
 				  			<%= s.title %>
-							<% end %>
 				  	</h3>
 					<% end %>
 
@@ -30,7 +39,86 @@
 				  <!-- <h4 class="speaker-mini-bio"><%= s.does %></h4> -->
 
 				</article>
+				<% end %>
 			<% end %>
-
+		<% end %>
 		</div>
+</section>
+
+
+<section id="speakers__discussions" class="m-speakers">
+
+    <article >
+      <h2 class="sub-header header--white">Discussions</h2>
+      <p>Conferences bring us together to share and learn. Moderated discussions are small group discussions on various topics. Designed for conversation, come ready to talk, share, and be respectful.</p>
+
+      <p>Moderated discussions will happen on both conference days.</p>
+    </article>
+
+
+    <div class="speaker-grid">
+
+      <% data.speakers.each do |s| %><% if s.type == "Discussion" %>
+        <article class="speaker <% if s.invited %>speaker-invited<% end %>" >
+          <div class="speaker-circle">
+            <%= image_tag "speakers/#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.jpg" %>
+          </div>
+
+          <% if s.title %>
+            <h3 class="speaker-talk-title">
+              <% link_to "speakers/#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.html" do %>
+                <%= s.title %>
+              <% end %>
+            </h3>
+          <% end %>
+
+          <div class="speaker-name">
+            <%= s.name %>
+            </div>
+          <div class="speaker-twitter"><a href="http://twitter.com/<%= s.social.twitter%>" target="_blank">@<%= s.social.twitter %></a></div>
+
+
+          <!-- <h4 class="speaker-mini-bio"><%= s.does %></h4> -->
+
+        </article>
+      <% end %><% end %>
+
+    </div>
+</section>
+
+<section id="speakers__workshops" class="m-speakers">
+  <a name="speakers"></a>
+    <article >
+      <h2 class="sub-header header--white">Workshops</h2>
+      <p>Yes, your ticket includes up to two workshops.</p>
+
+      <p>Moderated discussions will happen on both conference days.</p>
+    </article>
+
+
+    <div class="speaker-grid">
+
+      <% data.speakers.each do |s| %>
+      <% if s.type == "workshop" %>
+        <article class="speaker <% if s.invited %>speaker-invited<% end %>" >
+          <div class="speaker-circle">
+            <%= image_tag "speakers/#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.jpg" %>
+          </div>
+
+          <% if s.title %>
+            <h3 class="speaker-talk-title">
+              <% link_to "speakers/#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.html" do %>
+                <%= s.title %>
+              <% end %>
+            </h3>
+          <% end %>
+
+          <div class="speaker-name">
+            <%= s.name %>
+            </div>
+          <div class="speaker-twitter"><a href="http://twitter.com/<%= s.social.twitter%>" target="_blank">@<%= s.social.twitter %></a></div>
+        </article>
+      <% end %><% end %>
+
+    </div>
 </section>

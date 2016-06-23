@@ -1,0 +1,18 @@
+<article class="speaker <% if s.invited %>speaker-invited<% end %>" >
+  <div class="speaker-circle">
+    <%= image_tag "speakers/#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.jpg" %>
+  </div>
+
+  <% if s.title %>
+    <h3 class="speaker-talk-title">
+      <% link_to "speakers/#{s.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.html" do %>
+        <%= s.title %>
+      <% end %>
+    </h3>
+  <% end %>
+
+  <div class="speaker-name">
+    <%= s.name %>
+    </div>
+  <div class="speaker-twitter"><a href="http://twitter.com/<%= s.social.twitter%>" target="_blank">@<%= s.social.twitter %></a></div>
+</article>
