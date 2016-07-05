@@ -16,22 +16,51 @@ We’d like to think not! SassConf is community-driven and community focused; an
 ##### Bummer. I was really looking forward to SassConf; what am I supposed to do now?
 Attend other conferences, of course! Here’s our short list of some faves:
 
-+ [CSSConf US](https://2016.cssconf.com/):
-+ [CSSConf AU](http://2016.cssconf.com.au/):
-+ [CSSConf AR](http://cssconfar.com/): August 7th-9th | Buenos Aires, Argentina
-+ [Front Porch](http://frontporch.io/): July 19 | Austin, TX
-+ [JSConf AU](http://2016.jsconfau.com/): Dec 1st | Melbourne
-+ [CSSDevConf](http://2016.cssdevconf.com/): Oct. 17-19 | San Antonio, TX
-+ [cascadiafest](http://2016.cascadiafest.org/): Aug. 3-5 | Semiahmoo, WA
-+ [JSConf Iceland](http://2016.jsconf.is/tickets): Aug 25-26 | Reykjavik, Iceland
-+ Checkout more at [CSS-Tricks](https://css-tricks.com/2016-front-end-conferences/)
+* [Front Porch](http://frontporch.io/)
+<br>
+Jul 19 | Austin, TX
+<br>
+Oct 24 | Dallas, TX
+
+* [CSSConf AR](http://cssconfar.com/): 
+<br>
+Aug 7-9 | Buenos Aires, Argentina
+
+* [CSSConf US](https://2016.cssconf.com/)
+<br>
+Sept 26-27 | Boston, MA
+
+* [CSSConf AU](http://2016.cssconf.com.au/)
+<br>
+Nov 30 2016 | Melbourne, Australia
+
+* [CSSDevConf](http://2016.cssdevconf.com/)
+<br>
+Oct 17-19 | San Antonio, TX
+
+* [JSConf AU](http://2016.jsconfau.com/)
+<br>
+Dec 1st | Melbourne
+
+* [Cascadiafest](http://2016.cascadiafest.org/)
+<br>
+Aug 3-5 | Semiahmoo, WA
+
+* [JSConf Iceland](http://2016.jsconf.is/tickets)
+<br>
+Aug 25-26 | Reykjavik, Iceland
+
+* Checkout more at [CSS-Tricks](https://css-tricks.com/2016-front-end-conferences/)
+
 
 Listening to podcasts also tends to satisfy our appetite for the web. A couple of cool ones to check out: 
+
 - [SassBites](https://www.youtube.com/user/sassbites)
 - [Shop Talk](http://shoptalkshow.com/)
 - [The Web Ahead](http://thewebahead.net/)
 
 Also Stay keep up with the latest with these newsletters:
+
 - [CSS Weekly](http://css-weekly.com/)
 - [Sass News](http://www.sassnews.com/)
 - [Web Design Weekly](https://web-design-weekly.com/newsletter/)
@@ -40,7 +69,7 @@ Also Stay keep up with the latest with these newsletters:
 Totally do it! We’re stoked that you feel this way. Might we suggest you organize a local SassConf MiniConf? Our idea of this is either a one day unconference, or a half-day track/half-day unconference, but do it however you like!
 
 ##### I want my voice heard. How can I do this?
-If you have questions, comments, suggestions, or just want to say hi please reach out to us! We’re around on twitter as @sassconf or shoot us an email at info@sassconf.com.
+If you have questions, comments, suggestions, or just want to say hi please reach out to us! We’re around on twitter as [@SassConf](https://twitter.com/sassconf) or shoot us an email at info@sassconf.com.
 
 Stay Sassy,
 SassConf Organizing Team
