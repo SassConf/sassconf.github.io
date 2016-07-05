@@ -1,5 +1,5 @@
 ---
-title: Workshops are here!
+title: SassConf 2016 Hiatus Announcement
 date: 2016-07-06
 ---
 

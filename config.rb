@@ -71,13 +71,13 @@ configure :development do
   activate :livereload
 end
 
-# Methods defined in the helpers block are available in templates
-helpers do
-  def markdown(text)
-      Tilt['markdown'].new { text }.render(scope=self)
-  end
+# # Methods defined in the helpers block are available in templates
+# helpers do
+#   def markdown(text)
+#       Tilt['markdown'].new { text }.render(scope=self)
+#   end
 
-end
+# end
 
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
