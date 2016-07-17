@@ -2,12 +2,16 @@
 layout: layout
 ---
 
-
 <article class="about">
   <div class="about__content">
-    <main class="about__main">
+    <div class="about__main">
       <%= partial "partials/modules/about" %>
-    </main>
+    </div>
+    <div class="about__organizer">
+      <h4>Organizers</h3>
+      <%= image_tag "organizers/ao.jpg", :class => "organizer__picture" %>
+      <a href="#" class="organizer__twitter-link">@adekunleoudye</a>
+    </div>
   </div>
 
 </article>
