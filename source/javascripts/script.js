@@ -27,7 +27,11 @@ $(document).ready(function(){
   var $subHeader = $('.sub-header');
   var $subHeaderStripes = $('<div class="sub-header__stripes"></div>');
   var $subHeaderContainer = $('<div class="sub-header__container"></div>');
+  var currentYear =  new Date().getFullYear();
   // var $workshopLearnMoreBtn = $('.js-workshops__learn-more');
+
+  $('.m-footer__current-year').html(currentYear);
+  console.log(currentYear);
 
   $subHeader.wrap($subHeaderContainer);
   $subHeader.after($subHeaderStripes);
@@ -74,10 +78,8 @@ $(document).ready(function(){
   $('.session-description__close').bind('click', function(e){
     $(this).parent().slideUp();
     console.log($(this));
-
-
-
   })
+
 
   // Animation when you click on session link
   $(function() {

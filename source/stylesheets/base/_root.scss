@@ -8,12 +8,16 @@ body {
 article {
   max-width: $max-width;
   margin: 0 auto;
-  padding: ms(1);
+  // padding: ms(1);
+  padding: 2em;
+
   @include media(grid-lg) {
-    padding: ms(2);
+    // padding: ms(2);
+    padding: 2em;
   }
   @include media(grid-xl) {
-    padding: ms(6) ms(3);
+    // padding: ms(6) ms(3);
+    padding: 2em;
   }
 
 }

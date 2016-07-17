@@ -167,7 +167,7 @@ a:focus {
 
 p {
   @include media(grid-sm) {
-    line-height: 1.2;
+    line-height: 1.5;
   }
   @include media(grid-med) {
     width: 35%;
@@ -175,7 +175,6 @@ p {
   @include media(grid-xl) {
     font-size: 110%;
     width: 55%;
-    line-height: 1.5;
   }
 }
 
