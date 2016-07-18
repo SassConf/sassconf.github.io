@@ -23,16 +23,26 @@
 .header-dates {
   margin-bottom: 5px;
 }
+
 .header-dates__locations {
   margin-bottom: 20px;
   display: block;
 
 }
 
+.about__organizer-item {
+    display: flex;
+}
 
 .organizer__picture {
-    display: block;
+    // display: block;
     border-radius: 50px;
     width: 5em;
+    height: 5em;
+    margin-right: 1em;
     margin-bottom: 1em;
+}
+
+.about__organizer-info {
+    padding-top: 1em;
 }

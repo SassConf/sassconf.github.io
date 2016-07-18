@@ -20,34 +20,34 @@ h6 {
   font-family: $header-font;
 }
 h5 {
-  @include ms-respond(font-size, 2);
+  @include ms-respond(font-size, 1);
   font-family: $header-font;
 }
 h4 {
-  @include ms-respond(font-size, 3);
+  @include ms-respond(font-size, 1);
   font-weight: 600;
   color: $text-color;
   text-transform: uppercase;
   font-family: $header-font;
 }
 h3 {
-  @include ms-respond(font-size, 4);
+  @include ms-respond(font-size, 3);
   font-family: $header-font;
 }
 h2 {
-  @include ms-respond(font-size, 5);
+  @include ms-respond(font-size, 3);
   font-size: 4em;
   font-family: $sub-header-font;
   text-transform: uppercase;
 
   @include media(grid-med) {
-    @include ms-respond(font-size, 5);
+    // @include ms-respond(font-size, 5);
   }
 }
 h1 {
-  @include ms-respond(font-size, 5);
+  @include ms-respond(font-size, 4);
   font-family: $header-font;
-  text-transform: uppercase;
+  // text-transform: uppercase;
 }
 
 @mixin sub-header($background) {
