@@ -18,7 +18,6 @@ imgix.onready(function() {
 function toggle(id) {
   var e = document.getElementById(id);
   e.classList.toggle('is-active');
-  console.log('toggle' + e);
 }
 
 
@@ -31,7 +30,6 @@ $(document).ready(function(){
   // var $workshopLearnMoreBtn = $('.js-workshops__learn-more');
 
   $('.m-footer__current-year').html(currentYear);
-  console.log(currentYear);
 
   $subHeader.wrap($subHeaderContainer);
   $subHeader.after($subHeaderStripes);
@@ -48,7 +46,6 @@ $(document).ready(function(){
     $('.js-workshops__learn-more').removeClass('hide');
     $(this).parents('workshops__description').addClass("workshops__description--is-hidden");
 
-    console.log($(this).parents('.workshops__description').addClass("workshops__description--is-hidden"));
   })
 
   function convertDate(e) {
@@ -77,7 +74,6 @@ $(document).ready(function(){
   // Close description
   $('.session-description__close').bind('click', function(e){
     $(this).parent().slideUp();
-    console.log($(this));
   })
 
 
