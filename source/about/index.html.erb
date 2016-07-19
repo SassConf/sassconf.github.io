@@ -7,20 +7,20 @@ layout: layout
   <div class="about__content">
     <div class="about__main">
       <%= partial "partials/modules/about" %>
-    </div>
-    <div class="about__organizer-group">
-      <h3>Organizers</h3>
-      <div class="about__organizer-item">
-        <% data.organizers.each do |o| %>
-          <% o.name %>
-          <h1></h1>
-          <!-- <p><% o.name %></p>
-          <p><% o.social.twitter %></p>
-          <p><% o.social.twitter %></p> -->
+      <section class="about__organizer-group">
+      <h4>Organizers</h4>
+        <% data.organizers.each do |organizer| %>
+          <div class="about__organizer-item">
+            <%= image_tag "organizers/#{organizer.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.jpg", :class => "organizer__picture" %>
+            <div class="about__organizer-info">
+              <h5><%= organizer.name %></h5>
+              <a href="http://www.twitter.com/#{<%= organizer.social.twitter %>}" class="organizer__twitter-link">@<%= organizer.social.twitter %></a>
+            </div>
+          </div>
         <% end %>
-      </div>
-
+      </section>
     </div>
+
   </div>
 
 </article>

@@ -1,6 +1,10 @@
 .m-about {
-    // background: $about-bg;
-    // color: $white;
+    flex-basis: 45rem;
+
+    @include media(grid-sm) {
+        padding-right: 4em;
+    }
+    
     padding-bottom: ms(4);
     h1 {
         color: $white;
@@ -17,8 +21,27 @@
             color: lighten($gold, 10%);
         }
     }
+
+  //   @include media(grid-sm) {
+  // }
+
+  // @include media(grid-med) {
+  //       background: none;
+  // }
 }
 
+.about__organizer-group {
+    flex-basis: 20rem;
+}
+
+.about__main {
+    display: flex;
+    flex-wrap: wrap;
+    
+    @include media(grid-lg) {
+        flex-wrap: nowrap;
+    }
+}
 
 .header-dates {
   margin-bottom: 5px;
@@ -37,8 +60,8 @@
 .organizer__picture {
     // display: block;
     border-radius: 50px;
-    width: 5em;
-    height: 5em;
+    width: 4em;
+    height: 4em;
     margin-right: 1em;
     margin-bottom: 1em;
 }

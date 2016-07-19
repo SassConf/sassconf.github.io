@@ -50,102 +50,6 @@ h1 {
   // text-transform: uppercase;
 }
 
-@mixin sub-header($background) {
-  display: inline-block;
-  padding: 0 .2em;
-  margin-left: 0.5em;
-
-  @if $background == white {
-    background-color: $white;
-    color: $pink;
-
-  } @else if $background == purple {
-    background-color: $purple;
-    color: $white;
-
-  } @else if $background == blue {
-    background-color: $blue;
-    color: $white;
-
-  } @else if $background == black {
-    background-color: $about-bg;
-    color: $white;
-
-  }
-
-}
-
-@mixin sub-header__stripes($background) {
-  height: 10px;
-  padding-left: 0.3em;
-
-
-  @include media(grid-sm) {
-    margin-top: -38px;
-  }
-  @include media(grid-med) {
-    margin-top: -51px;
-  }
-  @include media(grid-lg) {
-    margin-top: -70px;
-  }
-
-  @if $background == white {
-    border-top: 3px solid $blue;
-    border-bottom: 3px solid $blue;
-
-  } @else if $background == purple {
-    border-top: 3px solid $blue;
-    border-bottom: 3px solid $blue;
-
-  } @else if $background == blue {
-    border-top: 3px solid $gold;
-    border-bottom: 3px solid $gold;
-
-  } @else if $background == black {
-    border-top: 3px solid $green;
-    border-bottom: 3px solid $green;
-  }
-}
-
-.sub-header.header--white {
-  @include sub-header(white);
-
-  & + .sub-header__stripes {
-    @include sub-header__stripes(white);
-  }
-}
-
-.sub-header.header--purple {
-  @include sub-header(purple);
-
-  & + .sub-header__stripes {
-    @include sub-header__stripes(purple);
-  }
-}
-
-.sub-header.header--blue {
-  @include sub-header(blue);
-
-  & + .sub-header__stripes {
-    @include sub-header__stripes(blue);
-  }
-}
-
-.sub-header.header--black {
-  @include sub-header(black);
-
-  & + .sub-header__stripes {
-    @include sub-header__stripes(black);
-  }
-}
-
-
-.sub-header__container {
-  height: 5em;
-  margin-bottom: 2.5em;
-}
-
 .dot {
   color: transparentize($text-color,.35);
 }
@@ -170,11 +74,11 @@ p {
     line-height: 1.5;
   }
   @include media(grid-med) {
-    width: 35%;
+    // width: 35%;
   }
   @include media(grid-xl) {
     font-size: 110%;
-    width: 55%;
+    // width: 55%;
   }
 }
 
