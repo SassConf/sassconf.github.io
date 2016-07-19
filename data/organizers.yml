@@ -1,36 +1,35 @@
- -
-  name: "Claudina Sarahe"
-  social:
-    github: misscs
-    instagram: ~
-    twitter: itsmisscs
-    web: itsmisscs.me
 -
-  name: "Aisha Green"
+  name: 'Claudina Sarahe'
   social:
-    github: skyfaerie
-    instagram: ~
-    twitter: skyefaerie
-    web: ~
+    github: 'misscs'
+    instagram:
+    twitter: 'itsmisscs'
+    web: 'itsmisscs.me'
 -
-  name: "Adekunle Oduye"
+  name: 'Aisha Green'
+  social:
+    github: 'skyfaerie'
+    instagram:
+    twitter: 'skyefaerie'
+    web:
+-
+  name: 'Adekunle Oduye'
   social:
     github: adekunleoduye
-    instagram: ~
+    instagram:
     twitter: adekunleoduye
-    web: "http://www.adekunleoduye.com/"
+    web: 'http://www.adekunleoduye.com/'
 -
-  name: "Robert James"
+  name: 'Robert James'
   social:
-    github: rmjames
-    instagram: ~
-    twitter: bkrjames
-    web: ~
+    github: 'rmjames'
+    instagram:
+    twitter: 'bkrjames'
+    web:
 -
-  name: "Scott Kellum"
+  name: 'Scott Kellum'
   social:
-    github: scottkellum
-    instagram: ~
-    twitter: ScottKellum
-    web: "http://www.scottkellum.com/"
--
+    github: 'scottkellum'
+    instagram:
+    twitter: 'ScottKellum'
+    web: 'http://www.scottkellum.com/'
