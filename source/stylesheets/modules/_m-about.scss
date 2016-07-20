@@ -34,9 +34,10 @@
     flex-basis: 20rem;
 }
 
-.about__main {
+.about__content {
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 1em;
     
     @include media(grid-lg) {
         flex-wrap: nowrap;
@@ -51,10 +52,12 @@
   margin-bottom: 20px;
   display: block;
 
+
 }
 
 .about__organizer-item {
     display: flex;
+    margin: 0;
 }
 
 .organizer__picture {

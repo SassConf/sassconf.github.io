@@ -2,25 +2,37 @@
 layout: layout
 ---
 
-<article class="about">
+<header>
   <h1>About SassConf</h1>
-  <div class="about__content">
-    <div class="about__main">
-      <%= partial "partials/modules/about" %>
-      <section class="about__organizer-group">
-      <h4>Organizers</h4>
+</header>
+
+<article>
+  <section class="about__content">
+    <%= partial "partials/modules/about" %>
+      <aside class="about__organizer-group">
+        <h4>Organizers</h4>
         <% data.organizers.each do |organizer| %>
-          <div class="about__organizer-item">
+          <figure class="about__organizer-item">
             <%= image_tag "organizers/#{organizer.name.gsub(/[^a-z0-9\s]/i, '').split(' ').join('-').downcase}.jpg", :class => "organizer__picture" %>
-            <div class="about__organizer-info">
+            <figcaption class="about__organizer-info">
               <h5><%= organizer.name %></h5>
               <a href="http://www.twitter.com/#{<%= organizer.social.twitter %>}" class="organizer__twitter-link">@<%= organizer.social.twitter %></a>
-            </div>
-          </div>
+            </figcaption>
+          </figure>
         <% end %>
-      </section>
-    </div>
+      </aside>
+  </section>
 
-  </div>
-
+  <section class="about__past-conferences">
+    <!-- Locations of past confereces -->
+    <ul class="past-conferences__group">
+      <li class="past-conferences__item">
+        <figure>
+          <figcaption>2016</figcaption>
+          IMG
+        </figure>
+      </li>
+    </ul>
+  </section>
+  
 </article>
